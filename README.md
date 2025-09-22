@@ -21,7 +21,7 @@ Antes de executar, você precisa configurar o ambiente e instalar as dependênci
 
 3.  **Instale as dependências** necessárias:
     ```bash
-    pip install google-adk
+    pip install -r requirements.txt
     ```
 
 ## Como Executar
