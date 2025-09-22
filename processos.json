@@ -1,0 +1,7867 @@
+
+[
+  {
+    "id": 1,
+    "descricao": "Cálculo de Carteira"
+  },
+  {
+    "id": 2,
+    "descricao": "Inclusão de Movimento"
+  },
+  {
+    "id": 3,
+    "descricao": "Exclusão de Movimento"
+  },
+  {
+    "id": 4,
+    "descricao": "Alteração de Movimento"
+  },
+  {
+    "id": 5,
+    "descricao": "Inclusão de Títulos"
+  },
+  {
+    "id": 6,
+    "descricao": "Alteração de Títulos"
+  },
+  {
+    "id": 7,
+    "descricao": "Navegador de Títulos"
+  },
+  {
+    "id": 9,
+    "descricao": "Carteira de Renda Fixa"
+  },
+  {
+    "id": 10,
+    "descricao": "Carteira de Renda Variável"
+  },
+  {
+    "id": 11,
+    "descricao": "Carteira de Opções"
+  },
+  {
+    "id": 12,
+    "descricao": "Carteira de Cotas de Fundos"
+  },
+  {
+    "id": 13,
+    "descricao": "Carteira de Futuros"
+  },
+  {
+    "id": 14,
+    "descricao": "Relatório Carteira de Swap"
+  },
+  {
+    "id": 15,
+    "descricao": "Carteira de Outros Títulos"
+  },
+  {
+    "id": 16,
+    "descricao": "Carteira Por Grupo"
+  },
+  {
+    "id": 17,
+    "descricao": "Consulta Posição de Emissores Por Carteiras"
+  },
+  {
+    "id": 18,
+    "descricao": "Consulta Saldos de Título"
+  },
+  {
+    "id": 19,
+    "descricao": "Consulta Movimentos de Título"
+  },
+  {
+    "id": 20,
+    "descricao": "Consulta Movimentos Futuros de Título"
+  },
+  {
+    "id": 21,
+    "descricao": "Consulta Posição de Títulos"
+  },
+  {
+    "id": 22,
+    "descricao": "Consulta Razão de Título"
+  },
+  {
+    "id": 23,
+    "descricao": "Consulta Séries de Carteiras"
+  },
+  {
+    "id": 24,
+    "descricao": "Consulta Séries Temporais"
+  },
+  {
+    "id": 25,
+    "descricao": "Consulta Risco Por Indexador"
+  },
+  {
+    "id": 26,
+    "descricao": "Explorer de Carteiras"
+  },
+  {
+    "id": 27,
+    "descricao": "Gráfico Distribuição da Carteira"
+  },
+  {
+    "id": 28,
+    "descricao": "Gráfico Comparativo 12 Meses"
+  },
+  {
+    "id": 29,
+    "descricao": "Gráfico Acumulado no Ano"
+  },
+  {
+    "id": 30,
+    "descricao": "Gráfico Rentabilidades Comparativas"
+  },
+  {
+    "id": 31,
+    "descricao": "Gráfico Indicadores Econômicos"
+  },
+  {
+    "id": 32,
+    "descricao": "Relatório Carteira Diária"
+  },
+  {
+    "id": 33,
+    "descricao": "Relatório Rentabilidade Pela TIR"
+  },
+  {
+    "id": 34,
+    "descricao": "Relatório Composição da Carteira"
+  },
+  {
+    "id": 35,
+    "descricao": "Relatório Performance da Carteira"
+  },
+  {
+    "id": 36,
+    "descricao": "Relatório Resumo para Divulgação"
+  },
+  {
+    "id": 37,
+    "descricao": "Relatório Indicadores Econômicos"
+  },
+  {
+    "id": 38,
+    "descricao": "Relatório Fluxo de Caixa Previsão"
+  },
+  {
+    "id": 39,
+    "descricao": "Relatório Fluxo de Caixa Gerencial"
+  },
+  {
+    "id": 40,
+    "descricao": "Simulação de Cálculo de Rentabilidade"
+  },
+  {
+    "id": 41,
+    "descricao": "Simulação de Cálculo da TIR"
+  },
+  {
+    "id": 42,
+    "descricao": "Simulação de Rotinas de Cálculo"
+  },
+  {
+    "id": 43,
+    "descricao": "Central de Cotistas"
+  },
+  {
+    "id": 45,
+    "descricao": "Relatório Posição de Cotistas"
+  },
+  {
+    "id": 46,
+    "descricao": "Relatório Ranking de Assessores"
+  },
+  {
+    "id": 47,
+    "descricao": "Relatório Ranking de Captação"
+  },
+  {
+    "id": 48,
+    "descricao": "Relatório Comissão de Assessores"
+  },
+  {
+    "id": 49,
+    "descricao": "Relatório Aniversário de Aplicações"
+  },
+  {
+    "id": 50,
+    "descricao": "Extrato de Cotistas"
+  },
+  {
+    "id": 51,
+    "descricao": "Extrato Mensal"
+  },
+  {
+    "id": 52,
+    "descricao": "Extrato de Conta Corrente"
+  },
+  {
+    "id": 53,
+    "descricao": "Extrato Com Agenda"
+  },
+  {
+    "id": 54,
+    "descricao": "Extrato de Rentabilidade"
+  },
+  {
+    "id": 55,
+    "descricao": "Extrato Mensal Simplificado"
+  },
+  {
+    "id": 56,
+    "descricao": "Extrato Com Agenda Consolidado"
+  },
+  {
+    "id": 57,
+    "descricao": "Extrato Consolidado"
+  },
+  {
+    "id": 58,
+    "descricao": "Cadastro de Listas de Carteiras"
+  },
+  {
+    "id": 59,
+    "descricao": "Estatística de Carteiras"
+  },
+  {
+    "id": 60,
+    "descricao": "Estatística de Movimento por Mês"
+  },
+  {
+    "id": 61,
+    "descricao": "Estatística de Movimento por Carteiras/Mês"
+  },
+  {
+    "id": 62,
+    "descricao": "Exportação para SFR"
+  },
+  {
+    "id": 63,
+    "descricao": "MultiLíngua"
+  },
+  {
+    "id": 64,
+    "descricao": "Consulta Posição de Carteiras"
+  },
+  {
+    "id": 65,
+    "descricao": "Opções de Bloqueio"
+  },
+  {
+    "id": 66,
+    "descricao": "Cadastro de Feriados"
+  },
+  {
+    "id": 67,
+    "descricao": "Consulta ao Cadastro de Feriados"
+  },
+  {
+    "id": 68,
+    "descricao": "Alteração em Cadastro de Administrador"
+  },
+  {
+    "id": 69,
+    "descricao": "Consulta ao Cadastro de Administrador"
+  },
+  {
+    "id": 70,
+    "descricao": "Alteração em Cadastro de Tipo de Investidor"
+  },
+  {
+    "id": 71,
+    "descricao": "Consulta ao Cadastro de Tipo de Investidor"
+  },
+  {
+    "id": 72,
+    "descricao": "Alteração em Cadastro de Origem de Investidor"
+  },
+  {
+    "id": 73,
+    "descricao": "Consulta ao Cadastro de Origem de Investidor"
+  },
+  {
+    "id": 74,
+    "descricao": "Alteração em Cadastro de Setor"
+  },
+  {
+    "id": 75,
+    "descricao": "Consulta ao Cadastro de Setor"
+  },
+  {
+    "id": 76,
+    "descricao": "Relatório Cotas & Investimento"
+  },
+  {
+    "id": 77,
+    "descricao": "Relatório Balancete Diário"
+  },
+  {
+    "id": 78,
+    "descricao": "Cadastro de Cód.Aplicação Invest"
+  },
+  {
+    "id": 79,
+    "descricao": "Consulta ao Cadastro de Cód.Aplic. do Investidor"
+  },
+  {
+    "id": 80,
+    "descricao": "Cadastro de Comp.Diversific COSIF"
+  },
+  {
+    "id": 81,
+    "descricao": "Consulta ao Cadastro de Comp.Diversific COSIF"
+  },
+  {
+    "id": 82,
+    "descricao": "Cadastro de Comp.Diversific COMIN"
+  },
+  {
+    "id": 83,
+    "descricao": "Consulta ao Cadastro de Comp.Diversific COMIN"
+  },
+  {
+    "id": 84,
+    "descricao": "Cadastro Demostrat.Mensal de RV"
+  },
+  {
+    "id": 85,
+    "descricao": "Consulta ao Cadastro Demostrat.Mensal de RV"
+  },
+  {
+    "id": 86,
+    "descricao": "Cadastro de SISBACEN Semanal"
+  },
+  {
+    "id": 87,
+    "descricao": "Consulta ao Cadastro de SISBACEN Semanal"
+  },
+  {
+    "id": 88,
+    "descricao": "Cadastro de Tipo de Movimentação"
+  },
+  {
+    "id": 89,
+    "descricao": "Consulta ao Cadastro de Movimento SI-ANBIMA"
+  },
+  {
+    "id": 90,
+    "descricao": "Inclusão de Movimento Futuro"
+  },
+  {
+    "id": 91,
+    "descricao": "Exclusão de Movimento Futuro"
+  },
+  {
+    "id": 92,
+    "descricao": "Alteração de Movimento Futuro"
+  },
+  {
+    "id": 93,
+    "descricao": "Cadastro de Emissores de Títulos - Alteração"
+  },
+  {
+    "id": 94,
+    "descricao": "Cadastro de Emissores de Títulos"
+  },
+  {
+    "id": 95,
+    "descricao": "Alteração no Cadastro de Bolsas & Praças"
+  },
+  {
+    "id": 96,
+    "descricao": "Consulta ao Cadastro de Bolsas & Praças"
+  },
+  {
+    "id": 97,
+    "descricao": "Exigências Para o Cálculo"
+  },
+  {
+    "id": 98,
+    "descricao": "Inicialização"
+  },
+  {
+    "id": 99,
+    "descricao": "Inicializa Carteira"
+  },
+  {
+    "id": 100,
+    "descricao": "Reabertura de Carteiras"
+  },
+  {
+    "id": 101,
+    "descricao": "Volta ao Presente"
+  },
+  {
+    "id": 102,
+    "descricao": "Alteração no Cadastro de Corretoras"
+  },
+  {
+    "id": 103,
+    "descricao": "Consulta ao Cadastro de Corretoras"
+  },
+  {
+    "id": 104,
+    "descricao": "Cadastro de Fontes e Aplicações"
+  },
+  {
+    "id": 105,
+    "descricao": "Consulta ao Cadastro de Fontes e Aplicações"
+  },
+  {
+    "id": 106,
+    "descricao": "Cadastro de Séries"
+  },
+  {
+    "id": 107,
+    "descricao": "Cadastro de Plano de Contas & Contas"
+  },
+  {
+    "id": 108,
+    "descricao": "Movimento Especial de Cotistas"
+  },
+  {
+    "id": 109,
+    "descricao": "Relatório Balancete"
+  },
+  {
+    "id": 110,
+    "descricao": "Relatório Balanço Simulado 13 Meses"
+  },
+  {
+    "id": 111,
+    "descricao": "Cadastro de Grupo"
+  },
+  {
+    "id": 114,
+    "descricao": "Cadastro de Grupo - Atualização"
+  },
+  {
+    "id": 115,
+    "descricao": "Relatório Movimento Diário"
+  },
+  {
+    "id": 116,
+    "descricao": "Gráfico de Composição de Lista"
+  },
+  {
+    "id": 117,
+    "descricao": "Relatório Carteira Resumida"
+  },
+  {
+    "id": 118,
+    "descricao": "Relatório Demonstração de Resultados 13 Meses"
+  },
+  {
+    "id": 119,
+    "descricao": "Cadastro de PCA"
+  },
+  {
+    "id": 120,
+    "descricao": "Renda Fixa por Vencimento"
+  },
+  {
+    "id": 121,
+    "descricao": "Gráfico Comparativo de Rentabilidade"
+  },
+  {
+    "id": 122,
+    "descricao": "Razão Contábil"
+  },
+  {
+    "id": 123,
+    "descricao": "Gráfico Resumo Comparativo de Rentabilidade"
+  },
+  {
+    "id": 124,
+    "descricao": "Estatística de Mães e Filhas"
+  },
+  {
+    "id": 125,
+    "descricao": "Estatística de Movimentos Por Rotina de Cálculo"
+  },
+  {
+    "id": 126,
+    "descricao": "Estatística de Saldos Por Rotina de Cálculo"
+  },
+  {
+    "id": 127,
+    "descricao": "Estatística de Títulos Por Rotina de Cálculo"
+  },
+  {
+    "id": 128,
+    "descricao": "Reconciliação Bancária (Antiga)"
+  },
+  {
+    "id": 129,
+    "descricao": "Inclusão de Carteira"
+  },
+  {
+    "id": 130,
+    "descricao": "Alteração de Carteira"
+  },
+  {
+    "id": 131,
+    "descricao": "Navegador de Carteira"
+  },
+  {
+    "id": 132,
+    "descricao": "Processo de Importação de Renda Variável"
+  },
+  {
+    "id": 133,
+    "descricao": "Processo de Importação de Renda Fixa"
+  },
+  {
+    "id": 134,
+    "descricao": "Relatório Balanço Para Divulgação"
+  },
+  {
+    "id": 135,
+    "descricao": "Cadastro de Séries adicionais"
+  },
+  {
+    "id": 136,
+    "descricao": "Consulta de Séries adicionais"
+  },
+  {
+    "id": 137,
+    "descricao": "Consulta Planílhia de Renda Variável"
+  },
+  {
+    "id": 138,
+    "descricao": "Gráfico Distribuição Setorial"
+  },
+  {
+    "id": 139,
+    "descricao": "Relatório Movimento de Renda Variável"
+  },
+  {
+    "id": 140,
+    "descricao": "Relatório Razão de Investidores"
+  },
+  {
+    "id": 141,
+    "descricao": "Relatório Movimento de RV Resumo"
+  },
+  {
+    "id": 142,
+    "descricao": "Relatório Razão de Assessor"
+  },
+  {
+    "id": 143,
+    "descricao": "Aplicação de Cotista"
+  },
+  {
+    "id": 144,
+    "descricao": "Relatório Diário Geral"
+  },
+  {
+    "id": 145,
+    "descricao": "Consulta Movimento de Cotista"
+  },
+  {
+    "id": 146,
+    "descricao": "Estorno de Movimento de Cotista"
+  },
+  {
+    "id": 147,
+    "descricao": "Relatório Demonstrativo de Caixa (Antigo)"
+  },
+  {
+    "id": 148,
+    "descricao": "Relatório Composição e Diversificação"
+  },
+  {
+    "id": 149,
+    "descricao": "Encerramento de Balanço"
+  },
+  {
+    "id": 150,
+    "descricao": "Desfazer Encerramento de Balanço"
+  },
+  {
+    "id": 151,
+    "descricao": "Cadastro de Fundos de Pensão"
+  },
+  {
+    "id": 152,
+    "descricao": "Consulta ao Cadastro de Fundos de Penão"
+  },
+  {
+    "id": 153,
+    "descricao": "Relatório Fontes e Aplicações Mensal"
+  },
+  {
+    "id": 154,
+    "descricao": "Relatório Demonstrativo Mensal de FACFIF"
+  },
+  {
+    "id": 155,
+    "descricao": "Relatório Demonstrativo Diário de FIF"
+  },
+  {
+    "id": 156,
+    "descricao": "Relatório Demonstrativo Diário de FRFCE"
+  },
+  {
+    "id": 157,
+    "descricao": "Relatório Demonstrativo Diário de RV"
+  },
+  {
+    "id": 158,
+    "descricao": "Relatório Demonstrativo Semanal de FIEX"
+  },
+  {
+    "id": 159,
+    "descricao": "Relatório Demonstrativo Mensal 3004 - FITVM"
+  },
+  {
+    "id": 160,
+    "descricao": "Resgate de Cotista"
+  },
+  {
+    "id": 161,
+    "descricao": "Relatório Informações SISBACEN"
+  },
+  {
+    "id": 162,
+    "descricao": "Relatório SISBACEN Semanal"
+  },
+  {
+    "id": 163,
+    "descricao": "Inicialização de Carteiras de Cotistas"
+  },
+  {
+    "id": 164,
+    "descricao": "Encerramento de Carteiras de Cotistas"
+  },
+  {
+    "id": 165,
+    "descricao": "Relatório Fontes e Aplicações P/ SI-ANBIMA"
+  },
+  {
+    "id": 166,
+    "descricao": "Relatório Informe Sintético"
+  },
+  {
+    "id": 167,
+    "descricao": "Cadastro de Assessores"
+  },
+  {
+    "id": 168,
+    "descricao": "Cadastro de Assessores 2"
+  },
+  {
+    "id": 169,
+    "descricao": "Cadastro de Bancos"
+  },
+  {
+    "id": 170,
+    "descricao": "Consulta ao Cadastro de Assessores"
+  },
+  {
+    "id": 171,
+    "descricao": "Consulta ao Cadastro de Assessores 2"
+  },
+  {
+    "id": 172,
+    "descricao": "Consulta ao Cadastro de Bancos"
+  },
+  {
+    "id": 173,
+    "descricao": "Inclusão de Cliente"
+  },
+  {
+    "id": 174,
+    "descricao": "Alteração de Cliente"
+  },
+  {
+    "id": 175,
+    "descricao": "Consulta de Cliente"
+  },
+  {
+    "id": 176,
+    "descricao": "Relatório Balancete BACEN/CVM"
+  },
+  {
+    "id": 177,
+    "descricao": "Manutenção de Séries de Carteira"
+  },
+  {
+    "id": 178,
+    "descricao": "Exclusão de Carteira"
+  },
+  {
+    "id": 179,
+    "descricao": "Restauração de Carteira"
+  },
+  {
+    "id": 180,
+    "descricao": "Cadastro de Séries - Alteração"
+  },
+  {
+    "id": 181,
+    "descricao": "Cadastro de Tabelas de Contrato Futuro"
+  },
+  {
+    "id": 182,
+    "descricao": "Disquete Balancete BC"
+  },
+  {
+    "id": 183,
+    "descricao": "Disquete Balanço BC"
+  },
+  {
+    "id": 184,
+    "descricao": "Cálculo de Cotistas"
+  },
+  {
+    "id": 185,
+    "descricao": "Simulação de Debêntures com Amortiz. Programada"
+  },
+  {
+    "id": 186,
+    "descricao": "Controle Resumido de Cotistas"
+  },
+  {
+    "id": 187,
+    "descricao": "Movimento Diário Contábil - Detalhado"
+  },
+  {
+    "id": 188,
+    "descricao": "Movimento Diário Contábil - Detalhado B"
+  },
+  {
+    "id": 189,
+    "descricao": "Movimento Diário Contábil - Evento 1"
+  },
+  {
+    "id": 190,
+    "descricao": "Movimento Diário Contábil - Evento 2"
+  },
+  {
+    "id": 191,
+    "descricao": "Movimento Diário Contábil - Fundo de Pensão"
+  },
+  {
+    "id": 192,
+    "descricao": "Movimento Diário Contábil - Resumido"
+  },
+  {
+    "id": 193,
+    "descricao": "Exportação de Saldo Simplificado de Cotistas"
+  },
+  {
+    "id": 194,
+    "descricao": "Swap Novo"
+  },
+  {
+    "id": 195,
+    "descricao": "Relatório Médias Móveis p/ Composição de FIF"
+  },
+  {
+    "id": 196,
+    "descricao": "Relatório Médias Móveis Adicionais"
+  },
+  {
+    "id": 197,
+    "descricao": "Cadastro de Moeda - Atualização"
+  },
+  {
+    "id": 198,
+    "descricao": "Relatório Médias Móveis p/ Composição de FIFCP"
+  },
+  {
+    "id": 199,
+    "descricao": "Consulta ao Cadastro de Processos de Importação"
+  },
+  {
+    "id": 200,
+    "descricao": "Cadastro do Proc.Import. de Cadastro de Cliente"
+  },
+  {
+    "id": 201,
+    "descricao": "Troca Código de Carteira"
+  },
+  {
+    "id": 202,
+    "descricao": "Cadastro de Moeda"
+  },
+  {
+    "id": 203,
+    "descricao": "Importação do Cadastro de Clientes"
+  },
+  {
+    "id": 204,
+    "descricao": "Troca Código de Título (Antigo)"
+  },
+  {
+    "id": 205,
+    "descricao": "Troca Grupo de Título"
+  },
+  {
+    "id": 206,
+    "descricao": "Cadastro do Proc.Import. Movimentos de Cliente"
+  },
+  {
+    "id": 207,
+    "descricao": "Importação de Movimentos de Clientes"
+  },
+  {
+    "id": 208,
+    "descricao": "Movimento Diário Contábil - Detalhado C"
+  },
+  {
+    "id": 209,
+    "descricao": "Cadastro de Listas de Carteiras - Atualização"
+  },
+  {
+    "id": 210,
+    "descricao": "Exportação de Movimento Totalizado de Cotistas"
+  },
+  {
+    "id": 211,
+    "descricao": "Estatística de TACTotal"
+  },
+  {
+    "id": 212,
+    "descricao": "Ajusta Custo à Mercado"
+  },
+  {
+    "id": 213,
+    "descricao": "Aplicação de Cotista Anterior"
+  },
+  {
+    "id": 214,
+    "descricao": "Resgate de Cotista Anterior"
+  },
+  {
+    "id": 215,
+    "descricao": "Resgate de Cotista Por Aplicação"
+  },
+  {
+    "id": 216,
+    "descricao": "Estatística de Direitos de Uso"
+  },
+  {
+    "id": 217,
+    "descricao": "Implantação de Cotistas"
+  },
+  {
+    "id": 218,
+    "descricao": "Processo de Importação de Cotações"
+  },
+  {
+    "id": 219,
+    "descricao": "Troca Código de Cotistas"
+  },
+  {
+    "id": 220,
+    "descricao": "Importação de Movimentos de RV"
+  },
+  {
+    "id": 221,
+    "descricao": "Avança Datas de Cotistas"
+  },
+  {
+    "id": 222,
+    "descricao": "Saldos de Cotista (Antigo)"
+  },
+  {
+    "id": 223,
+    "descricao": "Importação de Cotações"
+  },
+  {
+    "id": 224,
+    "descricao": "Mapa de Movimentos"
+  },
+  {
+    "id": 225,
+    "descricao": "Transferência de Cotas entre Cotista"
+  },
+  {
+    "id": 226,
+    "descricao": "Consulta Extrato Completo"
+  },
+  {
+    "id": 227,
+    "descricao": "Extrato Mensal"
+  },
+  {
+    "id": 228,
+    "descricao": "Estatística de Movimento por Carteiras"
+  },
+  {
+    "id": 229,
+    "descricao": "Estatística de Movimento por Mês/Carteira"
+  },
+  {
+    "id": 230,
+    "descricao": "Controle de FIF de Cotistas"
+  },
+  {
+    "id": 231,
+    "descricao": "Relatório Posição Patrimonial"
+  },
+  {
+    "id": 232,
+    "descricao": "Relatório Demonstrativo para Fontes e Aplicações"
+  },
+  {
+    "id": 233,
+    "descricao": "Estatística de Movimento por Carteira/Ano"
+  },
+  {
+    "id": 234,
+    "descricao": "Exportação de Extrato Resumido de Cotistas"
+  },
+  {
+    "id": 235,
+    "descricao": "Relatório Mutações Patrimoniais"
+  },
+  {
+    "id": 236,
+    "descricao": "Exportação de Saldo Médio de Patrimônio Líquido"
+  },
+  {
+    "id": 237,
+    "descricao": "Controle Detalhado"
+  },
+  {
+    "id": 238,
+    "descricao": "Relatório Posição de Carteira"
+  },
+  {
+    "id": 239,
+    "descricao": "Consulta Registro Saldo"
+  },
+  {
+    "id": 240,
+    "descricao": "Relatório Movimento de Renda Fixa"
+  },
+  {
+    "id": 241,
+    "descricao": "Relatório Apropriação de Carteira de Renda Fixa"
+  },
+  {
+    "id": 242,
+    "descricao": "Relatório Composição da Carteira de Renda Fixa"
+  },
+  {
+    "id": 243,
+    "descricao": "Relatório Demonstrativo IR de Ações"
+  },
+  {
+    "id": 244,
+    "descricao": "Reinicialização de Carteiras de Cotistas"
+  },
+  {
+    "id": 245,
+    "descricao": "Manut. Séries TIR"
+  },
+  {
+    "id": 246,
+    "descricao": "Rentabilidade pela TIR no Mês"
+  },
+  {
+    "id": 247,
+    "descricao": "Relatório Evolução da Carteira de Ações"
+  },
+  {
+    "id": 248,
+    "descricao": "Gráfico Rentabilidades pela TIR-Acumulado/Ano"
+  },
+  {
+    "id": 249,
+    "descricao": "Exportação de Saldo de Cotistas"
+  },
+  {
+    "id": 250,
+    "descricao": "Relatório Posição Mensal para Fundações"
+  },
+  {
+    "id": 251,
+    "descricao": "Relatório Mapa de Cotações"
+  },
+  {
+    "id": 252,
+    "descricao": "Relatório Mapa de Índices"
+  },
+  {
+    "id": 253,
+    "descricao": "Relatório Balanço Geral"
+  },
+  {
+    "id": 254,
+    "descricao": "Simulação de Rentabilidade pela TIR"
+  },
+  {
+    "id": 255,
+    "descricao": "Relatório Médias Móveis RV 40 Dias"
+  },
+  {
+    "id": 256,
+    "descricao": "Cadastro de Limite de Enquadramento"
+  },
+  {
+    "id": 257,
+    "descricao": "Relatório de Controle de Enquadramento"
+  },
+  {
+    "id": 258,
+    "descricao": "Relatório Informe Sintético SI-ANBIMA"
+  },
+  {
+    "id": 259,
+    "descricao": "Relatório Performance Fee Calculada"
+  },
+  {
+    "id": 260,
+    "descricao": "Relatório Performance Fee nos Resgates"
+  },
+  {
+    "id": 261,
+    "descricao": "Extrato Com Agenda Completo"
+  },
+  {
+    "id": 262,
+    "descricao": "Importação de Movimentos de RF"
+  },
+  {
+    "id": 263,
+    "descricao": "Relatório Carteira de Renda Fixa Completo"
+  },
+  {
+    "id": 264,
+    "descricao": "Data Último Corte PFee"
+  },
+  {
+    "id": 265,
+    "descricao": "Movimento Diário Contábil - Tipo M"
+  },
+  {
+    "id": 266,
+    "descricao": "Operação Compromissada"
+  },
+  {
+    "id": 267,
+    "descricao": "Relatório Compensação de Prejuízo - Saldo"
+  },
+  {
+    "id": 268,
+    "descricao": "Emissão de Etiquetas"
+  },
+  {
+    "id": 269,
+    "descricao": "Emissão de Avisos"
+  },
+  {
+    "id": 270,
+    "descricao": "Bloqueio de Aplicações para Resgate"
+  },
+  {
+    "id": 271,
+    "descricao": "Cadastro de Alíq IR Fundo Priv.Cap.Estrang."
+  },
+  {
+    "id": 272,
+    "descricao": "Relatório Movimento de Cotistas"
+  },
+  {
+    "id": 273,
+    "descricao": "Rateio de Corretagens"
+  },
+  {
+    "id": 274,
+    "descricao": "Integração de Cotistas"
+  },
+  {
+    "id": 275,
+    "descricao": "Relatório Fechamento de PL e Cotas"
+  },
+  {
+    "id": 276,
+    "descricao": "Desconexão de Cotistas"
+  },
+  {
+    "id": 277,
+    "descricao": "Cadastro de Agência"
+  },
+  {
+    "id": 278,
+    "descricao": "Exclusão de Clientes"
+  },
+  {
+    "id": 279,
+    "descricao": "Limpeza de Títulos"
+  },
+  {
+    "id": 280,
+    "descricao": "Relatório Carteira Por Risco de Emissor"
+  },
+  {
+    "id": 281,
+    "descricao": "Alteração no Cadastro Demostrat.Mensal de RVCL"
+  },
+  {
+    "id": 282,
+    "descricao": "Consulta ao Cadastro Demostrat.Mensal de RVCL"
+  },
+  {
+    "id": 283,
+    "descricao": "Relatório Demonstrativo Mensal de RVCL"
+  },
+  {
+    "id": 284,
+    "descricao": "Implantação de Custos Corrigidos"
+  },
+  {
+    "id": 285,
+    "descricao": "Limpeza de Carteiras"
+  },
+  {
+    "id": 286,
+    "descricao": "Inclusão de Cliente Corporativo"
+  },
+  {
+    "id": 287,
+    "descricao": "Alteração Cadastro Cliente Corporativo"
+  },
+  {
+    "id": 288,
+    "descricao": "Interface Corporativa"
+  },
+  {
+    "id": 289,
+    "descricao": "Cassação de Liminar de Isenção de IR"
+  },
+  {
+    "id": 290,
+    "descricao": "Relatório Estatística de Lista de Carteiras"
+  },
+  {
+    "id": 291,
+    "descricao": "Resgate de IR em Data Anterior"
+  },
+  {
+    "id": 292,
+    "descricao": "Consulta Log de Atividades"
+  },
+  {
+    "id": 293,
+    "descricao": "Limpeza Log de Atividades"
+  },
+  {
+    "id": 294,
+    "descricao": "Troca Tipo de Carteira"
+  },
+  {
+    "id": 295,
+    "descricao": "Relatório Rentabilidade de Renda Variável"
+  },
+  {
+    "id": 296,
+    "descricao": "DIRF"
+  },
+  {
+    "id": 297,
+    "descricao": "Parâmetros do Sistema"
+  },
+  {
+    "id": 298,
+    "descricao": "Inclusão/Alteração de Proventos de RV"
+  },
+  {
+    "id": 299,
+    "descricao": "Relatório do Cadastro de Clientes"
+  },
+  {
+    "id": 300,
+    "descricao": "Fechamento de Carteiras"
+  },
+  {
+    "id": 301,
+    "descricao": "Reabertura de Movimentos"
+  },
+  {
+    "id": 302,
+    "descricao": "Cálculo de Dias Úteis"
+  },
+  {
+    "id": 303,
+    "descricao": "Relatório Cadastro de Assessor"
+  },
+  {
+    "id": 304,
+    "descricao": "Relatório Emissores de Títulos"
+  },
+  {
+    "id": 305,
+    "descricao": "Relatório Aviso de Movimentação"
+  },
+  {
+    "id": 306,
+    "descricao": "Relatório do Cadastro de Títulos"
+  },
+  {
+    "id": 307,
+    "descricao": "Exclusão de Movimento de Renda Fixa"
+  },
+  {
+    "id": 308,
+    "descricao": "Relatório Analítico da DIRF"
+  },
+  {
+    "id": 309,
+    "descricao": "Relatório de Feriados"
+  },
+  {
+    "id": 310,
+    "descricao": "Relatório Batimento de Saldo"
+  },
+  {
+    "id": 311,
+    "descricao": "Informe de Rendimentos"
+  },
+  {
+    "id": 312,
+    "descricao": "Exportação para DIRF B"
+  },
+  {
+    "id": 313,
+    "descricao": "Exportação para Informe B"
+  },
+  {
+    "id": 314,
+    "descricao": "Decimais do Valor de Cotas"
+  },
+  {
+    "id": 315,
+    "descricao": "Relatório Cadastro de Grupos"
+  },
+  {
+    "id": 316,
+    "descricao": "Relatório IOF de Aplicações"
+  },
+  {
+    "id": 317,
+    "descricao": "Relatório Analítico de Informe de Rendimentos"
+  },
+  {
+    "id": 318,
+    "descricao": "Relatório Gerencial de Saldos"
+  },
+  {
+    "id": 319,
+    "descricao": "Verificação de Saldos"
+  },
+  {
+    "id": 320,
+    "descricao": "Relatório Bônus de Performance"
+  },
+  {
+    "id": 321,
+    "descricao": "Exportação de Extrato"
+  },
+  {
+    "id": 322,
+    "descricao": "Relatório Rentabilidade Pela TIR de um Título"
+  },
+  {
+    "id": 324,
+    "descricao": "Libera Financeiro"
+  },
+  {
+    "id": 325,
+    "descricao": "Manutenção do Mapa de Liquidação"
+  },
+  {
+    "id": 326,
+    "descricao": "Importação de Movimento Especial de Cotistas"
+  },
+  {
+    "id": 327,
+    "descricao": "Processo de Importação de Mov. Especial Cotista"
+  },
+  {
+    "id": 328,
+    "descricao": "Custo de Oportunidade"
+  },
+  {
+    "id": 329,
+    "descricao": "Extrato Completo"
+  },
+  {
+    "id": 330,
+    "descricao": "Exportação de Arquivos"
+  },
+  {
+    "id": 331,
+    "descricao": "Identificador de Swaps"
+  },
+  {
+    "id": 332,
+    "descricao": "Relatório Gerencial de Carteira"
+  },
+  {
+    "id": 333,
+    "descricao": "Relatório Posição de Carteira B"
+  },
+  {
+    "id": 334,
+    "descricao": "Carteira com Swap"
+  },
+  {
+    "id": 335,
+    "descricao": "Exclusão de Movimento de Renda Variável"
+  },
+  {
+    "id": 336,
+    "descricao": "Relatório Rentabilidade de Renda Fixa"
+  },
+  {
+    "id": 337,
+    "descricao": "Importação de Conta Corrente"
+  },
+  {
+    "id": 338,
+    "descricao": "Processo de Importação de Conta Corrente"
+  },
+  {
+    "id": 339,
+    "descricao": "Manut. Séries TIR Títulos"
+  },
+  {
+    "id": 340,
+    "descricao": "Fusão - Cisão - Incorporação de Carteiras"
+  },
+  {
+    "id": 341,
+    "descricao": "Importação de Cadastro de Cliente Tipo V"
+  },
+  {
+    "id": 342,
+    "descricao": "Exportação de Cliente Tipo V"
+  },
+  {
+    "id": 343,
+    "descricao": "Projeção de Cota de Carteira"
+  },
+  {
+    "id": 344,
+    "descricao": "Relatório de Cliente Isento por Liminar"
+  },
+  {
+    "id": 345,
+    "descricao": "Relatório de Cliente com Depósito Judicial"
+  },
+  {
+    "id": 346,
+    "descricao": "Relatório Resumo de Movimentação de Cotistas"
+  },
+  {
+    "id": 347,
+    "descricao": "Relatório Diferenca Entre Cotas"
+  },
+  {
+    "id": 348,
+    "descricao": "Contas Padrão"
+  },
+  {
+    "id": 349,
+    "descricao": "Relatório Captação por Tipo Carteira"
+  },
+  {
+    "id": 350,
+    "descricao": "Controle de Envio de Regulamento"
+  },
+  {
+    "id": 351,
+    "descricao": "Recupera Contas Sintéticas"
+  },
+  {
+    "id": 352,
+    "descricao": "Estatística de Cotista com Saldo"
+  },
+  {
+    "id": 353,
+    "descricao": "Exportação de Saldos Tipo V"
+  },
+  {
+    "id": 354,
+    "descricao": "Exportação de Movimentos Tipo V"
+  },
+  {
+    "id": 355,
+    "descricao": "Relatório Informações Diárias P/ SI-ANBIMA"
+  },
+  {
+    "id": 356,
+    "descricao": "Relatório Cálculo de Taxa de Administração"
+  },
+  {
+    "id": 357,
+    "descricao": "Cadastro de Séries - Exclusão"
+  },
+  {
+    "id": 358,
+    "descricao": "Relatório Cadastro de Assessor2"
+  },
+  {
+    "id": 359,
+    "descricao": "Exclusão de Movimento de Conta Corrente"
+  },
+  {
+    "id": 360,
+    "descricao": "Reabertura de Movimento de Cotista"
+  },
+  {
+    "id": 361,
+    "descricao": "Relatório Demonstrativo Diário de FAPI"
+  },
+  {
+    "id": 362,
+    "descricao": "Inclusão de Movimento Contábil"
+  },
+  {
+    "id": 363,
+    "descricao": "Exclusão de Movimento Contábil"
+  },
+  {
+    "id": 364,
+    "descricao": "Alteração de Movimento Contábil"
+  },
+  {
+    "id": 365,
+    "descricao": "Consulta de Movimento Contábil"
+  },
+  {
+    "id": 366,
+    "descricao": "Extrato de Aplicações Financeiras"
+  },
+  {
+    "id": 367,
+    "descricao": "Relatório ANBIMA Público Alvo"
+  },
+  {
+    "id": 368,
+    "descricao": "Relatório Mutações Patrimoniais - Quadro 1"
+  },
+  {
+    "id": 369,
+    "descricao": "Cadastro de Comp.Diversific Quadro 2"
+  },
+  {
+    "id": 370,
+    "descricao": "Consulta ao Cadastro de Comp.Diversific Quadro 2"
+  },
+  {
+    "id": 371,
+    "descricao": "Composição e Diversificação - Quadro 2"
+  },
+  {
+    "id": 372,
+    "descricao": "Relatório Captação por Instituição Mensal"
+  },
+  {
+    "id": 373,
+    "descricao": "Inclusão de Movimento Futuro Contábil"
+  },
+  {
+    "id": 374,
+    "descricao": "Exclusão de Movimento Futuro Contábil"
+  },
+  {
+    "id": 375,
+    "descricao": "Alteração de Movimento Futuro Contábil"
+  },
+  {
+    "id": 376,
+    "descricao": "Movimentação de Título por Carteira"
+  },
+  {
+    "id": 377,
+    "descricao": "Swap Já Existente"
+  },
+  {
+    "id": 378,
+    "descricao": "Swap Decorrido"
+  },
+  {
+    "id": 379,
+    "descricao": "Swap Revenda"
+  },
+  {
+    "id": 380,
+    "descricao": "Swap Consulta"
+  },
+  {
+    "id": 381,
+    "descricao": "Swap Exclusão"
+  },
+  {
+    "id": 382,
+    "descricao": "Exportação de Conta Corrente de Bolsa"
+  },
+  {
+    "id": 383,
+    "descricao": "Reabertura de Carteira para Cotistas"
+  },
+  {
+    "id": 384,
+    "descricao": "Relatório Agendamento de Movimentos de Cotistas"
+  },
+  {
+    "id": 385,
+    "descricao": "Relatório Demonstrativo Mensal de FAPI"
+  },
+  {
+    "id": 386,
+    "descricao": "Extrato Mensal Net"
+  },
+  {
+    "id": 387,
+    "descricao": "Exclusão de Movimento Agendado"
+  },
+  {
+    "id": 388,
+    "descricao": "Consulta de Movimento Agendado de Cotista"
+  },
+  {
+    "id": 389,
+    "descricao": "Troca Códigos de Títulos via Arquivo Texto"
+  },
+  {
+    "id": 390,
+    "descricao": "Conversão de D+1 para D0"
+  },
+  {
+    "id": 391,
+    "descricao": "Bloqueio de Movimento de Cotistas"
+  },
+  {
+    "id": 392,
+    "descricao": "Cadastro de Taxa por Faixa"
+  },
+  {
+    "id": 393,
+    "descricao": "Relatório Apuração de IR em Bolsa de Valores"
+  },
+  {
+    "id": 394,
+    "descricao": "Boletagem de Cotistas"
+  },
+  {
+    "id": 395,
+    "descricao": "Boletagem Inicial de Cotistas"
+  },
+  {
+    "id": 396,
+    "descricao": "Consulta da Boletagem de Cotistas"
+  },
+  {
+    "id": 398,
+    "descricao": "Relatório Comissão de Assessores B"
+  },
+  {
+    "id": 399,
+    "descricao": "Exportação do Cadastro de Aplicadores"
+  },
+  {
+    "id": 400,
+    "descricao": "Exportação de Resgates por DOC"
+  }, 
+  {
+    "id": 401,
+    "descricao": "Validação dos Movimentos de Liquidação"
+  },
+  {
+    "id": 402,
+    "descricao": "Relatório de Informações Bancárias"
+  },
+  {
+    "id": 403,
+    "descricao": "Importação de Carteira"
+  },
+  {
+    "id": 404,
+    "descricao": "Gera Demonstração"
+  },
+  {
+    "id": 405,
+    "descricao": "Abertura de Boletagem de Cotistas"
+  },
+  {
+    "id": 406,
+    "descricao": "Fechamento de Boletagem de Cotistas"
+  },
+  {
+    "id": 407,
+    "descricao": "Cadastro de Empresas"
+  },
+  {
+    "id": 408,
+    "descricao": "Alteração de Empresa"
+  },
+  {
+    "id": 409,
+    "descricao": "Cadastro de Situação"
+  },
+  {
+    "id": 410,
+    "descricao": "Alteração de Situação"
+  },
+  {
+    "id": 411,
+    "descricao": "Gráfico Rentabilidades Acumuladas no Mês"
+  },
+  {
+    "id": 412,
+    "descricao": "Relatório Boletas de Cotistas"
+  },
+  {
+    "id": 413,
+    "descricao": "Inicialização para Agendamento"
+  },
+  {
+    "id": 414,
+    "descricao": "Gráfico Comparação de Séries/Carteira"
+  },
+  {
+    "id": 415,
+    "descricao": "Atualização de Dados Bancários"
+  },
+  {
+    "id": 416,
+    "descricao": "Cadastro de Tipos de Bloqueios"
+  },
+  {
+    "id": 417,
+    "descricao": "Inclusão de Movimento de Bloqueio/Desbloqueio"
+  },
+  {
+    "id": 418,
+    "descricao": "Exclusão de Movimento de Bloqueio/Desbloqueio"
+  },
+  {
+    "id": 419,
+    "descricao": "Relatório Razão de Bloqueios"
+  },
+  {
+    "id": 420,
+    "descricao": "Relatório Posição de Bloqueios"
+  },
+  {
+    "id": 421,
+    "descricao": "Exportação de Movimentos por DOC"
+  },
+  {
+    "id": 422,
+    "descricao": "Estorno de Transferência de Cotas - Data Atual"
+  },
+  {
+    "id": 423,
+    "descricao": "Importação de Conta Corrente de Cotista"
+  },
+  {
+    "id": 424,
+    "descricao": "Caixa On Line"
+  },
+  {
+    "id": 425,
+    "descricao": "Relatório Termo de Adesão"
+  },
+  {
+    "id": 426,
+    "descricao": "Cadastro do Código de Classificação do MAPS"
+  },
+  {
+    "id": 427,
+    "descricao": "Equalização de Custo Médio de Renda Variável"
+  },
+  {
+    "id": 428,
+    "descricao": "Troca Tipo de Cota da Transferência de Cotas"
+  },
+  {
+    "id": 429,
+    "descricao": "Cadastro de Papel - Consulta"
+  },
+  {
+    "id": 430,
+    "descricao": "Cadastro de Papel - Manutenção"
+  },
+  {
+    "id": 431,
+    "descricao": "Relatório Cadastro de Papel"
+  },
+  {
+    "id": 432,
+    "descricao": "Cadastro de Código SELIC para Títulos"
+  },
+  {
+    "id": 433,
+    "descricao": "Alteração do Cadastro de Código SELIC p/Títulos"
+  },
+  {
+    "id": 434,
+    "descricao": "Relatório Cadastro de Código SELIC para Títulos"
+  },
+  {
+    "id": 435,
+    "descricao": "Cadastro de Código CETIP para Títulos"
+  },
+  {
+    "id": 436,
+    "descricao": "Alteração do Cadastro de Código CETIP p/Títulos"
+  },
+  {
+    "id": 437,
+    "descricao": "Relatório Cadastro de Código CETIP para Títulos"
+  },
+  {
+    "id": 438,
+    "descricao": "Relatório Cotas Livres e Bloqueadas"
+  },
+  {
+    "id": 439,
+    "descricao": "Navegador de Boletas de RF"
+  },
+  {
+    "id": 440,
+    "descricao": "FrontOffice - Compliance"
+  },
+  {
+    "id": 441,
+    "descricao": "FrontOffice - Controller"
+  },
+  {
+    "id": 442,
+    "descricao": "Navegador de Boletas de RF - Trader"
+  },
+  {
+    "id": 443,
+    "descricao": "Exportação de Arquivos para MAPS"
+  },
+  {
+    "id": 444,
+    "descricao": "Swap Alteração"
+  },
+  {
+    "id": 445,
+    "descricao": "Relatório Carteira com Diferença"
+  },
+  {
+    "id": 446,
+    "descricao": "Processo de Importação de Índice"
+  },
+  {
+    "id": 447,
+    "descricao": "Importação de Índices"
+  },
+  {
+    "id": 448,
+    "descricao": "Alteração Código de Classificação por Grupo"
+  },
+  {
+    "id": 449,
+    "descricao": "Abertura de Boletagem de RF (Apenas DriveAM)"
+  },
+  {
+    "id": 450,
+    "descricao": "Fechamento de Boletagem de RF"
+  },
+  {
+    "id": 451,
+    "descricao": "FrontOffice - Checker"
+  },
+  {
+    "id": 452,
+    "descricao": "Cadastro de Players"
+  },
+  {
+    "id": 453,
+    "descricao": "Alteração do Cadastro de Players"
+  },
+  {
+    "id": 454,
+    "descricao": "Relatório Cadastro de Players"
+  },
+  {
+    "id": 455,
+    "descricao": "Extrato de Movimentação"
+  },
+  {
+    "id": 456,
+    "descricao": "Exportação de Arquivos Simplificada"
+  },
+  {
+    "id": 457,
+    "descricao": "Exportação para DIRF C"
+  },
+  {
+    "id": 458,
+    "descricao": "Relatório Demonstrativo das Movimentações do PL"
+  },
+  {
+    "id": 459,
+    "descricao": "Relatório Demonstrativo IR de Renda Variável"
+  },
+  {
+    "id": 460,
+    "descricao": "Relatório de Boleta de RF"
+  },
+  {
+    "id": 461,
+    "descricao": "Relatório Comissão de Assessores por Aplicação"
+  },
+  {
+    "id": 462,
+    "descricao": "Tesouraria On Line"
+  },
+  {
+    "id": 463,
+    "descricao": "Alteração em Nome + CPF/CNPJ de Clientes"
+  },
+  {
+    "id": 464,
+    "descricao": "Tesouraria de Carteira"
+  },
+  {
+    "id": 465,
+    "descricao": "Importação de PU Papel"
+  },
+  {
+    "id": 466,
+    "descricao": "Processo de Importação de PU Papel"
+  },
+  {
+    "id": 467,
+    "descricao": "Cadastro de PU Papel"
+  },
+  {
+    "id": 468,
+    "descricao": "Relatório Razão de Título"
+  },
+  {
+    "id": 469,
+    "descricao": "Consulta Movimentos Futuros Contábil"
+  },
+  {
+    "id": 470,
+    "descricao": "Exportação Tributos - Easy Way"
+  },
+  {
+    "id": 471,
+    "descricao": "FrontOffice - Master"
+  },
+  {
+    "id": 472,
+    "descricao": "FrontOffice - Zeramento de Caixa"
+  },
+  {
+    "id": 473,
+    "descricao": "Exportação de Movimentos de Cotista (DriveAM)"
+  },
+  {
+    "id": 474,
+    "descricao": "Abertura de Zeramento de Caixa"
+  },
+  {
+    "id": 475,
+    "descricao": "Fechamento de Zeramento de Caixa"
+  },
+  {
+    "id": 476,
+    "descricao": "Cadastro de Zeramento de Caixa"
+  },
+  {
+    "id": 477,
+    "descricao": "Administrador de Movimentos de Boletagem"
+  },
+  {
+    "id": 478,
+    "descricao": "Relatório Carteira para FrontOffice"
+  },
+  {
+    "id": 479,
+    "descricao": "Exportação de Saldo B"
+  },
+  {
+    "id": 480,
+    "descricao": "Inclusão de Integração de Boletagem de RF"
+  },
+  {
+    "id": 481,
+    "descricao": "Troca Senha"
+  },
+  {
+    "id": 482,
+    "descricao": "Movimento Day-Trade RV"
+  },
+  {
+    "id": 483,
+    "descricao": "Navegador Por Vencimento"
+  },
+  {
+    "id": 484,
+    "descricao": "Exclusão de Integração de Boletagem de RF"
+  },
+  {
+    "id": 485,
+    "descricao": "Movimento Diário/Autorização"
+  },
+  {
+    "id": 486,
+    "descricao": "Relatório de Transferências"
+  },
+  {
+    "id": 487,
+    "descricao": "Movimento Diário Resumido"
+  },
+  {
+    "id": 488,
+    "descricao": "Relatório ANBIMA Movimentação de Cotas"
+  },
+  {
+    "id": 489,
+    "descricao": "Cadastro de CPMF"
+  },
+  {
+    "id": 490,
+    "descricao": "Alteração de PU no Zeramento de Caixa"
+  },
+  {
+    "id": 491,
+    "descricao": "Cadastro de Cestas de Papéis"
+  },
+  {
+    "id": 492,
+    "descricao": "Cadastro de Cestas de Papéis - Atualização"
+  },
+  {
+    "id": 493,
+    "descricao": "Relatório Conferência de PU Papel"
+  },
+  {
+    "id": 494,
+    "descricao": "Simulação de Resgate Total"
+  },
+  {
+    "id": 495,
+    "descricao": "Relatório Evolução de Ingressos e Retiradas"
+  },
+  {
+    "id": 496,
+    "descricao": "Exportação Boletas SELIC"
+  },
+  {
+    "id": 497,
+    "descricao": "Cadastro de Regras de Zeramento de Caixa"
+  },
+  {
+    "id": 498,
+    "descricao": "Inclusão de C/C de Cotista"
+  },
+  {
+    "id": 499,
+    "descricao": "Relatório Circular BACEN nº 2.893 - Art. 8º"
+  },
+  {
+    "id": 500,
+    "descricao": "Relatório Resumo Diário SELIC"
+  },
+  {
+    "id": 501,
+    "descricao": "Estatística de Movimentos de Cotistas por Mês"
+  },
+  {
+    "id": 502,
+    "descricao": "Relatório Posição de Papel"
+  },
+  {
+    "id": 503,
+    "descricao": "Confirmação de Boletas"
+  },
+  {
+    "id": 504,
+    "descricao": "Relatório Estoque SELIC"
+  },
+  {
+    "id": 505,
+    "descricao": "Relatório Nota de Negociação"
+  },
+  {
+    "id": 506,
+    "descricao": "Relatório Carteira de Renda Fixa Por Papel"
+  },
+  {
+    "id": 507,
+    "descricao": "Bloqueio de Cotas"
+  },
+  {
+    "id": 508,
+    "descricao": "Desbloqueio de Cotas"
+  },
+  {
+    "id": 509,
+    "descricao": "Estorno de Bloqueio e Desbloqueio de Cotas"
+  },
+  {
+    "id": 510,
+    "descricao": "Cadastro de Bloqueios de Cotas"
+  },
+  {
+    "id": 511,
+    "descricao": "Cadastro de Modos de Liquidação"
+  },
+  {
+    "id": 512,
+    "descricao": "Inclusão/Alteração de Séries Adicionais / PCA"
+  },
+  {
+    "id": 513,
+    "descricao": "Alteração em Internet Banking do Cliente"
+  },
+  {
+    "id": 514,
+    "descricao": "Cadastro de Códigos de Custódia"
+  },
+  {
+    "id": 515,
+    "descricao": "Alteração do Cadastro de Códigos de Custódia"
+  },
+  {
+    "id": 516,
+    "descricao": "Relatório Cadastro de Códigos de Custódia"
+  },
+  {
+    "id": 517,
+    "descricao": "Cadastro de Lastros"
+  },
+  {
+    "id": 518,
+    "descricao": "Alteração do Cadastro de Lastros"
+  },
+  {
+    "id": 519,
+    "descricao": "Relatório Cadastro de Lastros"
+  },
+  {
+    "id": 520,
+    "descricao": "Cadastro de Cotação RF"
+  },
+  {
+    "id": 521,
+    "descricao": "Navegador Cotação RF Por Vencimento"
+  },
+  {
+    "id": 522,
+    "descricao": "Cadastro de Processo de Importação de PU Cotação RF"
+  },
+  {
+    "id": 523,
+    "descricao": "Importação de Cotação RF"
+  },
+  {
+    "id": 524,
+    "descricao": "Relatório Circular 3004"
+  },
+  {
+    "id": 525,
+    "descricao": "Transferência entre Clientes e Fundos"
+  },
+  {
+    "id": 526,
+    "descricao": "FrontOffice - Fechamento de Liquidação e Custódia"
+  },
+  {
+    "id": 527,
+    "descricao": "Relatório de Verificação de CPF/CNPJ"
+  },
+  {
+    "id": 528,
+    "descricao": "Relatório Posição de Enquadramento"
+  },
+  {
+    "id": 529,
+    "descricao": "FrontOffice - Abertura de Liquidação e Custódia"
+  },
+  {
+    "id": 530,
+    "descricao": "Cadastro de Fundação"
+  },
+  {
+    "id": 531,
+    "descricao": "Cadastro de Agência de Risco"
+  },
+  {
+    "id": 532,
+    "descricao": "Cadastro de Segmento"
+  },
+  {
+    "id": 533,
+    "descricao": "Cadastro de Imóvel"
+  },
+  {
+    "id": 534,
+    "descricao": "Cadastro de Operação Transitória"
+  },
+  {
+    "id": 535,
+    "descricao": "Cadastro de Participação"
+  },
+  {
+    "id": 536,
+    "descricao": "Cadastro de Enquadramento"
+  },
+  {
+    "id": 537,
+    "descricao": "Cadastro de Grupo Econômico"
+  },
+  {
+    "id": 538,
+    "descricao": "Exportação para PREVIC"
+  },
+  {
+    "id": 539,
+    "descricao": "Informações Adicionais de Saldo"
+  },
+  {
+    "id": 540,
+    "descricao": "Relatório Conferência de PU Cotação RF"
+  },
+  {
+    "id": 541,
+    "descricao": "Cadastro de Plano da Fundação"
+  },
+  {
+    "id": 542,
+    "descricao": "Manutenção de Movimentos c/Tesouraria Ok"
+  },
+  {
+    "id": 543,
+    "descricao": "Cadastro de Fornecedores"
+  },
+  {
+    "id": 544,
+    "descricao": "Cadastro Automático de Cotação RF"
+  },
+  {
+    "id": 545,
+    "descricao": "Relatório Integração SELIC"
+  },
+  {
+    "id": 546,
+    "descricao": "Cadastro de SubSegmento"
+  },
+  {
+    "id": 547,
+    "descricao": "Cadastro de Regras do Enquadramento"
+  },
+  {
+    "id": 548,
+    "descricao": "Importação de Cadastro de Títulos Tipo T"
+  },
+  {
+    "id": 549,
+    "descricao": "Manutenção no Arquivo de Saldos Tipo T"
+  },
+  {
+    "id": 550,
+    "descricao": "Exclusão de Importação de Movimento Contábil"
+  },
+  {
+    "id": 551,
+    "descricao": "Processo de Importação de Mov. Contábil"
+  },
+  {
+    "id": 552,
+    "descricao": "Importação de Movimento Contábil"
+  },
+  {
+    "id": 553,
+    "descricao": "Cadastro de Histórico de Movimento"
+  },
+  {
+    "id": 554,
+    "descricao": "Relatório Demonstrativo Mensal 3004 - CE"
+  },
+  {
+    "id": 555,
+    "descricao": "Relatório Demonstrativo Mensal 3004 - FGTS"
+  },
+  {
+    "id": 556,
+    "descricao": "Relatório Distribuição Por Classe de Investidor"
+  },
+  {
+    "id": 557,
+    "descricao": "Navegador de Cotações - BMF"
+  },
+  {
+    "id": 558,
+    "descricao": "Abertura de Boletagem de Bolsa"
+  },
+  {
+    "id": 559,
+    "descricao": "Fechamento de Boletagem de Bolsa"
+  },
+  {
+    "id": 560,
+    "descricao": "Integração de Boletas de Bolsa"
+  },
+  {
+    "id": 561,
+    "descricao": "Exclusão da Integração de Boletas de Bolsa"
+  },
+  {
+    "id": 562,
+    "descricao": "Abertura de Boletagem de BMF"
+  },
+  {
+    "id": 563,
+    "descricao": "Fechamento de Boletagem de BMF"
+  },
+  {
+    "id": 564,
+    "descricao": "Integração de Boletas de BMF"
+  },
+  {
+    "id": 565,
+    "descricao": "Exclusão da Integração de Boletas de BMF"
+  },
+  {
+    "id": 566,
+    "descricao": "Cadastro de Cotação BMF"
+  },
+  {
+    "id": 567,
+    "descricao": "Cadastro dos Proc. de Import. de Cotação BMF"
+  },
+  {
+    "id": 568,
+    "descricao": "Importação de Cotação BMF"
+  },
+  {
+    "id": 569,
+    "descricao": "Cadastro de Parâmetros de BMF - Corretora"
+  },
+  {
+    "id": 570,
+    "descricao": "Cadastro de Parâmetros de BMF - Corret/Merc"
+  },
+  {
+    "id": 571,
+    "descricao": "Informe de Rendimentos - Cart. Adm."
+  },
+  {
+    "id": 572,
+    "descricao": "Cadastro de Limites Por Corretora - Corretoras"
+  },
+  {
+    "id": 573,
+    "descricao": "Cadastro de Limites Por Corretora - Carteiras"
+  },
+  {
+    "id": 574,
+    "descricao": "Cadastro de Parâmetros de Bolsa - Corretora"
+  },
+  {
+    "id": 575,
+    "descricao": "Cadastro de Parâmetros de Bolsa - Carteira"
+  },
+  {
+    "id": 576,
+    "descricao": "Cadastro de Parâmetros de BMF - Carteira"
+  },
+  {
+    "id": 577,
+    "descricao": "Cadastro de Parâmetros de BMF - Crt/Merc"
+  },
+  {
+    "id": 578,
+    "descricao": "Boletagem de BMF"
+  },
+  {
+    "id": 579,
+    "descricao": "Boletagem de Bolsa"
+  },
+  {
+    "id": 580,
+    "descricao": "Exportação para Informe II"
+  },
+  {
+    "id": 581,
+    "descricao": "Relatório de Informações de Carteira"
+  },
+  {
+    "id": 582,
+    "descricao": "DIRF - Carteira Administrada"
+  },
+  {
+    "id": 583,
+    "descricao": "Relatório Liquidação Fin. de Bolsa p/Corretora"
+  },
+  {
+    "id": 584,
+    "descricao": "Relatório Liquidação Fin. de Bolsa p/Carteira"
+  },
+  {
+    "id": 585,
+    "descricao": "Relatório Liquidação Fin. de BMF p/Corretora"
+  },
+  {
+    "id": 586,
+    "descricao": "Relatório Liquidação Fin. de BMF p/Carteira"
+  },
+  {
+    "id": 587,
+    "descricao": "Cadastro de Mercadorias BMF"
+  },
+  {
+    "id": 588,
+    "descricao": "Relatório Movimentos de BMF"
+  },
+  {
+    "id": 589,
+    "descricao": "Relatório Posição da Carteira de BMF"
+  },
+  {
+    "id": 590,
+    "descricao": "Informe de Rendimentos Alternativo"
+  },
+  {
+    "id": 591,
+    "descricao": "Cadastro de Administrador Fiscal"
+  },
+  {
+    "id": 592,
+    "descricao": "Exportação de Posição de Cotista"
+  },
+  {
+    "id": 593,
+    "descricao": "Relatório Spread do Administrador - Bolsa"
+  },
+  {
+    "id": 594,
+    "descricao": "Relatório Spread do Administrador - BMF"
+  },
+  {
+    "id": 595,
+    "descricao": "Exportação de Movimentação de Ações"
+  },
+  {
+    "id": 596,
+    "descricao": "Relatório Nota de Corretagem de BMF"
+  },
+  {
+    "id": 597,
+    "descricao": "Relatório de Unificação"
+  },
+  {
+    "id": 598,
+    "descricao": "FrontOffice - Boletagem Antiga"
+  },
+  {
+    "id": 599,
+    "descricao": "Relatório Carteira por Lastro para FrontOffice"
+  },
+  {
+    "id": 600,
+    "descricao": "Mapa de Rebate de Bolsa"
+  },
+  {
+    "id": 601,
+    "descricao": "Exclusão de Proventos de RV"
+  },
+  {
+    "id": 602,
+    "descricao": "Consulta Nota de Corretagem de BMF"
+  },
+  {
+    "id": 603,
+    "descricao": "Alteração de Parâmetros de RF da Carteira"
+  },
+  {
+    "id": 604,
+    "descricao": "Alteração de Resgates Automáticos de RF"
+  },
+  {
+    "id": 605,
+    "descricao": "Cadastro de Perfil para TIR"
+  },
+  {
+    "id": 606,
+    "descricao": "Relatório Rentabilidade Pela TIR de Grupo"
+  },
+  {
+    "id": 607,
+    "descricao": "Relatório Boletas de BMF"
+  },
+  {
+    "id": 608,
+    "descricao": "Inclusão de Importação de Boleta de Bolsa"
+  },
+  {
+    "id": 609,
+    "descricao": "Exclusão de Importação de Boleta de Bolsa"
+  },
+  {
+    "id": 610,
+    "descricao": "Alteração do tipo de MTM na Compra"
+  },
+  {
+    "id": 611,
+    "descricao": "Cadastro de Proc. de Import. de Boletas de Bolsa"
+  },
+  {
+    "id": 612,
+    "descricao": "FrontOffice - Unificação"
+  },
+  {
+    "id": 613,
+    "descricao": "Relatório de Aniversário de Clientes"
+  },
+  {
+    "id": 614,
+    "descricao": "Relatório Carteira de Renda Fixa Por Papel - Layout por Vencimento"
+  },
+  {
+    "id": 615,
+    "descricao": "Alteração de Evento de RF"
+  },
+  {
+    "id": 616,
+    "descricao": "Mapa de Rebate de BMF"
+  },
+  {
+    "id": 617,
+    "descricao": "Relatório Boletas de Bolsa"
+  },
+  {
+    "id": 618,
+    "descricao": "Exportação de Fundos para Mainframe B"
+  },
+  {
+    "id": 619,
+    "descricao": "Relatório Composição Resumida de FAC"
+  },
+  {
+    "id": 620,
+    "descricao": "Relatório Demonstrativo de Rentabilidades"
+  },
+  {
+    "id": 621,
+    "descricao": "Relatório Movimentação de Renda Variável"
+  },
+  {
+    "id": 622,
+    "descricao": "Cadastro de Jobs"
+  },
+  {
+    "id": 623,
+    "descricao": "Cadastro de Elencos"
+  },
+  {
+    "id": 624,
+    "descricao": "Relatório Apropriação de Renda Fixa"
+  },
+  {
+    "id": 625,
+    "descricao": "Relatório Movimentação com Títulos de Renda Fixa"
+  },
+  {
+    "id": 626,
+    "descricao": "Executor de Job"
+  },
+  {
+    "id": 627,
+    "descricao": "Relatório Movimentação com Cotas de Fundos"
+  },
+  {
+    "id": 628,
+    "descricao": "Relatório Aviso de Lançamentos de Despesas/Receitas"
+  },
+  {
+    "id": 629,
+    "descricao": "Relatório Posição de Swap"
+  },
+  {
+    "id": 630,
+    "descricao": "Relatório Posição de Mercado Futuro"
+  },
+  {
+    "id": 631,
+    "descricao": "Relatório Movimentação de Futuros"
+  },
+  {
+    "id": 632,
+    "descricao": "Relatório Rentabilidade Sintético"
+  },
+  {
+    "id": 633,
+    "descricao": "Relatório Posição da Carteira de Renda Variável"
+  },
+  {
+    "id": 634,
+    "descricao": "Relatório Apuração dos Resultados de Ações"
+  },
+  {
+    "id": 635,
+    "descricao": "Relatório Rentabilidade Pela TIR no Ano"
+  },
+  {
+    "id": 636,
+    "descricao": "Relatório Rentabilidade Analítica"
+  },
+  {
+    "id": 637,
+    "descricao": "Troca Estado da Carteira"
+  },
+  {
+    "id": 638,
+    "descricao": "Relatório Posição de Margem em Garantia"
+  },
+  {
+    "id": 639,
+    "descricao": "Relatório Carteira de Títulos RV - Simulação IR"
+  },
+  {
+    "id": 640,
+    "descricao": "Relatório Posição de Proventos de RV"
+  },
+  {
+    "id": 641,
+    "descricao": "Relatório Demonstrativo de Posição do PL"
+  },
+  {
+    "id": 642,
+    "descricao": "Relatório Informe Sintético - FIC"
+  },
+  {
+    "id": 643,
+    "descricao": "Exportação de Saldos de Renda Fixa"
+  },
+  {
+    "id": 644,
+    "descricao": "Faixa de Modificador"
+  },
+  {
+    "id": 645,
+    "descricao": "Exportação de Evolução de Fundos p/o BACEN"
+  },
+  {
+    "id": 646,
+    "descricao": "Exportação de Gerencial de FAC p/o BACEN"
+  },
+  {
+    "id": 647,
+    "descricao": "Exportação de Informações Básicas p/o BACEN"
+  },
+  {
+    "id": 648,
+    "descricao": "Exportação de Informações de Clientes p/o BACEN"
+  },
+  {
+    "id": 649,
+    "descricao": "Relatório Posição Patrimonial C"
+  },
+  {
+    "id": 650,
+    "descricao": "Relatório Demonstrativo Analítico de Investimentos"
+  },
+  {
+    "id": 651,
+    "descricao": "Relatório Posição de Títulos de Renda Fixa"
+  },
+  {
+    "id": 652,
+    "descricao": "Relatório de Reconciliação de Saldos"
+  },
+  {
+    "id": 653,
+    "descricao": "Relatório Margem de Garantia de BMF"
+  },
+  {
+    "id": 654,
+    "descricao": "Exportação de Boletas SPB-OMM (SELIC)"
+  },
+  {
+    "id": 655,
+    "descricao": "Processo de Importação de Eventos (SELIC)"
+  },
+  {
+    "id": 656,
+    "descricao": "Importação de Boletas SELIC"
+  },
+  {
+    "id": 657,
+    "descricao": "Exportação de Arquivo para Sistel"
+  },
+  {
+    "id": 658,
+    "descricao": "Importação do Código ISIN (Antigo)"
+  },
+  {
+    "id": 659,
+    "descricao": "Tradutor De-Para"
+  },
+  {
+    "id": 660,
+    "descricao": "Importação de Boletas de Bloqueios e Desbloqueios (SELIC)"
+  },
+  {
+    "id": 661,
+    "descricao": "Limpeza de Títulos de Swap"
+  },
+  {
+    "id": 662,
+    "descricao": "Importação de Lastros SELIC"
+  },
+  {
+    "id": 663,
+    "descricao": "Exportação de Cota para GFI"
+  },
+  {
+    "id": 664,
+    "descricao": "Exporta Arq. Texto na Exp. Cota para GFI"
+  },
+  {
+    "id": 665,
+    "descricao": "Relatório Benchmark de Cotas"
+  },
+  {
+    "id": 666,
+    "descricao": "Alteração Código de Classificação por Conta"
+  },
+  {
+    "id": 667,
+    "descricao": "Exclusão de Emissores de Títulos"
+  },
+  {
+    "id": 668,
+    "descricao": "Inclusão de Emissores de Títulos"
+  },
+  {
+    "id": 669,
+    "descricao": "Relatório Rentabilidade de Carteiras"
+  },
+  {
+    "id": 670,
+    "descricao": "Relatório Integração de Boletas de RF"
+  },
+  {
+    "id": 671,
+    "descricao": "Clonagem de Carteira"
+  },
+  {
+    "id": 672,
+    "descricao": "Modelo de Swap"
+  },
+  {
+    "id": 673,
+    "descricao": "Importação de Movimentos de Swap"
+  },
+  {
+    "id": 674,
+    "descricao": "Batimento de Estoques de SWAP"
+  },
+  {
+    "id": 675,
+    "descricao": "Exportação Tributos - Tipo V"
+  },
+  {
+    "id": 676,
+    "descricao": "Relatório de Ativos Adquiridos"
+  },
+  {
+    "id": 677,
+    "descricao": "Exclusão da Importação de Boletas de Bloqueios e Desbloqueios (SELIC)"
+  },
+  {
+    "id": 678,
+    "descricao": "Navegador de Vigência de Tributos"
+  },
+  {
+    "id": 679,
+    "descricao": "Exportação de Arquivos 10"
+  },
+  {
+    "id": 680,
+    "descricao": "Exclusão da Importação de Boletas SELIC"
+  },
+  {
+    "id": 681,
+    "descricao": "Relatório Mapa de Abertura de Ativos"
+  },
+  {
+    "id": 682,
+    "descricao": "Relatório Carteira de Renda Fixa Pela Resolução 550"
+  },
+  {
+    "id": 683,
+    "descricao": "Importação de Fundos (Formato ANBIMA)"
+  },
+  {
+    "id": 684,
+    "descricao": "Cadastro de Proc. de Import. de Boletas de BMF"
+  },
+  {
+    "id": 685,
+    "descricao": "Exportação para Risk Control"
+  },
+  {
+    "id": 686,
+    "descricao": "Relatório de Batimento de Custódia CBLC"
+  },
+  {
+    "id": 687,
+    "descricao": "Inclusão de Importação de Boleta de BMF"
+  },
+  {
+    "id": 688,
+    "descricao": "Exclusão de Importação de Boleta de BMF"
+  },
+  {
+    "id": 689,
+    "descricao": "Cadastro de Proc. de Import. de Cotas"
+  },
+  {
+    "id": 690,
+    "descricao": "Cota de Carteiras"
+  },
+  {
+    "id": 691,
+    "descricao": "Relatório Compensação de Prejuízo - Movimento"
+  },
+  {
+    "id": 692,
+    "descricao": "Classificação de Ativo Externo"
+  },
+  {
+    "id": 693,
+    "descricao": "Cadastro de Fundos Externos"
+  },
+  {
+    "id": 694,
+    "descricao": "Cálculo de Cota de Fundação"
+  },
+  {
+    "id": 695,
+    "descricao": "Cadastro de Cotas de Fundação ou Plano"
+  },
+  {
+    "id": 699,
+    "descricao": "Exportação Tipo BP"
+  },
+  {
+    "id": 700,
+    "descricao": "Alteração de Data de Liquidação de Boleta de Bolsa"
+  },
+  {
+    "id": 701,
+    "descricao": "Relatório Informe Mensal de Clube de Investimento"
+  },
+  {
+    "id": 702,
+    "descricao": "Cadastro de Código PREVIC"
+  },
+  {
+    "id": 703,
+    "descricao": "Cadastro de Indexador PREVIC"
+  },
+  {
+    "id": 704,
+    "descricao": "Exportador MDC CA"
+  },
+  {
+    "id": 705,
+    "descricao": "De Para Plano de Contas"
+  },
+  {
+    "id": 706,
+    "descricao": "Exportação de Posição XML ANBIMA/Galgo"
+  },
+  {
+    "id": 707,
+    "descricao": "Extrato de Debêntures (Antigo)"
+  },
+  {
+    "id": 708,
+    "descricao": "Análise da Receita Financeira Bruta"
+  },
+  {
+    "id": 709,
+    "descricao": "Demonstrativo da Receita Financeira"
+  },
+  {
+    "id": 710,
+    "descricao": "Exportação de Fundos (Formato RiskOffice)"
+  },
+  {
+    "id": 711,
+    "descricao": "Segregação de Planos - Processa"
+  },
+  {
+    "id": 712,
+    "descricao": "Segregação de Planos - Reprocessa"
+  },
+  {
+    "id": 713,
+    "descricao": "Segregação de Planos - Exclui"
+  },
+  {
+    "id": 714,
+    "descricao": "Abertura de Boletagem de FP"
+  },
+  {
+    "id": 715,
+    "descricao": "Fechamento de Boletagem de FP"
+  },
+  {
+    "id": 716,
+    "descricao": "Boletagem de Fluxo Primário"
+  },
+  {
+    "id": 717,
+    "descricao": "Integração de Boletas de Fluxo Primário"
+  },
+  {
+    "id": 718,
+    "descricao": "Exclusão da Integração de Boletas de FP"
+  },
+  {
+    "id": 719,
+    "descricao": "Relatório Informe Diário - CVM (Antigo)"
+  },
+  {
+    "id": 720,
+    "descricao": "Cadastro de Classificações de Agência de Risco"
+  },
+  {
+    "id": 721,
+    "descricao": "Relatório Fontes e Aplicações Diário"
+  },
+  {
+    "id": 722,
+    "descricao": "Exportação de Boletas de Fluxo Primário"
+  },
+  {
+    "id": 723,
+    "descricao": "Relatório Ranking Global de Administradores da ANBIMA"
+  },
+  {
+    "id": 724,
+    "descricao": "Relatório Provisão RET"
+  },
+  {
+    "id": 725,
+    "descricao": "Relatório Carteira Diária (Fundo Externo)"
+  },
+  {
+    "id": 726,
+    "descricao": "Relatório Resumo de Fundações"
+  },
+  {
+    "id": 727,
+    "descricao": "Gravação de Valores Passados - Saldos"
+  },
+  {
+    "id": 728,
+    "descricao": "Relatório Informe de Rendimentos e Pagamentos"
+  },
+  {
+    "id": 729,
+    "descricao": "Relatório Movimentação de Taxa de Administração"
+  },
+  {
+    "id": 730,
+    "descricao": "Relatório Declaração de Bens"
+  },
+  {
+    "id": 731,
+    "descricao": "Demonstrativo Financeiro"
+  },
+  {
+    "id": 732,
+    "descricao": "Exclusão de Cotas de Fundação"
+  },
+  {
+    "id": 733,
+    "descricao": "Cadastro de Esquemas de Provisão de IR de RV"
+  },
+  {
+    "id": 734,
+    "descricao": "Navegador de Rendimentos e IR"
+  },
+  {
+    "id": 735,
+    "descricao": "Importação de Rendimentos e IR"
+  },
+  {
+    "id": 736,
+    "descricao": "Gravação de Valores Passados - Rend. e IR"
+  },
+  {
+    "id": 737,
+    "descricao": "Navegador de Informe Rendimentos - Saldos"
+  },
+  {
+    "id": 738,
+    "descricao": "Importação de Saldos para Informe de Rend. CA"
+  },
+  {
+    "id": 739,
+    "descricao": "Relatório Posição de Fundo Externo"
+  },
+  {
+    "id": 740,
+    "descricao": "Relatório TATE"
+  },
+  {
+    "id": 741,
+    "descricao": "Alteração da Flag Leva Até Vencimento"
+  },
+  {
+    "id": 742,
+    "descricao": "Informe de Rendimentos - Cart. Adm."
+  },
+  {
+    "id": 743,
+    "descricao": "Relatório Demonstração de IR de RV - Anual"
+  },
+  {
+    "id": 744,
+    "descricao": "Relatório Demonstração de IR de RV - Mensal"
+  },
+  {
+    "id": 745,
+    "descricao": "Relatório Balanço Comparativo"
+  },
+  {
+    "id": 746,
+    "descricao": "Relatório Demonstração de Resultados"
+  },
+  {
+    "id": 747,
+    "descricao": "Relatório Crítica ou Conforto"
+  },
+  {
+    "id": 748,
+    "descricao": "Cadastro de Código de Ativo CVM"
+  },
+  {
+    "id": 749,
+    "descricao": "Alteração Código ISIN por Emissor"
+  },
+  {
+    "id": 780,
+    "descricao": "Grava Datas Inicial e Final de Saldo"
+  },
+  {
+    "id": 782,
+    "descricao": "Cadastro de Cidade - DAIEA"
+  },
+  {
+    "id": 783,
+    "descricao": "Exclusão de Saldos por Data"
+  },
+  {
+    "id": 784,
+    "descricao": "Exportação de Posição de RF para CVM"
+  },
+  {
+    "id": 785,
+    "descricao": "Exportação de Movimentos de RF para CVM"
+  },
+  {
+    "id": 786,
+    "descricao": "Exportação de Resgates para CVM"
+  },
+  {
+    "id": 787,
+    "descricao": "Relatório Estrutura de Fundações"
+  },
+  {
+    "id": 789,
+    "descricao": "Exportador de Movimentos para C/C"
+  },
+  {
+    "id": 790,
+    "descricao": "Cadastro de Justificativas DAIEA"
+  },
+  {
+    "id": 791,
+    "descricao": "Cadastro de Método VAR"
+  },
+  {
+    "id": 792,
+    "descricao": "Sincronização com DAIEA"
+  },
+  {
+    "id": 793,
+    "descricao": "Relatório de Conferência de Swap por Eventos"
+  },
+  {
+    "id": 794,
+    "descricao": "Relatório Mapa de Abertura de Ativos de Fundação"
+  },
+  {
+    "id": 795,
+    "descricao": "Cadastro de Player Externo"
+  },
+  {
+    "id": 796,
+    "descricao": "Relatório Posição de Enquadramento de Fundação"
+  },
+  {
+    "id": 797,
+    "descricao": "Swap Por Eventos"
+  },
+  {
+    "id": 798,
+    "descricao": "Cadastro de Posição Diária para Fundos Externos"
+  },
+  {
+    "id": 799,
+    "descricao": "Cadastro de Ativos Externos"
+  },
+  {
+    "id": 800,
+    "descricao": "Conversor de Swap Por Eventos"
+  },
+  {
+    "id": 801,
+    "descricao": "Relatório Percentual de Fundo"
+  },
+  {
+    "id": 802,
+    "descricao": "Relatório de RF Comparativo por PUs"
+  },
+  {
+    "id": 803,
+    "descricao": "Sessões e Bloqueios"
+  },
+  {
+    "id": 804,
+    "descricao": "Relatório de Conf. de Tít. Levados até o Venc."
+  },
+  {
+    "id": 805,
+    "descricao": "Relatório Mapa de Cotações RF"
+  },
+  {
+    "id": 806,
+    "descricao": "Manutenção de Livro Contábil"
+  },
+  {
+    "id": 807,
+    "descricao": "Relatório Balancete de Fundações"
+  },
+  {
+    "id": 808,
+    "descricao": "Desvinculação de Swaps por Eventos"
+  },
+  {
+    "id": 809,
+    "descricao": "Implantação de Cotas"
+  },
+  {
+    "id": 810,
+    "descricao": "Digitação de Cotas de Fundação"
+  },
+  {
+    "id": 811,
+    "descricao": "Término de Implantação de Cotas"
+  },
+  {
+    "id": 812,
+    "descricao": "Cadastro de Proc. de Import. de Proventos de Bolsa"
+  },
+  {
+    "id": 813,
+    "descricao": "Proventos de Bolsa"
+  },
+  {
+    "id": 814,
+    "descricao": "Cadastro de Séries - Inclusão"
+  },
+  {
+    "id": 815,
+    "descricao": "Digitação de Cotas de Plano"
+  },
+  {
+    "id": 816,
+    "descricao": "Digitação de Cotas de Segmento"
+  },
+  {
+    "id": 817,
+    "descricao": "Digitação de Cotas de SubSegmento"
+  },
+  {
+    "id": 818,
+    "descricao": "Inclusão de Importação de Proventos de Bolsa"
+  },
+  {
+    "id": 819,
+    "descricao": "Atualização de Lastro de Titulos"
+  },
+  {
+    "id": 820,
+    "descricao": "Relatório Enquadramentos por Carteira"
+  },
+  {
+    "id": 821,
+    "descricao": "Processo de Importação de Cotação Andima"
+  },
+  {
+    "id": 822,
+    "descricao": "Cálculo de Corretagem e Taxas de Renda Variável - Bovespa"
+  },
+  {
+    "id": 823,
+    "descricao": "Exclusão de Movimentos de Provisão RET"
+  },
+  {
+    "id": 824,
+    "descricao": "Relatório de Posição Oposta"
+  },
+  {
+    "id": 825,
+    "descricao": "Relatório Movimentação de Renda Variável C (Antigo)"
+  },
+  {
+    "id": 826,
+    "descricao": "Relatório Movimentação de Futuros C (Antigo)"
+  },
+  {
+    "id": 827,
+    "descricao": "Relatório Recibo de Taxa de Administração"
+  },
+  {
+    "id": 828,
+    "descricao": "Atualização de MTM Por Papel"
+  },
+  {
+    "id": 829,
+    "descricao": "Relatório Demonstrativo de Taxa de Administração"
+  },
+  {
+    "id": 830,
+    "descricao": "Relatório Consolidação Contábil"
+  },
+  {
+    "id": 831,
+    "descricao": "Implantação de Saldos de RV Por Corretora"
+  },
+  {
+    "id": 832,
+    "descricao": "Transferência de Saldos de RV entre Corretoras"
+  },
+  {
+    "id": 833,
+    "descricao": "Exportação para Risco B2 - Movimento"
+  },
+  {
+    "id": 834,
+    "descricao": "Cadastro de Séries - Inclusão de Indices"
+  },
+  {
+    "id": 835,
+    "descricao": "Cadastro de Séries - Alteração de Indices"
+  },
+  {
+    "id": 836,
+    "descricao": "Cadastro de Séries - Indices"
+  },
+  {
+    "id": 837,
+    "descricao": "Exportação de Boletas Bolsa para o DEB"
+  },
+  {
+    "id": 838,
+    "descricao": "Relatório de Inconsistência de Cart. Qualif."
+  },
+  {
+    "id": 839,
+    "descricao": "Exportação de Boletas BMF para o DEB"
+  },
+  {
+    "id": 840,
+    "descricao": "Relatório Mapa de Liquidação Financeira"
+  },
+  {
+    "id": 841,
+    "descricao": "Importação de Falha na Entrega"
+  },
+  {
+    "id": 842,
+    "descricao": "Exclusão de Importação de Falha na Entrega"
+  },
+  {
+    "id": 843,
+    "descricao": "Relatório de Falhas na Entrega"
+  },
+  {
+    "id": 844,
+    "descricao": "Relatório de Liquidação Física"
+  },
+  {
+    "id": 845,
+    "descricao": "Relatório Cobertura de Opções"
+  },
+  {
+    "id": 846,
+    "descricao": "Cadastro de Praças e Feriados"
+  },
+  {
+    "id": 847,
+    "descricao": "Cadastro de Mercados BMF"
+  },
+  {
+    "id": 848,
+    "descricao": "Relatório Compensação de Prejuízo - Saldo a Perder"
+  },
+  {
+    "id": 849,
+    "descricao": "Cadastro de Mercados Bolsa"
+  },
+  {
+    "id": 850,
+    "descricao": "Relatório de Batimento de Especificações"
+  },
+  {
+    "id": 851,
+    "descricao": "Cadastro de Operações Estruturadas BMF"
+  },
+  {
+    "id": 852,
+    "descricao": "Relatório Posição Negativa"
+  },
+  {
+    "id": 853,
+    "descricao": "Relatório Diário Geral de Fundações"
+  },
+  {
+    "id": 854,
+    "descricao": "Navegador de Proventos de RV"
+  },
+  {
+    "id": 855,
+    "descricao": "Executor de Proventos de RV"
+  },
+  {
+    "id": 856,
+    "descricao": "Cadastro de Parâmetros de BMF - Carteira/PLD"
+  },
+  {
+    "id": 857,
+    "descricao": "Exclusão de Importação de Proventos de Bolsa"
+  },
+  {
+    "id": 858,
+    "descricao": "Relatório Carteira de Swaps por Lastro"
+  },
+  {
+    "id": 859,
+    "descricao": "Relatório Posição de RV Por Corretora"
+  },
+  {
+    "id": 860,
+    "descricao": "Exigências para Cálculo de Cotas"
+  },
+  {
+    "id": 861,
+    "descricao": "Exigências para Exportação PREVIC (DAIEA)"
+  },
+  {
+    "id": 862,
+    "descricao": "Cálculo Por Gestor"
+  },
+  {
+    "id": 863,
+    "descricao": "Alteração das Pontas de Swap no Vencimento"
+  },
+  {
+    "id": 864,
+    "descricao": "Importação de Regularização de Entrega"
+  },
+  {
+    "id": 865,
+    "descricao": "Exclusão de Importação de Regularização de Entrega"
+  },
+  {
+    "id": 866,
+    "descricao": "Exportação para Risco B2 - Saldo"
+  },
+  {
+    "id": 867,
+    "descricao": "Relatório de Feriado de Praça"
+  },
+  {
+    "id": 868,
+    "descricao": "Cadastro de Contato"
+  },
+  {
+    "id": 869,
+    "descricao": "Relatório de Ações de Baixa Liquidez"
+  },
+  {
+    "id": 870,
+    "descricao": "Cadastro de Informações de Perfil Mensal"
+  },
+  {
+    "id": 871,
+    "descricao": "Relatório Perfil Mensal CVM"
+  },
+  {
+    "id": 872,
+    "descricao": "Relatório Gerencial de Ganhos e Perdas"
+  },
+  {
+    "id": 873,
+    "descricao": "Cadastro de Jobs em Applet [Antigo](Net)"
+  },
+  {
+    "id": 874,
+    "descricao": "Cadastro de Elencos em Applet [Antigo](Net)"
+  },
+  {
+    "id": 875,
+    "descricao": "Executor de Job em Applet [Antigo](Net)"
+  },
+  {
+    "id": 876,
+    "descricao": "Limite de Reabertura Por Lista"
+  },
+  {
+    "id": 877,
+    "descricao": "Relatório Carteira Simplificada"
+  },
+  {
+    "id": 878,
+    "descricao": "Relatório Movimento Diário de Compra e Venda"
+  },
+  {
+    "id": 879,
+    "descricao": "Relatório Posição Resumida"
+  },
+  {
+    "id": 880,
+    "descricao": "Relatório Saldo de Opções"
+  },
+  {
+    "id": 881,
+    "descricao": "Relatório Rentabilidade RF Quandro 2"
+  },
+  {
+    "id": 882,
+    "descricao": "Relatório de Boletas de Renda Fixa por Lastro"
+  },
+  {
+    "id": 883,
+    "descricao": "Cálculo de Posição de BMF"
+  },
+  {
+    "id": 884,
+    "descricao": "Relatório de Apoio para Notas Explicativas"
+  },
+  {
+    "id": 885,
+    "descricao": "Navegador de Distribuição de Títulos"
+  },
+  {
+    "id": 886,
+    "descricao": "Navegador de Vigências de Distribuição de Títulos"
+  },
+  {
+    "id": 887,
+    "descricao": "Cadastro de Proc. de Import. de Títulos (PAPD)"
+  },
+  {
+    "id": 888,
+    "descricao": "Importação de Títulos (PAPD)"
+  },
+  {
+    "id": 889,
+    "descricao": "Exportação de Boletas de Bolsa"
+  },
+  {
+    "id": 890,
+    "descricao": "Relatório Pagamento de Taxas CBLC"
+  },
+  {
+    "id": 891,
+    "descricao": "Relatório Extrato de Pagamento de Taxas CBLC"
+  },
+  {
+    "id": 892,
+    "descricao": "Exportação de Boletas BMF"
+  },
+  {
+    "id": 893,
+    "descricao": "Relatório Balancete COSIF de Fundações"
+  },
+  {
+    "id": 894,
+    "descricao": "Relatório Balanço Geral de Fundações"
+  },
+  {
+    "id": 895,
+    "descricao": "Vinculação de Carteira Contábil"
+  },
+  {
+    "id": 897,
+    "descricao": "Cadastro de Companhia"
+  },
+  {
+    "id": 898,
+    "descricao": "Cadastro de Orçamento"
+  },
+  {
+    "id": 899,
+    "descricao": "Elaboração de Orçamento"
+  },
+  {
+    "id": 900,
+    "descricao": "Relatório Ranking de Corretagem"
+  },
+  {
+    "id": 901,
+    "descricao": "Relatório Balanço Comparativo de Fundações"
+  },
+  {
+    "id": 902,
+    "descricao": "Cadastro de Orçamento de Companhia"
+  },
+  {
+    "id": 903,
+    "descricao": "Cadastro de Orçamento de Fundação"
+  },
+  {
+    "id": 904,
+    "descricao": "Relatório Mutações Patrimoniais - Quadro 1-RV"
+  },
+  {
+    "id": 905,
+    "descricao": "Cadastro de Parâm. de Bolsa - Carteira Qualificada"
+  },
+  {
+    "id": 906,
+    "descricao": "Relatório Posição da Carteira de Bolsa"
+  },
+  {
+    "id": 907,
+    "descricao": "Relatório Razão de Fundações"
+  },
+  {
+    "id": 908,
+    "descricao": "Navegador de Realizado HH"
+  },
+  {
+    "id": 909,
+    "descricao": "Cadastro de Responsável"
+  },
+  {
+    "id": 910,
+    "descricao": "Navegador de Projetos"
+  },
+  {
+    "id": 911,
+    "descricao": "Cadastro de Tipos de Projeto"
+  },
+  {
+    "id": 912,
+    "descricao": "Relatório Acompanhamento Orçamentário de Companhia"
+  },
+  {
+    "id": 913,
+    "descricao": "Relatório Acompanhamento Orçamentário de Fundação"
+  },
+  {
+    "id": 914,
+    "descricao": "Recuperação da Base Diária"
+  },
+  {
+    "id": 915,
+    "descricao": "Limpeza de Base Diária"
+  },
+  {
+    "id": 916,
+    "descricao": "Relatório Mutações Patrimoniais - Quadro 1-RF"
+  },
+  {
+    "id": 917,
+    "descricao": "Posição de Carteira [Base Diária]"
+  },
+  {
+    "id": 918,
+    "descricao": "Posição de Bloqueios [Base Diária]"
+  },
+  {
+    "id": 919,
+    "descricao": "Estatísticas da Base Diária"
+  },
+  {
+    "id": 920,
+    "descricao": "Navegador de Modelo Contábil"
+  },
+  {
+    "id": 921,
+    "descricao": "Cadastro de Curvas"
+  },
+  {
+    "id": 922,
+    "descricao": "Relatório Plano de Contas"
+  },
+  {
+    "id": 923,
+    "descricao": "Listagem de Alocação de HH"
+  },
+  {
+    "id": 924,
+    "descricao": "Navegador de Bloqueios"
+  },
+  {
+    "id": 925,
+    "descricao": "Boletagem de Swap"
+  },
+  {
+    "id": 926,
+    "descricao": "Cadastro de Proc. de Import. de MEC Estendido"
+  },
+  {
+    "id": 927,
+    "descricao": "Relatório Demonstração de Resultados de Fundação"
+  },
+  {
+    "id": 928,
+    "descricao": "Relatório de Batimento de Movimentação BMF"
+  },
+  {
+    "id": 929,
+    "descricao": "Relatório Realizado de HH"
+  },
+  {
+    "id": 930,
+    "descricao": "Navegador de Remuneração de Aluguel de Ações (Antigo)"
+  },
+  {
+    "id": 931,
+    "descricao": "Consistência da Base Diária com Operacional"
+  },
+  {
+    "id": 932,
+    "descricao": "Consistência Interna da Base Diária"
+  },
+  {
+    "id": 933,
+    "descricao": "Movimento Diário [Base Diária]"
+  },
+  {
+    "id": 934,
+    "descricao": "Razão de Bloqueios [Base Diária]"
+  },
+  {
+    "id": 935,
+    "descricao": "Conferência de Pendências"
+  },
+  {
+    "id": 936,
+    "descricao": "Relatório Posição de Bloqueios em D0"
+  },
+  {
+    "id": 937,
+    "descricao": "Movimento Especial de Cotistas Estendido"
+  },
+  {
+    "id": 938,
+    "descricao": "Relatório Movimento Especial de Cotistas Estendido"
+  },
+  {
+    "id": 939,
+    "descricao": "Relatório de Usuários por Grupos"
+  },
+  {
+    "id": 940,
+    "descricao": "Histórico de Reclassificação - Vencimento/Mercado"
+  },
+  {
+    "id": 941,
+    "descricao": "Exportação de Cadastro de Títulos"
+  },
+  {
+    "id": 942,
+    "descricao": "Cadastro de Modelos Contábeis Default por Carteira"
+  },
+  {
+    "id": 943,
+    "descricao": "Cadastro de Modelos Contábeis Default do Sistema"
+  },
+  {
+    "id": 944,
+    "descricao": "Inclusão de Importação de Custódia de Bolsa"
+  },
+  {
+    "id": 945,
+    "descricao": "Exclusão de Importação de Custódia de Bolsa"
+  },
+  {
+    "id": 946,
+    "descricao": "Relatório de Grupos por Usuários"
+  },
+  {
+    "id": 947,
+    "descricao": "Relatório Razão de Bloqueios em D0"
+  },
+  {
+    "id": 948,
+    "descricao": "Navegador de Exercício de Opções"
+  },
+  {
+    "id": 949,
+    "descricao": "Cadastro de Parâmetros da Base Diária - Carteira"
+  },
+  {
+    "id": 950,
+    "descricao": "Complemento de Cadastro de Lastro"
+  },
+  {
+    "id": 951,
+    "descricao": "Importação de Movimento Especial de Cotistas Estendido"
+  },
+  {
+    "id": 952,
+    "descricao": "Estatísticas da Base Operacional"
+  },
+  {
+    "id": 953,
+    "descricao": "Exportação de Cadastro de Carteiras"
+  },
+  {
+    "id": 954,
+    "descricao": "Exportação de Saldos e Movimentos"
+  },
+  {
+    "id": 955,
+    "descricao": "Importação de Boletas CETIP"
+  },
+  {
+    "id": 956,
+    "descricao": "Exclusão da Importação de Boletas CETIP"
+  },
+  {
+    "id": 957,
+    "descricao": "Crava Cota por Lista"
+  },
+  {
+    "id": 958,
+    "descricao": "Relatório Posição em D+0"
+  },
+  {
+    "id": 959,
+    "descricao": "Exportação de Dados para Posição em D+0"
+  },
+  {
+    "id": 960,
+    "descricao": "Cadastro de Parâmetros da Base Diária - Sistema"
+  },
+  {
+    "id": 961,
+    "descricao": "Importação de Boletas de Swap"
+  },
+  {
+    "id": 962,
+    "descricao": "Exclusão da Importação de Boletas de Swap"
+  },
+  {
+    "id": 963,
+    "descricao": "Relatório de Batimento de Custódia e Proventos"
+  },
+  {
+    "id": 964,
+    "descricao": "Consulta Status de Boletagem"
+  },
+  {
+    "id": 965,
+    "descricao": "Integração de Boletas de Cotistas"
+  },
+  {
+    "id": 966,
+    "descricao": "Alteração de Carteira Modelo"
+  },
+  {
+    "id": 967,
+    "descricao": "Abertura de Boletagem de Swap"
+  },
+  {
+    "id": 968,
+    "descricao": "Relatório Carteira de Swap em Boletagem"
+  },
+  {
+    "id": 969,
+    "descricao": "Fechamento de Boletagem de Swap"
+  },
+  {
+    "id": 970,
+    "descricao": "Integração de Boletas de Swap"
+  },
+  {
+    "id": 971,
+    "descricao": "Relatório de Batimento de Despesas"
+  },
+  {
+    "id": 972,
+    "descricao": "Exclusão de Integração de Boletas de Swap"
+  },
+  {
+    "id": 973,
+    "descricao": "Cadastro de Parâmetros para Exportações da Base Diária"
+  },
+  {
+    "id": 974,
+    "descricao": "Classificação de Risco da Emissão por Ativo Externo"
+  },
+  {
+    "id": 975,
+    "descricao": "Alteração de Títulos Modelo"
+  },
+  {
+    "id": 976,
+    "descricao": "Classificação de Risco da Emissão por Lastro"
+  },
+  {
+    "id": 977,
+    "descricao": "Relatório Acompanhamento Orçamentário de Projetos"
+  },
+  {
+    "id": 978,
+    "descricao": "Cadastro de Modelo de Classificação de Swap"
+  },
+  {
+    "id": 979,
+    "descricao": "Cadastro de Parâmetros de BMF - Sistema"
+  },
+  {
+    "id": 980,
+    "descricao": "Consolidação de Saldos BMF"
+  },
+  {
+    "id": 981,
+    "descricao": "Relatório Composição Resumida de Aplicação em Cotas"
+  },
+  {
+    "id": 982,
+    "descricao": "Exportação de Saldos e Movimentos XP"
+  },
+  {
+    "id": 983,
+    "descricao": "Histórico de Exportações da Base Diária"
+  },
+  {
+    "id": 984,
+    "descricao": "Relatório de Batimento de Saldos de Proventos"
+  },
+  {
+    "id": 985,
+    "descricao": "Exportação para Zeramento do Estoque de Proventos"
+  },
+  {
+    "id": 986,
+    "descricao": "Cadastro de Cliente"
+  },
+  {
+    "id": 987,
+    "descricao": "Exportação de Cotas C"
+  },
+  {
+    "id": 988,
+    "descricao": "Exportação de Patrimônio Líquido C"
+  },
+  {
+    "id": 989,
+    "descricao": "Administrador de Tarefas de Background"
+  },
+  {
+    "id": 990,
+    "descricao": "Importação de Boletas CBLC"
+  },
+  {
+    "id": 991,
+    "descricao": "Exclusão da Importação de Boletas CBLC"
+  },
+  {
+    "id": 992,
+    "descricao": "Cadastro de Vigência para o MEC Estendido"
+  },
+  {
+    "id": 993,
+    "descricao": "Risco Por Indexador - Detalhamento de Índice"
+  },
+  {
+    "id": 994,
+    "descricao": "Risco Por Emissor - Detalhamento de Emissor"
+  },
+  {
+    "id": 995,
+    "descricao": "Risco Por Emissor - Detalhamento de Carteira"
+  },
+  {
+    "id": 996,
+    "descricao": "Risco Por Indexador - Detalhamento de Carteira"
+  },
+  {
+    "id": 997,
+    "descricao": "Saldos de Títulos - Detalhamento de Saldo"
+  },
+  {
+    "id": 998,
+    "descricao": "Navegador de Taxas - BMF"
+  },
+  {
+    "id": 999,
+    "descricao": "Consulta Processos (Antigo)"
+  },
+  {
+    "id": 1000,
+    "descricao": "Cadastro de Taxas BMF"
+  },
+  {
+    "id": 1001,
+    "descricao": "Importação de Taxas BMF"
+  },
+  {
+    "id": 1002,
+    "descricao": "Consulta Permissão de Processos"
+  },
+  {
+    "id": 1003,
+    "descricao": "Cadastro de Proc. de Import. de Cotação Swap BMF"
+  },
+  {
+    "id": 1004,
+    "descricao": "Importação de Cotação Swap BMF"
+  },
+  {
+    "id": 1005,
+    "descricao": "Carteira Resumida [Base Diária]"
+  },
+  {
+    "id": 1006,
+    "descricao": "Simulação de Cálculo de Lastros"
+  },
+  {
+    "id": 1007,
+    "descricao": "Opções"
+  },
+  {
+    "id": 1008,
+    "descricao": "Sessões"
+  },
+  {
+    "id": 1009,
+    "descricao": "Bloqueios"
+  },
+  {
+    "id": 1010,
+    "descricao": "Risco Por Indexador - Detalhamento de Lastro"
+  },
+  {
+    "id": 1011,
+    "descricao": "Importação de Boletas de Cotistas Tipo V"
+  },
+  {
+    "id": 1012,
+    "descricao": "Carteira Diária [Base Diária] - Processo Excluído"
+  },
+  {
+    "id": 1013,
+    "descricao": "Cadastro de Títulos"
+  },
+  {
+    "id": 1014,
+    "descricao": "Exportação de Investidores não Residentes Por Passageiro"
+  },
+  {
+    "id": 1015,
+    "descricao": "Exportação de Posição de Carteira"
+  },
+  {
+    "id": 1016,
+    "descricao": "Relatório Composição da Carteira de Renda Fixa [Base Diária]"
+  },
+  {
+    "id": 1017,
+    "descricao": "Cadastro de Clearing"
+  },
+  {
+    "id": 1018,
+    "descricao": "Cadastro de Perfil de Classificação"
+  },
+  {
+    "id": 1019,
+    "descricao": "Atualiza Posição de D0"
+  },
+  {
+    "id": 1020,
+    "descricao": "Relatório Demonstrativo de Taxa de Permanência"
+  },
+  {
+    "id": 1021,
+    "descricao": "Exclui Posição de Abertura"
+  },
+  {
+    "id": 1022,
+    "descricao": "Cadastro de Papel Internacional"
+  },
+  {
+    "id": 1023,
+    "descricao": "Cadastro de Modelo de MTM"
+  },
+  {
+    "id": 1024,
+    "descricao": "Status da Base Diária"
+  },
+  {
+    "id": 1025,
+    "descricao": "Quem"
+  },
+  {
+    "id": 1026,
+    "descricao": "Cadastro de Modelos de Mensagens"
+  },
+  {
+    "id": 1027,
+    "descricao": "Recebimento de Mensagens"
+  },
+  {
+    "id": 1028,
+    "descricao": "Simulação de Cálculo de Lastros Internacional"
+  },
+  {
+    "id": 1029,
+    "descricao": "Cadastro de Lastros Internacionais"
+  },
+  {
+    "id": 1030,
+    "descricao": "Relatório Posição de Carteira C [Base Diária]"
+  },
+  {
+    "id": 1031,
+    "descricao": "Posição de Carteira de RV [Base Diária]"
+  },
+  {
+    "id": 1032,
+    "descricao": "Posição de Mercado Futuro [Base Diária]"
+  },
+  {
+    "id": 1033,
+    "descricao": "Relatório Posição de Papéis Internacionais"
+  },
+  {
+    "id": 1034,
+    "descricao": "Relatório Movimentação de Papéis Internacionais"
+  },
+  {
+    "id": 1035,
+    "descricao": "Abertura de Boletagem de Título Internacional"
+  },
+  {
+    "id": 1036,
+    "descricao": "Fechamento de Boletagem de Título Internacional"
+  },
+  {
+    "id": 1037,
+    "descricao": "Relatório Movimentação com Títulos de Renda Fixa"
+  },
+  {
+    "id": 1038,
+    "descricao": "Relatório Movimentação de Renda Variável C"
+  },
+  {
+    "id": 1039,
+    "descricao": "Relatório Movimentação de Futuros C"
+  },
+  {
+    "id": 1040,
+    "descricao": "Boletagem de Título Internacional"
+  },
+  {
+    "id": 1041,
+    "descricao": "Inclusão de Integração de Boletas de Título Internacional"
+  },
+  {
+    "id": 1042,
+    "descricao": "Exclusão de Integração de Boletas de Título Internacional"
+  },
+  {
+    "id": 1043,
+    "descricao": "Conversão de Título Internacional"
+  },
+  {
+    "id": 1044,
+    "descricao": "Previsão de Fluxo de Caixa"
+  },
+  {
+    "id": 1045,
+    "descricao": "Relatório de Movimentação com Cotas de Fundos"
+  },
+  {
+    "id": 1047,
+    "descricao": "Cadastro de Plano de Contas"
+  },
+  {
+    "id": 1048,
+    "descricao": "Relatório Rentabilidade Sintética"
+  },
+  {
+    "id": 1049,
+    "descricao": "Posição de Proventos de Renda Variável [Base Diária]"
+  },
+  {
+    "id": 1050,
+    "descricao": "Cadastro de Contas"
+  },
+  {
+    "id": 1051,
+    "descricao": "Relatório Demonstrativo de Caixa"
+  },
+  {
+    "id": 1052,
+    "descricao": "Exportação de Cotas para GFI"
+  },
+  {
+    "id": 1053,
+    "descricao": "Relatório Informe Diário - CVM"
+  },
+  {
+    "id": 1054,
+    "descricao": "Teste de Upload"
+  },
+  {
+    "id": 1055,
+    "descricao": "Posição de Margem em Garantia"
+  },
+  {
+    "id": 1056,
+    "descricao": "Posição de Swap [Base Diária]"
+  },
+  {
+    "id": 1058,
+    "descricao": "Cadastro de Proc. de Import. Cotistas Significativos"
+  },
+  {
+    "id": 1059,
+    "descricao": "Relatório Posição Gerencial de Carteira"
+  },
+  {
+    "id": 1060,
+    "descricao": "Cadastro de Administradores"
+  },
+  {
+    "id": 1061,
+    "descricao": "Boletagem de Título Internacional - Implantação"
+  },
+  {
+    "id": 1062,
+    "descricao": "Navegador de Cotação de PU de Renda Fixa"
+  },
+  {
+    "id": 1063,
+    "descricao": "Inclusão de Lançamento Simultâneo"
+  },
+  {
+    "id": 1064,
+    "descricao": "Navegador de Cotistas Significativos"
+  },
+  {
+    "id": 1065,
+    "descricao": "Importação de Cotistas Significativos"
+  },
+  {
+    "id": 1066,
+    "descricao": "PU Cotação RF: Índices"
+  },
+  {
+    "id": 1067,
+    "descricao": "Relatório Contrapartes na Bol. Internacional de RF"
+  },
+  {
+    "id": 1068,
+    "descricao": "Relatório de Boletagem Internacional de Renda Fixa"
+  },
+  {
+    "id": 1069,
+    "descricao": "Relatório Demonstrativo de Resultados de RF Int"
+  },
+  {
+    "id": 1070,
+    "descricao": "Relatório Gerencial de Custo de Oportunidade"
+  },
+  {
+    "id": 1071,
+    "descricao": "Cadastro de Contas por Clearing"
+  },
+  {
+    "id": 1072,
+    "descricao": "Cadastro de Parâmetros de Boletagem Internacional de RF - Carteira"
+  },
+  {
+    "id": 1073,
+    "descricao": "Classificação Automática do Código de Ativo para Swap"
+  },
+  {
+    "id": 1074,
+    "descricao": "Exclusão de Lançamento Simultâneo"
+  },
+  {
+    "id": 1075,
+    "descricao": "Relatório Portfolio de Renda Fixa Internacional"
+  },
+  {
+    "id": 1076,
+    "descricao": "Exportador de Taxas"
+  },
+  {
+    "id": 1077,
+    "descricao": "Relatório de Batimento de RF Internacional"
+  },
+  {
+    "id": 1078,
+    "descricao": "Boletagem de Título Internacional - Inclusão/Exclusão"
+  },
+  {
+    "id": 1079,
+    "descricao": "Boletagem de Título Internacional - Conferência"
+  },
+  {
+    "id": 1080,
+    "descricao": "Boletagem de Título Internacional - Confirmação"
+  },
+  {
+    "id": 1081,
+    "descricao": "Relatório Comunicado de Operação"
+  },
+  {
+    "id": 1082,
+    "descricao": "Relatório de Orçamento"
+  },
+  {
+    "id": 1084,
+    "descricao": "Relatório Previsão Orçamentária de Companhia"
+  },
+  {
+    "id": 1085,
+    "descricao": "Relatório Estatísticas de Movimento"
+  },
+  {
+    "id": 1086,
+    "descricao": "Listagem da Carteira Diária"
+  },
+  {
+    "id": 1087,
+    "descricao": "Relatório Batimento de Custódia de Fundo Externo"
+  },
+  {
+    "id": 1088,
+    "descricao": "Cadastro de Gerência de Fundos"
+  },
+  {
+    "id": 1089,
+    "descricao": "Relatório de Gerência de Fundos"
+  },
+  {
+    "id": 1090,
+    "descricao": "Exportação ANBIMA Circular 012/04"
+  },
+  {
+    "id": 1091,
+    "descricao": "FrontOffice - Manager"
+  },
+  {
+    "id": 1092,
+    "descricao": "FrontOffice - Trader"
+  },
+  {
+    "id": 1093,
+    "descricao": "Relatório de Liquidação de Fundos"
+  },
+  {
+    "id": 1094,
+    "descricao": "Navegador de Operação Compromissada"
+  },
+  {
+    "id": 1095,
+    "descricao": "FrontOffice - Custódia"
+  },
+  {
+    "id": 1096,
+    "descricao": "Relatório de Movimentação Diária de Cotista"
+  },
+  {
+    "id": 1097,
+    "descricao": "Exportação Risk Watch"
+  },
+  {
+    "id": 1098,
+    "descricao": "Relatório de Proventos"
+  },
+  {
+    "id": 1099,
+    "descricao": "Relatório de Títulos Não Codificados para o CDA"
+  },
+  {
+    "id": 1100,
+    "descricao": "Relatório de Batimento de Proventos Provisionados"
+  },
+  {
+    "id": 1108,
+    "descricao": "Código de Classificação CVM por Título"
+  },
+  {
+    "id": 1109,
+    "descricao": "Alteração do Código de Classificação Fontes e Aplicações"
+  },
+  {
+    "id": 1110,
+    "descricao": "Alteração de Tipo de Movimentação CVM - FAR"
+  },
+  {
+    "id": 1111,
+    "descricao": "Alteração de Tipo de Movimentação CVM - CDA"
+  },
+  {
+    "id": 1112,
+    "descricao": "Alteração do Código de Classificação Composição e Diversificação (Quadro 2)"
+  },
+  {
+    "id": 1113,
+    "descricao": "Alteração de Tipo de Ativo CVM"
+  },
+  {
+    "id": 1114,
+    "descricao": "Alteração de Código de Ativo da CVM"
+  },
+  {
+    "id": 1115,
+    "descricao": "Exportação de Cobertura de Saldos CC/CCDI"
+  },
+  {
+    "id": 1116,
+    "descricao": "Categoria de Projeto (Antigo)"
+  },
+  {
+    "id": 1117,
+    "descricao": "Cadastro de Etapa de Desenvolvimento (Antigo)"
+  },
+  {
+    "id": 1118,
+    "descricao": "Cadastro de Etapa Comercial (Antigo)"
+  },
+  {
+    "id": 1119,
+    "descricao": "Navegador Projeto-Categoria"
+  },
+  {
+    "id": 1120,
+    "descricao": "Cadastro de Lastro na Inclusão de Ordem de RF Int."
+  },
+  {
+    "id": 1121,
+    "descricao": "Personalização"
+  },
+  {
+    "id": 1122,
+    "descricao": "Relatório Posição de Projetos"
+  },
+  {
+    "id": 1127,
+    "descricao": "Navegador de Enquadramento de IR"
+  },
+  {
+    "id": 1128,
+    "descricao": "Cadastro de Elencos (Net)"
+  },
+  {
+    "id": 1129,
+    "descricao": "Cadastro do Informe de Perfil CVM"
+  },
+  {
+    "id": 1130,
+    "descricao": "Exportação do Informe de Perfil Mensal CVM"
+  },
+  {
+    "id": 1131,
+    "descricao": "Exportação de Cobertura de Saldos CC/CPMF"
+  },
+  {
+    "id": 1132,
+    "descricao": "Executor de Job (Net)"
+  },
+  {
+    "id": 1133,
+    "descricao": "Cadastro de Jobs (Net)"
+  },
+  {
+    "id": 1134,
+    "descricao": "Orçamento Homem-Hora"
+  },
+  {
+    "id": 1135,
+    "descricao": "Posição de Custódia"
+  },
+  {
+    "id": 1136,
+    "descricao": "Cadastro de Parâmetros da Taxa de Fiscalização CVM"
+  },
+  {
+    "id": 1137,
+    "descricao": "Posição da Carteira de Renda Variável - Layout por Corretora"
+  },
+  {
+    "id": 1138,
+    "descricao": "Alteração do Navegador de Enquadramento de IR"
+  },
+  {
+    "id": 1139,
+    "descricao": "Atualização de férias a partir do DriveIn"
+  },
+  {
+    "id": 1140,
+    "descricao": "Risco Por Indexador"
+  },
+  {
+    "id": 1141,
+    "descricao": "Cadastro de Equipes (Antigo)"
+  },
+  {
+    "id": 1143,
+    "descricao": "Cadastro de Etapa de Desenvolvimento"
+  },
+  {
+    "id": 1144,
+    "descricao": "Renomear Equipes (Antigo)"
+  },
+  {
+    "id": 1145,
+    "descricao": "Séries Históricas de Carteira"
+  },
+  {
+    "id": 1146,
+    "descricao": "Extrato de Debêntures"
+  },
+  {
+    "id": 1147,
+    "descricao": "Relatório Enquadramento de IR (IN SRF 489)"
+  },
+  {
+    "id": 1148,
+    "descricao": "Cadastro de Etapa Comercial"
+  },
+  {
+    "id": 1149,
+    "descricao": "Relatório de Composição de Rentabilidades da Cota"
+  },
+  {
+    "id": 1150,
+    "descricao": "Cadastro de Marcação até o Vencimento"
+  },
+  {
+    "id": 1151,
+    "descricao": "Relatório de Metas"
+  },
+  {
+    "id": 1152,
+    "descricao": "Cadastro de Equipes"
+  },
+  {
+    "id": 1153,
+    "descricao": "Categoria de Projeto"
+  },
+  {
+    "id": 1154,
+    "descricao": "Taxa de Fiscalização CVM por Diferimento"
+  },
+  {
+    "id": 1155,
+    "descricao": "Navegador de Boletas de Proventos"
+  },
+  {
+    "id": 1156,
+    "descricao": "Geração Automática de Boleta"
+  },
+  {
+    "id": 1157,
+    "descricao": "Importação de Proventos"
+  },
+  {
+    "id": 1158,
+    "descricao": "Cálculo de Enquadramento - CVM 409"
+  },
+  {
+    "id": 1159,
+    "descricao": "Relatório Posição de Enquadramento de Fundos"
+  },
+  {
+    "id": 1160,
+    "descricao": "Troca Código de Título"
+  },
+  {
+    "id": 1161,
+    "descricao": "Navegador de Proventos"
+  },
+  {
+    "id": 1162,
+    "descricao": "Consulta Processos"
+  },
+  {
+    "id": 1163,
+    "descricao": "Cadastro de Códigos de Classificação para o Informe de Fundos Extra Mercado"
+  },
+  {
+    "id": 1164,
+    "descricao": "Cadastro de Plano de Contas"
+  },
+  {
+    "id": 1165,
+    "descricao": "Cadastro de Contas"
+  },
+  {
+    "id": 1166,
+    "descricao": "Relatório de Boletas de Proventos"
+  },
+  {
+    "id": 1167,
+    "descricao": "Informe de Fundos Extra Mercado"
+  },
+  {
+    "id": 1168,
+    "descricao": "Reconciliação Bancária"
+  },
+  {
+    "id": 1169,
+    "descricao": "Relatório de Batimento de Proventos Provisionados"
+  },
+  {
+    "id": 1170,
+    "descricao": "Relatório de Batimento de Proventos Liquidados"
+  },
+  {
+    "id": 1171,
+    "descricao": "Exportação de Comunicado de Operações"
+  },
+  {
+    "id": 1172,
+    "descricao": "Integração de Boletas de Provento"
+  },
+  {
+    "id": 1173,
+    "descricao": "Exclusão da Integração de Boletas de Provento"
+  },
+  {
+    "id": 1174,
+    "descricao": "Cadastro de Orçamento - Mes/Ano Fechado"
+  },
+  {
+    "id": 1175,
+    "descricao": "Batimento e Conciliação de Caixa"
+  },
+  {
+    "id": 1176,
+    "descricao": "Importação de Movimentacao de Custódia"
+  },
+  {
+    "id": 1177,
+    "descricao": "Navegador de Bloqueio Financeiro de Carteira"
+  },
+  {
+    "id": 1178,
+    "descricao": "Valor Financeiro Bloqueado de Carteira"
+  },
+  {
+    "id": 1179,
+    "descricao": "Relatório Performance PFee no Ativo Calculada"
+  },
+  {
+    "id": 1180,
+    "descricao": "Abertura de Boletagem de RF"
+  },
+  {
+    "id": 1181,
+    "descricao": "Exportação para SISBR"
+  },
+  {
+    "id": 1182,
+    "descricao": "Exportador Bacen-Jud C"
+  },
+  {
+    "id": 1184,
+    "descricao": "Movimento de Reconciliação"
+  },
+  {
+    "id": 1185,
+    "descricao": "Cadastro de Carteira Administrada Externa"
+  },
+  {
+    "id": 1186,
+    "descricao": "Relatório de Liquidação e Custódia de RF Internacional"
+  },
+  {
+    "id": 1187,
+    "descricao": "Relatório Resumo de Carteira"
+  },
+  {
+    "id": 1188,
+    "descricao": "Relatório CPMF"
+  },
+  {
+    "id": 1189,
+    "descricao": "Relatório Recolhimento de CPMF - Detalhado"
+  },
+  {
+    "id": 1190,
+    "descricao": "Relatório Recolhimento de CPMF - Resumido"
+  },
+  {
+    "id": 1192,
+    "descricao": "Alteração de Tributação de CPMF por Grupo"
+  },
+  {
+    "id": 1193,
+    "descricao": "Históricos para CPMF"
+  },
+  {
+    "id": 1194,
+    "descricao": "Cadastro de Cestas de Índices"
+  },
+  {
+    "id": 1196,
+    "descricao": "Exportação de Informe Mensal de Clube de Investimento"
+  },
+  {
+    "id": 1198,
+    "descricao": "Relatório Mapa de Conferência de Índices / Cotações"
+  },
+  {
+    "id": 1199,
+    "descricao": "Relatório Permissão por Usuário / Grupo"
+  },
+  {
+    "id": 1200,
+    "descricao": "Relatório Gerencial de Acompanhamento de Contrato"
+  },
+  {
+    "id": 1201,
+    "descricao": "Navegador de Eventos Carteira"
+  },
+  {
+    "id": 1202,
+    "descricao": "Exportador CCSFN"
+  },
+  {
+    "id": 1203,
+    "descricao": "SubCadastro de Eventos Carteira"
+  },
+  {
+    "id": 1204,
+    "descricao": "Sistema"
+  },
+  {
+    "id": 1205,
+    "descricao": "Transferência de Titularidade"
+  },
+  {
+    "id": 1206,
+    "descricao": "Exclusão dos Saldos da Base Diária"
+  },
+  {
+    "id": 1207,
+    "descricao": "Apuração dos Resultados de Futuros"
+  },
+  {
+    "id": 1208,
+    "descricao": "Cadastro de Pais"
+  },
+  {
+    "id": 1209,
+    "descricao": "Cadastro de Departamento"
+  },
+  {
+    "id": 1210,
+    "descricao": "Alteração no Cadastro de Departamento"
+  },
+  {
+    "id": 1211,
+    "descricao": "Cadastro de Filial"
+  },
+  {
+    "id": 1212,
+    "descricao": "Interface de Cadastro de Carteira GCF"
+  },
+  {
+    "id": 1213,
+    "descricao": "Relatório Informe de Rendimentos sobre Taxas"
+  },
+  {
+    "id": 1214,
+    "descricao": "Importação de Lastros"
+  },
+  {
+    "id": 1215,
+    "descricao": "Implantação de Saldos de Termo de Ações por Corretora"
+  },
+  {
+    "id": 1216,
+    "descricao": "Importação do Código ISIN"
+  },
+  {
+    "id": 1217,
+    "descricao": "Navegador de Exportação de Arquivos - Carteira"
+  },
+  {
+    "id": 1218,
+    "descricao": "Exportação de Conta Corrente para SINACOR"
+  },
+  {
+    "id": 1219,
+    "descricao": "Navegador de Exportação de Arquivos - Sistema"
+  },
+  {
+    "id": 1220,
+    "descricao": "Exportação de Cadastro de Clientes (XML)"
+  },
+  {
+    "id": 1221,
+    "descricao": "Importação de Boletas de Aluguel de Ações"
+  },
+  {
+    "id": 1222,
+    "descricao": "Navegador de Aluguel de Ações"
+  },
+  {
+    "id": 1223,
+    "descricao": "Exportação de Movimentos de Cotista (XML)"
+  },
+  {
+    "id": 1224,
+    "descricao": "Exportação de Saldo de Cotista (XML)"
+  },
+  {
+    "id": 1225,
+    "descricao": "Exportação de Extrato de Cotista (XML)"
+  },
+  {
+    "id": 1226,
+    "descricao": "Exclusão de Importação de Aluguel de Ações"
+  },
+  {
+    "id": 1227,
+    "descricao": "Cadastro de Parâmetros de Sistema - Bolsa"
+  },
+  {
+    "id": 1228,
+    "descricao": "Batimento de Aluguel de Ações - Terceiros"
+  },
+  {
+    "id": 1229,
+    "descricao": "Cadastro Automático de Séries da BM&F"
+  },
+  {
+    "id": 1230,
+    "descricao": "Padronização para Nova Codificação da BMF"
+  },
+  {
+    "id": 1231,
+    "descricao": "Central de Carteiras - Back Office"
+  },
+  {
+    "id": 1232,
+    "descricao": "Liberação de Processos do Passivo para Usuário Externo"
+  },
+  {
+    "id": 1233,
+    "descricao": "Informe de Rendimentos PF"
+  },
+  {
+    "id": 1234,
+    "descricao": "Informe de Rendimentos PJ"
+  },
+  {
+    "id": 1235,
+    "descricao": "Cadastro de Vigência de Players da Carteira"
+  },
+  {
+    "id": 1236,
+    "descricao": "Web Service de Ordens de Renda Fixa"
+  },
+  {
+    "id": 1237,
+    "descricao": "Importação do Código ISIN de BMF"
+  },
+  {
+    "id": 1238,
+    "descricao": "Importação de Emissores por Código ISIN"
+  },
+  {
+    "id": 1239,
+    "descricao": "Cadastro de Categoria de Cliente Custódia"
+  },
+  {
+    "id": 1240,
+    "descricao": "Central de Carteiras - Contabilidade"
+  },
+  {
+    "id": 1241,
+    "descricao": "Central de Carteiras - Custódia"
+  },
+  {
+    "id": 1242,
+    "descricao": "Exportação para PREVIC (DAIEA WEB)"
+  },
+  {
+    "id": 1244,
+    "descricao": "Informações Bancárias do Player"
+  },
+  {
+    "id": 1245,
+    "descricao": "Integralização de Ativos"
+  },
+  {
+    "id": 1247,
+    "descricao": "Web Service de Ordens de BMF"
+  },
+  {
+    "id": 1248,
+    "descricao": "Web Service de Ordens"
+  },
+  {
+    "id": 1249,
+    "descricao": "Web Service de Ordens de Swap"
+  },
+  {
+    "id": 1250,
+    "descricao": "Monitor de Ordens: Leitura"
+  },
+  {
+    "id": 1251,
+    "descricao": "Monitor de Ordens: Administração"
+  },
+  {
+    "id": 1252,
+    "descricao": "Relatório Posição Analítica de Aluguel de Ações"
+  },
+  {
+    "id": 1253,
+    "descricao": "Relatório Contratos de Aluguel de Ações Liquidados"
+  },
+  {
+    "id": 1254,
+    "descricao": "Relatório Posição de Aluguel de Ações Por Corretora"
+  },
+  {
+    "id": 1255,
+    "descricao": "Exportação para GSSnet - Cadastros (Completa)"
+  },
+  {
+    "id": 1256,
+    "descricao": "Exportação para GSSnet - Cadastros (Incremental)"
+  },
+  {
+    "id": 1257,
+    "descricao": "Relatório Apropriação de Aluguel de Ações"
+  },
+  {
+    "id": 1258,
+    "descricao": "Importação de Boletas de Cotistas Tipo V (Antigo)"
+  },
+  {
+    "id": 1259,
+    "descricao": "Cadastro de Comissão por Corretora"
+  },
+  {
+    "id": 1260,
+    "descricao": "Exclusão de Importação de Boletas de Cotistas"
+  },
+  {
+    "id": 1261,
+    "descricao": "Relatório Maiores Investidores"
+  },
+  {
+    "id": 1262,
+    "descricao": "Taxa de Divulgação ANBIMA CC017/06"
+  },
+  {
+    "id": 1263,
+    "descricao": "Relatório Posição de Renda Fixa - Curva versus Mercado"
+  },
+  {
+    "id": 1264,
+    "descricao": "Importação de Bancos do Sistema Corporativo"
+  },
+  {
+    "id": 1265,
+    "descricao": "Cadastro de Carteira Associadas para Boletagem Externa"
+  },
+  {
+    "id": 1266,
+    "descricao": "Finalidade para Liquidação"
+  },
+  {
+    "id": 1267,
+    "descricao": "Importação de Agências"
+  },
+  {
+    "id": 1268,
+    "descricao": "Histórico para Boletagem"
+  },
+  {
+    "id": 1269,
+    "descricao": "Tipos de Swap da BM&F"
+  },
+  {
+    "id": 1270,
+    "descricao": "Tipo de Histórico de Boletagem"
+  },
+  {
+    "id": 1271,
+    "descricao": "Câmara de Liquidação"
+  },
+  {
+    "id": 1272,
+    "descricao": "Forma de Liquidação"
+  },
+  {
+    "id": 1273,
+    "descricao": "Séries de Mercadorias da BMF"
+  },
+  {
+    "id": 1274,
+    "descricao": "Importação de Mercadorias e Series da BMF"
+  },
+  {
+    "id": 1275,
+    "descricao": "Importação de Saldos de Cotista"
+  },
+  {
+    "id": 1276,
+    "descricao": "Parâmetros de Exportação para Sistema Externo"
+  },
+  {
+    "id": 1277,
+    "descricao": "Navegador de Política de Negação"
+  },
+  {
+    "id": 1278,
+    "descricao": "Cálculo (Antigo)"
+  },
+  {
+    "id": 1279,
+    "descricao": "Cadastro de Analista Responsável"
+  },
+  {
+    "id": 1280,
+    "descricao": "Cadastro de Séries - Vigências de Índices"
+  },
+  {
+    "id": 1281,
+    "descricao": "Associações de Política de Negação"
+  },
+  {
+    "id": 1282,
+    "descricao": "Exigências Para o Cálculo (Antigo)"
+  },
+  {
+    "id": 1283,
+    "descricao": "Volta ao Presente (Antigo)"
+  },
+  {
+    "id": 1284,
+    "descricao": "Inicialização (Antigo)"
+  },
+  {
+    "id": 1285,
+    "descricao": "Inicializa Carteira (Antigo)"
+  },
+  {
+    "id": 1286,
+    "descricao": "Reabertura de Carteiras (Antigo)"
+  },
+  {
+    "id": 1287,
+    "descricao": "Cadastro de Tipo de Despesa"
+  },
+  {
+    "id": 1288,
+    "descricao": "Navegador de Fator Risco"
+  },
+  {
+    "id": 1289,
+    "descricao": "Navegador de Vigência de Fator Risco"
+  },
+  {
+    "id": 1290,
+    "descricao": "Exportação de Posição de Swap"
+  },
+  {
+    "id": 1291,
+    "descricao": "Importação de Fator Risco"
+  },
+  {
+    "id": 1292,
+    "descricao": "Limpeza de Séries"
+  },
+  {
+    "id": 1293,
+    "descricao": "Exportação de Posição de Ativos"
+  },
+  {
+    "id": 1294,
+    "descricao": "Cadastro de Associações do Histórico para Boletagem"
+  },
+  {
+    "id": 1295,
+    "descricao": "Relatório Vigência de Taxas por Carteira"
+  },
+  {
+    "id": 1296,
+    "descricao": "Monitor de Ordens: Importar Ordens GSSnet"
+  },
+  {
+    "id": 1297,
+    "descricao": "Exportação para ODS Private"
+  },
+  {
+    "id": 1298,
+    "descricao": "Exportação de Cadastro XML"
+  },
+  {
+    "id": 1299,
+    "descricao": "Saldos de Cotista"
+  },
+  {
+    "id": 1300,
+    "descricao": "Relatório Antecipação e Vencimento de Termo de Ações"
+  },
+  {
+    "id": 1301,
+    "descricao": "Renda Fixa: Transf. Ordens em Boletas"
+  },
+  {
+    "id": 1302,
+    "descricao": "Cotas: Transf. Ordens em Boletas"
+  },
+  {
+    "id": 1303,
+    "descricao": "Caixa: Transf. Ordens em Boletas"
+  },
+  {
+    "id": 1304,
+    "descricao": "Cotas: Integração"
+  },
+  {
+    "id": 1305,
+    "descricao": "Caixa: Integração"
+  },
+  {
+    "id": 1306,
+    "descricao": "Informe Mensal FIDC"
+  },
+  {
+    "id": 1307,
+    "descricao": "Monitor de Ordens: Processar Manual"
+  },
+  {
+    "id": 1308,
+    "descricao": "Relatório Composição e Diversificação de Aplicações para CVM (CDA)"
+  },
+  {
+    "id": 1309,
+    "descricao": "Exclusão de Pré-Movimento com Pendência"
+  },
+  {
+    "id": 1310,
+    "descricao": "Reabertura de Carteira de Cotistas"
+  },
+  {
+    "id": 1311,
+    "descricao": "Estorno de Movimento de Cotista - Data Anterior"
+  },
+  {
+    "id": 1312,
+    "descricao": "Estorno de Transferência de Cotas - Data Anterior"
+  },
+  {
+    "id": 1313,
+    "descricao": "Movimentação de Renda Fixa e Taxas ANBIMA"
+  },
+  {
+    "id": 1314,
+    "descricao": "Estorno de Bloqueio e Desbloqueio de Cotas - Data Anterior"
+  },
+  {
+    "id": 1315,
+    "descricao": "Exclusão de Bloqueio por Corretora"
+  },
+  {
+    "id": 1316,
+    "descricao": "Implantação de Bloqueio por Corretora"
+  },
+  {
+    "id": 1317,
+    "descricao": "DOC5 - Demonstração da Evolução da Cota e Rentabilidade"
+  },
+  {
+    "id": 1318,
+    "descricao": "Bolsa: Transf. Ordens em Boletas"
+  },
+  {
+    "id": 1319,
+    "descricao": "Exportação de Movimentos (Formato ANBIMA)"
+  },
+  {
+    "id": 1320,
+    "descricao": "Navegador de Relacionamento de Cliente"
+  },
+  {
+    "id": 1321,
+    "descricao": "Implantação de Relacionamento de Clientes"
+  },
+  {
+    "id": 1322,
+    "descricao": "Exportação para Secore - Posição"
+  },
+  {
+    "id": 1323,
+    "descricao": "Exportação para Secore - Cadastros"
+  },
+  {
+    "id": 1324,
+    "descricao": "Demonstrativo de Outros Custos BMF"
+  },
+  {
+    "id": 1325,
+    "descricao": "Navegador de Bloqueio de Cotista por Financeiro"
+  },
+  {
+    "id": 1326,
+    "descricao": "Importação BTC"
+  },
+  {
+    "id": 1327,
+    "descricao": "Exclusão de Importação BTC"
+  },
+  {
+    "id": 1328,
+    "descricao": "Extrato Mensal para Cliente com Bloqueio por Correspondência"
+  },
+  {
+    "id": 1329,
+    "descricao": "Cadastro de Fato"
+  },
+  {
+    "id": 1330,
+    "descricao": "Cadastro de Providência"
+  },
+  {
+    "id": 1331,
+    "descricao": "Cadastro de Classificação"
+  },
+  {
+    "id": 1332,
+    "descricao": "Cadastro de Registro de Ocorrência"
+  },
+  {
+    "id": 1333,
+    "descricao": "Relatório Divergência não Planejada - DNP"
+  },
+  {
+    "id": 1334,
+    "descricao": "Navegador de Tabelas de Taxa de Saída"
+  },
+  {
+    "id": 1335,
+    "descricao": "Navegador de Faixas"
+  },
+  {
+    "id": 1336,
+    "descricao": "Exportação do Movimento Diário Contábil"
+  },
+  {
+    "id": 1337,
+    "descricao": "Relatório Movimento Diário Contábil"
+  },
+  {
+    "id": 1338,
+    "descricao": "Relatório Verificação de Títulos - Tipo Cotação RV"
+  },
+  {
+    "id": 1339,
+    "descricao": "Relatório Provisão de Carteira Externa"
+  },
+  {
+    "id": 1340,
+    "descricao": "Navegador de Bloqueios - Administrador"
+  },
+  {
+    "id": 1341,
+    "descricao": "Exportação de Movimentação Consolidada de Cotista"
+  },
+  {
+    "id": 1342,
+    "descricao": "Navegador de Informações Complementares"
+  },
+  {
+    "id": 1346,
+    "descricao": "Exportação Automática"
+  },
+  {
+    "id": 1347,
+    "descricao": "Navegador de Modelos de Contrato de Câmbio"
+  },
+  {
+    "id": 1348,
+    "descricao": "Navegador de Fundos Multimoeda"
+  },
+  {
+    "id": 1349,
+    "descricao": "Navegador de Contrato de Câmbio"
+  },
+  {
+    "id": 1350,
+    "descricao": "Relatório de Contratos de Câmbio"
+  },
+  {
+    "id": 1351,
+    "descricao": "Avança Carteira"
+  },
+  {
+    "id": 1352,
+    "descricao": "Exportação de Informe de Rendimentos"
+  },
+  {
+    "id": 1353,
+    "descricao": "Navegador de Registro de Fundos para Galgo"
+  },
+  {
+    "id": 1354,
+    "descricao": "Navegador de Parâmetros de Volatilidade"
+  },
+  {
+    "id": 1355,
+    "descricao": "Importação de Parâmetros de Volatilidade"
+  },
+  {
+    "id": 1356,
+    "descricao": "Importação Nota XML"
+  },
+  {
+    "id": 1357,
+    "descricao": "Exclusão de Importação Nota XML"
+  },
+  {
+    "id": 1358,
+    "descricao": "Navegador de Posição de Termo de Ações"
+  },
+  {
+    "id": 1359,
+    "descricao": "Web Service de Batimento de Movimentação BMF"
+  },
+  {
+    "id": 1360,
+    "descricao": "Cadastro de Parâmetros de BMF - Batimento de Movimentação"
+  },
+  {
+    "id": 1361,
+    "descricao": "Batimento de Movimentação BMF (XML)"
+  },
+  {
+    "id": 1362,
+    "descricao": "Navegador de Rentabilidade por Ativo"
+  },
+  {
+    "id": 1363,
+    "descricao": "Navegador de Perfil para Cálculo de Rentabilidade por Ativo"
+  },
+  {
+    "id": 1364,
+    "descricao": "Exportação de PL e Cota para Galgo"
+  },
+  {
+    "id": 1365,
+    "descricao": "Exportação Tipo P"
+  },
+  {
+    "id": 1366,
+    "descricao": "Recuperação de Fluxos de Perfil"
+  },
+  {
+    "id": 1367,
+    "descricao": "Relatório Rentabilidade de Ativos"
+  },
+  {
+    "id": 1368,
+    "descricao": "Web Service de Batimento Automático de Movimentação BMF"
+  },
+  {
+    "id": 1369,
+    "descricao": "Web Service de Ordens de Bolsa"
+  },
+  {
+    "id": 1370,
+    "descricao": "Web Service de Ordens de Aluguel de Ações"
+  },
+  {
+    "id": 1371,
+    "descricao": "MEC Estendido Incremental"
+  },
+  {
+    "id": 1372,
+    "descricao": "Relatório Posição de Termo de Ações"
+  },
+  {
+    "id": 1373,
+    "descricao": "Navegador de Custos Unitários da BMF"
+  },
+  {
+    "id": 1374,
+    "descricao": "Cadastro de Proc. de Import. Custos Unitário da BMF"
+  },
+  {
+    "id": 1375,
+    "descricao": "Importação de Custos Unitário da BMF"
+  },
+  {
+    "id": 1378,
+    "descricao": "Estorno de Transferência de Titularidade"
+  },
+  {
+    "id": 1379,
+    "descricao": "Relatório de Títulos sem Modelo Contábil de Abertura de Variáveis"
+  },
+  {
+    "id": 1380,
+    "descricao": "Navegador de Parâmetros CCSFN C"
+  },
+  {
+    "id": 1381,
+    "descricao": "Importação de Antecipação de Termo de Ações"
+  },
+  {
+    "id": 1382,
+    "descricao": "Exclusão da Importação de Antecipação de Termo de Ações"
+  },
+  {
+    "id": 1383,
+    "descricao": "Navegador de Ativos Oculto CDA"
+  },
+  {
+    "id": 1384,
+    "descricao": "Clonagem de Carteira para Simulação"
+  },
+  {
+    "id": 1385,
+    "descricao": "Central de Carteiras - Cotistas"
+  },
+  {
+    "id": 1386,
+    "descricao": "Cadastro de Parâmetros para Projeção de Cotas"
+  },
+  {
+    "id": 1387,
+    "descricao": "Cadastro de Carteiras para Projeção de Cotas"
+  },
+  {
+    "id": 1388,
+    "descricao": "Cadastro de Grupos para Projeção de Cotas"
+  },
+  {
+    "id": 1389,
+    "descricao": "Cadastro de Índices para Projeção de Cotas"
+  },
+  {
+    "id": 1390,
+    "descricao": "Importação de Movimentos de Conta Corrente"
+  },
+  {
+    "id": 1391,
+    "descricao": "Exportação de Movimentos de Conta Corrente"
+  },
+  {
+    "id": 1392,
+    "descricao": "Relatório Posição de Custódia CBLC"
+  },
+  {
+    "id": 1393,
+    "descricao": "Importação de Movimentos de Conta Corrente - Altera Pré-Movimento"
+  },
+  {
+    "id": 1394,
+    "descricao": "Navegador de Falhas e Regularizações de Entrega"
+  },
+  {
+    "id": 1395,
+    "descricao": "Navegador de Alíquotas de IR"
+  },
+  {
+    "id": 1396,
+    "descricao": "Exportação GS"
+  },
+  {
+    "id": 1397,
+    "descricao": "Clonagem de Título Modelo"
+  },
+  {
+    "id": 1398,
+    "descricao": "Relatório COFI Documento nº 3 - Composição e Diversificação"
+  },
+  {
+    "id": 1399,
+    "descricao": "Projeção de Cotas"
+  },
+  {
+    "id": 1400,
+    "descricao": "Relatório para Verificação da Projeção de Cotas"
+  },
+  {
+    "id": 1401,
+    "descricao": "Relatório Analítico de Projeção de Cotas"
+  },
+  {
+    "id": 1402,
+    "descricao": "Cadastro de Códigos de Classificação para CDA 3.0"
+  },
+  {
+    "id": 1403,
+    "descricao": "Exportação do SPED Contábil"
+  },
+  {
+    "id": 1404,
+    "descricao": "Verificação Cadastral para o CDA 3.0"
+  },
+  {
+    "id": 1405,
+    "descricao": "Navegador de Classificação de Processos"
+  },
+  {
+    "id": 1406,
+    "descricao": "Exportação de Boletas"
+  },
+  {
+    "id": 1407,
+    "descricao": "Importação - Inclusão de Ativos Ocultos CDA"
+  },
+  {
+    "id": 1408,
+    "descricao": "Importação - Exclusão de Ativos Ocultos CDA"
+  },
+  {
+    "id": 1409,
+    "descricao": "Cadastro de Parâmetros de Controle de Preços"
+  },
+  {
+    "id": 1410,
+    "descricao": "Relatório de Acompanhamento de Controle de Preços"
+  },
+  {
+    "id": 1411,
+    "descricao": "Navegador de Boletas Opções Flexíveis BMF"
+  },
+  {
+    "id": 1412,
+    "descricao": "Navegador de Taxas de Balção"
+  },
+  {
+    "id": 1413,
+    "descricao": "Importação de Taxas de Balcão de BMF"
+  },
+  {
+    "id": 1414,
+    "descricao": "Cadastro de Parâmetros de Risco Bancário"
+  },
+  {
+    "id": 1415,
+    "descricao": "Restauração de Carteira Alternativa"
+  },
+  {
+    "id": 1416,
+    "descricao": "Cadastro de Parâmetros de Política de Investimento"
+  },
+  {
+    "id": 1417,
+    "descricao": "Cadastro de Parâmetros de Risco Bancário do Emissor"
+  },
+  {
+    "id": 1418,
+    "descricao": "Relatório de Análise de Risco Bancario"
+  },
+  {
+    "id": 1419,
+    "descricao": "Exportação de Movimentos Contábeis BRC"
+  },
+  {
+    "id": 1421,
+    "descricao": "Cadastro de Parâmetros para Exportação de Movimentos Contábeis BRC"
+  },
+  {
+    "id": 1422,
+    "descricao": "Abertura de Boletagem de Cotas de Fundos"
+  },
+  {
+    "id": 1423,
+    "descricao": "Fechamento de Boletagem de Cotas de Fundos"
+  },
+  {
+    "id": 1424,
+    "descricao": "Importação de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1425,
+    "descricao": "Exclusão da Importação de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1426,
+    "descricao": "Integração de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1427,
+    "descricao": "Exclusão da Integração de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1428,
+    "descricao": "Navegador de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1430,
+    "descricao": "Navegador de Regra de Ativo Travados (Hedge)"
+  },
+  {
+    "id": 1431,
+    "descricao": "Performance Attribution"
+  },
+  {
+    "id": 1432,
+    "descricao": "Relatório Checagem de Movimentação de Cotista"
+  },
+  {
+    "id": 1433,
+    "descricao": "Relatório de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1434,
+    "descricao": "Processo de Importação de Provisão e Diferimento"
+  },
+  {
+    "id": 1435,
+    "descricao": "Importação de Provisão e Diferimento"
+  },
+  {
+    "id": 1436,
+    "descricao": "Exclusão da Importação de Provisão e Diferimento"
+  },
+  {
+    "id": 1437,
+    "descricao": "Cadastro de Taxas para Renda Variável - Bovespa"
+  },
+  {
+    "id": 1438,
+    "descricao": "Extensor de Dados de Cotista"
+  },
+  {
+    "id": 1439,
+    "descricao": "Importação de Contas"
+  },
+  {
+    "id": 1440,
+    "descricao": "Relatório de Títulos Automáticos de Cotas de Fundos"
+  },
+  {
+    "id": 1441,
+    "descricao": "Mapa de Conferência"
+  },
+  {
+    "id": 1442,
+    "descricao": "Navegador de Registro de Carteiras Administradas para Galgo"
+  },
+  {
+    "id": 1443,
+    "descricao": "Classificação Automática do Código de Ativo CVM - CDA 3.0"
+  },
+  {
+    "id": 1444,
+    "descricao": "Cadastro de Processos de Importação de Capital Social"
+  },
+  {
+    "id": 1445,
+    "descricao": "Navegador de Capital Social"
+  },
+  {
+    "id": 1446,
+    "descricao": "Importação do Arquivo de capital Social"
+  },
+  {
+    "id": 1447,
+    "descricao": "Exclusão da Importação do Arquivo de capital Social"
+  },
+  {
+    "id": 1448,
+    "descricao": "Relatório de Participação Acionária"
+  },
+  {
+    "id": 1449,
+    "descricao": "Cadastro de Processo de Importação de Cotações"
+  },
+  {
+    "id": 1450,
+    "descricao": "Relatório Benchmark de Ativos"
+  },
+  {
+    "id": 1452,
+    "descricao": "Relatório Consulta De Para Contas"
+  },
+  {
+    "id": 1453,
+    "descricao": "Carteiras"
+  },
+  {
+    "id": 1454,
+    "descricao": "Migração de Códigos de Custódia"
+  },
+  {
+    "id": 1456,
+    "descricao": "Importação de PL e Cota do Galgo"
+  },
+  {
+    "id": 1457,
+    "descricao": "Posição de Títulos"
+  },
+  {
+    "id": 1458,
+    "descricao": "Cadastro de Séries da Tabela de Contratos Futuros"
+  },
+  {
+    "id": 1459,
+    "descricao": "Cadastro de Indicadores de Mercado Bovespa"
+  },
+  {
+    "id": 1461,
+    "descricao": "Exportadores de Ativo"
+  },
+  {
+    "id": 1462,
+    "descricao": "Exportadores de Cotistas"
+  },
+  {
+    "id": 1463,
+    "descricao": "Exportadores de Contabilidade"
+  },
+  {
+    "id": 1464,
+    "descricao": "Navegador de Associação de Clientes"
+  },
+  {
+    "id": 1465,
+    "descricao": "Extrato de Fundo Imobiliário"
+  },
+  {
+    "id": 1466,
+    "descricao": "Relatório Aviso de Distribuição de Resultados"
+  },
+  {
+    "id": 1467,
+    "descricao": "Relatório Demonstrativo de IR para Fundo Imobiliário"
+  },
+  {
+    "id": 1468,
+    "descricao": "Extrato Mensal para Clubes"
+  },
+  {
+    "id": 1469,
+    "descricao": "Exportação do SPED FCont"
+  },
+  {
+    "id": 1470,
+    "descricao": "Cadastro de Produtos e Serviços"
+  },
+  {
+    "id": 1471,
+    "descricao": "Demonstração das Movimentações no PL de CI"
+  },
+  {
+    "id": 1472,
+    "descricao": "Exportação de Informações ANBIMA para Galgo"
+  },
+  {
+    "id": 1473,
+    "descricao": "Exportação da Posição de Ativos para GAF"
+  },
+  {
+    "id": 1474,
+    "descricao": "Relatório Evolução da Carteira"
+  },
+  {
+    "id": 1475,
+    "descricao": "Cadastro de Processo de Importação de Transferência de Titularidade"
+  },
+  {
+    "id": 1476,
+    "descricao": "Importação de Transferência de Titularidade"
+  },
+  {
+    "id": 1477,
+    "descricao": "Cadastro de Leiaute de Importação de Posição de Cotista"
+  },
+  {
+    "id": 1478,
+    "descricao": "Importação de Posição de Cotista"
+  },
+  {
+    "id": 1479,
+    "descricao": "Exportação de Extrato de Cotas para Galgo"
+  },
+  {
+    "id": 1480,
+    "descricao": "Fundaçoes"
+  },
+  {
+    "id": 1482,
+    "descricao": "Importação do Código CFI"
+  },
+  {
+    "id": 1483,
+    "descricao": "Cadastro de Proc. de Import. de Boletas de Cotas de Fundos"
+  },
+  {
+    "id": 1484,
+    "descricao": "Navegador de Vigência de Categoria de Tributação de IR"
+  },
+  {
+    "id": 1485,
+    "descricao": "Parâmetros de Exportação Diária de Saldos - Sistema"
+  },
+  {
+    "id": 1486,
+    "descricao": "Parâmetros de Exportação Diária de Saldos - Carteira"
+  },
+  {
+    "id": 1487,
+    "descricao": "Exportação Diária de Saldos"
+  },
+  {
+    "id": 1488,
+    "descricao": "Relatório de Posição em Opções Flexíveis"
+  },
+  {
+    "id": 1489,
+    "descricao": "Cadastro de Classificação de Ativos para Clubes"
+  },
+  {
+    "id": 1490,
+    "descricao": "Importação de Taxa de Balcão de BMF - Swap"
+  },
+  {
+    "id": 1491,
+    "descricao": "Navegador de Taxa de Balcão de BMF - Swap"
+  },
+  {
+    "id": 1492,
+    "descricao": "Relatório Demonstrativo de Custos de Swap da BMF"
+  },
+  {
+    "id": 1493,
+    "descricao": "Cadastro de Classificação de Ativos para Demonstração da Posição Financeira CI"
+  },
+  {
+    "id": 1494,
+    "descricao": "Cadastro de Classificação de Ativos para Demonstração do Resultado CI"
+  },
+  {
+    "id": 1495,
+    "descricao": "Demonstração da Posição Financeira de CI"
+  },
+  {
+    "id": 1496,
+    "descricao": "Relatório Balancete Trimestral"
+  },
+  {
+    "id": 1497,
+    "descricao": "Demonstração do Resultado de CI"
+  },
+  {
+    "id": 1498,
+    "descricao": "Navegador de Perfil para Cálculo da Performance Attribution"
+  },
+  {
+    "id": 1499,
+    "descricao": "Inclusão de Valores de Cota Por Período"
+  },
+  {
+    "id": 1500,
+    "descricao": "Pré Importação de Boletas"
+  },
+  {
+    "id": 1501,
+    "descricao": "Importação de Fluxos"
+  },
+  {
+    "id": 1502,
+    "descricao": "Exclusão da Importação de Fluxos"
+  },
+  {
+    "id": 1503,
+    "descricao": "Cadastro de Processo de Importação de Fluxos"
+  },
+  {
+    "id": 1504,
+    "descricao": "Cadastro de Lista de Perfis"
+  },
+  {
+    "id": 1505,
+    "descricao": "Relatório Conferência de Títulos Sem Perfil"
+  },
+  {
+    "id": 1506,
+    "descricao": "Limite de Recuperação de Fluxos de Perfil"
+  },
+  {
+    "id": 1507,
+    "descricao": "Navegador de Perfil para Cálculo de Rentabilidade por Ativo (Gerencial)"
+  },
+  {
+    "id": 1508,
+    "descricao": "Relatório Cadastro de Perfil para TIR"
+  },
+  {
+    "id": 1509,
+    "descricao": "Navegador de Perfil para Cálculo de Rentabilidade por Ativo (Operacional)"
+  },
+  {
+    "id": 1510,
+    "descricao": "Exportação do SPED Contribuições"
+  },
+  {
+    "id": 1511,
+    "descricao": "Navegador de Parâmetros de Sistema - Exposição Cambial de Derivativos"
+  },
+  {
+    "id": 1512,
+    "descricao": "Navegador de Parâmetros de Carteira - Exposição Cambial de Derivativos"
+  },
+  {
+    "id": 1513,
+    "descricao": "Navegador de Exposição Cambial"
+  },
+  {
+    "id": 1514,
+    "descricao": "Cadastro de Processo de Importação de Exposição Cambial"
+  },
+  {
+    "id": 1515,
+    "descricao": "Importação de Exposição Cambial"
+  },
+  {
+    "id": 1516,
+    "descricao": "Relatório Demonstrativo de IOF sobre Derivativos"
+  },
+  {
+    "id": 1518,
+    "descricao": "Alteração de Aplicações Importadas de Bolsa"
+  },
+  {
+    "id": 1519,
+    "descricao": "Cadastro de Processo de Importação de Taxas BMF"
+  },
+  {
+    "id": 1520,
+    "descricao": "Atualização de Saldos de Prejuízo"
+  },
+  {
+    "id": 1521,
+    "descricao": "Exportação de Nota de Corretagem BMF"
+  },
+  {
+    "id": 1522,
+    "descricao": "Cadastro Automático de Ativo Externo"
+  },
+  {
+    "id": 1523,
+    "descricao": "Importação de Séries de Carteiras"
+  },
+  {
+    "id": 1524,
+    "descricao": "Relatório do SPED Contribuições"
+  },
+  {
+    "id": 1525,
+    "descricao": "Exportação de Movimentos Financeiros Tipo F"
+  },
+  {
+    "id": 1526,
+    "descricao": "Exportação de Movimentos Contábeis Tipo F"
+  },
+  {
+    "id": 1527,
+    "descricao": "Importação Perfil CVM Mensal"
+  },
+  {
+    "id": 1529,
+    "descricao": "Exportação de Requisição de Movimentos para GAF"
+  },
+  {
+    "id": 1530,
+    "descricao": "Exportação de Movimentos Contábeis Tipo PT"
+  },
+  {
+    "id": 1531,
+    "descricao": "Exportação de Movimentos Financeiros Tipo PT"
+  },
+  {
+    "id": 1532,
+    "descricao": "Relatório Crítica de Preços"
+  },
+  {
+    "id": 1533,
+    "descricao": "Importação de Benchmark da Carteira"
+  },
+  {
+    "id": 1534,
+    "descricao": "Prévia de Come-Cotas"
+  },
+  {
+    "id": 1535,
+    "descricao": "Cód. de Class. para Demo. dos Fluxos de Caixa de FII"
+  },
+  {
+    "id": 1536,
+    "descricao": "Relatório Demonstração dos Fluxos de Caixa de Fundo Imobiliário"
+  },
+  {
+    "id": 1537,
+    "descricao": "Cód. de Class. para Demo. dos Fluxos de Caixa de FIDC"
+  },
+  {
+    "id": 1538,
+    "descricao": "Relatório Demonstração dos Fluxos de Caixa - FIDC"
+  },
+  {
+    "id": 1539,
+    "descricao": "Consulta Detalhada das Sugestões do Leiaute IN CVM 512"
+  },
+  {
+    "id": 1540,
+    "descricao": "Exportação W Posiçao Real"
+  },
+  {
+    "id": 1541,
+    "descricao": "Exportação W Arquivo Valor da Quota"
+  },
+  {
+    "id": 1542,
+    "descricao": "Exportação W Arquivo RECON"
+  },
+  {
+    "id": 1543,
+    "descricao": "Exportação W Arquivo Cash"
+  },
+  {
+    "id": 1544,
+    "descricao": "Exportação W Padrão SFR"
+  },
+  {
+    "id": 1545,
+    "descricao": "Rastreabilidade de Cotas de Fundos"
+  },
+  {
+    "id": 1546,
+    "descricao": "Central de Boletagens"
+  },
+  {
+    "id": 1548,
+    "descricao": "Cadastro de Leiaute de Importação para Implantação de Cotista"
+  },
+  {
+    "id": 1549,
+    "descricao": "Importação para Implantação de Cotista"
+  },
+  {
+    "id": 1550,
+    "descricao": "Navegador de Perfil para Segregação"
+  },
+  {
+    "id": 1551,
+    "descricao": "Composição de Valores para Informe de Rendimentos"
+  },
+  {
+    "id": 1552,
+    "descricao": "Cadastro de Despesas por Período"
+  },
+  {
+    "id": 1553,
+    "descricao": "Cód. de Class. para Ativos e Despesas"
+  },
+  {
+    "id": 1554,
+    "descricao": "Cadastro de Informação Complementar do Fundo para CVM"
+  },
+  {
+    "id": 1555,
+    "descricao": "Importação de Informação Complementar do Fundo para CVM"
+  },
+  {
+    "id": 1556,
+    "descricao": "Navegador de Exercício de Opções"
+  },
+  {
+    "id": 1557,
+    "descricao": "Lâmina do Fundo para CVM"
+  },
+  {
+    "id": 1558,
+    "descricao": "Relatório Demonstração de Desempenho do Fundo para CVM"
+  },
+  {
+    "id": 1559,
+    "descricao": "Cadastro de Despesas do Fundo para CVM"
+  },
+  {
+    "id": 1561,
+    "descricao": "Simulação de Resgate Hipotético"
+  },
+  {
+    "id": 1562,
+    "descricao": "Exportador Balancete Mensal"
+  },
+  {
+    "id": 1563,
+    "descricao": "Cálculo de Despesas do Fundo para CVM"
+  },
+  {
+    "id": 1564,
+    "descricao": "Código de Classificação para Informes"
+  },
+  {
+    "id": 1565,
+    "descricao": "Informe Mensal de FII"
+  },
+  {
+    "id": 1566,
+    "descricao": "Exportação para Eclipse/CMR"
+  },
+  {
+    "id": 1567,
+    "descricao": "Movimento para Reconciliação"
+  },
+  {
+    "id": 1568,
+    "descricao": "Relatório de Prazo Médio (CMN 4.176)"
+  },
+  {
+    "id": 1569,
+    "descricao": "Implantação de Base Histórica para Prazo Médio (CMN 4.176)"
+  },
+  {
+    "id": 1570,
+    "descricao": "Exportação de Movimentação Consolidada de Cotista Tipo C"
+  },
+  {
+    "id": 1571,
+    "descricao": "Importação de Movimentação Consolidada de Cotista Tipo C"
+  },
+  {
+    "id": 1572,
+    "descricao": "Inclusão de Movimentação Consolidada de Cotista Tipo C"
+  },
+  {
+    "id": 1573,
+    "descricao": "Administrador de Tarefas Agendadas"
+  },
+  {
+    "id": 1574,
+    "descricao": "Navegador de Câmbio e Movimentação para Investidores não Residentes por Titular"
+  },
+  {
+    "id": 1575,
+    "descricao": "Exportação de Investidores não Residentes por Titular"
+  },
+  {
+    "id": 1577,
+    "descricao": "Relatório Informe Trimestral FIP"
+  },
+  {
+    "id": 1578,
+    "descricao": "Estorno de Movimento Consolidado de Cotista Tipo C"
+  },
+  {
+    "id": 1580,
+    "descricao": "Navegador de Taxa de Administração"
+  },
+  {
+    "id": 1581,
+    "descricao": "Transferência de Taxa de Administração para PGA"
+  },
+  {
+    "id": 1582,
+    "descricao": "Desfaz Transferência de Taxa de Administração para PGA"
+  },
+  {
+    "id": 1583,
+    "descricao": "Relatório Demonstrativo de Taxa de Administração por Plano"
+  },
+  {
+    "id": 1584,
+    "descricao": "Importação de Taxas para Renda Variável - Bovespa"
+  },
+  {
+    "id": 1585,
+    "descricao": "Conferência de Pendências de Cotistas"
+  },
+  {
+    "id": 1586,
+    "descricao": "Manutenção de Saldos de Gravames de Bolsa"
+  },
+  {
+    "id": 1587,
+    "descricao": "Exportação da Posição de Carteiras para PVT"
+  },
+  {
+    "id": 1588,
+    "descricao": "Conversão para IR conforme IN575"
+  },
+  {
+    "id": 1589,
+    "descricao": "Exportação Posição de Ativos para Luna"
+  },
+  {
+    "id": 1590,
+    "descricao": "Exportação PL e Cota para Luna"
+  },
+  {
+    "id": 1591,
+    "descricao": "Relatório Posição de Operações Compromissadas SELIC"
+  },
+  {
+    "id": 1592,
+    "descricao": "Relatório Censo Anual de Capitais Estrangeiros no País"
+  },
+  {
+    "id": 1593,
+    "descricao": "Importação de Classificação de Risco"
+  },
+  {
+    "id": 1594,
+    "descricao": "Exportação de Ativos para Seguradora"
+  },
+  {
+    "id": 1595,
+    "descricao": "Exportação de Séries Históricas"
+  },
+  {
+    "id": 1596,
+    "descricao": "Exportação de Séries Por Período"
+  },
+  {
+    "id": 1597,
+    "descricao": "Exportação da Situação de Margem em Garantia"
+  },
+  {
+    "id": 1598,
+    "descricao": "Implantação Private"
+  },
+  {
+    "id": 1599,
+    "descricao": "Cadastro de Categorias do Ranking ANBIMA"
+  },
+  {
+    "id": 1600,
+    "descricao": "Importação da Classificação de Carteiras do Ranking ANBIMA"
+  },
+  {
+    "id": 1601,
+    "descricao": "Cadastro de Parâmetros do Ranking ANBIMA"
+  },
+  {
+    "id": 1602,
+    "descricao": "Relatório Ranking ANBIMA de Custódia de Ativos"
+  },
+  {
+    "id": 1603,
+    "descricao": "Relatório Ranking ANBIMA de Controladoria"
+  },
+  {
+    "id": 1604,
+    "descricao": "Classificação de Risco do Emissor para Seguradora"
+  },
+  {
+    "id": 1605,
+    "descricao": "Relatório do Cadastro de Grupos de Usuários"
+  },
+  {
+    "id": 1606,
+    "descricao": "Relatório do Cadastro de Usuários"
+  },
+  {
+    "id": 1607,
+    "descricao": "Processo de Inativação de Usuários"
+  },
+  {
+    "id": 1608,
+    "descricao": "Visualização de Estrutura de Fundação"
+  },
+  {
+    "id": 1609,
+    "descricao": "Batimento de Posição de Cotista - Galgo"
+  },
+  {
+    "id": 1610,
+    "descricao": "Navegador de Mensagens de Carteira"
+  },
+  {
+    "id": 1611,
+    "descricao": "Consulta Histórico de Mensagens de Carteira"
+  },
+  {
+    "id": 1612,
+    "descricao": "Cadastro de Mensagens de Carteira"
+  },
+  {
+    "id": 1613,
+    "descricao": "Exportação de Ativos de Investidor Estrangeiro - BACEN"
+  },
+  {
+    "id": 1614,
+    "descricao": "Exportação TLC"
+  },
+  {
+    "id": 1616,
+    "descricao": "Relatório Posição de Carteira por Participação de Ativo"
+  },
+  {
+    "id": 1617,
+    "descricao": "Relatório Movimentos de Renda Variável"
+  },
+  {
+    "id": 1618,
+    "descricao": "Cadastro de Regras de Relacionamentos entre Grupos de Usuários"
+  },
+  {
+    "id": 1619,
+    "descricao": "Relatório do Cadastro de Regras de Relacionamentos entre Grupos de Usuários"
+  },
+  {
+    "id": 1620,
+    "descricao": "Exportação Smart Advisor"
+  },
+  {
+    "id": 1621,
+    "descricao": "Navegador de Boletas de RF - Trader"
+  },
+  {
+    "id": 1622,
+    "descricao": "Navegador de Boletas de RF - Manager"
+  },
+  {
+    "id": 1623,
+    "descricao": "Navegador de Boletas de RF - Authorizer"
+  },
+  {
+    "id": 1624,
+    "descricao": "Exportação da Previsão de Fluxo de Caixa"
+  },
+  {
+    "id": 1625,
+    "descricao": "Navegador de Boletas de RF - Pre Authorizer"
+  },
+  {
+    "id": 1626,
+    "descricao": "Navegador de Layout de Processos para Importação/Exportação"
+  },
+  {
+    "id": 1627,
+    "descricao": "Cadastro de Layout de Processos para Importação/Exportação"
+  },
+  {
+    "id": 1628,
+    "descricao": "Relatório Posição de Enquadramento - EM DESUSO"
+  },
+  {
+    "id": 1629,
+    "descricao": "Relatório Posição de Enquadramento de Fundação - EM DESUSO"
+  },
+  {
+    "id": 1630,
+    "descricao": "Cadastro de Códigos De/Para - Sistema Externo"
+  },
+  {
+    "id": 1631,
+    "descricao": "Navegador para Integração com Sistema Externo"
+  },
+  {
+    "id": 1632,
+    "descricao": "Cadastro de Integração com Sistema Externo"
+  },
+  {
+    "id": 1633,
+    "descricao": "Integração do Cadastro de Cliente com Sistemas Externos"
+  },
+  {
+    "id": 1634,
+    "descricao": "Painel de Controle - Integração com Sistema Externo"
+  },
+  {
+    "id": 1635,
+    "descricao": "Controle de Envio e Recebimento de Arquivos - Sistema Externo"
+  },
+  {
+    "id": 1637,
+    "descricao": "Navegador de Códigos De/Para - Sistema Externo"
+  },
+  {
+    "id": 1638,
+    "descricao": "Importação de Movimentos de Bloqueios e Desbloqueios SELIC"
+  },
+  {
+    "id": 1639,
+    "descricao": "Exclusão da Importação de Movimentos de Bloqueios e Desbloqueios SELIC"
+  },
+  {
+    "id": 1640,
+    "descricao": "Navegador de Operação Compromissada - EM DESUSO"
+  },
+  {
+    "id": 1641,
+    "descricao": "Help Autenticação de Usuários"
+  },
+  {
+    "id": 1643,
+    "descricao": "Boletagem de BMF - EM DESUSO"
+  },
+  {
+    "id": 1644,
+    "descricao": "Cadastro de Posição de Ativos no Exterior para CDA"
+  },
+  {
+    "id": 1645,
+    "descricao": "Importação de Posição de Ativos no Exterior para CDA"
+  },
+  {
+    "id": 1646,
+    "descricao": "FrontOffice - Zeramento de Caixa - EM DESUSO"
+  },
+  {
+    "id": 1647,
+    "descricao": "Cadastro de Tipo de Fundo ANBIMA/PREVIC"
+  },
+  {
+    "id": 1648,
+    "descricao": "Integração com Serviço de Download"
+  },
+  {
+    "id": 1650,
+    "descricao": "Relatório Evolução da Cota Média"
+  },
+  {
+    "id": 1651,
+    "descricao": "Integração de Movimentação de Cotista com Sistema Externo"
+  },
+  {
+    "id": 1652,
+    "descricao": "Exportação de Cotista para Sistema Externo"
+  },
+  {
+    "id": 1653,
+    "descricao": "Relatório de Movimentação Reprocessada de Cotistas"
+  },
+  {
+    "id": 1654,
+    "descricao": "Emissor de Relatórios"
+  },
+  {
+    "id": 1655,
+    "descricao": "Navegador de Bloqueios - EM DESUSO"
+  },
+  {
+    "id": 1656,
+    "descricao": "Reprocessamento de Carteiras Liberadas"
+  },
+  {
+    "id": 1658,
+    "descricao": "Liberação de Consulta de Carteiras para Usuários Externos"
+  },
+  {
+    "id": 1659,
+    "descricao": "Boletagem de Bolsa - EM DESUSO"
+  },
+  {
+    "id": 1662,
+    "descricao": "Cadastro de Subtipo de Conta"
+  },
+  {
+    "id": 1663,
+    "descricao": "Cadastro de País"
+  },
+  {
+    "id": 1664,
+    "descricao": "Cadastro de Tipo de Pagamento para e-Financeira"
+  },
+  {
+    "id": 1665,
+    "descricao": "Cadastro de Tipo de Declarado para e-Financeira"
+  },
+  {
+    "id": 1666,
+    "descricao": "Cadastro de Tipo de Relação de Declarado para e-Financeira"
+  },
+  {
+    "id": 1667,
+    "descricao": "Exportação para e-Financeira"
+  },
+  {
+    "id": 1668,
+    "descricao": "Consulta VaR de Carteiras"
+  },
+  {
+    "id": 1669,
+    "descricao": "Importação do Cadastro de Fundos"
+  },
+  {
+    "id": 1670,
+    "descricao": "Importação de Movimentação em Trânsito do Passivo"
+  },
+  {
+    "id": 1671,
+    "descricao": "Importação de Atualização Cadastral dos Ativos de Cotas de Fundo"
+  },
+  {
+    "id": 1672,
+    "descricao": "Alteração do Início de Atividades da Carteira"
+  },
+  {
+    "id": 1673,
+    "descricao": "Importação de Saldo do Ativo de Cotas de Fundo e Despesa"
+  },
+  {
+    "id": 1674,
+    "descricao": "Importação da Data de Início de Aplicação dos Ativos em Ser"
+  },
+  {
+    "id": 1675,
+    "descricao": "Importação de Movimentação em Trânsito do Ativo"
+  },
+  {
+    "id": 1676,
+    "descricao": "Troca Código de PCA"
+  },
+  {
+    "id": 1677,
+    "descricao": "Navegador de Proventos de RV - EM DESUSO"
+  },
+  {
+    "id": 1678,
+    "descricao": "Executor de Proventos de RV - EM DESUSO"
+  },
+  {
+    "id": 1679,
+    "descricao": "Navegador de Captação de Recursos"
+  },
+  {
+    "id": 1680,
+    "descricao": "Importação de Código IF Por Carteira"
+  },
+  {
+    "id": 1681,
+    "descricao": "Exportador de Informações de Contraparte Relacionada"
+  },
+  {
+    "id": 1682,
+    "descricao": "Exclusão de Títulos"
+  },
+  {
+    "id": 1683,
+    "descricao": "Batimento e Sincronização de Posição de Cotista - Cetip"
+  },
+  {
+    "id": 1684,
+    "descricao": "Exportação de Movimentação Financeira Tipo C"
+  },
+  {
+    "id": 1685,
+    "descricao": "Cadastro de Perfil para Compensação Contábil"
+  },
+  {
+    "id": 1686,
+    "descricao": "Cadastro de Regras para Compensação Contábil"
+  },
+  {
+    "id": 1687,
+    "descricao": "Relatório de Compensação Contábil"
+  },
+  {
+    "id": 1688,
+    "descricao": "Cadastro de Informe Mensal de INR para CVM"
+  },
+  {
+    "id": 1689,
+    "descricao": "Cadastro de Código de Aplicação para CVM"
+  },
+  {
+    "id": 1690,
+    "descricao": "Relatório Informe Mensal de INR para CVM"
+  },
+  {
+    "id": 1691,
+    "descricao": "FrontOffice - Liquidação Manual de Boleta"
+  },
+  {
+    "id": 1692,
+    "descricao": "Alteração de Saldo de Informe de Rendimentos PF"
+  },
+  {
+    "id": 1693,
+    "descricao": "Exportação de Dados Para Informe Trimestral de FII"
+  },
+  {
+    "id": 1695,
+    "descricao": "Exportação de Posição de Compromissadas"
+  },
+  {
+    "id": 1696,
+    "descricao": "Consulta Índices de Risco de Perfil de Rentabilidade de Ativo"
+  },
+  {
+    "id": 1697,
+    "descricao": "Consulta VaR de Perfil de Rentabilidade por Ativo"
+  },
+  {
+    "id": 1698,
+    "descricao": "Consulta Índices de Risco de Carteiras"
+  },
+  {
+    "id": 1699,
+    "descricao": "Central de Batimentos"
+  },
+  {
+    "id": 1700,
+    "descricao": "Central de Carteiras - Simulação"
+  },
+  {
+    "id": 1701,
+    "descricao": "Cadastro de Fundo Internacional"
+  },
+  {
+    "id": 1702,
+    "descricao": "Cadastro de Parâmetros para Títulos Automáticos de Cotas de Fundos"
+  },
+  {
+    "id": 1703,
+    "descricao": "Liquidação de Operação Compromissada"
+  },
+  {
+    "id": 1704,
+    "descricao": "Cadastro de Limite de Reabertura por Dias Úteis"
+  },
+  {
+    "id": 1705,
+    "descricao": "Importação de PL e Cota CVM"
+  },
+  {
+    "id": 1706,
+    "descricao": "Cadastro de Relação entre Carteira e Contato"
+  },
+  {
+    "id": 1707,
+    "descricao": "Cadastro de Relação entre Cliente e Contato"
+  },
+  {
+    "id": 1712,
+    "descricao": "Recálculo de Cota Sem Amortização"
+  },
+  {
+    "id": 1713,
+    "descricao": "Exportação Tipo M"
+  },
+  {
+    "id": 1714,
+    "descricao": "Importação de Movimento Especial de Cotista B"
+  },
+  {
+    "id": 1715,
+    "descricao": "Central de Ordens"
+  },
+  {
+    "id": 1716,
+    "descricao": "Central de Ordens - Permissão Criar Ordens"
+  },
+  {
+    "id": 1717,
+    "descricao": "Central de Ordens - Permissão Conferir Ordens"
+  },
+  {
+    "id": 1718,
+    "descricao": "Central de Ordens - Permissão Cancelar Ordens"
+  },
+  {
+    "id": 1719,
+    "descricao": "Central de Ordens - Permissão Criar Boletas"
+  },
+  {
+    "id": 1720,
+    "descricao": "Cadastro de Classificação dos Informes FIDC"
+  },
+  {
+    "id": 1721,
+    "descricao": "Cadastro de Segmento para Informe Mensal FIDC"
+  },
+  {
+    "id": 1722,
+    "descricao": "Exportação para Tesouraria - ATTPS"
+  },
+  {
+    "id": 1723,
+    "descricao": "Manutenção da Condição de Isenção de Antecipação de IR"
+  },
+  {
+    "id": 1724,
+    "descricao": "Relatório Carteira Diária Tipo U"
+  },
+  {
+    "id": 1725,
+    "descricao": "Alteração Código de Classificação por Lastro"
+  },
+  {
+    "id": 1726,
+    "descricao": "Acesso para API REST do Sistema"
+  },
+  {
+    "id": 1727,
+    "descricao": "Painel de Liquidação Financeira de Cotistas"
+  },
+  {
+    "id": 1728,
+    "descricao": "Liquidação Financeira de Cotistas"
+  },
+  {
+    "id": 1729,
+    "descricao": "Relatório Informe Semestral de INR para CVM"
+  },
+  {
+    "id": 1730,
+    "descricao": "Serviços de Consultas de Cotistas"
+  },
+  {
+    "id": 1731,
+    "descricao": "Serviço de Aplicação de Cotista"
+  },
+  {
+    "id": 1732,
+    "descricao": "Serviço de Resgate de Cotista"
+  },
+  {
+    "id": 1733,
+    "descricao": "Exportação de Cotas"
+  },
+  {
+    "id": 1734,
+    "descricao": "Geração Automática de Ordens"
+  },
+  {
+    "id": 1735,
+    "descricao": "Exportação Posição de Ativos para Risco"
+  },
+  {
+    "id": 1736,
+    "descricao": "Importação de Dados para Informes de FII - CVM"
+  },
+  {
+    "id": 1737,
+    "descricao": "Relatório Informe Trimestral FII"
+  },
+  {
+    "id": 1738,
+    "descricao": "Sincronização do Cadastro de Clientes com Sistema Corporativo"
+  },
+  {
+    "id": 1739,
+    "descricao": "Navegador de Liquidação Financeira de Fundos"
+  },
+  {
+    "id": 1740,
+    "descricao": "Importação de Dados para Liquidação Financeira dos Fundos"
+  },
+  {
+    "id": 1741,
+    "descricao": "Processa Liquidação Financeira de Fundos"
+  },
+  {
+    "id": 1742,
+    "descricao": "Cadastro de Tipos de Mensagem de Integração"
+  },
+  {
+    "id": 1743,
+    "descricao": "Navegador de Mensagens de Integração"
+  },
+  {
+    "id": 1744,
+    "descricao": "Informe Anual FII"
+  },
+  {
+    "id": 1745,
+    "descricao": "Navegador de Layouts de Mensagens"
+  },
+  {
+    "id": 1746,
+    "descricao": "Cadastro de Campos de Layout de Mensageria"
+  },
+  {
+    "id": 1747,
+    "descricao": "Cadastro de Mensagens de Layout de Mensageria"
+  },
+  {
+    "id": 1748,
+    "descricao": "Histórico por Operação"
+  },
+  {
+    "id": 1749,
+    "descricao": "Web Service de Controladoria de Passivo"
+  },
+  {
+    "id": 1750,
+    "descricao": "Cadastro de Campos de Mensagem"
+  },
+  {
+    "id": 1751,
+    "descricao": "Limpeza de Mensagens"
+  },
+  {
+    "id": 1752,
+    "descricao": "Extrato por Aplicação Consolidado"
+  },
+  {
+    "id": 1754,
+    "descricao": "Central de Integração Galgo"
+  },
+  {
+    "id": 1755,
+    "descricao": "Solicitação Web Service Galgo"
+  },
+  {
+    "id": 1758,
+    "descricao": "Relatório de Liquidez de Passivo de Fundos"
+  },
+  {
+    "id": 1759,
+    "descricao": "Exportação Fiscal"
+  },
+  {
+    "id": 1760,
+    "descricao": "Cadastro de Regras para Emissão do Informe Diário"
+  },
+  {
+    "id": 1761,
+    "descricao": "Caixa Online - Custódia"
+  },
+  {
+    "id": 1762,
+    "descricao": "Cadastro de Regras do Caixa Online - Custódia"
+  },
+  {
+    "id": 1763,
+    "descricao": "Web Service de Importação de Cotação de Índice Externo"
+  },
+  {
+    "id": 1764,
+    "descricao": "Cadastro de Regra para Zeramento"
+  },
+  {
+    "id": 1765,
+    "descricao": "Zeragem de Caixa"
+  },
+  {
+    "id": 1766,
+    "descricao": "Monitor de Operações"
+  },
+  {
+    "id": 1767,
+    "descricao": "Monitor de Operações - Renda Fixa"
+  },
+  {
+    "id": 1768,
+    "descricao": "Monitor de Operações - Bolsa"
+  },
+  {
+    "id": 1769,
+    "descricao": "Monitor de Operações - BMF"
+  },
+  {
+    "id": 1770,
+    "descricao": "Monitor de Operações - Cotas"
+  },
+  {
+    "id": 1771,
+    "descricao": "Monitor de Operações - Swap"
+  },
+  {
+    "id": 1772,
+    "descricao": "Tesouraria- Pagadoria"
+  },
+  {
+    "id": 1774,
+    "descricao": "Cadastro de Workflow"
+  },
+  {
+    "id": 1775,
+    "descricao": "Cadastro de Faixa de Comando"
+  },
+  {
+    "id": 1776,
+    "descricao": "Caixa D+N - Custódia"
+  },
+  {
+    "id": 1777,
+    "descricao": "Composição da Base Diária de Cotista"
+  },
+  {
+    "id": 1778,
+    "descricao": "Exportação de Dados de Cotista Tipo D"
+  },
+  {
+    "id": 1779,
+    "descricao": "Cadastro de Favorecidos"
+  },
+  {
+    "id": 1780,
+    "descricao": "Cadastro de Parâmetros de Alçada - Pagadoria"
+  },
+  {
+    "id": 1781,
+    "descricao": "Informe Mensal FIDC - 3040"
+  },
+  {
+    "id": 1782,
+    "descricao": "Exportação Contábil - SOFTPAR"
+  },
+  {
+    "id": 1783,
+    "descricao": "Importação de Ajuste de Saldo"
+  },
+  {
+    "id": 1784,
+    "descricao": "Exportação Contábil para Autbank"
+  },
+  {
+    "id": 1785,
+    "descricao": "Importação de Ajuste de Saldo Bloqueado"
+  },
+  {
+    "id": 1786,
+    "descricao": "Extrato Por Período"
+  },
+  {
+    "id": 1787,
+    "descricao": "Cadastro de Ofertas de Cotas"
+  },
+  {
+    "id": 1788,
+    "descricao": "Relatório de Ofertas de Cotas"
+  },
+  {
+    "id": 1789,
+    "descricao": "Cadastro de Tipo Societário"
+  },
+  {
+    "id": 1790,
+    "descricao": "Cadastro de Município"
+  },
+  {
+    "id": 1791,
+    "descricao": "Tesouraria - Pagadoria Liquidação"
+  },
+  {
+    "id": 1792,
+    "descricao": "Importação de Cotação RF por PU"
+  },
+  {
+    "id": 1793,
+    "descricao": "Importação de Cotação RF por Taxa"
+  },
+  {
+    "id": 1794,
+    "descricao": "Relatório ISS Devido"
+  },
+  {
+    "id": 1795,
+    "descricao": "Exportação BacenJud para Autbank"
+  },
+  {
+    "id": 1796,
+    "descricao": "Navegador de Restrição de Horário de Processamento - Sistema"
+  },
+  {
+    "id": 1797,
+    "descricao": "Navegador de Restrição de Horário de Processamento - Carteira"
+  },
+  {
+    "id": 1798,
+    "descricao": "Autorização de Horário de Processamento"
+  },
+  {
+    "id": 1799,
+    "descricao": "Relatório de Rentabilidade"
+  },
+  {
+    "id": 1800,
+    "descricao": "Web Service de Boletagem de Ativo"
+  },
+  {
+    "id": 1801,
+    "descricao": "Administrador de Portal Custódia"
+  },
+  {
+    "id": 1802,
+    "descricao": "Consulta - Web Services Clients"
+  },
+  {
+    "id": 1803,
+    "descricao": "Monitor de Pagamento de Eventos - RF"
+  },
+  {
+    "id": 1804,
+    "descricao": "Monitor de Operações - Renda Fixa (Efetivar Manual)"
+  },
+  {
+    "id": 1805,
+    "descricao": "Exportação ANS"
+  },
+  {
+    "id": 1806,
+    "descricao": "Exportação do Informe de Rendimentos para Autbank"
+  },
+  {
+    "id": 1807,
+    "descricao": "Importação de Participantes do STR - ISPB"
+  },
+  {
+    "id": 1808,
+    "descricao": "Navegador de Mensagens Manuais de Integração SPB"
+  },
+  {
+    "id": 1809,
+    "descricao": "Relatório de Rentabilidade de Fundos"
+  },
+  {
+    "id": 1810,
+    "descricao": "Relatório Batimento de Custódia de Fundo Externo Tipo F"
+  },
+  {
+    "id": 1811,
+    "descricao": "Monitor de Pagamento de Eventos (Efetivar Manual)"
+  },
+  {
+    "id": 1813,
+    "descricao": "Monitor de Operações - Renda Fixa (Excluir)"
+  },
+  {
+    "id": 1815,
+    "descricao": "Sincronização do Cadastro de Clientes com Infobank"
+  },
+  {
+    "id": 1816,
+    "descricao": "Relatório Posição Resumida de Ativos"
+  },
+  {
+    "id": 1817,
+    "descricao": "Autorização de Pré-Boleta"
+  },
+  {
+    "id": 1818,
+    "descricao": "Exclusão de Pré-Boleta"
+  },
+  {
+    "id": 1819,
+    "descricao": "Status das Exportações da Base Diaria"
+  },
+  {
+    "id": 1820,
+    "descricao": "Usuário Master do Portal de Custódia"
+  },
+  {
+    "id": 1821,
+    "descricao": "Exportação da e-Financeira para Autbank"
+  },
+  {
+    "id": 1822,
+    "descricao": "Importação Nota XML - BMF"
+  },
+  {
+    "id": 1823,
+    "descricao": "Exclusão de Importação Nota XML - BMF"
+  },
+  {
+    "id": 1824,
+    "descricao": "Cadastro de código do Produto RF"
+  },
+  {
+    "id": 1825,
+    "descricao": "Exportação de Saldo de Clientes"
+  },
+  {
+    "id": 1827,
+    "descricao": "Painel Tarefas Assíncronas"
+  },
+  {
+    "id": 1828,
+    "descricao": "Cadastro de Parâmetros de Desvio de Liquidação Financeira"
+  },
+  {
+    "id": 1829,
+    "descricao": "Relatório Balancete Padrão"
+  },
+  {
+    "id": 1830,
+    "descricao": "Reinicialização de Carteira (Ativo)"
+  },
+  {
+    "id": 1831,
+    "descricao": "Monitor de Margem de Garantia"
+  },
+  {
+    "id": 1832,
+    "descricao": "Serviço de Estorno de Cotista"
+  },
+  {
+    "id": 1833,
+    "descricao": "Liberação de Informações de Carteiras para Custódia"
+  },
+  {
+    "id": 1834,
+    "descricao": "Relatório Balancete Diário Padrão"
+  },
+  {
+    "id": 1835,
+    "descricao": "Relatório Balancete BACEN/CVM Padrão"
+  },
+  {
+    "id": 1836,
+    "descricao": "Notificação de Status para Sistema Externo"
+  },
+  {
+    "id": 1837,
+    "descricao": "Conciliação de Movimentos com Sistema Externo"
+  },
+  {
+    "id": 1838,
+    "descricao": "Conciliação de Posição com Sistema Externo"
+  },
+  {
+    "id": 1839,
+    "descricao": "Controle de Saldo de Conciliação de Movimento de Cotista"
+  },
+  {
+    "id": 1840,
+    "descricao": "Relatório Diário Geral Padrão"
+  },
+  {
+    "id": 1841,
+    "descricao": "Importação de Chamada de Margem de Garantia"
+  },
+  {
+    "id": 1842,
+    "descricao": "Exportação de Saldo Mensal de Clientes"
+  },
+  {
+    "id": 1843,
+    "descricao": "Relatório Balanço Geral"
+  },
+  {
+    "id": 1845,
+    "descricao": "Monitor de Margem de Garantia - RF (Efetivar Manual)"
+  },
+  {
+    "id": 1846,
+    "descricao": "Monitor de Operações - Cotista (Excluir)"
+  },
+  {
+    "id": 1847,
+    "descricao": "Monitor de Operações - Cotista (Efetivar Manual)"
+  },
+  {
+    "id": 1848,
+    "descricao": "Cadastro de Classificação Gerencial"
+  },
+  {
+    "id": 1851,
+    "descricao": "Relatório Demonstração da Posição Financeira - FIDC"
+  },
+  {
+    "id": 1852,
+    "descricao": "Demonstrativo de Provisões por PCA"
+  },
+  {
+    "id": 1853,
+    "descricao": "Monitor de Operações - Cotista (Alterar)"
+  },
+  {
+    "id": 1854,
+    "descricao": "Relatório Demonstração do Resultado - FIDC"
+  },
+  {
+    "id": 1855,
+    "descricao": "Relatório Demonstração das Mutações no Patrimônio Líquido - FIDC"
+  },
+  {
+    "id": 1856,
+    "descricao": "Atualização da Liquidação de Ativos de Renda Variável"
+  },
+  {
+    "id": 1857,
+    "descricao": "Atualização da Liquidação de Ativos de Renda Variável"
+  },
+  {
+    "id": 1859,
+    "descricao": "Cadastro de Usufruto de Cotas"
+  },
+  {
+    "id": 1860,
+    "descricao": "Relatório de Posição de Usufruto"
+  },
+  {
+    "id": 1862,
+    "descricao": "Painel de Controle de Atualização de Status"
+  },
+  {
+    "id": 1863,
+    "descricao": "Cadastro de Parâmetros para desempenho da Carteira de Investimentos"
+  },
+  {
+    "id": 1864,
+    "descricao": "Monitor de Operações - Aluguel de Ações"
+  },
+  {
+    "id": 1865,
+    "descricao": "Monitor de Operações - Livre Digitação"
+  },
+  {
+    "id": 1868,
+    "descricao": "Pre-Matching - BMF"
+  },
+  {
+    "id": 1869,
+    "descricao": "Monitor de Operações - Pre-Matching BMF"
+  },
+  {
+    "id": 1870,
+    "descricao": "Monitor de Operações - Pre-Matching Bolsa"
+  },
+  {
+    "id": 1871,
+    "descricao": "Monitor de Operações - CF Externo"
+  },
+  {
+    "id": 1872,
+    "descricao": "Monitor de Operações - CF Externo (Efetivar Manual)"
+  },
+  {
+    "id": 1873,
+    "descricao": "Desempenho da Carteira de Investimentos"
+  },
+  {
+    "id": 1874,
+    "descricao": "Pre-Matching - Bolsa"
+  },
+  {
+    "id": 1875,
+    "descricao": "Relatório Evolução da Carteira por Segmento PREVIC"
+  },
+  {
+    "id": 1876,
+    "descricao": "Status da Base Diária de Cotista"
+  },
+  {
+    "id": 1877,
+    "descricao": "Consulta Posição de Cotista"
+  },
+  {
+    "id": 1878,
+    "descricao": "Classificação de Movimentos de Conta Corrente"
+  },
+  {
+    "id": 1879,
+    "descricao": "Pre-Matching - BMF (Cancelamento)"
+  },
+  {
+    "id": 1880,
+    "descricao": "Pre-Matching - Bolsa (Cancelamento)"
+  },
+  {
+    "id": 1881,
+    "descricao": "Antecipação de Resgates Agrupados por Data"
+  },
+  {
+    "id": 1883,
+    "descricao": "Relatório Sincronização de Clientes"
+  },
+  {
+    "id": 1885,
+    "descricao": "Navegador de Taxa de Performance para Fundo de Terceiros"
+  },
+  {
+    "id": 1886,
+    "descricao": "Importação de Taxa de Performance para Fundo de Terceiros"
+  },
+  {
+    "id": 1887,
+    "descricao": "Navegador de Entrada de Cotista"
+  },
+  {
+    "id": 1888,
+    "descricao": "Volta ao Presente de Cotistas"
+  },
+  {
+    "id": 1890,
+    "descricao": "Navegador de Taxas de Fundo de Terceiros"
+  },
+  {
+    "id": 1893,
+    "descricao": "Exportação XML PREVIC"
+  },
+  {
+    "id": 1894,
+    "descricao": "Cálculo de Taxas de Fundo de Terceiros"
+  },
+  {
+    "id": 1895,
+    "descricao": "Registro Estorno Externo na Liquidação Financeira de Cotistas"
+  },
+  {
+    "id": 1896,
+    "descricao": "Cadastro de Operação com Participantes"
+  },
+  {
+    "id": 1897,
+    "descricao": "Extrato por Período Detalhado"
+  },
+  {
+    "id": 1898,
+    "descricao": "Regras para Rebate de Taxas"
+  },
+  {
+    "id": 1899,
+    "descricao": "Entrada de Cotista Via Importação"
+  },
+  {
+    "id": 1903,
+    "descricao": "Painel de Liquidação de Renda Fixa"
+  },
+  {
+    "id": 1904,
+    "descricao": "Relatório de Cotização de Fundos"
+  },
+  {
+    "id": 1905,
+    "descricao": "Relatório de Prazo Médio"
+  },
+  {
+    "id": 1906,
+    "descricao": "Cadastro de Praças de Feriados Complementares"
+  },
+  {
+    "id": 1907,
+    "descricao": "Relatório Informações de Cotistas BACEN"
+  },
+  {
+    "id": 1908,
+    "descricao": "Relatório Posição de Carteira S"
+  },
+  {
+    "id": 1909,
+    "descricao": "Cadastro de Política de Investimento"
+  },
+  {
+    "id": 1910,
+    "descricao": "Atualização Automática do Número de Contrato de Termo de Ações"
+  },
+  {
+    "id": 1911,
+    "descricao": "Relatório Ranking ANBIMA por Segmento"
+  },
+  {
+    "id": 1912,
+    "descricao": "Importação de Bloqueio de Cotas"
+  },
+  {
+    "id": 1913,
+    "descricao": "Importação de Saldos de Prejuizo a Compensar"
+  },
+  {
+    "id": 1914,
+    "descricao": "Recuperação Múltipla de Fluxos de Perfil"
+  },
+  {
+    "id": 1915,
+    "descricao": "Importação de Eventos Cetip"
+  },
+  {
+    "id": 1916,
+    "descricao": "Exclusão de Importação de Eventos Cetip"
+  },
+  {
+    "id": 1917,
+    "descricao": "Cadastro de Parâmetros do Rebate"
+  },
+  {
+    "id": 1918,
+    "descricao": "Rebate por Faixa de Patrimônio Líquido"
+  },
+  {
+    "id": 1919,
+    "descricao": "Relatório de Batimentos"
+  },
+  {
+    "id": 1921,
+    "descricao": "Cadastro de IPOC - FIDC 3040"
+  },
+  {
+    "id": 1922,
+    "descricao": "Exportação de Informações para Liquidez"
+  },
+  {
+    "id": 1923,
+    "descricao": "Gravação de Dados para Informe de Rendimentos"
+  },
+  {
+    "id": 1924,
+    "descricao": "Cadastro de Tipificação de Movimento do Caixa Online"
+  },
+  {
+    "id": 1926,
+    "descricao": "Demonstrativo de Investimentos"
+  },
+  {
+    "id": 1927,
+    "descricao": "Históricos por Tipos de Operação da Carteira"
+  },
+  {
+    "id": 1928,
+    "descricao": "Conferência de Nota de RV"
+  },
+  {
+    "id": 1929,
+    "descricao": "Monitor de Gestão de Caixa - Cancelamento"
+  },
+  {
+    "id": 1931,
+    "descricao": "Monitor de Gestão de Caixa - Aprovação Automática"
+  },
+  {
+    "id": 1932,
+    "descricao": "Monitor de Operações - Renda Fixa Internacional"
+  },
+  {
+    "id": 1933,
+    "descricao": "Monitor de Gestão de Caixa"
+  },
+  {
+    "id": 1934,
+    "descricao": "Monitor de Gestão de Caixa - Aprovação Saldo Negativo"
+  },
+  {
+    "id": 1935,
+    "descricao": "Recibo de Pagamento de Liquidação da Pagadoria"
+  },
+  {
+    "id": 1936,
+    "descricao": "Importação de Favorecido"
+  },
+  {
+    "id": 1937,
+    "descricao": "Cadastro de Perfil de Investimento"
+  },
+  {
+    "id": 1938,
+    "descricao": "Entrada de Cotista Via Importação ANBIMA"
+  },
+  {
+    "id": 1939,
+    "descricao": "Saida de Cotista"
+  },
+  {
+    "id": 1940,
+    "descricao": "Saida de Cotista em Lote"
+  },
+  {
+    "id": 1941,
+    "descricao": "Gestão de Acesso para Usuários Master do Portal de Custódia"
+  },
+  {
+    "id": 1942,
+    "descricao": "Importação de Boletas de Título Internacional"
+  },
+  {
+    "id": 1943,
+    "descricao": "Exportação Contábil para ATTEST"
+  },
+  {
+    "id": 1944,
+    "descricao": "Exclusão de Importação de Boletas de Título Internacional"
+  },
+  {
+    "id": 1945,
+    "descricao": "Perfil Liquidação de Despesas"
+  },
+  {
+    "id": 1946,
+    "descricao": "Exportação de Interface de Cotas Tipo FP"
+  },
+  {
+    "id": 1947,
+    "descricao": "Despesas Liberadas no Portal de Custódia"
+  },
+  {
+    "id": 1948,
+    "descricao": "Exportação de Interface Financeira Tipo FP"
+  },
+  {
+    "id": 1949,
+    "descricao": "Importação de Perfil de Liquidação de Despesa"
+  },
+  {
+    "id": 1950,
+    "descricao": "Permissão para serviços de Pagadoria"
+  },
+  {
+    "id": 1951,
+    "descricao": "Permissão para Autorização de Pre Registro de Pagadoria no Portal de Custodia"
+  },
+  {
+    "id": 1952,
+    "descricao": "Permissão para Exclusão de Pre Registro de Pagadoria no Portal de Custodia"
+  },
+  {
+    "id": 1953,
+    "descricao": "Exportação de Taxa de Gestão padrão ANBIMA"
+  },
+  {
+    "id": 1954,
+    "descricao": "Importação de Alíquotas de ISS de Municípios"
+  },
+  {
+    "id": 1955,
+    "descricao": "Monitor de Operações - Opções Flexiveis"
+  },
+  {
+    "id": 1956,
+    "descricao": "Manutenção de Cadastro de Cotista PCO"
+  },
+  {
+    "id": 1957,
+    "descricao": "Tesouraria"
+  },
+  {
+    "id": 1958,
+    "descricao": "Monitor de Operações - Cockpit"
+  },
+  {
+    "id": 1959,
+    "descricao": "Informações Bancárias de Fundo Externo"
+  },
+  {
+    "id": 1960,
+    "descricao": "Importação Conta Corrente de Fundo Externo"
+  },
+  {
+    "id": 1961,
+    "descricao": "Liberação de Cota"
+  },
+  {
+    "id": 1962,
+    "descricao": "Ativos Diversos e Cambio Liberados no Portal de Custódia"
+  },
+  {
+    "id": 1963,
+    "descricao": "Monitor de Operações - Ativos Diversos"
+  },
+  {
+    "id": 1964,
+    "descricao": "Monitor de Operações - Câmbio"
+  },
+  {
+    "id": 1965,
+    "descricao": "Status da Carteira em Inicialização"
+  },
+  {
+    "id": 1966,
+    "descricao": "Verificação de Saldos do Ativo"
+  },
+  {
+    "id": 1968,
+    "descricao": "Navegador de Arquivos"
+  },
+  {
+    "id": 1970,
+    "descricao": "Exportação Tesouraria ScafPlusNet"
+  },
+  {
+    "id": 1971,
+    "descricao": "Monitor de Operações - Renda Fixa (Enviar Clearing)"
+  },
+  {
+    "id": 1972,
+    "descricao": "Cadastro de Garantias - FIDC 3040"
+  },
+  {
+    "id": 1973,
+    "descricao": "Atualização Cadastral de Ativos de Renda Fixa Privada"
+  },
+  {
+    "id": 1974,
+    "descricao": "Importação de Lista de Carteira"
+  },
+  {
+    "id": 1975,
+    "descricao": "Tesouraria - CF Externo"
+  },
+  {
+    "id": 1976,
+    "descricao": "Cadastro de Lastro para Lastreamento Automático"
+  },
+  {
+    "id": 1977,
+    "descricao": "Monitor de Operações - Lastreamento"
+  },
+  {
+    "id": 1978,
+    "descricao": "Monitor de Gestão de Caixa Detalhado"
+  },
+  {
+    "id": 1980,
+    "descricao": "Cadastro de Parâmetros para Exportação SFC"
+  },
+  {
+    "id": 1981,
+    "descricao": "Exportação SFC"
+  },
+  {
+    "id": 1982,
+    "descricao": "DOC4 - Demonstração da Evolução do Patrimônio Líquido - Quadro 1"
+  },
+  {
+    "id": 1983,
+    "descricao": "Cadastro de Classificação para Demonstrativo da Evolução do PL - Quadro 1"
+  },
+  {
+    "id": 1984,
+    "descricao": "DOC5 - Demonstração da Evolução da Cota e Rentabilidade - ICVM 577"
+  },
+  {
+    "id": 1985,
+    "descricao": "Monitor de Tarefas Gerenciadas"
+  },
+  {
+    "id": 1986,
+    "descricao": "Exportação de Informações para Risco"
+  },
+  {
+    "id": 1987,
+    "descricao": "Exportação de Clientes - SGT"
+  },
+  {
+    "id": 1988,
+    "descricao": "Extrato Conta Corrente"
+  },
+  {
+    "id": 1989,
+    "descricao": "Relatório de Rebate a Receber"
+  },
+  {
+    "id": 1990,
+    "descricao": "ANBIMA - INPUT Carteiras Administradas"
+  },
+  {
+    "id": 1991,
+    "descricao": "Cadastro de Parâmetros do Rebate a Receber"
+  },
+  {
+    "id": 1992,
+    "descricao": "Exportação de Tributos - SGT"
+  },
+  {
+    "id": 1993,
+    "descricao": "Exportação Easyway - e-Financeira"
+  },
+  {
+    "id": 1994,
+    "descricao": "Tesouraria - Bolsa"
+  },
+  {
+    "id": 1995,
+    "descricao": "Tesouraria - BMF"
+  },
+  {
+    "id": 1996,
+    "descricao": "Tesouraria - Ativos Diversos"
+  },
+  {
+    "id": 1997,
+    "descricao": "Tesouraria - Câmbio"
+  },
+  {
+    "id": 1998,
+    "descricao": "Tesouraria - RF Privado"
+  },
+  {
+    "id": 1999,
+    "descricao": "Monitor de Operações - Eventos"
+  },
+  {
+    "id": 2000,
+    "descricao": "Posição de Cotistas - Sintético"
+  },
+  {
+    "id": 2001,
+    "descricao": "Relatório de Ofertas - Posição e Movimento"
+  },
+  {
+    "id": 2002,
+    "descricao": "Limpeza da Base Diária de Cotista"
+  },
+  {
+    "id": 2003,
+    "descricao": "Tesouraria - Swap"
+  },
+  {
+    "id": 2004,
+    "descricao": "Alteração em Lote de Aplicações Importadas de Bolsa"
+  },
+  {
+    "id": 2005,
+    "descricao": "Volta ao Presente - Tarefa"
+  },
+  {
+    "id": 2006,
+    "descricao": "Exportação de Views"
+  },
+  {
+    "id": 2007,
+    "descricao": "Exportação ANS Diária"
+  },
+  {
+    "id": 2008,
+    "descricao": "Cadastro de Informes FIPs"
+  },
+  {
+    "id": 2009,
+    "descricao": "Exportação de Informes FIPs"
+  },
+  {
+    "id": 2010,
+    "descricao": "Exportação de Cotistas"
+  },
+  {
+    "id": 2011,
+    "descricao": "Exportação para DF/NE"
+  },
+  {
+    "id": 2012,
+    "descricao": "EFD-Reinf"
+  },
+  {
+    "id": 2013,
+    "descricao": "Tesouraria - Rebate"
+  },
+  {
+    "id": 2014,
+    "descricao": "Informações Bancárias do Assessor"
+  },
+  {
+    "id": 2015,
+    "descricao": "Simulação de Fusão - Cisão - Incorporação de Carteiras"
+  },
+  {
+    "id": 2017,
+    "descricao": "Monitor de Operações - Integração com RTM"
+  },
+  {
+    "id": 2018,
+    "descricao": "Recibo de Pagamento de Rebate"
+  },
+  {
+    "id": 2019,
+    "descricao": "Relatório de Aplicação Financeira e Comparativo"
+  },
+  {
+    "id": 2020,
+    "descricao": "Processo de Importação de Transferência de Cotas"
+  },
+  {
+    "id": 2021,
+    "descricao": "Importação de Transferência de Cotas"
+  },
+  {
+    "id": 2022,
+    "descricao": "Atualização de grupos/usuario via REST"
+  },
+  {
+    "id": 2023,
+    "descricao": "Fluxo de Rotina Diária do Cotista"
+  },
+  {
+    "id": 2024,
+    "descricao": "Relatório de Rentabilidade"
+  },
+  {
+    "id": 2026,
+    "descricao": "Cadastro de Parâmetros da Distribuição"
+  },
+  {
+    "id": 2027,
+    "descricao": "Demonstrativo de Resultado Semestral - FII"
+  },
+  {
+    "id": 2028,
+    "descricao": "Exportação para Cadastro de Fundos - EasyWay"
+  },
+  {
+    "id": 2029,
+    "descricao": "Exportaçao de Cotista para Integração VALID"
+  },
+  {
+    "id": 2030,
+    "descricao": "Cadastro de Parâmetros para Pagamentos dos Agentes Autônomos"
+  },
+  {
+    "id": 2031,
+    "descricao": "Portabilidade Interna"
+  },
+  {
+    "id": 2032,
+    "descricao": "Estorno de Portabilidade Interna"
+  },
+  {
+    "id": 2033,
+    "descricao": "Alteração de Conta Contábil"
+  },
+  {
+    "id": 2034,
+    "descricao": "Web Service Prematching Renda Fixa"
+  },
+  {
+    "id": 2035,
+    "descricao": "Importação de Boleta de Bloqueio de Margem de Garantia de Ações"
+  },
+  {
+    "id": 2036,
+    "descricao": "Importação de Posição de Cotista - B3"
+  },
+  {
+    "id": 2037,
+    "descricao": "Taxa de Distribuição - Detalhamento"
+  },
+  {
+    "id": 2038,
+    "descricao": "Navegador de Bloqueio de Financeiro (Caixa)"
+  },
+  {
+    "id": 2039,
+    "descricao": "Navegador de Preços de Ações para Margem de Garantia"
+  },
+  {
+    "id": 2040,
+    "descricao": "Cadastro de Índices de Preços de Ações para Margem de Garantia"
+  },
+  {
+    "id": 2041,
+    "descricao": "Tesouraria - Margem de Garantia"
+  },
+  {
+    "id": 2042,
+    "descricao": "Importação de Preços de Ações para Margem de Garantia"
+  },
+  {
+    "id": 2043,
+    "descricao": "Migração dos Usuários para o Provedor OAuth2"
+  },
+  {
+    "id": 2044,
+    "descricao": "Adesão ao Pagamento Antecipado de Come-cotas"
+  },
+  {
+    "id": 2045,
+    "descricao": "Relatório Informe Quadrimestral FIP"
+  },
+  {
+    "id": 2046,
+    "descricao": "Monitor de Margem de Garantia - Ações"
+  },
+  {
+    "id": 2047,
+    "descricao": "Monitor de Margem de Garantia - Financeiro"
+  },
+  {
+    "id": 2048,
+    "descricao": "Cadastro de Parâmetros de Bloqueio - Carteiras"
+  },
+  {
+    "id": 2049,
+    "descricao": "Hub ANBIMA - PL / Cota"
+  },
+  {
+    "id": 2050,
+    "descricao": "Importação de Vínculos de Ofertas"
+  },
+  {
+    "id": 2051,
+    "descricao": "Modelo - Exportação do Movimento Diário Contábil Tipo AB"
+  },
+  {
+    "id": 2052,
+    "descricao": "Tabela - Exportação do Movimento Diário Contábil Tipo AB"
+  },
+  {
+    "id": 2053,
+    "descricao": "Navegador para Consulta de Boletos DDA"
+  },
+  {
+    "id": 2054,
+    "descricao": "Relatório de Captação Líquida por Fundo"
+  },
+  {
+    "id": 2055,
+    "descricao": "Movimento de Swap"
+  },
+  {
+    "id": 2056,
+    "descricao": "Escrituração PCO para a B3"
+  },
+  {
+    "id": 2057,
+    "descricao": "Importação de Movimentos de Clientes - P"
+  },
+  {
+    "id": 2058,
+    "descricao": "Calcula Nova TIR para Operações de Renda Fixa"
+  },
+  {
+    "id": 2059,
+    "descricao": "Informe de Fundo 157 para a CVM"
+  },
+  {
+    "id": 2060,
+    "descricao": "Conversão de Cadastro do Leiaute por Lista"
+  },
+  {
+    "id": 2061,
+    "descricao": "Cadastro de Percentuais para Cálculo da Perda Esperada (IN BCB 352)"
+  },
+  {
+    "id": 2062,
+    "descricao": "Cadastro de Política de Apuração de Perdas Esperadas"
+  },
+  {
+    "id": 2063,
+    "descricao": "Cadastro de Política de Apuração de Perdas Esperadas das Carteiras"
+  },
+  {
+    "id": 2064,
+    "descricao": "Cadastro de Estágio de Política de Apuração de Perdas Esperadas"
+  },
+  {
+    "id": 2065,
+    "descricao": "Importação de Lastro e Eventos via UP2DATA"
+  },
+  {
+    "id": 2066,
+    "descricao": "Configuração de Thread no processo"
+  },
+  {
+    "id": 2067,
+    "descricao": "Recibo de Pagamento de Cotas de Fundo"
+  },
+  {
+    "id": 2068,
+    "descricao": "Relatório de PDD - Títulos de Renda Fixa"
+  },
+  {
+    "id": 2069,
+    "descricao": "Exportação Mensal de Eventos de FII"
+  },
+  {
+    "id": 2070,
+    "descricao": "Recibo de Pagamento de Ativos Diversos"
+  },
+  {
+    "id": 2071,
+    "descricao": "Cadastro de Parâmetros de Fundo Fechado - Carteira"
+  },
+  {
+    "id": 2072,
+    "descricao": "Recibo de Pagamento de RF Privado"
+  },
+  {
+    "id": 2076,
+    "descricao": "Expurgo do Histórico de Movimentos do Cotista"
+  },
+  {
+    "id": 2077,
+    "descricao": "Processo para Permissão de Acesso ao Módulo SQCTRL no Sistema Modernizado"
+  },
+  {
+    "id": 2078,
+    "descricao": "Clonagem de Leiaute por Lista"
+  },
+  {
+    "id": 2079,
+    "descricao": "Transformação de Carteira"
+  },
+  {
+    "id": 2080,
+    "descricao": "Cadastro de Grupo de Volumetria"
+  },
+  {
+    "id": 2081,
+    "descricao": "Relatório de Volumetria"
+  },
+  {
+    "id": 2082,
+    "descricao": "Tesouraria - Pagadoria Apenas Consulta"
+  },
+  {
+    "id": 2083,
+    "descricao": "Navegador de Tipo Reinf"
+  },
+  {
+    "id": 2084,
+    "descricao": "Navegador de Vigências de Tipo Reinf"
+  },
+  {
+    "id": 2085,
+    "descricao": "Navegador de Custos Unitários de Taxas para Renda Variável - Bolsa"
+  },
+  {
+    "id": 2086,
+    "descricao": "Importação de Custos Unitários de taxas para Renda Variável - Bolsa"
+  },
+  {
+    "id": 2087,
+    "descricao": "Exportação de dados do Caixa Online"
+  },
+  {
+    "id": 2088,
+    "descricao": "Informe Mensal FIAGRO"
+  },
+  {
+    "id": 2089,
+    "descricao": "Exportação de dados de Fundos por Distribuidor"
+  },
+  {
+    "id": 2090,
+    "descricao": "Cadastro de Parâmetros Auxiliares da Carteira"
+  },
+  {
+    "id": 2091,
+    "descricao": "Liberação de Cota do Passado"
+  }
+]

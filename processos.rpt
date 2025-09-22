@@ -1,0 +1,1973 @@
+﻿ID          Nome
+----------- --------------------------------------------------------------------------------
+1           Cálculo de Carteira
+2           Inclusão de Movimento
+3           Exclusão de Movimento
+4           Alteração de Movimento
+5           Inclusão de Títulos
+6           Alteração de Títulos
+7           Navegador de Títulos
+9           Carteira de Renda Fixa
+10          Carteira de Renda Variável
+11          Carteira de Opções
+12          Carteira de Cotas de Fundos
+13          Carteira de Futuros
+14          Relatório Carteira de Swap
+15          Carteira de Outros Títulos
+16          Carteira Por Grupo
+17          Consulta Posição de Emissores Por Carteiras
+18          Consulta Saldos de Título
+19          Consulta Movimentos de Título
+20          Consulta Movimentos Futuros de Título
+21          Consulta Posição de Títulos
+22          Consulta Razão de Título
+23          Consulta Séries de Carteiras
+24          Consulta Séries Temporais
+25          Consulta Risco Por Indexador
+26          Explorer de Carteiras
+27          Gráfico Distribuição da Carteira
+28          Gráfico Comparativo 12 Meses
+29          Gráfico Acumulado no Ano
+30          Gráfico Rentabilidades Comparativas
+31          Gráfico Indicadores Econômicos
+32          Relatório Carteira Diária
+33          Relatório Rentabilidade Pela TIR
+34          Relatório Composição da Carteira
+35          Relatório Performance da Carteira
+36          Relatório Resumo para Divulgação
+37          Relatório Indicadores Econômicos
+38          Relatório Fluxo de Caixa Previsão
+39          Relatório Fluxo de Caixa Gerencial
+40          Simulação de Cálculo de Rentabilidade
+41          Simulação de Cálculo da TIR
+42          Simulação de Rotinas de Cálculo
+43          Central de Cotistas
+45          Relatório Posição de Cotistas
+46          Relatório Ranking de Assessores
+47          Relatório Ranking de Captação
+48          Relatório Comissão de Assessores
+49          Relatório Aniversário de Aplicações
+50          Extrato de Cotistas
+51          Extrato Mensal
+52          Extrato de Conta Corrente
+53          Extrato Com Agenda
+54          Extrato de Rentabilidade
+55          Extrato Mensal Simplificado
+56          Extrato Com Agenda Consolidado
+57          Extrato Consolidado
+58          Cadastro de Listas de Carteiras
+59          Estatística de Carteiras
+60          Estatística de Movimento por Mês
+61          Estatística de Movimento por Carteiras/Mês
+62          Exportação para SFR
+63          MultiLíngua
+64          Consulta Posição de Carteiras
+65          Opções de Bloqueio
+66          Cadastro de Feriados
+67          Consulta ao Cadastro de Feriados
+68          Alteração em Cadastro de Administrador
+69          Consulta ao Cadastro de Administrador
+70          Alteração em Cadastro de Tipo de Investidor
+71          Consulta ao Cadastro de Tipo de Investidor
+72          Alteração em Cadastro de Origem de Investidor
+73          Consulta ao Cadastro de Origem de Investidor
+74          Alteração em Cadastro de Setor
+75          Consulta ao Cadastro de Setor
+76          Relatório Cotas & Investimento
+77          Relatório Balancete Diário
+78          Cadastro de Cód.Aplicação Invest
+79          Consulta ao Cadastro de Cód.Aplic. do Investidor
+80          Cadastro de Comp.Diversific COSIF
+81          Consulta ao Cadastro de Comp.Diversific COSIF
+82          Cadastro de Comp.Diversific COMIN
+83          Consulta ao Cadastro de Comp.Diversific COMIN
+84          Cadastro Demostrat.Mensal de RV
+85          Consulta ao Cadastro Demostrat.Mensal de RV
+86          Cadastro de SISBACEN Semanal
+87          Consulta ao Cadastro de SISBACEN Semanal
+88          Cadastro de Tipo de Movimentação
+89          Consulta ao Cadastro de Movimento SI-ANBIMA
+90          Inclusão de Movimento Futuro
+91          Exclusão de Movimento Futuro
+92          Alteração de Movimento Futuro
+93          Cadastro de Emissores de Títulos - Alteração
+94          Cadastro de Emissores de Títulos
+95          Alteração no Cadastro de Bolsas & Praças
+96          Consulta ao Cadastro de Bolsas & Praças
+97          Exigências Para o Cálculo
+98          Inicialização
+99          Inicializa Carteira
+100         Reabertura de Carteiras
+101         Volta ao Presente
+102         Alteração no Cadastro de Corretoras
+103         Consulta ao Cadastro de Corretoras
+104         Cadastro de Fontes e Aplicações
+105         Consulta ao Cadastro de Fontes e Aplicações
+106         Cadastro de Séries
+107         Cadastro de Plano de Contas & Contas
+108         Movimento Especial de Cotistas
+109         Relatório Balancete
+110         Relatório Balanço Simulado 13 Meses
+111         Cadastro de Grupo
+114         Cadastro de Grupo - Atualização
+115         Relatório Movimento Diário
+116         Gráfico de Composição de Lista
+117         Relatório Carteira Resumida
+118         Relatório Demonstração de Resultados 13 Meses
+119         Cadastro de PCA
+120         Renda Fixa por Vencimento
+121         Gráfico Comparativo de Rentabilidade
+122         Razão Contábil
+123         Gráfico Resumo Comparativo de Rentabilidade
+124         Estatística de Mães e Filhas
+125         Estatística de Movimentos Por Rotina de Cálculo
+126         Estatística de Saldos Por Rotina de Cálculo
+127         Estatística de Títulos Por Rotina de Cálculo
+128         Reconciliação Bancária (Antiga)
+129         Inclusão de Carteira
+130         Alteração de Carteira
+131         Navegador de Carteira
+132         Processo de Importação de Renda Variável
+133         Processo de Importação de Renda Fixa
+134         Relatório Balanço Para Divulgação
+135         Cadastro de Séries adicionais
+136         Consulta de Séries adicionais
+137         Consulta Planílhia de Renda Variável
+138         Gráfico Distribuição Setorial
+139         Relatório Movimento de Renda Variável
+140         Relatório Razão de Investidores
+141         Relatório Movimento de RV Resumo
+142         Relatório Razão de Assessor
+143         Aplicação de Cotista
+144         Relatório Diário Geral
+145         Consulta Movimento de Cotista
+146         Estorno de Movimento de Cotista
+147         Relatório Demonstrativo de Caixa (Antigo)
+148         Relatório Composição e Diversificação
+149         Encerramento de Balanço
+150         Desfazer Encerramento de Balanço
+151         Cadastro de Fundos de Pensão
+152         Consulta ao Cadastro de Fundos de Penão
+153         Relatório Fontes e Aplicações Mensal
+154         Relatório Demonstrativo Mensal de FACFIF
+155         Relatório Demonstrativo Diário de FIF
+156         Relatório Demonstrativo Diário de FRFCE
+157         Relatório Demonstrativo Diário de RV
+158         Relatório Demonstrativo Semanal de FIEX
+159         Relatório Demonstrativo Mensal 3004 - FITVM
+160         Resgate de Cotista
+161         Relatório Informações SISBACEN
+162         Relatório SISBACEN Semanal
+163         Inicialização de Carteiras de Cotistas
+164         Encerramento de Carteiras de Cotistas
+165         Relatório Fontes e Aplicações P/ SI-ANBIMA
+166         Relatório Informe Sintético
+167         Cadastro de Assessores
+168         Cadastro de Assessores 2
+169         Cadastro de Bancos
+170         Consulta ao Cadastro de Assessores
+171         Consulta ao Cadastro de Assessores 2
+172         Consulta ao Cadastro de Bancos
+173         Inclusão de Cliente
+174         Alteração de Cliente
+175         Consulta de Cliente
+176         Relatório Balancete BACEN/CVM
+177         Manutenção de Séries de Carteira
+178         Exclusão de Carteira
+179         Restauração de Carteira
+180         Cadastro de Séries - Alteração
+181         Cadastro de Tabelas de Contrato Futuro
+182         Disquete Balancete BC
+183         Disquete Balanço BC
+184         Cálculo de Cotistas
+185         Simulação de Debêntures com Amortiz. Programada
+186         Controle Resumido de Cotistas
+187         Movimento Diário Contábil - Detalhado
+188         Movimento Diário Contábil - Detalhado B
+189         Movimento Diário Contábil - Evento 1
+190         Movimento Diário Contábil - Evento 2
+191         Movimento Diário Contábil - Fundo de Pensão
+192         Movimento Diário Contábil - Resumido
+193         Exportação de Saldo Simplificado de Cotistas
+194         Swap Novo
+195         Relatório Médias Móveis p/ Composição de FIF
+196         Relatório Médias Móveis Adicionais
+197         Cadastro de Moeda - Atualização
+198         Relatório Médias Móveis p/ Composição de FIFCP
+199         Consulta ao Cadastro de Processos de Importação
+200         Cadastro do Proc.Import. de Cadastro de Cliente
+201         Troca Código de Carteira
+202         Cadastro de Moeda
+203         Importação do Cadastro de Clientes
+204         Troca Código de Título (Antigo)
+205         Troca Grupo de Título
+206         Cadastro do Proc.Import. Movimentos de Cliente
+207         Importação de Movimentos de Clientes
+208         Movimento Diário Contábil - Detalhado C
+209         Cadastro de Listas de Carteiras - Atualização
+210         Exportação de Movimento Totalizado de Cotistas
+211         Estatística de TACTotal
+212         Ajusta Custo à Mercado
+213         Aplicação de Cotista Anterior
+214         Resgate de Cotista Anterior
+215         Resgate de Cotista Por Aplicação
+216         Estatística de Direitos de Uso
+217         Implantação de Cotistas
+218         Processo de Importação de Cotações
+219         Troca Código de Cotistas
+220         Importação de Movimentos de RV
+221         Avança Datas de Cotistas
+222         Saldos de Cotista (Antigo)
+223         Importação de Cotações
+224         Mapa de Movimentos
+225         Transferência de Cotas entre Cotista
+226         Consulta Extrato Completo
+227         Extrato Mensal
+228         Estatística de Movimento por Carteiras
+229         Estatística de Movimento por Mês/Carteira
+230         Controle de FIF de Cotistas
+231         Relatório Posição Patrimonial
+232         Relatório Demonstrativo para Fontes e Aplicações
+233         Estatística de Movimento por Carteira/Ano
+234         Exportação de Extrato Resumido de Cotistas
+235         Relatório Mutações Patrimoniais
+236         Exportação de Saldo Médio de Patrimônio Líquido
+237         Controle Detalhado
+238         Relatório Posição de Carteira
+239         Consulta Registro Saldo
+240         Relatório Movimento de Renda Fixa
+241         Relatório Apropriação de Carteira de Renda Fixa
+242         Relatório Composição da Carteira de Renda Fixa
+243         Relatório Demonstrativo IR de Ações
+244         Reinicialização de Carteiras de Cotistas
+245         Manut. Séries TIR
+246         Rentabilidade pela TIR no Mês
+247         Relatório Evolução da Carteira de Ações
+248         Gráfico Rentabilidades pela TIR-Acumulado/Ano
+249         Exportação de Saldo de Cotistas
+250         Relatório Posição Mensal para Fundações
+251         Relatório Mapa de Cotações
+252         Relatório Mapa de Índices
+253         Relatório Balanço Geral
+254         Simulação de Rentabilidade pela TIR
+255         Relatório Médias Móveis RV 40 Dias
+256         Cadastro de Limite de Enquadramento
+257         Relatório de Controle de Enquadramento
+258         Relatório Informe Sintético SI-ANBIMA
+259         Relatório Performance Fee Calculada
+260         Relatório Performance Fee nos Resgates
+261         Extrato Com Agenda Completo
+262         Importação de Movimentos de RF
+263         Relatório Carteira de Renda Fixa Completo
+264         Data Último Corte PFee
+265         Movimento Diário Contábil - Tipo M
+266         Operação Compromissada
+267         Relatório Compensação de Prejuízo - Saldo
+268         Emissão de Etiquetas
+269         Emissão de Avisos
+270         Bloqueio de Aplicações para Resgate
+271         Cadastro de Alíq IR Fundo Priv.Cap.Estrang.
+272         Relatório Movimento de Cotistas
+273         Rateio de Corretagens
+274         Integração de Cotistas
+275         Relatório Fechamento de PL e Cotas
+276         Desconexão de Cotistas
+277         Cadastro de Agência
+278         Exclusão de Clientes
+279         Limpeza de Títulos
+280         Relatório Carteira Por Risco de Emissor
+281         Alteração no Cadastro Demostrat.Mensal de RVCL
+282         Consulta ao Cadastro Demostrat.Mensal de RVCL
+283         Relatório Demonstrativo Mensal de RVCL
+284         Implantação de Custos Corrigidos
+285         Limpeza de Carteiras
+286         Inclusão de Cliente Corporativo
+287         Alteração Cadastro Cliente Corporativo
+288         Interface Corporativa
+289         Cassação de Liminar de Isenção de IR
+290         Relatório Estatística de Lista de Carteiras
+291         Resgate de IR em Data Anterior
+292         Consulta Log de Atividades
+293         Limpeza Log de Atividades
+294         Troca Tipo de Carteira
+295         Relatório Rentabilidade de Renda Variável
+296         DIRF
+297         Parâmetros do Sistema
+298         Inclusão/Alteração de Proventos de RV
+299         Relatório do Cadastro de Clientes
+300         Fechamento de Carteiras
+301         Reabertura de Movimentos
+302         Cálculo de Dias Úteis
+303         Relatório Cadastro de Assessor
+304         Relatório Emissores de Títulos
+305         Relatório Aviso de Movimentação
+306         Relatório do Cadastro de Títulos
+307         Exclusão de Movimento de Renda Fixa
+308         Relatório Analítico da DIRF
+309         Relatório de Feriados
+310         Relatório Batimento de Saldo
+311         Informe de Rendimentos
+312         Exportação para DIRF B
+313         Exportação para Informe B
+314         Decimais do Valor de Cotas
+315         Relatório Cadastro de Grupos
+316         Relatório IOF de Aplicações
+317         Relatório Analítico de Informe de Rendimentos
+318         Relatório Gerencial de Saldos
+319         Verificação de Saldos
+320         Relatório Bônus de Performance
+321         Exportação de Extrato
+322         Relatório Rentabilidade Pela TIR de um Título
+324         Libera Financeiro
+325         Manutenção do Mapa de Liquidação
+326         Importação de Movimento Especial de Cotistas
+327         Processo de Importação de Mov. Especial Cotista
+328         Custo de Oportunidade
+329         Extrato Completo
+330         Exportação de Arquivos
+331         Identificador de Swaps
+332         Relatório Gerencial de Carteira
+333         Relatório Posição de Carteira B
+334         Carteira com Swap
+335         Exclusão de Movimento de Renda Variável
+336         Relatório Rentabilidade de Renda Fixa
+337         Importação de Conta Corrente
+338         Processo de Importação de Conta Corrente
+339         Manut. Séries TIR Títulos
+340         Fusão - Cisão - Incorporação de Carteiras
+341         Importação de Cadastro de Cliente Tipo V
+342         Exportação de Cliente Tipo V
+343         Projeção de Cota de Carteira
+344         Relatório de Cliente Isento por Liminar
+345         Relatório de Cliente com Depósito Judicial
+346         Relatório Resumo de Movimentação de Cotistas
+347         Relatório Diferenca Entre Cotas
+348         Contas Padrão
+349         Relatório Captação por Tipo Carteira
+350         Controle de Envio de Regulamento
+351         Recupera Contas Sintéticas
+352         Estatística de Cotista com Saldo
+353         Exportação de Saldos Tipo V
+354         Exportação de Movimentos Tipo V
+355         Relatório Informações Diárias P/ SI-ANBIMA
+356         Relatório Cálculo de Taxa de Administração
+357         Cadastro de Séries - Exclusão
+358         Relatório Cadastro de Assessor2
+359         Exclusão de Movimento de Conta Corrente
+360         Reabertura de Movimento de Cotista
+361         Relatório Demonstrativo Diário de FAPI
+362         Inclusão de Movimento Contábil
+363         Exclusão de Movimento Contábil
+364         Alteração de Movimento Contábil
+365         Consulta de Movimento Contábil
+366         Extrato de Aplicações Financeiras
+367         Relatório ANBIMA Público Alvo
+368         Relatório Mutações Patrimoniais - Quadro 1
+369         Cadastro de Comp.Diversific Quadro 2
+370         Consulta ao Cadastro de Comp.Diversific Quadro 2
+371         Composição e Diversificação - Quadro 2
+372         Relatório Captação por Instituição Mensal
+373         Inclusão de Movimento Futuro Contábil
+374         Exclusão de Movimento Futuro Contábil
+375         Alteração de Movimento Futuro Contábil
+376         Movimentação de Título por Carteira
+377         Swap Já Existente
+378         Swap Decorrido
+379         Swap Revenda
+380         Swap Consulta
+381         Swap Exclusão
+382         Exportação de Conta Corrente de Bolsa
+383         Reabertura de Carteira para Cotistas
+384         Relatório Agendamento de Movimentos de Cotistas
+385         Relatório Demonstrativo Mensal de FAPI
+386         Extrato Mensal Net
+387         Exclusão de Movimento Agendado
+388         Consulta de Movimento Agendado de Cotista
+389         Troca Códigos de Títulos via Arquivo Texto
+390         Conversão de D+1 para D0
+391         Bloqueio de Movimento de Cotistas
+392         Cadastro de Taxa por Faixa
+393         Relatório Apuração de IR em Bolsa de Valores
+394         Boletagem de Cotistas
+395         Boletagem Inicial de Cotistas
+396         Consulta da Boletagem de Cotistas
+398         Relatório Comissão de Assessores B
+399         Exportação do Cadastro de Aplicadores
+400         Exportação de Resgates por DOC
+401         Validação dos Movimentos de Liquidação
+402         Relatório de Informações Bancárias
+403         Importação de Carteira
+404         Gera Demonstração
+405         Abertura de Boletagem de Cotistas
+406         Fechamento de Boletagem de Cotistas
+407         Cadastro de Empresas
+408         Alteração de Empresa
+409         Cadastro de Situação
+410         Alteração de Situação
+411         Gráfico Rentabilidades Acumuladas no Mês
+412         Relatório Boletas de Cotistas
+413         Inicialização para Agendamento
+414         Gráfico Comparação de Séries/Carteira
+415         Atualização de Dados Bancários
+416         Cadastro de Tipos de Bloqueios
+417         Inclusão de Movimento de Bloqueio/Desbloqueio
+418         Exclusão de Movimento de Bloqueio/Desbloqueio
+419         Relatório Razão de Bloqueios
+420         Relatório Posição de Bloqueios
+421         Exportação de Movimentos por DOC
+422         Estorno de Transferência de Cotas - Data Atual
+423         Importação de Conta Corrente de Cotista
+424         Caixa On Line
+425         Relatório Termo de Adesão
+426         Cadastro do Código de Classificação do MAPS
+427         Equalização de Custo Médio de Renda Variável
+428         Troca Tipo de Cota da Transferência de Cotas
+429         Cadastro de Papel - Consulta
+430         Cadastro de Papel - Manutenção
+431         Relatório Cadastro de Papel
+432         Cadastro de Código SELIC para Títulos
+433         Alteração do Cadastro de Código SELIC p/Títulos
+434         Relatório Cadastro de Código SELIC para Títulos
+435         Cadastro de Código CETIP para Títulos
+436         Alteração do Cadastro de Código CETIP p/Títulos
+437         Relatório Cadastro de Código CETIP para Títulos
+438         Relatório Cotas Livres e Bloqueadas
+439         Navegador de Boletas de RF
+440         FrontOffice - Compliance
+441         FrontOffice - Controller
+442         Navegador de Boletas de RF - Trader
+443         Exportação de Arquivos para MAPS
+444         Swap Alteração
+445         Relatório Carteira com Diferença
+446         Processo de Importação de Índice
+447         Importação de Índices
+448         Alteração Código de Classificação por Grupo
+449         Abertura de Boletagem de RF (Apenas DriveAM)
+450         Fechamento de Boletagem de RF
+451         FrontOffice - Checker
+452         Cadastro de Players
+453         Alteração do Cadastro de Players
+454         Relatório Cadastro de Players
+455         Extrato de Movimentação
+456         Exportação de Arquivos Simplificada
+457         Exportação para DIRF C
+458         Relatório Demonstrativo das Movimentações do PL
+459         Relatório Demonstrativo IR de Renda Variável
+460         Relatório de Boleta de RF
+461         Relatório Comissão de Assessores por Aplicação
+462         Tesouraria On Line
+463         Alteração em Nome + CPF/CNPJ de Clientes
+464         Tesouraria de Carteira
+465         Importação de PU Papel
+466         Processo de Importação de PU Papel
+467         Cadastro de PU Papel
+468         Relatório Razão de Título
+469         Consulta Movimentos Futuros Contábil
+470         Exportação Tributos - Easy Way
+471         FrontOffice - Master
+472         FrontOffice - Zeramento de Caixa
+473         Exportação de Movimentos de Cotista (DriveAM)
+474         Abertura de Zeramento de Caixa
+475         Fechamento de Zeramento de Caixa
+476         Cadastro de Zeramento de Caixa
+477         Administrador de Movimentos de Boletagem
+478         Relatório Carteira para FrontOffice
+479         Exportação de Saldo B
+480         Inclusão de Integração de Boletagem de RF
+481         Troca Senha
+482         Movimento Day-Trade RV
+483         Navegador Por Vencimento
+484         Exclusão de Integração de Boletagem de RF
+485         Movimento Diário/Autorização
+486         Relatório de Transferências
+487         Movimento Diário Resumido
+488         Relatório ANBIMA Movimentação de Cotas
+489         Cadastro de CPMF
+490         Alteração de PU no Zeramento de Caixa
+491         Cadastro de Cestas de Papéis
+492         Cadastro de Cestas de Papéis - Atualização
+493         Relatório Conferência de PU Papel
+494         Simulação de Resgate Total
+495         Relatório Evolução de Ingressos e Retiradas
+496         Exportação Boletas SELIC
+497         Cadastro de Regras de Zeramento de Caixa
+498         Inclusão de C/C de Cotista
+499         Relatório Circular BACEN nº 2.893 - Art. 8º
+500         Relatório Resumo Diário SELIC
+501         Estatística de Movimentos de Cotistas por Mês
+502         Relatório Posição de Papel
+503         Confirmação de Boletas
+504         Relatório Estoque SELIC
+505         Relatório Nota de Negociação
+506         Relatório Carteira de Renda Fixa Por Papel
+507         Bloqueio de Cotas
+508         Desbloqueio de Cotas
+509         Estorno de Bloqueio e Desbloqueio de Cotas
+510         Cadastro de Bloqueios de Cotas
+511         Cadastro de Modos de Liquidação
+512         Inclusão/Alteração de Séries Adicionais / PCA
+513         Alteração em Internet Banking do Cliente
+514         Cadastro de Códigos de Custódia
+515         Alteração do Cadastro de Códigos de Custódia
+516         Relatório Cadastro de Códigos de Custódia
+517         Cadastro de Lastros
+518         Alteração do Cadastro de Lastros
+519         Relatório Cadastro de Lastros
+520         Cadastro de Cotação RF
+521         Navegador Cotação RF Por Vencimento
+522         Cadastro de Processo de Importação de PU Cotação RF
+523         Importação de Cotação RF
+524         Relatório Circular 3004
+525         Transferência entre Clientes e Fundos
+526         FrontOffice - Fechamento de Liquidação e Custódia
+527         Relatório de Verificação de CPF/CNPJ
+528         Relatório Posição de Enquadramento
+529         FrontOffice - Abertura de Liquidação e Custódia
+530         Cadastro de Fundação
+531         Cadastro de Agência de Risco
+532         Cadastro de Segmento
+533         Cadastro de Imóvel
+534         Cadastro de Operação Transitória
+535         Cadastro de Participação
+536         Cadastro de Enquadramento
+537         Cadastro de Grupo Econômico
+538         Exportação para PREVIC
+539         Informações Adicionais de Saldo
+540         Relatório Conferência de PU Cotação RF
+541         Cadastro de Plano da Fundação
+542         Manutenção de Movimentos c/Tesouraria Ok
+543         Cadastro de Fornecedores
+544         Cadastro Automático de Cotação RF
+545         Relatório Integração SELIC
+546         Cadastro de SubSegmento
+547         Cadastro de Regras do Enquadramento
+548         Importação de Cadastro de Títulos Tipo T
+549         Manutenção no Arquivo de Saldos Tipo T
+550         Exclusão de Importação de Movimento Contábil
+551         Processo de Importação de Mov. Contábil
+552         Importação de Movimento Contábil
+553         Cadastro de Histórico de Movimento
+554         Relatório Demonstrativo Mensal 3004 - CE
+555         Relatório Demonstrativo Mensal 3004 - FGTS
+556         Relatório Distribuição Por Classe de Investidor
+557         Navegador de Cotações - BMF
+558         Abertura de Boletagem de Bolsa
+559         Fechamento de Boletagem de Bolsa
+560         Integração de Boletas de Bolsa
+561         Exclusão da Integração de Boletas de Bolsa
+562         Abertura de Boletagem de BMF
+563         Fechamento de Boletagem de BMF
+564         Integração de Boletas de BMF
+565         Exclusão da Integração de Boletas de BMF
+566         Cadastro de Cotação BMF
+567         Cadastro dos Proc. de Import. de Cotação BMF
+568         Importação de Cotação BMF
+569         Cadastro de Parâmetros de BMF - Corretora
+570         Cadastro de Parâmetros de BMF - Corret/Merc
+571         Informe de Rendimentos - Cart. Adm.
+572         Cadastro de Limites Por Corretora - Corretoras
+573         Cadastro de Limites Por Corretora - Carteiras
+574         Cadastro de Parâmetros de Bolsa - Corretora
+575         Cadastro de Parâmetros de Bolsa - Carteira
+576         Cadastro de Parâmetros de BMF - Carteira
+577         Cadastro de Parâmetros de BMF - Crt/Merc
+578         Boletagem de BMF
+579         Boletagem de Bolsa
+580         Exportação para Informe II
+581         Relatório de Informações de Carteira
+582         DIRF - Carteira Administrada
+583         Relatório Liquidação Fin. de Bolsa p/Corretora
+584         Relatório Liquidação Fin. de Bolsa p/Carteira
+585         Relatório Liquidação Fin. de BMF p/Corretora
+586         Relatório Liquidação Fin. de BMF p/Carteira
+587         Cadastro de Mercadorias BMF
+588         Relatório Movimentos de BMF
+589         Relatório Posição da Carteira de BMF
+590         Informe de Rendimentos Alternativo
+591         Cadastro de Administrador Fiscal
+592         Exportação de Posição de Cotista
+593         Relatório Spread do Administrador - Bolsa
+594         Relatório Spread do Administrador - BMF
+595         Exportação de Movimentação de Ações
+596         Relatório Nota de Corretagem de BMF
+597         Relatório de Unificação
+598         FrontOffice - Boletagem Antiga
+599         Relatório Carteira por Lastro para FrontOffice
+600         Mapa de Rebate de Bolsa
+601         Exclusão de Proventos de RV
+602         Consulta Nota de Corretagem de BMF
+603         Alteração de Parâmetros de RF da Carteira
+604         Alteração de Resgates Automáticos de RF
+605         Cadastro de Perfil para TIR
+606         Relatório Rentabilidade Pela TIR de Grupo
+607         Relatório Boletas de BMF
+608         Inclusão de Importação de Boleta de Bolsa
+609         Exclusão de Importação de Boleta de Bolsa
+610         Alteração do tipo de MTM na Compra
+611         Cadastro de Proc. de Import. de Boletas de Bolsa
+612         FrontOffice - Unificação
+613         Relatório de Aniversário de Clientes
+614         Relatório Carteira de Renda Fixa Por Papel - Layout por Vencimento
+615         Alteração de Evento de RF
+616         Mapa de Rebate de BMF
+617         Relatório Boletas de Bolsa
+618         Exportação de Fundos para Mainframe B
+619         Relatório Composição Resumida de FAC
+620         Relatório Demonstrativo de Rentabilidades
+621         Relatório Movimentação de Renda Variável
+622         Cadastro de Jobs
+623         Cadastro de Elencos
+624         Relatório Apropriação de Renda Fixa
+625         Relatório Movimentação com Títulos de Renda Fixa
+626         Executor de Job
+627         Relatório Movimentação com Cotas de Fundos
+628         Relatório Aviso de Lançamentos de Despesas/Receitas
+629         Relatório Posição de Swap
+630         Relatório Posição de Mercado Futuro
+631         Relatório Movimentação de Futuros
+632         Relatório Rentabilidade Sintético
+633         Relatório Posição da Carteira de Renda Variável
+634         Relatório Apuração dos Resultados de Ações
+635         Relatório Rentabilidade Pela TIR no Ano
+636         Relatório Rentabilidade Analítica
+637         Troca Estado da Carteira
+638         Relatório Posição de Margem em Garantia
+639         Relatório Carteira de Títulos RV - Simulação IR
+640         Relatório Posição de Proventos de RV
+641         Relatório Demonstrativo de Posição do PL
+642         Relatório Informe Sintético - FIC
+643         Exportação de Saldos de Renda Fixa
+644         Faixa de Modificador
+645         Exportação de Evolução de Fundos p/o BACEN
+646         Exportação de Gerencial de FAC p/o BACEN
+647         Exportação de Informações Básicas p/o BACEN
+648         Exportação de Informações de Clientes p/o BACEN
+649         Relatório Posição Patrimonial C
+650         Relatório Demonstrativo Analítico de Investimentos
+651         Relatório Posição de Títulos de Renda Fixa
+652         Relatório de Reconciliação de Saldos
+653         Relatório Margem de Garantia de BMF
+654         Exportação de Boletas SPB-OMM (SELIC)
+655         Processo de Importação de Eventos (SELIC)
+656         Importação de Boletas SELIC
+657         Exportação de Arquivo para Sistel
+658         Importação do Código ISIN (Antigo)
+659         Tradutor De-Para
+660         Importação de Boletas de Bloqueios e Desbloqueios (SELIC)
+661         Limpeza de Títulos de Swap
+662         Importação de Lastros SELIC
+663         Exportação de Cota para GFI
+664         Exporta Arq. Texto na Exp. Cota para GFI
+665         Relatório Benchmark de Cotas
+666         Alteração Código de Classificação por Conta
+667         Exclusão de Emissores de Títulos
+668         Inclusão de Emissores de Títulos
+669         Relatório Rentabilidade de Carteiras
+670         Relatório Integração de Boletas de RF
+671         Clonagem de Carteira
+672         Modelo de Swap
+673         Importação de Movimentos de Swap
+674         Batimento de Estoques de SWAP
+675         Exportação Tributos - Tipo V
+676         Relatório de Ativos Adquiridos
+677         Exclusão da Importação de Boletas de Bloqueios e Desbloqueios (SELIC)
+678         Navegador de Vigência de Tributos
+679         Exportação de Arquivos 10
+680         Exclusão da Importação de Boletas SELIC
+681         Relatório Mapa de Abertura de Ativos
+682         Relatório Carteira de Renda Fixa Pela Resolução 550
+683         Importação de Fundos (Formato ANBIMA)
+684         Cadastro de Proc. de Import. de Boletas de BMF
+685         Exportação para Risk Control
+686         Relatório de Batimento de Custódia CBLC
+687         Inclusão de Importação de Boleta de BMF
+688         Exclusão de Importação de Boleta de BMF
+689         Cadastro de Proc. de Import. de Cotas
+690         Cota de Carteiras
+691         Relatório Compensação de Prejuízo - Movimento
+692         Classificação de Ativo Externo
+693         Cadastro de Fundos Externos
+694         Cálculo de Cota de Fundação
+695         Cadastro de Cotas de Fundação ou Plano
+699         Exportação Tipo BP
+700         Alteração de Data de Liquidação de Boleta de Bolsa
+701         Relatório Informe Mensal de Clube de Investimento
+702         Cadastro de Código PREVIC
+703         Cadastro de Indexador PREVIC
+704         Exportador MDC CA
+705         De Para Plano de Contas
+706         Exportação de Posição XML ANBIMA/Galgo
+707         Extrato de Debêntures (Antigo)
+708         Análise da Receita Financeira Bruta
+709         Demonstrativo da Receita Financeira
+710         Exportação de Fundos (Formato RiskOffice)
+711         Segregação de Planos - Processa
+712         Segregação de Planos - Reprocessa
+713         Segregação de Planos - Exclui
+714         Abertura de Boletagem de FP
+715         Fechamento de Boletagem de FP
+716         Boletagem de Fluxo Primário
+717         Integração de Boletas de Fluxo Primário
+718         Exclusão da Integração de Boletas de FP
+719         Relatório Informe Diário - CVM (Antigo)
+720         Cadastro de Classificações de Agência de Risco
+721         Relatório Fontes e Aplicações Diário
+722         Exportação de Boletas de Fluxo Primário
+723         Relatório Ranking Global de Administradores da ANBIMA
+724         Relatório Provisão RET
+725         Relatório Carteira Diária (Fundo Externo)
+726         Relatório Resumo de Fundações
+727         Gravação de Valores Passados - Saldos
+728         Relatório Informe de Rendimentos e Pagamentos
+729         Relatório Movimentação de Taxa de Administração
+730         Relatório Declaração de Bens
+731         Demonstrativo Financeiro
+732         Exclusão de Cotas de Fundação
+733         Cadastro de Esquemas de Provisão de IR de RV
+734         Navegador de Rendimentos e IR
+735         Importação de Rendimentos e IR
+736         Gravação de Valores Passados - Rend. e IR
+737         Navegador de Informe Rendimentos - Saldos
+738         Importação de Saldos para Informe de Rend. CA
+739         Relatório Posição de Fundo Externo
+740         Relatório TATE
+741         Alteração da Flag Leva Até Vencimento
+742         Informe de Rendimentos - Cart. Adm.
+743         Relatório Demonstração de IR de RV - Anual
+744         Relatório Demonstração de IR de RV - Mensal
+745         Relatório Balanço Comparativo
+746         Relatório Demonstração de Resultados
+747         Relatório Crítica ou Conforto
+748         Cadastro de Código de Ativo CVM
+749         Alteração Código ISIN por Emissor
+780         Grava Datas Inicial e Final de Saldo
+782         Cadastro de Cidade - DAIEA
+783         Exclusão de Saldos por Data
+784         Exportação de Posição de RF para CVM
+785         Exportação de Movimentos de RF para CVM
+786         Exportação de Resgates para CVM
+787         Relatório Estrutura de Fundações
+789         Exportador de Movimentos para C/C
+790         Cadastro de Justificativas DAIEA
+791         Cadastro de Método VAR
+792         Sincronização com DAIEA
+793         Relatório de Conferência de Swap por Eventos
+794         Relatório Mapa de Abertura de Ativos de Fundação
+795         Cadastro de Player Externo
+796         Relatório Posição de Enquadramento de Fundação
+797         Swap Por Eventos
+798         Cadastro de Posição Diária para Fundos Externos
+799         Cadastro de Ativos Externos
+800         Conversor de Swap Por Eventos
+801         Relatório Percentual de Fundo
+802         Relatório de RF Comparativo por PUs
+803         Sessões e Bloqueios
+804         Relatório de Conf. de Tít. Levados até o Venc.
+805         Relatório Mapa de Cotações RF
+806         Manutenção de Livro Contábil
+807         Relatório Balancete de Fundações
+808         Desvinculação de Swaps por Eventos
+809         Implantação de Cotas
+810         Digitação de Cotas de Fundação
+811         Término de Implantação de Cotas
+812         Cadastro de Proc. de Import. de Proventos de Bolsa
+813         Proventos de Bolsa
+814         Cadastro de Séries - Inclusão
+815         Digitação de Cotas de Plano
+816         Digitação de Cotas de Segmento
+817         Digitação de Cotas de SubSegmento
+818         Inclusão de Importação de Proventos de Bolsa
+819         Atualização de Lastro de Titulos
+820         Relatório Enquadramentos por Carteira
+821         Processo de Importação de Cotação Andima
+822         Cálculo de Corretagem e Taxas de Renda Variável - Bovespa
+823         Exclusão de Movimentos de Provisão RET
+824         Relatório de Posição Oposta
+825         Relatório Movimentação de Renda Variável C (Antigo)
+826         Relatório Movimentação de Futuros C (Antigo)
+827         Relatório Recibo de Taxa de Administração
+828         Atualização de MTM Por Papel
+829         Relatório Demonstrativo de Taxa de Administração
+830         Relatório Consolidação Contábil
+831         Implantação de Saldos de RV Por Corretora
+832         Transferência de Saldos de RV entre Corretoras
+833         Exportação para Risco B2 - Movimento
+834         Cadastro de Séries - Inclusão de Indices
+835         Cadastro de Séries - Alteração de Indices
+836         Cadastro de Séries - Indices
+837         Exportação de Boletas Bolsa para o DEB
+838         Relatório de Inconsistência de Cart. Qualif.
+839         Exportação de Boletas BMF para o DEB
+840         Relatório Mapa de Liquidação Financeira
+841         Importação de Falha na Entrega
+842         Exclusão de Importação de Falha na Entrega
+843         Relatório de Falhas na Entrega
+844         Relatório de Liquidação Física
+845         Relatório Cobertura de Opções
+846         Cadastro de Praças e Feriados
+847         Cadastro de Mercados BMF
+848         Relatório Compensação de Prejuízo - Saldo a Perder
+849         Cadastro de Mercados Bolsa
+850         Relatório de Batimento de Especificações
+851         Cadastro de Operações Estruturadas BMF
+852         Relatório Posição Negativa
+853         Relatório Diário Geral de Fundações
+854         Navegador de Proventos de RV
+855         Executor de Proventos de RV
+856         Cadastro de Parâmetros de BMF - Carteira/PLD
+857         Exclusão de Importação de Proventos de Bolsa
+858         Relatório Carteira de Swaps por Lastro
+859         Relatório Posição de RV Por Corretora
+860         Exigências para Cálculo de Cotas
+861         Exigências para Exportação PREVIC (DAIEA)
+862         Cálculo Por Gestor
+863         Alteração das Pontas de Swap no Vencimento
+864         Importação de Regularização de Entrega
+865         Exclusão de Importação de Regularização de Entrega
+866         Exportação para Risco B2 - Saldo
+867         Relatório de Feriado de Praça
+868         Cadastro de Contato
+869         Relatório de Ações de Baixa Liquidez
+870         Cadastro de Informações de Perfil Mensal
+871         Relatório Perfil Mensal CVM
+872         Relatório Gerencial de Ganhos e Perdas
+873         Cadastro de Jobs em Applet [Antigo](Net)
+874         Cadastro de Elencos em Applet [Antigo](Net)
+875         Executor de Job em Applet [Antigo](Net)
+876         Limite de Reabertura Por Lista
+877         Relatório Carteira Simplificada
+878         Relatório Movimento Diário de Compra e Venda
+879         Relatório Posição Resumida
+880         Relatório Saldo de Opções
+881         Relatório Rentabilidade RF Quandro 2
+882         Relatório de Boletas de Renda Fixa por Lastro
+883         Cálculo de Posição de BMF
+884         Relatório de Apoio para Notas Explicativas
+885         Navegador de Distribuição de Títulos
+886         Navegador de Vigências de Distribuição de Títulos
+887         Cadastro de Proc. de Import. de Títulos (PAPD)
+888         Importação de Títulos (PAPD)
+889         Exportação de Boletas de Bolsa
+890         Relatório Pagamento de Taxas CBLC
+891         Relatório Extrato de Pagamento de Taxas CBLC
+892         Exportação de Boletas BMF
+893         Relatório Balancete COSIF de Fundações
+894         Relatório Balanço Geral de Fundações
+895         Vinculação de Carteira Contábil
+897         Cadastro de Companhia
+898         Cadastro de Orçamento
+899         Elaboração de Orçamento
+900         Relatório Ranking de Corretagem
+901         Relatório Balanço Comparativo de Fundações
+902         Cadastro de Orçamento de Companhia
+903         Cadastro de Orçamento de Fundação
+904         Relatório Mutações Patrimoniais - Quadro 1-RV
+905         Cadastro de Parâm. de Bolsa - Carteira Qualificada
+906         Relatório Posição da Carteira de Bolsa
+907         Relatório Razão de Fundações
+908         Navegador de Realizado HH
+909         Cadastro de Responsável
+910         Navegador de Projetos
+911         Cadastro de Tipos de Projeto
+912         Relatório Acompanhamento Orçamentário de Companhia
+913         Relatório Acompanhamento Orçamentário de Fundação
+914         Recuperação da Base Diária
+915         Limpeza de Base Diária
+916         Relatório Mutações Patrimoniais - Quadro 1-RF
+917         Posição de Carteira [Base Diária]
+918         Posição de Bloqueios [Base Diária]
+919         Estatísticas da Base Diária
+920         Navegador de Modelo Contábil
+921         Cadastro de Curvas
+922         Relatório Plano de Contas
+923         Listagem de Alocação de HH
+924         Navegador de Bloqueios
+925         Boletagem de Swap
+926         Cadastro de Proc. de Import. de MEC Estendido
+927         Relatório Demonstração de Resultados de Fundação
+928         Relatório de Batimento de Movimentação BMF
+929         Relatório Realizado de HH
+930         Navegador de Remuneração de Aluguel de Ações (Antigo)
+931         Consistência da Base Diária com Operacional
+932         Consistência Interna da Base Diária
+933         Movimento Diário [Base Diária]
+934         Razão de Bloqueios [Base Diária]
+935         Conferência de Pendências
+936         Relatório Posição de Bloqueios em D0
+937         Movimento Especial de Cotistas Estendido
+938         Relatório Movimento Especial de Cotistas Estendido
+939         Relatório de Usuários por Grupos
+940         Histórico de Reclassificação - Vencimento/Mercado
+941         Exportação de Cadastro de Títulos
+942         Cadastro de Modelos Contábeis Default por Carteira
+943         Cadastro de Modelos Contábeis Default do Sistema
+944         Inclusão de Importação de Custódia de Bolsa
+945         Exclusão de Importação de Custódia de Bolsa
+946         Relatório de Grupos por Usuários
+947         Relatório Razão de Bloqueios em D0
+948         Navegador de Exercício de Opções
+949         Cadastro de Parâmetros da Base Diária - Carteira
+950         Complemento de Cadastro de Lastro
+951         Importação de Movimento Especial de Cotistas Estendido
+952         Estatísticas da Base Operacional
+953         Exportação de Cadastro de Carteiras
+954         Exportação de Saldos e Movimentos
+955         Importação de Boletas CETIP
+956         Exclusão da Importação de Boletas CETIP
+957         Crava Cota por Lista
+958         Relatório Posição em D+0
+959         Exportação de Dados para Posição em D+0
+960         Cadastro de Parâmetros da Base Diária - Sistema
+961         Importação de Boletas de Swap
+962         Exclusão da Importação de Boletas de Swap
+963         Relatório de Batimento de Custódia e Proventos
+964         Consulta Status de Boletagem
+965         Integração de Boletas de Cotistas
+966         Alteração de Carteira Modelo
+967         Abertura de Boletagem de Swap
+968         Relatório Carteira de Swap em Boletagem
+969         Fechamento de Boletagem de Swap
+970         Integração de Boletas de Swap
+971         Relatório de Batimento de Despesas
+972         Exclusão de Integração de Boletas de Swap
+973         Cadastro de Parâmetros para Exportações da Base Diária
+974         Classificação de Risco da Emissão por Ativo Externo
+975         Alteração de Títulos Modelo
+976         Classificação de Risco da Emissão por Lastro
+977         Relatório Acompanhamento Orçamentário de Projetos
+978         Cadastro de Modelo de Classificação de Swap
+979         Cadastro de Parâmetros de BMF - Sistema
+980         Consolidação de Saldos BMF
+981         Relatório Composição Resumida de Aplicação em Cotas
+982         Exportação de Saldos e Movimentos XP
+983         Histórico de Exportações da Base Diária
+984         Relatório de Batimento de Saldos de Proventos
+985         Exportação para Zeramento do Estoque de Proventos
+986         Cadastro de Cliente
+987         Exportação de Cotas C
+988         Exportação de Patrimônio Líquido C
+989         Administrador de Tarefas de Background
+990         Importação de Boletas CBLC
+991         Exclusão da Importação de Boletas CBLC
+992         Cadastro de Vigência para o MEC Estendido
+993         Risco Por Indexador - Detalhamento de Índice
+994         Risco Por Emissor - Detalhamento de Emissor
+995         Risco Por Emissor - Detalhamento de Carteira
+996         Risco Por Indexador - Detalhamento de Carteira
+997         Saldos de Títulos - Detalhamento de Saldo
+998         Navegador de Taxas - BMF
+999         Consulta Processos (Antigo)
+1000        Cadastro de Taxas BMF
+1001        Importação de Taxas BMF
+1002        Consulta Permissão de Processos
+1003        Cadastro de Proc. de Import. de Cotação Swap BMF
+1004        Importação de Cotação Swap BMF
+1005        Carteira Resumida [Base Diária]
+1006        Simulação de Cálculo de Lastros
+1007        Opções
+1008        Sessões
+1009        Bloqueios
+1010        Risco Por Indexador - Detalhamento de Lastro
+1011        Importação de Boletas de Cotistas Tipo V
+1012        Carteira Diária [Base Diária] - Processo Excluído
+1013        Cadastro de Títulos
+1014        Exportação de Investidores não Residentes Por Passageiro
+1015        Exportação de Posição de Carteira
+1016        Relatório Composição da Carteira de Renda Fixa [Base Diária]
+1017        Cadastro de Clearing
+1018        Cadastro de Perfil de Classificação
+1019        Atualiza Posição de D0
+1020        Relatório Demonstrativo de Taxa de Permanência
+1021        Exclui Posição de Abertura
+1022        Cadastro de Papel Internacional
+1023        Cadastro de Modelo de MTM
+1024        Status da Base Diária
+1025        Quem
+1026        Cadastro de Modelos de Mensagens
+1027        Recebimento de Mensagens
+1028        Simulação de Cálculo de Lastros Internacional
+1029        Cadastro de Lastros Internacionais
+1030        Relatório Posição de Carteira C [Base Diária]
+1031        Posição de Carteira de RV [Base Diária]
+1032        Posição de Mercado Futuro [Base Diária]
+1033        Relatório Posição de Papéis Internacionais
+1034        Relatório Movimentação de Papéis Internacionais
+1035        Abertura de Boletagem de Título Internacional
+1036        Fechamento de Boletagem de Título Internacional
+1037        Relatório Movimentação com Títulos de Renda Fixa
+1038        Relatório Movimentação de Renda Variável C
+1039        Relatório Movimentação de Futuros C
+1040        Boletagem de Título Internacional
+1041        Inclusão de Integração de Boletas de Título Internacional
+1042        Exclusão de Integração de Boletas de Título Internacional
+1043        Conversão de Título Internacional
+1044        Previsão de Fluxo de Caixa
+1045        Relatório de Movimentação com Cotas de Fundos
+1047        Cadastro de Plano de Contas
+1048        Relatório Rentabilidade Sintética
+1049        Posição de Proventos de Renda Variável [Base Diária]
+1050        Cadastro de Contas
+1051        Relatório Demonstrativo de Caixa
+1052        Exportação de Cotas para GFI
+1053        Relatório Informe Diário - CVM
+1054        Teste de Upload
+1055        Posição de Margem em Garantia
+1056        Posição de Swap [Base Diária]
+1058        Cadastro de Proc. de Import. Cotistas Significativos
+1059        Relatório Posição Gerencial de Carteira
+1060        Cadastro de Administradores
+1061        Boletagem de Título Internacional - Implantação
+1062        Navegador de Cotação de PU de Renda Fixa
+1063        Inclusão de Lançamento Simultâneo
+1064        Navegador de Cotistas Significativos
+1065        Importação de Cotistas Significativos
+1066        PU Cotação RF: Índices
+1067        Relatório Contrapartes na Bol. Internacional de RF
+1068        Relatório de Boletagem Internacional de Renda Fixa
+1069        Relatório Demonstrativo de Resultados de RF Int
+1070        Relatório Gerencial de Custo de Oportunidade
+1071        Cadastro de Contas por Clearing
+1072        Cadastro de Parâmetros de Boletagem Internacional de RF - Carteira
+1073        Classificação Automática do Código de Ativo para Swap
+1074        Exclusão de Lançamento Simultâneo
+1075        Relatório Portfolio de Renda Fixa Internacional
+1076        Exportador de Taxas
+1077        Relatório de Batimento de RF Internacional
+1078        Boletagem de Título Internacional - Inclusão/Exclusão
+1079        Boletagem de Título Internacional - Conferência
+1080        Boletagem de Título Internacional - Confirmação
+1081        Relatório Comunicado de Operação
+1082        Relatório de Orçamento
+1084        Relatório Previsão Orçamentária de Companhia
+1085        Relatório Estatísticas de Movimento
+1086        Listagem da Carteira Diária
+1087        Relatório Batimento de Custódia de Fundo Externo
+1088        Cadastro de Gerência de Fundos
+1089        Relatório de Gerência de Fundos
+1090        Exportação ANBIMA Circular 012/04
+1091        FrontOffice - Manager
+1092        FrontOffice - Trader
+1093        Relatório de Liquidação de Fundos
+1094        Navegador de Operação Compromissada
+1095        FrontOffice - Custódia
+1096        Relatório de Movimentação Diária de Cotista
+1097        Exportação Risk Watch
+1098        Relatório de Proventos
+1099        Relatório de Títulos Não Codificados para o CDA
+1100        Relatório de Batimento de Proventos Provisionados
+1108        Código de Classificação CVM por Título
+1109        Alteração do Código de Classificação Fontes e Aplicações
+1110        Alteração de Tipo de Movimentação CVM - FAR
+1111        Alteração de Tipo de Movimentação CVM - CDA
+1112        Alteração do Código de Classificação Composição e Diversificação (Quadro 2)
+1113        Alteração de Tipo de Ativo CVM
+1114        Alteração de Código de Ativo da CVM
+1115        Exportação de Cobertura de Saldos CC/CCDI
+1116        Categoria de Projeto (Antigo)
+1117        Cadastro de Etapa de Desenvolvimento (Antigo)
+1118        Cadastro de Etapa Comercial (Antigo)
+1119        Navegador Projeto-Categoria
+1120        Cadastro de Lastro na Inclusão de Ordem de RF Int.
+1121        Personalização
+1122        Relatório Posição de Projetos
+1127        Navegador de Enquadramento de IR
+1128        Cadastro de Elencos (Net)
+1129        Cadastro do Informe de Perfil CVM
+1130        Exportação do Informe de Perfil Mensal CVM
+1131        Exportação de Cobertura de Saldos CC/CPMF
+1132        Executor de Job (Net)
+1133        Cadastro de Jobs (Net)
+1134        Orçamento Homem-Hora
+1135        Posição de Custódia
+1136        Cadastro de Parâmetros da Taxa de Fiscalização CVM
+1137        Posição da Carteira de Renda Variável - Layout por Corretora
+1138        Alteração do Navegador de Enquadramento de IR
+1139        Atualização de férias a partir do DriveIn
+1140        Risco Por Indexador
+1141        Cadastro de Equipes (Antigo)
+1143        Cadastro de Etapa de Desenvolvimento
+1144        Renomear Equipes (Antigo)
+1145        Séries Históricas de Carteira
+1146        Extrato de Debêntures
+1147        Relatório Enquadramento de IR (IN SRF 489)
+1148        Cadastro de Etapa Comercial
+1149        Relatório de Composição de Rentabilidades da Cota
+1150        Cadastro de Marcação até o Vencimento
+1151        Relatório de Metas
+1152        Cadastro de Equipes
+1153        Categoria de Projeto
+1154        Taxa de Fiscalização CVM por Diferimento
+1155        Navegador de Boletas de Proventos
+1156        Geração Automática de Boleta
+1157        Importação de Proventos
+1158        Cálculo de Enquadramento - CVM 409
+1159        Relatório Posição de Enquadramento de Fundos
+1160        Troca Código de Título
+1161        Navegador de Proventos
+1162        Consulta Processos
+1163        Cadastro de Códigos de Classificação para o Informe de Fundos Extra Mercado
+1164        Cadastro de Plano de Contas
+1165        Cadastro de Contas
+1166        Relatório de Boletas de Proventos
+1167        Informe de Fundos Extra Mercado
+1168        Reconciliação Bancária
+1169        Relatório de Batimento de Proventos Provisionados
+1170        Relatório de Batimento de Proventos Liquidados
+1171        Exportação de Comunicado de Operações
+1172        Integração de Boletas de Provento
+1173        Exclusão da Integração de Boletas de Provento
+1174        Cadastro de Orçamento - Mes/Ano Fechado
+1175        Batimento e Conciliação de Caixa
+1176        Importação de Movimentacao de Custódia
+1177        Navegador de Bloqueio Financeiro de Carteira
+1178        Valor Financeiro Bloqueado de Carteira
+1179        Relatório Performance PFee no Ativo Calculada
+1180        Abertura de Boletagem de RF
+1181        Exportação para SISBR
+1182        Exportador Bacen-Jud C
+1184        Movimento de Reconciliação
+1185        Cadastro de Carteira Administrada Externa
+1186        Relatório de Liquidação e Custódia de RF Internacional
+1187        Relatório Resumo de Carteira
+1188        Relatório CPMF
+1189        Relatório Recolhimento de CPMF - Detalhado
+1190        Relatório Recolhimento de CPMF - Resumido
+1192        Alteração de Tributação de CPMF por Grupo
+1193        Históricos para CPMF
+1194        Cadastro de Cestas de Índices
+1196        Exportação de Informe Mensal de Clube de Investimento
+1198        Relatório Mapa de Conferência de Índices / Cotações
+1199        Relatório Permissão por Usuário / Grupo
+1200        Relatório Gerencial de Acompanhamento de Contrato
+1201        Navegador de Eventos Carteira
+1202        Exportador CCSFN
+1203        SubCadastro de Eventos Carteira
+1204        Sistema
+1205        Transferência de Titularidade
+1206        Exclusão dos Saldos da Base Diária
+1207        Apuração dos Resultados de Futuros
+1208        Cadastro de Pais
+1209        Cadastro de Departamento
+1210        Alteração no Cadastro de Departamento
+1211        Cadastro de Filial
+1212        Interface de Cadastro de Carteira GCF
+1213        Relatório Informe de Rendimentos sobre Taxas
+1214        Importação de Lastros
+1215        Implantação de Saldos de Termo de Ações por Corretora
+1216        Importação do Código ISIN
+1217        Navegador de Exportação de Arquivos - Carteira
+1218        Exportação de Conta Corrente para SINACOR
+1219        Navegador de Exportação de Arquivos - Sistema
+1220        Exportação de Cadastro de Clientes (XML)
+1221        Importação de Boletas de Aluguel de Ações
+1222        Navegador de Aluguel de Ações
+1223        Exportação de Movimentos de Cotista (XML)
+1224        Exportação de Saldo de Cotista (XML)
+1225        Exportação de Extrato de Cotista (XML)
+1226        Exclusão de Importação de Aluguel de Ações
+1227        Cadastro de Parâmetros de Sistema - Bolsa
+1228        Batimento de Aluguel de Ações - Terceiros
+1229        Cadastro Automático de Séries da BM&F
+1230        Padronização para Nova Codificação da BMF
+1231        Central de Carteiras - Back Office
+1232        Liberação de Processos do Passivo para Usuário Externo
+1233        Informe de Rendimentos PF
+1234        Informe de Rendimentos PJ
+1235        Cadastro de Vigência de Players da Carteira
+1236        Web Service de Ordens de Renda Fixa
+1237        Importação do Código ISIN de BMF
+1238        Importação de Emissores por Código ISIN
+1239        Cadastro de Categoria de Cliente Custódia
+1240        Central de Carteiras - Contabilidade
+1241        Central de Carteiras - Custódia
+1242        Exportação para PREVIC (DAIEA WEB)
+1244        Informações Bancárias do Player
+1245        Integralização de Ativos
+1247        Web Service de Ordens de BMF
+1248        Web Service de Ordens
+1249        Web Service de Ordens de Swap
+1250        Monitor de Ordens: Leitura
+1251        Monitor de Ordens: Administração
+1252        Relatório Posição Analítica de Aluguel de Ações
+1253        Relatório Contratos de Aluguel de Ações Liquidados
+1254        Relatório Posição de Aluguel de Ações Por Corretora
+1255        Exportação para GSSnet - Cadastros (Completa)
+1256        Exportação para GSSnet - Cadastros (Incremental)
+1257        Relatório Apropriação de Aluguel de Ações
+1258        Importação de Boletas de Cotistas Tipo V (Antigo)
+1259        Cadastro de Comissão por Corretora
+1260        Exclusão de Importação de Boletas de Cotistas
+1261        Relatório Maiores Investidores
+1262        Taxa de Divulgação ANBIMA CC017/06
+1263        Relatório Posição de Renda Fixa - Curva versus Mercado
+1264        Importação de Bancos do Sistema Corporativo
+1265        Cadastro de Carteira Associadas para Boletagem Externa
+1266        Finalidade para Liquidação
+1267        Importação de Agências
+1268        Histórico para Boletagem
+1269        Tipos de Swap da BM&F
+1270        Tipo de Histórico de Boletagem
+1271        Câmara de Liquidação
+1272        Forma de Liquidação
+1273        Séries de Mercadorias da BMF
+1274        Importação de Mercadorias e Series da BMF
+1275        Importação de Saldos de Cotista
+1276        Parâmetros de Exportação para Sistema Externo
+1277        Navegador de Política de Negação
+1278        Cálculo (Antigo)
+1279        Cadastro de Analista Responsável
+1280        Cadastro de Séries - Vigências de Índices
+1281        Associações de Política de Negação
+1282        Exigências Para o Cálculo (Antigo)
+1283        Volta ao Presente (Antigo)
+1284        Inicialização (Antigo)
+1285        Inicializa Carteira (Antigo)
+1286        Reabertura de Carteiras (Antigo)
+1287        Cadastro de Tipo de Despesa
+1288        Navegador de Fator Risco
+1289        Navegador de Vigência de Fator Risco
+1290        Exportação de Posição de Swap
+1291        Importação de Fator Risco
+1292        Limpeza de Séries
+1293        Exportação de Posição de Ativos
+1294        Cadastro de Associações do Histórico para Boletagem
+1295        Relatório Vigência de Taxas por Carteira
+1296        Monitor de Ordens: Importar Ordens GSSnet
+1297        Exportação para ODS Private
+1298        Exportação de Cadastro XML
+1299        Saldos de Cotista
+1300        Relatório Antecipação e Vencimento de Termo de Ações
+1301        Renda Fixa: Transf. Ordens em Boletas
+1302        Cotas: Transf. Ordens em Boletas
+1303        Caixa: Transf. Ordens em Boletas
+1304        Cotas: Integração
+1305        Caixa: Integração
+1306        Informe Mensal FIDC
+1307        Monitor de Ordens: Processar Manual
+1308        Relatório Composição e Diversificação de Aplicações para CVM (CDA)
+1309        Exclusão de Pré-Movimento com Pendência
+1310        Reabertura de Carteira de Cotistas
+1311        Estorno de Movimento de Cotista - Data Anterior
+1312        Estorno de Transferência de Cotas - Data Anterior
+1313        Movimentação de Renda Fixa e Taxas ANBIMA
+1314        Estorno de Bloqueio e Desbloqueio de Cotas - Data Anterior
+1315        Exclusão de Bloqueio por Corretora
+1316        Implantação de Bloqueio por Corretora
+1317        DOC5 - Demonstração da Evolução da Cota e Rentabilidade
+1318        Bolsa: Transf. Ordens em Boletas
+1319        Exportação de Movimentos (Formato ANBIMA)
+1320        Navegador de Relacionamento de Cliente
+1321        Implantação de Relacionamento de Clientes
+1322        Exportação para Secore - Posição
+1323        Exportação para Secore - Cadastros
+1324        Demonstrativo de Outros Custos BMF
+1325        Navegador de Bloqueio de Cotista por Financeiro
+1326        Importação BTC
+1327        Exclusão de Importação BTC
+1328        Extrato Mensal para Cliente com Bloqueio por Correspondência
+1329        Cadastro de Fato
+1330        Cadastro de Providência
+1331        Cadastro de Classificação
+1332        Cadastro de Registro de Ocorrência
+1333        Relatório Divergência não Planejada - DNP
+1334        Navegador de Tabelas de Taxa de Saída
+1335        Navegador de Faixas
+1336        Exportação do Movimento Diário Contábil
+1337        Relatório Movimento Diário Contábil
+1338        Relatório Verificação de Títulos - Tipo Cotação RV
+1339        Relatório Provisão de Carteira Externa
+1340        Navegador de Bloqueios - Administrador
+1341        Exportação de Movimentação Consolidada de Cotista
+1342        Navegador de Informações Complementares
+1346        Exportação Automática
+1347        Navegador de Modelos de Contrato de Câmbio
+1348        Navegador de Fundos Multimoeda
+1349        Navegador de Contrato de Câmbio
+1350        Relatório de Contratos de Câmbio
+1351        Avança Carteira
+1352        Exportação de Informe de Rendimentos
+1353        Navegador de Registro de Fundos para Galgo
+1354        Navegador de Parâmetros de Volatilidade
+1355        Importação de Parâmetros de Volatilidade
+1356        Importação Nota XML
+1357        Exclusão de Importação Nota XML
+1358        Navegador de Posição de Termo de Ações
+1359        Web Service de Batimento de Movimentação BMF
+1360        Cadastro de Parâmetros de BMF - Batimento de Movimentação
+1361        Batimento de Movimentação BMF (XML)
+1362        Navegador de Rentabilidade por Ativo
+1363        Navegador de Perfil para Cálculo de Rentabilidade por Ativo
+1364        Exportação de PL e Cota para Galgo
+1365        Exportação Tipo P
+1366        Recuperação de Fluxos de Perfil
+1367        Relatório Rentabilidade de Ativos
+1368        Web Service de Batimento Automático de Movimentação BMF
+1369        Web Service de Ordens de Bolsa
+1370        Web Service de Ordens de Aluguel de Ações
+1371        MEC Estendido Incremental
+1372        Relatório Posição de Termo de Ações
+1373        Navegador de Custos Unitários da BMF
+1374        Cadastro de Proc. de Import. Custos Unitário da BMF
+1375        Importação de Custos Unitário da BMF
+1378        Estorno de Transferência de Titularidade
+1379        Relatório de Títulos sem Modelo Contábil de Abertura de Variáveis
+1380        Navegador de Parâmetros CCSFN C
+1381        Importação de Antecipação de Termo de Ações
+1382        Exclusão da Importação de Antecipação de Termo de Ações
+1383        Navegador de Ativos Oculto CDA
+1384        Clonagem de Carteira para Simulação
+1385        Central de Carteiras - Cotistas
+1386        Cadastro de Parâmetros para Projeção de Cotas
+1387        Cadastro de Carteiras para Projeção de Cotas
+1388        Cadastro de Grupos para Projeção de Cotas
+1389        Cadastro de Índices para Projeção de Cotas
+1390        Importação de Movimentos de Conta Corrente
+1391        Exportação de Movimentos de Conta Corrente
+1392        Relatório Posição de Custódia CBLC
+1393        Importação de Movimentos de Conta Corrente - Altera Pré-Movimento
+1394        Navegador de Falhas e Regularizações de Entrega
+1395        Navegador de Alíquotas de IR
+1396        Exportação GS
+1397        Clonagem de Título Modelo
+1398        Relatório COFI Documento nº 3 - Composição e Diversificação
+1399        Projeção de Cotas
+1400        Relatório para Verificação da Projeção de Cotas
+1401        Relatório Analítico de Projeção de Cotas
+1402        Cadastro de Códigos de Classificação para CDA 3.0
+1403        Exportação do SPED Contábil
+1404        Verificação Cadastral para o CDA 3.0
+1405        Navegador de Classificação de Processos
+1406        Exportação de Boletas
+1407        Importação - Inclusão de Ativos Ocultos CDA
+1408        Importação - Exclusão de Ativos Ocultos CDA
+1409        Cadastro de Parâmetros de Controle de Preços
+1410        Relatório de Acompanhamento de Controle de Preços
+1411        Navegador de Boletas Opções Flexíveis BMF
+1412        Navegador de Taxas de Balção
+1413        Importação de Taxas de Balcão de BMF
+1414        Cadastro de Parâmetros de Risco Bancário
+1415        Restauração de Carteira Alternativa
+1416        Cadastro de Parâmetros de Política de Investimento
+1417        Cadastro de Parâmetros de Risco Bancário do Emissor
+1418        Relatório de Análise de Risco Bancario
+1419        Exportação de Movimentos Contábeis BRC
+1421        Cadastro de Parâmetros para Exportação de Movimentos Contábeis BRC
+1422        Abertura de Boletagem de Cotas de Fundos
+1423        Fechamento de Boletagem de Cotas de Fundos
+1424        Importação de Boletas de Cotas de Fundos
+1425        Exclusão da Importação de Boletas de Cotas de Fundos
+1426        Integração de Boletas de Cotas de Fundos
+1427        Exclusão da Integração de Boletas de Cotas de Fundos
+1428        Navegador de Boletas de Cotas de Fundos
+1430        Navegador de Regra de Ativo Travados (Hedge)
+1431        Performance Attribution
+1432        Relatório Checagem de Movimentação de Cotista
+1433        Relatório de Boletas de Cotas de Fundos
+1434        Processo de Importação de Provisão e Diferimento
+1435        Importação de Provisão e Diferimento
+1436        Exclusão da Importação de Provisão e Diferimento
+1437        Cadastro de Taxas para Renda Variável - Bovespa
+1438        Extensor de Dados de Cotista
+1439        Importação de Contas
+1440        Relatório de Títulos Automáticos de Cotas de Fundos
+1441        Mapa de Conferência
+1442        Navegador de Registro de Carteiras Administradas para Galgo
+1443        Classificação Automática do Código de Ativo CVM - CDA 3.0
+1444        Cadastro de Processos de Importação de Capital Social
+1445        Navegador de Capital Social
+1446        Importação do Arquivo de capital Social
+1447        Exclusão da Importação do Arquivo de capital Social
+1448        Relatório de Participação Acionária
+1449        Cadastro de Processo de Importação de Cotações
+1450        Relatório Benchmark de Ativos
+1452        Relatório Consulta De Para Contas
+1453        Carteiras
+1454        Migração de Códigos de Custódia
+1456        Importação de PL e Cota do Galgo
+1457        Posição de Títulos
+1458        Cadastro de Séries da Tabela de Contratos Futuros
+1459        Cadastro de Indicadores de Mercado Bovespa
+1461        Exportadores de Ativo
+1462        Exportadores de Cotistas
+1463        Exportadores de Contabilidade
+1464        Navegador de Associação de Clientes
+1465        Extrato de Fundo Imobiliário
+1466        Relatório Aviso de Distribuição de Resultados
+1467        Relatório Demonstrativo de IR para Fundo Imobiliário
+1468        Extrato Mensal para Clubes
+1469        Exportação do SPED FCont
+1470        Cadastro de Produtos e Serviços
+1471        Demonstração das Movimentações no PL de CI
+1472        Exportação de Informações ANBIMA para Galgo
+1473        Exportação da Posição de Ativos para GAF
+1474        Relatório Evolução da Carteira
+1475        Cadastro de Processo de Importação de Transferência de Titularidade
+1476        Importação de Transferência de Titularidade
+1477        Cadastro de Leiaute de Importação de Posição de Cotista
+1478        Importação de Posição de Cotista
+1479        Exportação de Extrato de Cotas para Galgo
+1480        Fundaçoes
+1482        Importação do Código CFI
+1483        Cadastro de Proc. de Import. de Boletas de Cotas de Fundos
+1484        Navegador de Vigência de Categoria de Tributação de IR
+1485        Parâmetros de Exportação Diária de Saldos - Sistema
+1486        Parâmetros de Exportação Diária de Saldos - Carteira
+1487        Exportação Diária de Saldos
+1488        Relatório de Posição em Opções Flexíveis
+1489        Cadastro de Classificação de Ativos para Clubes
+1490        Importação de Taxa de Balcão de BMF - Swap
+1491        Navegador de Taxa de Balcão de BMF - Swap
+1492        Relatório Demonstrativo de Custos de Swap da BMF
+1493        Cadastro de Classificação de Ativos para Demonstração da Posição Financeira CI
+1494        Cadastro de Classificação de Ativos para Demonstração do Resultado CI
+1495        Demonstração da Posição Financeira de CI
+1496        Relatório Balancete Trimestral
+1497        Demonstração do Resultado de CI
+1498        Navegador de Perfil para Cálculo da Performance Attribution
+1499        Inclusão de Valores de Cota Por Período
+1500        Pré Importação de Boletas
+1501        Importação de Fluxos
+1502        Exclusão da Importação de Fluxos
+1503        Cadastro de Processo de Importação de Fluxos
+1504        Cadastro de Lista de Perfis
+1505        Relatório Conferência de Títulos Sem Perfil
+1506        Limite de Recuperação de Fluxos de Perfil
+1507        Navegador de Perfil para Cálculo de Rentabilidade por Ativo (Gerencial)
+1508        Relatório Cadastro de Perfil para TIR
+1509        Navegador de Perfil para Cálculo de Rentabilidade por Ativo (Operacional)
+1510        Exportação do SPED Contribuições
+1511        Navegador de Parâmetros de Sistema - Exposição Cambial de Derivativos
+1512        Navegador de Parâmetros de Carteira - Exposição Cambial de Derivativos
+1513        Navegador de Exposição Cambial
+1514        Cadastro de Processo de Importação de Exposição Cambial
+1515        Importação de Exposição Cambial
+1516        Relatório Demonstrativo de IOF sobre Derivativos
+1518        Alteração de Aplicações Importadas de Bolsa
+1519        Cadastro de Processo de Importação de Taxas BMF
+1520        Atualização de Saldos de Prejuízo
+1521        Exportação de Nota de Corretagem BMF
+1522        Cadastro Automático de Ativo Externo
+1523        Importação de Séries de Carteiras
+1524        Relatório do SPED Contribuições
+1525        Exportação de Movimentos Financeiros Tipo F
+1526        Exportação de Movimentos Contábeis Tipo F
+1527        Importação Perfil CVM Mensal
+1529        Exportação de Requisição de Movimentos para GAF
+1530        Exportação de Movimentos Contábeis Tipo PT
+1531        Exportação de Movimentos Financeiros Tipo PT
+1532        Relatório Crítica de Preços
+1533        Importação de Benchmark da Carteira
+1534        Prévia de Come-Cotas
+1535        Cód. de Class. para Demo. dos Fluxos de Caixa de FII
+1536        Relatório Demonstração dos Fluxos de Caixa de Fundo Imobiliário
+1537        Cód. de Class. para Demo. dos Fluxos de Caixa de FIDC
+1538        Relatório Demonstração dos Fluxos de Caixa - FIDC
+1539        Consulta Detalhada das Sugestões do Leiaute IN CVM 512
+1540        Exportação W Posiçao Real
+1541        Exportação W Arquivo Valor da Quota
+1542        Exportação W Arquivo RECON
+1543        Exportação W Arquivo Cash
+1544        Exportação W Padrão SFR
+1545        Rastreabilidade de Cotas de Fundos
+1546        Central de Boletagens
+1548        Cadastro de Leiaute de Importação para Implantação de Cotista
+1549        Importação para Implantação de Cotista
+1550        Navegador de Perfil para Segregação
+1551        Composição de Valores para Informe de Rendimentos
+1552        Cadastro de Despesas por Período
+1553        Cód. de Class. para Ativos e Despesas
+1554        Cadastro de Informação Complementar do Fundo para CVM
+1555        Importação de Informação Complementar do Fundo para CVM
+1556        Navegador de Exercício de Opções
+1557        Lâmina do Fundo para CVM
+1558        Relatório Demonstração de Desempenho do Fundo para CVM
+1559        Cadastro de Despesas do Fundo para CVM
+1561        Simulação de Resgate Hipotético
+1562        Exportador Balancete Mensal
+1563        Cálculo de Despesas do Fundo para CVM
+1564        Código de Classificação para Informes
+1565        Informe Mensal de FII
+1566        Exportação para Eclipse/CMR
+1567        Movimento para Reconciliação
+1568        Relatório de Prazo Médio (CMN 4.176)
+1569        Implantação de Base Histórica para Prazo Médio (CMN 4.176)
+1570        Exportação de Movimentação Consolidada de Cotista Tipo C
+1571        Importação de Movimentação Consolidada de Cotista Tipo C
+1572        Inclusão de Movimentação Consolidada de Cotista Tipo C
+1573        Administrador de Tarefas Agendadas
+1574        Navegador de Câmbio e Movimentação para Investidores não Residentes por Titular
+1575        Exportação de Investidores não Residentes por Titular
+1577        Relatório Informe Trimestral FIP
+1578        Estorno de Movimento Consolidado de Cotista Tipo C
+1580        Navegador de Taxa de Administração
+1581        Transferência de Taxa de Administração para PGA
+1582        Desfaz Transferência de Taxa de Administração para PGA
+1583        Relatório Demonstrativo de Taxa de Administração por Plano
+1584        Importação de Taxas para Renda Variável - Bovespa
+1585        Conferência de Pendências de Cotistas
+1586        Manutenção de Saldos de Gravames de Bolsa
+1587        Exportação da Posição de Carteiras para PVT
+1588        Conversão para IR conforme IN575
+1589        Exportação Posição de Ativos para Luna
+1590        Exportação PL e Cota para Luna
+1591        Relatório Posição de Operações Compromissadas SELIC
+1592        Relatório Censo Anual de Capitais Estrangeiros no País
+1593        Importação de Classificação de Risco
+1594        Exportação de Ativos para Seguradora
+1595        Exportação de Séries Históricas
+1596        Exportação de Séries Por Período
+1597        Exportação da Situação de Margem em Garantia
+1598        Implantação Private
+1599        Cadastro de Categorias do Ranking ANBIMA
+1600        Importação da Classificação de Carteiras do Ranking ANBIMA
+1601        Cadastro de Parâmetros do Ranking ANBIMA
+1602        Relatório Ranking ANBIMA de Custódia de Ativos
+1603        Relatório Ranking ANBIMA de Controladoria
+1604        Classificação de Risco do Emissor para Seguradora
+1605        Relatório do Cadastro de Grupos de Usuários
+1606        Relatório do Cadastro de Usuários
+1607        Processo de Inativação de Usuários
+1608        Visualização de Estrutura de Fundação
+1609        Batimento de Posição de Cotista - Galgo
+1610        Navegador de Mensagens de Carteira
+1611        Consulta Histórico de Mensagens de Carteira
+1612        Cadastro de Mensagens de Carteira
+1613        Exportação de Ativos de Investidor Estrangeiro - BACEN
+1614        Exportação TLC
+1616        Relatório Posição de Carteira por Participação de Ativo
+1617        Relatório Movimentos de Renda Variável
+1618        Cadastro de Regras de Relacionamentos entre Grupos de Usuários
+1619        Relatório do Cadastro de Regras de Relacionamentos entre Grupos de Usuários
+1620        Exportação Smart Advisor
+1621        Navegador de Boletas de RF - Trader
+1622        Navegador de Boletas de RF - Manager
+1623        Navegador de Boletas de RF - Authorizer
+1624        Exportação da Previsão de Fluxo de Caixa
+1625        Navegador de Boletas de RF - Pre Authorizer
+1626        Navegador de Layout de Processos para Importação/Exportação
+1627        Cadastro de Layout de Processos para Importação/Exportação
+1628        Relatório Posição de Enquadramento - EM DESUSO
+1629        Relatório Posição de Enquadramento de Fundação - EM DESUSO
+1630        Cadastro de Códigos De/Para - Sistema Externo
+1631        Navegador para Integração com Sistema Externo
+1632        Cadastro de Integração com Sistema Externo
+1633        Integração do Cadastro de Cliente com Sistemas Externos
+1634        Painel de Controle - Integração com Sistema Externo
+1635        Controle de Envio e Recebimento de Arquivos - Sistema Externo
+1637        Navegador de Códigos De/Para - Sistema Externo
+1638        Importação de Movimentos de Bloqueios e Desbloqueios SELIC
+1639        Exclusão da Importação de Movimentos de Bloqueios e Desbloqueios SELIC
+1640        Navegador de Operação Compromissada - EM DESUSO
+1641        Help Autenticação de Usuários
+1643        Boletagem de BMF - EM DESUSO
+1644        Cadastro de Posição de Ativos no Exterior para CDA
+1645        Importação de Posição de Ativos no Exterior para CDA
+1646        FrontOffice - Zeramento de Caixa - EM DESUSO
+1647        Cadastro de Tipo de Fundo ANBIMA/PREVIC
+1648        Integração com Serviço de Download
+1650        Relatório Evolução da Cota Média
+1651        Integração de Movimentação de Cotista com Sistema Externo
+1652        Exportação de Cotista para Sistema Externo
+1653        Relatório de Movimentação Reprocessada de Cotistas
+1654        Emissor de Relatórios
+1655        Navegador de Bloqueios - EM DESUSO
+1656        Reprocessamento de Carteiras Liberadas
+1658        Liberação de Consulta de Carteiras para Usuários Externos
+1659        Boletagem de Bolsa - EM DESUSO
+1662        Cadastro de Subtipo de Conta
+1663        Cadastro de País
+1664        Cadastro de Tipo de Pagamento para e-Financeira
+1665        Cadastro de Tipo de Declarado para e-Financeira
+1666        Cadastro de Tipo de Relação de Declarado para e-Financeira
+1667        Exportação para e-Financeira
+1668        Consulta VaR de Carteiras
+1669        Importação do Cadastro de Fundos
+1670        Importação de Movimentação em Trânsito do Passivo
+1671        Importação de Atualização Cadastral dos Ativos de Cotas de Fundo
+1672        Alteração do Início de Atividades da Carteira
+1673        Importação de Saldo do Ativo de Cotas de Fundo e Despesa
+1674        Importação da Data de Início de Aplicação dos Ativos em Ser
+1675        Importação de Movimentação em Trânsito do Ativo
+1676        Troca Código de PCA
+1677        Navegador de Proventos de RV - EM DESUSO
+1678        Executor de Proventos de RV - EM DESUSO
+1679        Navegador de Captação de Recursos
+1680        Importação de Código IF Por Carteira
+1681        Exportador de Informações de Contraparte Relacionada
+1682        Exclusão de Títulos
+1683        Batimento e Sincronização de Posição de Cotista - Cetip
+1684        Exportação de Movimentação Financeira Tipo C
+1685        Cadastro de Perfil para Compensação Contábil
+1686        Cadastro de Regras para Compensação Contábil
+1687        Relatório de Compensação Contábil
+1688        Cadastro de Informe Mensal de INR para CVM
+1689        Cadastro de Código de Aplicação para CVM
+1690        Relatório Informe Mensal de INR para CVM
+1691        FrontOffice - Liquidação Manual de Boleta
+1692        Alteração de Saldo de Informe de Rendimentos PF
+1693        Exportação de Dados Para Informe Trimestral de FII
+1695        Exportação de Posição de Compromissadas
+1696        Consulta Índices de Risco de Perfil de Rentabilidade de Ativo
+1697        Consulta VaR de Perfil de Rentabilidade por Ativo
+1698        Consulta Índices de Risco de Carteiras
+1699        Central de Batimentos
+1700        Central de Carteiras - Simulação
+1701        Cadastro de Fundo Internacional
+1702        Cadastro de Parâmetros para Títulos Automáticos de Cotas de Fundos
+1703        Liquidação de Operação Compromissada
+1704        Cadastro de Limite de Reabertura por Dias Úteis
+1705        Importação de PL e Cota CVM
+1706        Cadastro de Relação entre Carteira e Contato
+1707        Cadastro de Relação entre Cliente e Contato
+1712        Recálculo de Cota Sem Amortização
+1713        Exportação Tipo M
+1714        Importação de Movimento Especial de Cotista B
+1715        Central de Ordens
+1716        Central de Ordens - Permissão Criar Ordens
+1717        Central de Ordens - Permissão Conferir Ordens
+1718        Central de Ordens - Permissão Cancelar Ordens
+1719        Central de Ordens - Permissão Criar Boletas
+1720        Cadastro de Classificação dos Informes FIDC
+1721        Cadastro de Segmento para Informe Mensal FIDC
+1722        Exportação para Tesouraria - ATTPS
+1723        Manutenção da Condição de Isenção de Antecipação de IR
+1724        Relatório Carteira Diária Tipo U
+1725        Alteração Código de Classificação por Lastro
+1726        Acesso para API REST do Sistema
+1727        Painel de Liquidação Financeira de Cotistas
+1728        Liquidação Financeira de Cotistas
+1729        Relatório Informe Semestral de INR para CVM
+1730        Serviços de Consultas de Cotistas
+1731        Serviço de Aplicação de Cotista
+1732        Serviço de Resgate de Cotista
+1733        Exportação de Cotas
+1734        Geração Automática de Ordens
+1735        Exportação Posição de Ativos para Risco
+1736        Importação de Dados para Informes de FII - CVM
+1737        Relatório Informe Trimestral FII
+1738        Sincronização do Cadastro de Clientes com Sistema Corporativo
+1739        Navegador de Liquidação Financeira de Fundos
+1740        Importação de Dados para Liquidação Financeira dos Fundos
+1741        Processa Liquidação Financeira de Fundos
+1742        Cadastro de Tipos de Mensagem de Integração
+1743        Navegador de Mensagens de Integração
+1744        Informe Anual FII
+1745        Navegador de Layouts de Mensagens
+1746        Cadastro de Campos de Layout de Mensageria
+1747        Cadastro de Mensagens de Layout de Mensageria
+1748        Histórico por Operação
+1749        Web Service de Controladoria de Passivo
+1750        Cadastro de Campos de Mensagem
+1751        Limpeza de Mensagens
+1752        Extrato por Aplicação Consolidado
+1754        Central de Integração Galgo
+1755        Solicitação Web Service Galgo
+1758        Relatório de Liquidez de Passivo de Fundos
+1759        Exportação Fiscal
+1760        Cadastro de Regras para Emissão do Informe Diário
+1761        Caixa Online - Custódia
+1762        Cadastro de Regras do Caixa Online - Custódia
+1763        Web Service de Importação de Cotação de Índice Externo
+1764        Cadastro de Regra para Zeramento
+1765        Zeragem de Caixa
+1766        Monitor de Operações
+1767        Monitor de Operações - Renda Fixa
+1768        Monitor de Operações - Bolsa
+1769        Monitor de Operações - BMF
+1770        Monitor de Operações - Cotas
+1771        Monitor de Operações - Swap
+1772        Tesouraria- Pagadoria
+1774        Cadastro de Workflow
+1775        Cadastro de Faixa de Comando
+1776        Caixa D+N - Custódia
+1777        Composição da Base Diária de Cotista
+1778        Exportação de Dados de Cotista Tipo D
+1779        Cadastro de Favorecidos
+1780        Cadastro de Parâmetros de Alçada - Pagadoria
+1781        Informe Mensal FIDC - 3040
+1782        Exportação Contábil - SOFTPAR
+1783        Importação de Ajuste de Saldo
+1784        Exportação Contábil para Autbank
+1785        Importação de Ajuste de Saldo Bloqueado
+1786        Extrato Por Período
+1787        Cadastro de Ofertas de Cotas
+1788        Relatório de Ofertas de Cotas
+1789        Cadastro de Tipo Societário
+1790        Cadastro de Município
+1791        Tesouraria - Pagadoria Liquidação
+1792        Importação de Cotação RF por PU
+1793        Importação de Cotação RF por Taxa
+1794        Relatório ISS Devido
+1795        Exportação BacenJud para Autbank
+1796        Navegador de Restrição de Horário de Processamento - Sistema
+1797        Navegador de Restrição de Horário de Processamento - Carteira
+1798        Autorização de Horário de Processamento
+1799        Relatório de Rentabilidade
+1800        Web Service de Boletagem de Ativo
+1801        Administrador de Portal Custódia
+1802        Consulta - Web Services Clients
+1803        Monitor de Pagamento de Eventos - RF
+1804        Monitor de Operações - Renda Fixa (Efetivar Manual)
+1805        Exportação ANS
+1806        Exportação do Informe de Rendimentos para Autbank
+1807        Importação de Participantes do STR - ISPB
+1808        Navegador de Mensagens Manuais de Integração SPB
+1809        Relatório de Rentabilidade de Fundos
+1810        Relatório Batimento de Custódia de Fundo Externo Tipo F
+1811        Monitor de Pagamento de Eventos (Efetivar Manual)
+1813        Monitor de Operações - Renda Fixa (Excluir)
+1815        Sincronização do Cadastro de Clientes com Infobank
+1816        Relatório Posição Resumida de Ativos
+1817        Autorização de Pré-Boleta
+1818        Exclusão de Pré-Boleta
+1819        Status das Exportações da Base Diaria
+1820        Usuário Master do Portal de Custódia
+1821        Exportação da e-Financeira para Autbank
+1822        Importação Nota XML - BMF
+1823        Exclusão de Importação Nota XML - BMF
+1824        Cadastro de código do Produto RF
+1825        Exportação de Saldo de Clientes
+1827        Painel Tarefas Assíncronas
+1828        Cadastro de Parâmetros de Desvio de Liquidação Financeira
+1829        Relatório Balancete Padrão
+1830        Reinicialização de Carteira (Ativo)
+1831        Monitor de Margem de Garantia
+1832        Serviço de Estorno de Cotista
+1833        Liberação de Informações de Carteiras para Custódia
+1834        Relatório Balancete Diário Padrão
+1835        Relatório Balancete BACEN/CVM Padrão
+1836        Notificação de Status para Sistema Externo
+1837        Conciliação de Movimentos com Sistema Externo
+1838        Conciliação de Posição com Sistema Externo
+1839        Controle de Saldo de Conciliação de Movimento de Cotista
+1840        Relatório Diário Geral Padrão
+1841        Importação de Chamada de Margem de Garantia
+1842        Exportação de Saldo Mensal de Clientes
+1843        Relatório Balanço Geral
+1845        Monitor de Margem de Garantia - RF (Efetivar Manual)
+1846        Monitor de Operações - Cotista (Excluir)
+1847        Monitor de Operações - Cotista (Efetivar Manual)
+1848        Cadastro de Classificação Gerencial
+1851        Relatório Demonstração da Posição Financeira - FIDC
+1852        Demonstrativo de Provisões por PCA
+1853        Monitor de Operações - Cotista (Alterar)
+1854        Relatório Demonstração do Resultado - FIDC
+1855        Relatório Demonstração das Mutações no Patrimônio Líquido - FIDC
+1856        Atualização da Liquidação de Ativos de Renda Variável
+1857        Atualização da Liquidação de Ativos de Renda Variável
+1859        Cadastro de Usufruto de Cotas
+1860        Relatório de Posição de Usufruto
+1862        Painel de Controle de Atualização de Status
+1863        Cadastro de Parâmetros para desempenho da Carteira de Investimentos
+1864        Monitor de Operações - Aluguel de Ações
+1865        Monitor de Operações - Livre Digitação
+1868        Pre-Matching - BMF
+1869        Monitor de Operações - Pre-Matching BMF
+1870        Monitor de Operações - Pre-Matching Bolsa
+1871        Monitor de Operações - CF Externo
+1872        Monitor de Operações - CF Externo (Efetivar Manual)
+1873        Desempenho da Carteira de Investimentos
+1874        Pre-Matching - Bolsa
+1875        Relatório Evolução da Carteira por Segmento PREVIC
+1876        Status da Base Diária de Cotista
+1877        Consulta Posição de Cotista
+1878        Classificação de Movimentos de Conta Corrente
+1879        Pre-Matching - BMF (Cancelamento)
+1880        Pre-Matching - Bolsa (Cancelamento)
+1881        Antecipação de Resgates Agrupados por Data
+1883        Relatório Sincronização de Clientes
+1885        Navegador de Taxa de Performance para Fundo de Terceiros
+1886        Importação de Taxa de Performance para Fundo de Terceiros
+1887        Navegador de Entrada de Cotista
+1888        Volta ao Presente de Cotistas
+1890        Navegador de Taxas de Fundo de Terceiros
+1893        Exportação XML PREVIC
+1894        Cálculo de Taxas de Fundo de Terceiros
+1895        Registro Estorno Externo na Liquidação Financeira de Cotistas
+1896        Cadastro de Operação com Participantes
+1897        Extrato por Período Detalhado
+1898        Regras para Rebate de Taxas
+1899        Entrada de Cotista Via Importação
+1903        Painel de Liquidação de Renda Fixa
+1904        Relatório de Cotização de Fundos
+1905        Relatório de Prazo Médio
+1906        Cadastro de Praças de Feriados Complementares
+1907        Relatório Informações de Cotistas BACEN
+1908        Relatório Posição de Carteira S
+1909        Cadastro de Política de Investimento
+1910        Atualização Automática do Número de Contrato de Termo de Ações
+1911        Relatório Ranking ANBIMA por Segmento
+1912        Importação de Bloqueio de Cotas
+1913        Importação de Saldos de Prejuizo a Compensar
+1914        Recuperação Múltipla de Fluxos de Perfil
+1915        Importação de Eventos Cetip
+1916        Exclusão de Importação de Eventos Cetip
+1917        Cadastro de Parâmetros do Rebate
+1918        Rebate por Faixa de Patrimônio Líquido
+1919        Relatório de Batimentos
+1921        Cadastro de IPOC - FIDC 3040
+1922        Exportação de Informações para Liquidez
+1923        Gravação de Dados para Informe de Rendimentos
+1924        Cadastro de Tipificação de Movimento do Caixa Online
+1926        Demonstrativo de Investimentos
+1927        Históricos por Tipos de Operação da Carteira
+1928        Conferência de Nota de RV
+1929        Monitor de Gestão de Caixa - Cancelamento
+1931        Monitor de Gestão de Caixa - Aprovação Automática
+1932        Monitor de Operações - Renda Fixa Internacional
+1933        Monitor de Gestão de Caixa
+1934        Monitor de Gestão de Caixa - Aprovação Saldo Negativo
+1935        Recibo de Pagamento de Liquidação da Pagadoria
+1936        Importação de Favorecido
+1937        Cadastro de Perfil de Investimento
+1938        Entrada de Cotista Via Importação ANBIMA
+1939        Saida de Cotista
+1940        Saida de Cotista em Lote
+1941        Gestão de Acesso para Usuários Master do Portal de Custódia
+1942        Importação de Boletas de Título Internacional
+1943        Exportação Contábil para ATTEST
+1944        Exclusão de Importação de Boletas de Título Internacional
+1945        Perfil Liquidação de Despesas
+1946        Exportação de Interface de Cotas Tipo FP
+1947        Despesas Liberadas no Portal de Custódia
+1948        Exportação de Interface Financeira Tipo FP
+1949        Importação de Perfil de Liquidação de Despesa
+1950        Permissão para serviços de Pagadoria
+1951        Permissão para Autorização de Pre Registro de Pagadoria no Portal de Custodia
+1952        Permissão para Exclusão de Pre Registro de Pagadoria no Portal de Custodia
+1953        Exportação de Taxa de Gestão padrão ANBIMA
+1954        Importação de Alíquotas de ISS de Municípios
+1955        Monitor de Operações - Opções Flexiveis
+1956        Manutenção de Cadastro de Cotista PCO
+1957        Tesouraria
+1958        Monitor de Operações - Cockpit
+1959        Informações Bancárias de Fundo Externo
+1960        Importação Conta Corrente de Fundo Externo
+1961        Liberação de Cota
+1962        Ativos Diversos e Cambio Liberados no Portal de Custódia
+1963        Monitor de Operações - Ativos Diversos
+1964        Monitor de Operações - Câmbio
+1965        Status da Carteira em Inicialização
+1966        Verificação de Saldos do Ativo
+1968        Navegador de Arquivos
+1970        Exportação Tesouraria ScafPlusNet
+1971        Monitor de Operações - Renda Fixa (Enviar Clearing)
+1972        Cadastro de Garantias - FIDC 3040
+1973        Atualização Cadastral de Ativos de Renda Fixa Privada
+1974        Importação de Lista de Carteira
+1975        Tesouraria - CF Externo
+1976        Cadastro de Lastro para Lastreamento Automático
+1977        Monitor de Operações - Lastreamento
+1978        Monitor de Gestão de Caixa Detalhado
+1980        Cadastro de Parâmetros para Exportação SFC
+1981        Exportação SFC
+1982        DOC4 - Demonstração da Evolução do Patrimônio Líquido - Quadro 1
+1983        Cadastro de Classificação para Demonstrativo da Evolução do PL - Quadro 1
+1984        DOC5 - Demonstração da Evolução da Cota e Rentabilidade - ICVM 577
+1985        Monitor de Tarefas Gerenciadas
+1986        Exportação de Informações para Risco
+1987        Exportação de Clientes - SGT
+1988        Extrato Conta Corrente
+1989        Relatório de Rebate a Receber
+1990        ANBIMA - INPUT Carteiras Administradas
+1991        Cadastro de Parâmetros do Rebate a Receber
+1992        Exportação de Tributos - SGT
+1993        Exportação Easyway - e-Financeira
+1994        Tesouraria - Bolsa
+1995        Tesouraria - BMF
+1996        Tesouraria - Ativos Diversos
+1997        Tesouraria - Câmbio
+1998        Tesouraria - RF Privado
+1999        Monitor de Operações - Eventos
+2000        Posição de Cotistas - Sintético
+2001        Relatório de Ofertas - Posição e Movimento
+2002        Limpeza da Base Diária de Cotista
+2003        Tesouraria - Swap
+2004        Alteração em Lote de Aplicações Importadas de Bolsa
+2005        Volta ao Presente - Tarefa
+2006        Exportação de Views
+2007        Exportação ANS Diária
+2008        Cadastro de Informes FIPs
+2009        Exportação de Informes FIPs
+2010        Exportação de Cotistas
+2011        Exportação para DF/NE
+2012        EFD-Reinf
+2013        Tesouraria - Rebate
+2014        Informações Bancárias do Assessor
+2015        Simulação de Fusão - Cisão - Incorporação de Carteiras
+2017        Monitor de Operações - Integração com RTM
+2018        Recibo de Pagamento de Rebate
+2019        Relatório de Aplicação Financeira e Comparativo
+2020        Processo de Importação de Transferência de Cotas
+2021        Importação de Transferência de Cotas
+2022        Atualização de grupos/usuario via REST
+2023        Fluxo de Rotina Diária do Cotista
+2024        Relatório de Rentabilidade
+2026        Cadastro de Parâmetros da Distribuição
+2027        Demonstrativo de Resultado Semestral - FII
+2028        Exportação para Cadastro de Fundos - EasyWay
+2029        Exportaçao de Cotista para Integração VALID
+2030        Cadastro de Parâmetros para Pagamentos dos Agentes Autônomos
+2031        Portabilidade Interna
+2032        Estorno de Portabilidade Interna
+2033        Alteração de Conta Contábil
+2034        Web Service Prematching Renda Fixa
+2035        Importação de Boleta de Bloqueio de Margem de Garantia de Ações
+2036        Importação de Posição de Cotista - B3
+2037        Taxa de Distribuição - Detalhamento
+2038        Navegador de Bloqueio de Financeiro (Caixa)
+2039        Navegador de Preços de Ações para Margem de Garantia
+2040        Cadastro de Índices de Preços de Ações para Margem de Garantia
+2041        Tesouraria - Margem de Garantia
+2042        Importação de Preços de Ações para Margem de Garantia
+2043        Migração dos Usuários para o Provedor OAuth2
+2044        Adesão ao Pagamento Antecipado de Come-cotas
+2045        Relatório Informe Quadrimestral FIP
+2046        Monitor de Margem de Garantia - Ações
+2047        Monitor de Margem de Garantia - Financeiro
+2048        Cadastro de Parâmetros de Bloqueio - Carteiras
+2049        Hub ANBIMA - PL / Cota
+2050        Importação de Vínculos de Ofertas
+2051        Modelo - Exportação do Movimento Diário Contábil Tipo AB
+2052        Tabela - Exportação do Movimento Diário Contábil Tipo AB
+2053        Navegador para Consulta de Boletos DDA
+2054        Relatório de Captação Líquida por Fundo
+2055        Movimento de Swap
+2056        Escrituração PCO para a B3
+2057        Importação de Movimentos de Clientes - P
+2058        Calcula Nova TIR para Operações de Renda Fixa
+2059        Informe de Fundo 157 para a CVM
+2060        Conversão de Cadastro do Leiaute por Lista
+2061        Cadastro de Percentuais para Cálculo da Perda Esperada (IN BCB 352)
+2062        Cadastro de Política de Apuração de Perdas Esperadas
+2063        Cadastro de Política de Apuração de Perdas Esperadas das Carteiras
+2064        Cadastro de Estágio de Política de Apuração de Perdas Esperadas
+2065        Importação de Lastro e Eventos via UP2DATA
+2066        Configuração de Thread no processo
+2067        Recibo de Pagamento de Cotas de Fundo
+2068        Relatório de PDD - Títulos de Renda Fixa
+2069        Exportação Mensal de Eventos de FII
+2070        Recibo de Pagamento de Ativos Diversos
+2071        Cadastro de Parâmetros de Fundo Fechado - Carteira
+2072        Recibo de Pagamento de RF Privado
+2076        Expurgo do Histórico de Movimentos do Cotista
+2077        Processo para Permissão de Acesso ao Módulo SQCTRL no Sistema Modernizado
+2078        Clonagem de Leiaute por Lista
+2079        Transformação de Carteira
+2080        Cadastro de Grupo de Volumetria
+2081        Relatório de Volumetria
+2082        Tesouraria - Pagadoria Apenas Consulta
+2083        Navegador de Tipo Reinf
+2084        Navegador de Vigências de Tipo Reinf
+2085        Navegador de Custos Unitários de Taxas para Renda Variável - Bolsa
+2086        Importação de Custos Unitários de taxas para Renda Variável - Bolsa
+2087        Exportação de dados do Caixa Online
+2088        Informe Mensal FIAGRO
+2089        Exportação de dados de Fundos por Distribuidor
+2090        Cadastro de Parâmetros Auxiliares da Carteira
+2091        Liberação de Cota do Passado
+
+(1966 linhas afetadas)
+
+
+Horário de conclusão: 2025-09-22T12:00:52.9135196-03:00
