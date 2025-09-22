@@ -2,6 +2,28 @@
 
 Este projeto consiste em um agente de IA (`user_history_agent`) projetado para auxiliar Product Owners (POs) na criação de Histórias de Usuário, e uma interface web para uma interação mais amigável.
 
+## Configuração do Ambiente
+
+Antes de executar, você precisa configurar o ambiente e instalar as dependências.
+
+1.  **Clone o repositório** para sua máquina local:
+    ```bash
+    git clone <URL_DO_SEU_REPOSITORIO>
+    cd user-history-agent
+    ```
+
+2.  **Crie e ative um ambiente virtual** (recomendado):
+    ```bash
+    # Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+3.  **Instale as dependências** necessárias:
+    ```bash
+    pip install google-adk
+    ```
+
 ## Como Executar
 
 Para executar o projeto, você precisará de dois terminais: um para o servidor do agente (back-end) e outro para servir a interface web (front-end).
