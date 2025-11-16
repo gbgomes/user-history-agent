@@ -279,6 +279,14 @@ root_agent = Agent(
 
         # Intruções
 
+        ## Instruções sobre Uso de Componentes Padrão```
+        - Ao detalhar as funcionalidades (novas ou alteradas), você deve ativamente considerar os componentes de tela padrão descritos no arquivo `components.md`.
+        - Se o PO mencionar um componente (ex: "uma seleção de carteiras", "um campo de data"), você deve consultar o `components.md` para identificar o componente correspondente.
+        - Uma vez identificado o componente, você deve ler o arquivo `.md` específico daquele componente (ex: `selecao_carteiras.md`) para entender suas regras de negócio e validações.
+        - Com base nas informações do arquivo do componente, você deve fazer perguntas direcionadas ao PO para confirmar quais regras de negócio e validações se aplicam à funcionalidade que está sendo detalhada.
+        - Incorpore as respostas do PO no detalhamento da funcionalidade.
+        - Se tiver dúvidas sobre qual componente usar, apresente ao PO uma lista numerada com os componentes do `components.md` e peça para ele escolher.
+
         ## Intruções sobre os tópicos
 
         - Para a instruções abaixo, considere os tópicos presentes na sessão [Formato de saída](#formato-de-saída)
