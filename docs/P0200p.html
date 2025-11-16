@@ -1,0 +1,166 @@
+<html>
+ <head> 
+  <title>Cadastro de Processo de Importação de Cadastro de Clientes</title> 
+  <style>
+h2 {
+	font-family: Arial;
+	color: blue;
+}
+h4 {
+	font-family: Arial;
+	color: blue;
+}
+</style> 
+  <meta name="processo" content="200" />
+ </head> 
+ <body> 
+  <font face="Arial" size="2"> <p><b> </b></p><h2><b>Cadastro de Processo de Importação de Cadastro de Clientes</b></h2><b> </b><p></p> 
+   <blockquote> 
+    <ul> 
+     <li><b>Código</b></li> 
+     <li><b>Nome</b></li> 
+     <li><b>Formato da Data</b></li> 
+     <li><b>Cliente = Agência + Conta</b></li> 
+     <li><b>Arquivo CBLC</b></li> 
+     <li><b>Descarta Header e Footer: </b><i>Cabeçalho e Rodapé</i>, descarta a primeira e última linha do arquivo.</li> 
+     <li><b>Assessor Bolsa</b></li> 
+     <li><b>Assessor 2 Bolsa</b></li> 
+     <li><b>Literal PF</b></li> 
+     <li><b>Literal PJ</b></li>
+     <li><b>Literal Ativo</b></li> 
+     <li><b>Literal Inativo</b></li> 
+     <li><b>Literal Encerrado</b></li>  
+     <li><b>Parte 1</b></li> 
+     <ul> 
+      <li><b>Cliente</b></li> 
+      <li><b>Dígito</b></li> 
+      <li><b>Nome</b></li> 
+      <li><b>Co-titular</b></li> 
+      <li><b>Assessor</b></li> 
+      <li><b>Assessor2</b></li> 
+      <li><b>Endereço</b></li> 
+      <li><b>Bairro</b></li> 
+      <li><b>Cidade</b></li> 
+      <li><b>Estado</b></li> 
+      <li><b>CEP</b></li> 
+      <li><b>Telefone</b></li> 
+      <li><b>Tipo de Pessoa</b></li> 
+      <li><b>CPF/CNPJ</b></li> 
+      <li><b>Banco</b></li> 
+      <li><b>Agência</b></li> 
+      <li><b>Conta</b></li>
+      <li><b>Alíq IR Inv Est</b></li>
+      <li><b>Cód Tributação</b></li> 
+      <li><b>Data Nasc Tit</b></li> 
+      <li><b>Dt Nasc Co-Tit</b></li> 
+      <li><b>Tipo Imunidade</b></li> 
+      <li><b>Mês Encer Bal</b></li> 
+      <li><b>Razão Mov</b></li> 
+      <li><b>Isento IR 94</b></li> 
+      <li><b>Isento IR RF</b></li> 
+      <li><b>Isento IR RV</b></li> 
+      <li><b>Isento IOF</b></li> 
+      <li><b>Blq Resgate</b></li> 
+      <li><b>Fnd / Clube Invest.</b></li> 
+     </ul> 
+     <li><b>Parte 2</b></li> 
+     <ul> 
+      <li><b>FCE</b></li> 
+      <li><b>Entidade Imune</b></li> 
+      <li><b>Isento de AIR</b></li> 
+      <li><b>Isento IOF Apl</b></li> 
+      <li><b>Flag Usuário</b></li> 
+      <li><b>Isento IR 98</b></li> 
+      <li><b>Ise IR p/Liminar</b></li> 
+      <li><b>Situação</b></li> 
+      <li><b>Identidade</b></li> 
+      <li><b>Empresa</b></li> 
+      <li><b>Endereço Com.</b></li> 
+      <li><b>Bairro Com.</b></li> 
+      <li><b>Cidade Com.</b></li> 
+      <li><b>Estado Com.</b></li> 
+      <li><b>CEP Com.</b></li> 
+      <li><b>Telefone Com.</b></li> 
+      <li><b>Matrícula</b></li> 
+      <li><b>Matrícula Adic.</b></li> 
+      <li><b>Data Admissão</b></li> 
+      <li><b>Cargo</b></li> 
+      <li><b>Salário</b></li> 
+      <li><b>Departamento 1</b></li> 
+      <li><b>Departamento 2</b></li> 
+      <li><b>Departamento 3</b></li> 
+      <li><b>Observação</b></li> 
+      <li><b>E-Mail</b></li> 
+      <li><b>CPF/CNPJ Co</b></li> 
+      <li><b>Bloqueia Corresp.</b></li>
+      <li><b>Blq Aplicação</b></li>
+      <li><b>Status</b></li> 
+     </ul> 
+     <li><b>Parte 3</b></li> 
+     <ul> 
+      <li><b>Cliente não residente</b></li> 
+      <li><b>Paraíso Fiscal</b></li> 
+      <li><b>Usa Alíquota IR do Sistema</b></li> 
+      <li><b>Data de Vigência</b></li> 
+      <li><b>Categoria de Tributação de IR</b></li> 
+      <li><b>IR com Corte</b></li> 
+      <li><b>Alíq de IR Amrtz/Rsg</b></li> 
+      <li><b>Alíq de IR Dist. Resultados</b></li> 
+      <li><b>Cotista Incorporador, Construtor ou Sócio de Empreendimento Imobiliário</b></li> 
+      <li><b>Co-Titular Pessoa Jurídica</b></li>
+      <li><b>Perfil CVM</b></li>
+      <li><b>Classe de Investidor</b></li>
+      <li><b>Distribuidor</b></li>
+      <li><b>Código Galgo</b></li>
+      <li><b>Compensa Prejuízo</b></li>
+      <li><b>Exige Iniciativa da Operação (RDIP)</b></li>
+      <li><b>País</b></li>
+      <li><b>Código do País</b></li>
+      <li>
+      	<b>Tipo do Número de Conta</b>
+      	<ul>
+      		<li type="circle"><b>0 - Nenhum</b></li>
+      		<li type="circle"><b>1 - OECD601 - IBAN</b></li>
+      		<li type="circle"><b>2 - OECD602 - OBAN</b></li>
+      		<li type="circle"><b>3 - OECD603 - ISIN</b></li>
+      		<li type="circle"><b>4 - OECD604 - OSIN</b></li>
+      		<li type="circle"><b>5 - OECD605 - Outros</b></li>
+      	</ul>
+      </li>
+      <li><b>Número da Conta</b></li>
+     </ul>
+     <li><b>Parte 4</b></li>
+	 <ul>
+       <li><b>DV Conta</b></li>
+       <li><b>Cliente Corporativo</b></li>
+       <li><b>Código do Município IBGE</b></li> 
+       <li>
+	     <b>Tipo de Pessoa Jurídica</b>
+		 <ul>
+			 <li type="circle"><b>0 - Comum</b></li>
+      	     <li type="circle"><b>1 - Instituição Financeira</b></li>
+      	     <li type="circle"><b>2 - Fundo</b></li>
+      	     <li type="circle"><b>3 - Fundação</b></li>
+		 </ul>
+	   </li>
+     </ul>	 
+    </ul> 
+   </blockquote> <b><p></p><h4>Descrição: </h4><p></p></b> 
+   <blockquote> 
+    <p>O Cadastro de Processo de Importação de Cadastro de Clientes lhe permite cadastrar os processos que serão utilizados 
+    na Importação de Cadastro de Clientes. Para incluir um Processo de Importação de Cadastro de Clientes no cadastro é 
+    necessário digitar o código e o nome do processo e especificar o layout do arquivo a ser usado. Isto implica em definir, 
+    para cada dado, sua posição(coluna) e seu tamanho(n.º de caracteres). </p>
+    <p> Sendo que os dados de Cliente, Nome, Assessor são obrigatórios e os outros são opcionais. Obs.: O campo 
+    “Cliente = Agência + Conta”, ao ser selecionado, tornará obrigatório o preenchimento dos campos Agência e Conta. </p>
+    <p>O campo referente à Posição do parâmetro Status é de preenchimento opcional. Se não estiver configurado neste 
+    processo, os clientes são importados com o status <b>Ativo</b> no Cadastro de Clientes.</p>
+    <p>Caso opte pelo preenchimento do campo “Posição” correspondente ao parâmetro Status, o usuário deve definir os 
+    literais correspondentes aos três tipos de status (<b>Ativo</b>, <b>Inativo</b> e <b>Encerrado</b>). Se um dos 
+    literais for preenchido, é obrigatório o preenchimento dos demais. Caso contrário, é apresentada uma mensagem de 
+    validação. Além disso, os referidos campos devem ser diferente um do outro. Caso não sejam, também é apresentada uma 
+    mensagem de validação.</p>
+    <p>Campo <b> DV Conta </b> só será utilizado se a flag <b>Grava Informação Bancária</b> estiver marcada no processo <a href ="P0203p.html">203 - Importação do Cadastro de Clientes</a>.</p> 
+   </blockquote> <p><span style="font-size:10.0pt;font-family:Arial;color:red"> <b>*Atenção:</b> Informação apenas cadastral, aguardando liberação de suporte no processamento das Amortizações, Resgates e Distribuição de Resultados.<br /> Conforme a legislação vigente, a tributação ocorrerá de forma linear considerando a alíquota vigente na data do processamento (<i>Sem Corte</i>).</span></p> </font>
+ </body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://localhost:8080/DAMnet105_CNPJ/Doc/P1220csvbrp.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
+    <title>Formato CSVBR - Exportação de Clientes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: blue;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .codigo {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ddd;
+            font-family: monospace;
+            margin: 10px 0;
+            font-size: 12px;
+            overflow-x: auto;
+        }
+        .destaque {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-left: 4px solid #ffc107;
+            margin: 10px 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+<h1>Formato CSVBR - Exportação de Cadastro de Clientes</h1>
+
+<h2>Características Técnicas</h2>
+<table>
+    <tbody><tr>
+        <th>Propriedade</th>
+        <th>Valor</th>
+        <th>Descrição</th>
+    </tr>
+    <tr>
+        <td>Separador de Campos</td>
+        <td>;</td>
+        <td>Ponto e vírgula utilizado como delimitador</td>
+    </tr>
+    <tr>
+        <td>Encoding</td>
+        <td>ISO-8859-1</td>
+        <td>Codificação de caracteres Latin-1</td>
+    </tr>
+    <tr>
+        <td>Quebra de Linha</td>
+        <td>\r\n</td>
+        <td>Windows CRLF (Carriage Return + Line Feed)</td>
+    </tr>
+    <tr>
+        <td>Separador Decimal</td>
+        <td>,</td>
+        <td>Vírgula (padrão brasileiro)</td>
+    </tr>
+    <tr>
+        <td>Formato de Data</td>
+        <td>dd/MM/yyyy</td>
+        <td>Formato brasileiro de data</td>
+    </tr>
+</tbody></table>
+
+<h2>Campos Exportados</h2>
+<p>O formato CSVBR para exportação de clientes exporta <strong>54 campos</strong> do cadastro de clientes:</p>
+
+<table>
+    <tbody><tr>
+        <th>#</th>
+        <th>Campo</th>
+        <th>Tipo</th>
+        <th>Descrição</th>
+    </tr>
+    <tr><td>1</td><td>AssessorID</td><td>Numérico</td><td>Código do assessor</td></tr>
+    <tr><td>2</td><td>NomeAss</td><td>Texto</td><td>Nome do assessor principal</td></tr>
+    <tr><td>3</td><td>NomeAss2</td><td>Texto</td><td>Nome do assessor secundário</td></tr>
+    <tr><td>4</td><td>Cliente</td><td>Numérico</td><td>Código único do cliente</td></tr>
+    <tr><td>5</td><td>Nome</td><td>Texto</td><td>Nome completo do cliente titular</td></tr>
+    <tr><td>6</td><td>TipoPessoa</td><td>Texto</td><td>Tipo de pessoa (Física/Jurídica)</td></tr>
+    <tr><td>7</td><td>Nome2</td><td>Texto</td><td>Nome do cotitular (se houver)</td></tr>
+    <tr><td>8</td><td>Assessor</td><td>Numérico</td><td>Código do assessor (duplicata)</td></tr>
+    <tr><td>9</td><td>Endereco</td><td>Texto</td><td>Endereço completo</td></tr>
+    <tr><td>10</td><td>CEP</td><td>Texto</td><td>CEP formatado (99999-999)</td></tr>
+    <tr><td>11</td><td>Cidade</td><td>Texto</td><td>Nome da cidade</td></tr>
+    <tr><td>12</td><td>Estado</td><td>Texto</td><td>Sigla do estado (UF)</td></tr>
+    <tr><td>13</td><td>CPFCGC</td><td>Texto</td><td>CPF/CNPJ formatado do titular</td></tr>
+    <tr><td>14</td><td>Banco</td><td>Numérico</td><td>Código do banco</td></tr>
+    <tr><td>15</td><td>Agencia</td><td>Texto</td><td>Código da agência</td></tr>
+    <tr><td>16</td><td>Conta</td><td>Texto</td><td>Número da conta</td></tr>
+    <tr><td>17</td><td>Assessor2</td><td>Numérico</td><td>Código do assessor secundário</td></tr>
+    <tr><td>18</td><td>DataNascTit</td><td>Data</td><td>Data de nascimento do titular</td></tr>
+    <tr><td>19</td><td>DataNascCoTit</td><td>Data</td><td>Data de nascimento do cotitular</td></tr>
+    <tr><td>20</td><td>Telefone</td><td>Texto</td><td>Número de telefone</td></tr>
+    <tr><td>21</td><td>DigitoAlfa</td><td>Texto</td><td>Dígito alfanumérico</td></tr>
+    <tr><td>22</td><td>Digito</td><td>Numérico</td><td>Dígito verificador</td></tr>
+    <tr><td>23</td><td>TipoImunidade</td><td>Numérico</td><td>Código do tipo de imunidade</td></tr>
+    <tr><td>24</td><td>MesEncBal</td><td>Numérico</td><td>Mês de encerramento do balanço</td></tr>
+    <tr><td>25</td><td>AliqIe</td><td>Decimal</td><td>Alíquota de IE</td></tr>
+    <tr><td>26</td><td>bCliRatIR</td><td>Texto</td><td>Cliente sujeito a rateio de IR (SIM/NÃO)</td></tr>
+    <tr><td>27</td><td>bCliIseIOF</td><td>Texto</td><td>Cliente isento de IOF (SIM/NÃO)</td></tr>
+    <tr><td>28</td><td>bCliIseIRRV</td><td>Texto</td><td>Cliente isento de IRRV (SIM/NÃO)</td></tr>
+    <tr><td>29</td><td>bCliSupIseIRRF</td><td>Texto</td><td>Cliente superior isento de IRRF (SIM/NÃO)</td></tr>
+    <tr><td>30</td><td>bCliIseIRRF</td><td>Texto</td><td>Cliente isento de IRRF (SIM/NÃO)</td></tr>
+    <tr><td>31</td><td>bCliBlqRgt</td><td>Texto</td><td>Cliente bloqueado para resgate (SIM/NÃO)</td></tr>
+    <tr><td>32</td><td>bCliIseIR94</td><td>Texto</td><td>Cliente isento de IR 94 (SIM/NÃO)</td></tr>
+    <tr><td>33</td><td>bCliFAC</td><td>Texto</td><td>Cliente FAC (SIM/NÃO)</td></tr>
+    <tr><td>34</td><td>bCliDepDIRF</td><td>Texto</td><td>Cliente depende DIRF (SIM/NÃO)</td></tr>
+    <tr><td>35</td><td>bCliImuneDIRF</td><td>Texto</td><td>Cliente imune DIRF (SIM/NÃO)</td></tr>
+    <tr><td>36</td><td>bCliIse98</td><td>Texto</td><td>Cliente isento 98 (SIM/NÃO)</td></tr>
+    <tr><td>37</td><td>bCliIseLiminar</td><td>Texto</td><td>Cliente isento liminar (SIM/NÃO)</td></tr>
+    <tr><td>38</td><td>bCliIseAIR</td><td>Texto</td><td>Cliente isento AIR (SIM/NÃO)</td></tr>
+    <tr><td>39</td><td>bCorrespBloq</td><td>Texto</td><td>Correspondente bloqueado (SIM/NÃO)</td></tr>
+    <tr><td>40</td><td>CodBanco</td><td>Numérico</td><td>Código do banco</td></tr>
+    <tr><td>41</td><td>AgenciaID</td><td>Numérico</td><td>ID da agência</td></tr>
+    <tr><td>42</td><td>DataHoraCorp</td><td>Data/Hora</td><td>Data e hora corporativa</td></tr>
+    <tr><td>43</td><td>bCliFCE</td><td>Texto</td><td>Cliente FCE (SIM/NÃO)</td></tr>
+    <tr><td>44</td><td>bFlagUsuario</td><td>Texto</td><td>Flag usuário (SIM/NÃO)</td></tr>
+    <tr><td>45</td><td>BancoDepJud</td><td>Numérico</td><td>Banco depósito judicial</td></tr>
+    <tr><td>46</td><td>AgenciaDepJud</td><td>Texto</td><td>Agência depósito judicial</td></tr>
+    <tr><td>47</td><td>ContaDepJud</td><td>Texto</td><td>Conta depósito judicial</td></tr>
+    <tr><td>48</td><td>CodCliCorp</td><td>Texto</td><td>Código cliente corporativo</td></tr>
+    <tr><td>49</td><td>Distribuidor</td><td>Texto</td><td>Nome do distribuidor</td></tr>
+    <tr><td>50</td><td>status</td><td>Texto</td><td>Status do cliente (Ativo/Inativo/Encerrado)</td></tr>
+    <tr><td>51</td><td>blqApl</td><td>Texto</td><td>Bloqueio aplicação (SIM/NÃO)</td></tr>
+    <tr><td>52</td><td>ClasseInvANBID</td><td>Texto</td><td>Classe de investidor ANBID</td></tr>
+    <tr><td>53</td><td>CdGalgo</td><td>Numérico</td><td>Código Galgo</td></tr>
+    <tr><td>54</td><td>PrfCVM</td><td>Texto</td><td>Perfil CVM</td></tr>
+    <tr><td>55</td><td>TpPesCotitular</td><td>Texto</td><td>Tipo pessoa cotitular (Física/Jurídica)</td></tr>
+    <tr><td>56</td><td>bCmpsPrej</td><td>Texto</td><td>Campos prejudicados (SIM/NÃO)</td></tr>
+    <tr><td>57</td><td>bExigInctvOpRDIP</td><td>Texto</td><td>Exige incentivo op RDIP (SIM/NÃO)</td></tr>
+    <tr><td>58</td><td>CdPais</td><td>Numérico</td><td>Código do país</td></tr>
+    <tr><td>59</td><td>Pais</td><td>Texto</td><td>Nome do país</td></tr>
+    <tr><td>60</td><td>CPFCGC2</td><td>Texto</td><td>CPF/CNPJ formatado do cotitular</td></tr>
+    <tr><td>61</td><td>bCliBvsp</td><td>Texto</td><td>Cliente BVSP (SIM/NÃO)</td></tr>
+    <tr><td>62</td><td>bCliParFisc</td><td>Texto</td><td>Cliente paraíso fiscal (SIM/NÃO)</td></tr>
+    <tr><td>63</td><td>bDomicilioExt</td><td>Texto</td><td>Domicílio exterior (SIM/NÃO)</td></tr>
+</tbody></table>
+
+<h2>Exemplo de Estrutura</h2>
+<div class="codigo">
+AssessorID;NomeAss;NomeAss2;Cliente;Nome;TipoPessoa;Nome2;Assessor;Endereco;CEP;Cidade;Estado;CPFCGC;Banco;Agencia;Conta;Assessor2;DataNascTit;DataNascCoTit;Telefone;DigitoAlfa;Digito;TipoImunidade;MesEncBal;AliqIe;bCliRatIR;bCliIseIOF;bCliIseIRRV;bCliSupIseIRRF;bCliIseIRRF;bCliBlqRgt;bCliIseIR94;bCliFAC;bCliDepDIRF;bCliImuneDIRF;bCliIse98;bCliIseLiminar;bCliIseAIR;bCorrespBloq;CodBanco;AgenciaID;DataHoraCorp;bCliFCE;bFlagUsuario;BancoDepJud;AgenciaDepJud;ContaDepJud;CodCliCorp;Distribuidor;status;blqApl;ClasseInvANBID;CdGalgo;PrfCVM;TpPesCotitular;bCmpsPrej;bExigInctvOpRDIP;CdPais;Pais;CPFCGC2;bCliBvsp;bCliParFisc;bDomicilioExt
+1001;João Silva;Maria Santos;12345;EMPRESA ABC LTDA;Jurídica;Pedro Silva;1001;Rua das Flores, 123;12345-678;São Paulo;SP;12.345.678/0001-90;341;1234;56789-0;1002;15/03/1980;20/05/1985;(11) 98765-4321;A;9;0;12;5,25;NÃO;SIM;NÃO;NÃO;NÃO;NÃO;NÃO;SIM;NÃO;SIM;NÃO;NÃO;NÃO;NÃO;341;4567;10/01/2025 14:30:25;NÃO;SIM;0;;;;;;Ativo;NÃO;PJU - Pessoa Jurídica;9876;INV-QUALIF;Física;NÃO;SIM;76;Brasil;987.654.321-00;NÃO;NÃO;NÃO
+</div>
+
+<h2>Formatação de Dados</h2>
+<div class="destaque">
+    <h3>Regras de Formatação Brasileira:</h3>
+    <ul>
+        <li><strong>Números Decimais:</strong> Utilizam vírgula como separador decimal (ex: 1234,56)</li>
+        <li><strong>Datas:</strong> Formato dd/MM/yyyy (ex: 15/03/1980)</li>
+        <li><strong>Data/Hora:</strong> Formato dd/MM/yyyy HH:mm:ss (ex: 10/01/2025 14:30:25)</li>
+        <li><strong>CPF:</strong> Formato 999.999.999-99 (ex: 123.456.789-00)</li>
+        <li><strong>CNPJ:</strong> Formato 99.999.999/9999-99 (ex: 12.345.678/0001-90)</li>
+        <li><strong>CEP:</strong> Formato 99999-999 (ex: 12345-678)</li>
+        <li><strong>Valores Boolean:</strong> "SIM" ou "NÃO"</li>
+        <li><strong>Valores Nulos:</strong> Campos numéricos vazios são exportados como "0"</li>
+        <li><strong>Campos de Texto:</strong> Campos vazios são exportados como string vazia ""</li>
+        <li><strong>Separador:</strong> Ponto e vírgula (;) entre todos os campos</li>
+        <li><strong>Escape:</strong> Campos contendo separadores ou aspas são delimitados por aspas duplas</li>
+    </ul>
+</div>
+
+<h2>Classes de Investidor ANBID</h2>
+<table>
+    <tbody><tr>
+        <th>Código</th>
+        <th>Descrição</th>
+    </tr>
+    <tr><td>0</td><td>PEJ - Pessoa jurídica em geral</td></tr>
+    <tr><td>1</td><td>PRI - Private</td></tr>
+    <tr><td>2</td><td>PJU - Pessoa Jurídica</td></tr>
+    <tr><td>3</td><td>PRE - Previdência</td></tr>
+    <tr><td>4</td><td>VIP - VIP</td></tr>
+    <tr><td>5</td><td>IQU - Investidor Qualificado</td></tr>
+    <tr><td>6</td><td>(Vazio) - Não informado</td></tr>
+</tbody></table>
+
+<h2>Status do Cliente</h2>
+<table>
+    <tbody><tr>
+        <th>Status</th>
+        <th>Descrição</th>
+    </tr>
+    <tr><td>Ativo</td><td>Cliente ativo no sistema</td></tr>
+    <tr><td>Inativo</td><td>Cliente inativo mas não encerrado</td></tr>
+    <tr><td>Encerrado</td><td>Cliente encerrado definitivamente</td></tr>
+</tbody></table>
+
+<h2>Observações Importantes</h2>
+<ul>
+    <li>O arquivo é gerado com encoding ISO-8859-1 para compatibilidade com sistemas legados</li>
+    <li>A primeira linha contém sempre o cabeçalho com os nomes dos campos</li>
+    <li>Todos os 63 campos são sempre exportados, mesmo quando vazios</li>
+</ul>
+
+<h2>Parâmetros de Exportação</h2>
+<table>
+    <tbody><tr>
+        <th>Parâmetro</th>
+        <th>Tipo</th>
+        <th>Descrição</th>
+    </tr>
+    <tr><td>idUsr</td><td>int</td><td>ID do usuário que está executando a exportação</td></tr>
+    <tr><td>nLst</td><td>int</td><td>Número da lista/filtro</td></tr>
+    <tr><td>nCrt</td><td>int</td><td>Número da carteira</td></tr>
+    <tr><td>bFiltrarCarteira</td><td>boolean</td><td>Se deve aplicar filtro por carteira, caso não selecionado, todos os registros serão exportados</td></tr>
+</tbody></table>
+
+
+</body></html>

@@ -105,10 +105,132 @@ def buscar_por_nome(lista_nomes: list[str]):
 
   return resultados
 
+def salvar_historia(nome_arquivo: str, conteudo: str):
+  """
+  Cria ou atualiza um arquivo Markdown com o conteúdo fornecido.
+  Esta ferramenta deve ser usada periodicamente para salvar o estado atual da história do usuário.
+
+  Args:
+    nome_arquivo: O nome do arquivo a ser salvo (ex: 'minha_historia.md'). Deve ter a extensão .md.
+    conteudo: O conteúdo completo do documento da história do usuário a ser salvo.
+
+  Returns:
+    str: Uma mensagem de confirmação do sucesso ou falha da operação.
+  """
+  if not nome_arquivo:
+    return "Erro: O nome do arquivo não foi fornecido. Não é possível salvar."
+  if not nome_arquivo.endswith('.md'):
+    nome_arquivo += '.md'
+
+  file_path = Path(__file__).parent / nome_arquivo
+  try:
+    with open(file_path, 'w', encoding='utf-8') as f:
+      f.write(conteudo)
+    return f"História salva com sucesso no arquivo '{nome_arquivo}'."
+  except Exception as e:
+    return f"Ocorreu um erro ao salvar a história no arquivo '{nome_arquivo}': {e}"
+
+def ler_historia(nome_arquivo: str):
+  """
+  Lê o conteúdo de um arquivo Markdown e o retorna.
+  Esta ferramenta deve ser usada quando o PO solicitar a leitura do arquivo,
+  caso ele tenha feito alterações manuais e queira que o agente continue a partir delas.
+
+  Args:
+    nome_arquivo: O nome do arquivo a ser lido (ex: 'minha_historia.md').
+
+  Returns:
+    str: O conteúdo do arquivo ou uma mensagem de erro se o arquivo não for encontrado.
+  """
+  if not nome_arquivo:
+    return "Erro: O nome do arquivo não foi fornecido. Não é possível ler."
+  if not nome_arquivo.endswith('.md'):
+    nome_arquivo += '.md'
+
+  file_path = Path(__file__).parent / nome_arquivo
+  try:
+    with open(file_path, 'r', encoding='utf-8') as f:
+      conteudo = f.read()
+    return conteudo
+  except FileNotFoundError:
+    return f"Erro: O arquivo '{nome_arquivo}' não foi encontrado. Verifique o nome ou salve a história primeiro."
+  except Exception as e:
+    return f"Ocorreu um erro ao ler a história: {e}"
+
+def buscar_documentacao_processo(prefixo_arquivo: str):
+  """
+  Busca por arquivos de documentação na pasta 'docs' que comecem com o prefixo fornecido e tenham a extensão .html, .xml ou .csv.
+  Concatena e retorna o conteúdo de todos os arquivos encontrados.
+  Deve ser usada para obter contexto sobre uma funcionalidade existente antes de detalhar suas alterações.
+
+  Args:
+    prefixo_arquivo: O prefixo do nome do arquivo a ser procurado (ex: 'P0986').
+
+  Returns:
+    str: O conteúdo concatenado dos arquivos encontrados ou uma mensagem indicando que nada foi encontrado.
+  """
+  docs_path = Path(__file__).parent / 'docs'
+  if not docs_path.is_dir():
+    return "Contexto não encontrado: A pasta 'docs' não existe no projeto."
+
+  extensions = ['*.html', '*.xml', '*.csv']
+  arquivos_encontrados = []
+  for ext in extensions:
+      arquivos_encontrados.extend(docs_path.glob(f"{prefixo_arquivo}{ext}"))
+
+  if not arquivos_encontrados:
+    return f"Contexto não encontrado: Nenhum arquivo de documentação (html, xml, csv) iniciado com '{prefixo_arquivo}' foi encontrado na pasta 'docs'."
+
+  conteudo_total = ""
+  encodings_para_tentar = ['utf-8', 'latin-1', 'cp1252']
+
+  for arquivo_path in arquivos_encontrados:
+    conteudo_arquivo = None
+    for encoding in encodings_para_tentar:
+      try:
+        with open(arquivo_path, 'r', encoding=encoding) as f:
+          conteudo_arquivo = f.read()
+        conteudo_total += f"\n\n--- Início do conteúdo de '{arquivo_path.name}' (codificação: {encoding}) ---\n"
+        conteudo_total += conteudo_arquivo
+        conteudo_total += f"\n--- Fim do conteúdo de '{arquivo_path.name}' ---\n"
+        break # Sai do loop de encodings se a leitura for bem-sucedida
+      except (UnicodeDecodeError, TypeError):
+        continue # Tenta a próxima codificação
+
+    if conteudo_arquivo is None:
+      conteudo_total += f"\n\n--- Erro ao ler o arquivo '{arquivo_path.name}': Não foi possível decodificar o arquivo com as codificações testadas. ---\n"
+
+  return "Contexto encontrado:\n" + conteudo_total
+
+def salvar_historia_html(nome_arquivo: str, conteudo_html: str):
+  """
+  Cria ou atualiza um arquivo HTML com o conteúdo fornecido.
+  Esta ferramenta deve ser usada no final do fluxo para gerar uma versão HTML da história do usuário.
+  O LLM deve primeiro converter o conteúdo Markdown da história para um HTML bem formatado e estilizado antes de chamar esta ferramenta.
+
+  Args:
+    nome_arquivo: O nome do arquivo a ser salvo (ex: 'minha_historia.html'). A extensão .html será adicionada se não estiver presente.
+    conteudo_html: O conteúdo HTML completo e estilizado do documento da história do usuário a ser salvo.
+
+  Returns:
+    str: Uma mensagem de confirmação do sucesso ou falha da operação.
+  """
+  if not nome_arquivo:
+    return "Erro: O nome do arquivo não foi fornecido. Não é possível salvar o HTML."
+  if not nome_arquivo.endswith('.html'):
+    nome_arquivo = Path(nome_arquivo).stem + '.html'
+
+  file_path = Path(__file__).parent / nome_arquivo
+  try:
+    with open(file_path, 'w', encoding='utf-8') as f:
+      f.write(conteudo_html)
+    return f"História salva com sucesso no arquivo HTML '{nome_arquivo}'."
+  except Exception as e:
+    return f"Ocorreu um erro ao salvar a história no arquivo HTML '{nome_arquivo}': {e}"
 
 root_agent = Agent(
     name="user_history_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     description=(
         "Agent to help Product Owners (PO) to write user histories."
     ),
@@ -143,11 +265,17 @@ root_agent = Agent(
         ---
 
         # Fluxo
+        - **Nome do Arquivo**: Sua primeira ação deve ser perguntar ao PO o nome do arquivo para salvar a história (ex: 'historia_cvm.md'). Armazene este nome. Se o PO não fornecer um nome, você não deve usar as ferramentas de salvamento. Se o PO informar um nome posteriormente ou pedir para alterar o nome, atualize o nome do arquivo que você está usando e passe a salvar nele.
         - para a sequencia do fluxo de perguntas passo a passo, considere os tópicos presentes na sessão [Formato de saída](#formato-de-saída).
         - Considere que o Fluxo de Perguntas segue o Least-to-Most, passo a passo.
         - Garanta que você NÂO irá perguntar ao PO 2 ou mais tópicos de uma vez; Cada tópico é 1 passo.
         - O PO pode solicitar edições fora de ordem, informando o tópico. Sempre que isso ocorrer, ao fim da iternção do tópico, volte para o ponto que estava anteriormente.
-        - No fim do fluxo, quando o PO informar que está satisfeito, apresente o documento final respeitando o formato da sessão [Formato de saída](#formato-de-saída) e sugira opções de geração em arquivo nos formatos MD, PDF e DOCX.
+        - No fim do fluxo, quando o PO informar que está satisfeito, apresente o documento final respeitando o formato da sessão [Formato de saída](#formato-de-saída) e sugira opções de geração em arquivo nos formatos MD e HTML. Nesta etapa, sempre salve o arquivo Markdown e ofereça a opção de salvar em HTML. Para o HTML, você deve primeiro converter o conteúdo Markdown para um HTML bem formatado e então usar a ferramenta `salvar_historia_html`.
+
+        - **Salvamento Periódico**: Se um nome de arquivo foi definido pelo PO, garanta que a cada iteração que gere alteração do conteúdo da história, você use a ferramenta `salvar_historia` para gravar o estado atual de todo o documento. Você **DEVE** passar o nome do arquivo definido pelo PO como o parâmetro `nome_arquivo`.
+        - **Salvamento Final**: Se um nome de arquivo foi definido pelo PO, garanta que ao fim do fluxo, antes de apresentar as opções de arquivos, você use a ferramenta `salvar_historia` para gravar o estado atual de todo o documento. Você **DEVE** passar o nome do arquivo definido pelo PO como o parâmetro `nome_arquivo`.
+        - **Leitura sob Demanda**: Se o PO informar que alterou o arquivo diretamente e pedir para você carregar as alterações, use a ferramenta `ler_historia` para ler o conteúdo do arquivo. Você **DEVE** passar o nome do arquivo que está sendo usado na sessão como o parâmetro `nome_arquivo`. A partir desse momento, considere o conteúdo retornado como o estado atual da história e continue o fluxo a partir dele.
+        - sempre que fizer correções ortográficas, garantas que serão salvas no arquivo atual, se o PO tiver definido um nome de arquivo.
 
         # Intruções
 
@@ -187,9 +315,11 @@ root_agent = Agent(
         - A IA deve usar a ferramenta buscar_por_id para buscar o nome de cada funcionalidade alterada. Estruture a chamada da ferramenta com uma lista de IDs extraída da resposta do PO. use o seguinte formato para chamar a função "buscar_por_id([ID1, ID2, ID3])"
         - A IA deve guiar o PO no detalhamento item por item de cada funcionalidade da lista.
         - Não solicitae o título, apenas o detalhamento. Use o nome retornado pela ferramenta como título.
+        - **Busca de Contexto**: Para cada funcionalidade alterada identificada, ANTES de pedir o detalhamento ao PO, use a ferramenta `buscar_documentacao_processo`. Use o código do processo (ex: 'P0986' para o ID 986) como o parâmetro `prefixo_arquivo`. O conteúdo retornado servirá de base para você entender o que já existe e guiar melhor o PO.
         - Para cada item, deve pedir um detalhamento completo, passo a passo.
         - Você pode sugerir um detalhamanto, mas garanta que você sempre irá perguntar ao PO qual o detalhamanto que ele deseja
         - A IA deve numerar automaticamente cada item com o padrão 4.1 - FA0010 <nome da primeira funcionalidade Alterada>, 4.2 - FA0020 <nome da segunda funcionalidade alterada>
+
 
         ```5. Critérios de aceite```
         - Para cada funcionalidade, uma de cada vez (passo a passo) a IA deverá sugerir critérios de aceite baseado no escopo definido para cada funcionalidade e usando padrões e formato de mercado. Deve ficar claro qual a funcionalidade está sendo validada.
@@ -204,19 +334,29 @@ root_agent = Agent(
         ```
         1. Objetivos do Projeto
 
+
         2. Declaração de Escopo da Necessidade do Cliente
+
         2.1. Resumo Gerencial
+
         2.2 Restrições do projeto
+
         2.3 Premissas do projeto
 
         3. Funcionalidades Novas
+        
         3.1 FN0010 - Funcionalidade nova 1
+
         3.2 FN0020 - Funcionalidade nova 2
+
         ...
 
         4. Funcionalidades alteradas
+        
         4.1 FA0010 - Funcionalidade alterada 1
+
         4.2 FA0010 - Funcionalidade alterada 2
+
         ...
 
         5. Critérios de aceite
@@ -326,5 +466,5 @@ root_agent = Agent(
 
         """
     ),
-    tools=[buscar_por_id, buscar_por_nome],
+    tools=[buscar_por_id, buscar_por_nome, salvar_historia, ler_historia, buscar_documentacao_processo, salvar_historia_html],
 )

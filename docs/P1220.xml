@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- (c)2019, Sinqia - http://www.sinqia.com.br -->
+
+<!-- Início exportador - Cadastro Clientes -->
+<exportador-cadastro-clientes>
+
+  <!-- Início dos dados gerais do exportador -->
+    <versao>1.00</versao>
+    <sistema-origem></sistema-origem>
+    <sistema-destino></sistema-destino>
+    <tipo-geracao-arquivo></tipo-geracao-arquivo>
+    <data-hora-exportacao></data-hora-exportacao>
+  <!-- Fim dos dados gerais do exportador -->
+
+  <!-- Início dos dados da exportação de cliente -->
+    <cliente>
+        <codigo-sistema-cliente></codigo-sistema-cliente>
+        <codigo-sistema-origem></codigo-sistema-origem>
+        <nome-completo></nome-completo>
+        <tipo-pessoa></tipo-pessoa>
+        <cpf-cnpj></cpf-cnpj>
+        <data-nascimento-constituicao></data-nascimento-constituicao>
+        <endereco></endereco>
+        <cep></cep>
+        <cidade></cidade>
+        <uf></uf>
+        <tipo-meio-contato></tipo-meio-contato>
+        <meio-contato></meio-contato>
+    </cliente>
+  <!-- Fim dos dados da exportação de cliente -->
+
+  <!-- Totalizador de registros exportados -->
+    <total-registros></total-registros>
+  <!-- Fim do totalizador de registros exportados -->
+
+</exportador-cadastro-clientes>
+<!-- Fim exportador -->
+

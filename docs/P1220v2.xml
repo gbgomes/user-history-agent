@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!-- (c)2019, Sinqia - http://www.sinqia.com.br -->
+
+<!-- In?cio exportador - Cadastro Clientes -->
+<exportador-cadastro-clientes>
+
+  <!-- In?cio dos dados gerais do exportador -->
+    <versao>2.00</versao>
+    <sistema-origem></sistema-origem>
+    <sistema-destino></sistema-destino>
+    <tipo-geracao-arquivo></tipo-geracao-arquivo>
+    <data-hora-exportacao></data-hora-exportacao>
+  <!-- Fim dos dados gerais do exportador -->
+
+  <!-- In?cio dos dados da exporta??o de cliente -->
+    <cliente>
+        <codigo-sistema-cliente></codigo-sistema-cliente>
+        <codigo-sistema-origem></codigo-sistema-origem>
+        <nome-completo></nome-completo>
+        <tipo-pessoa></tipo-pessoa>
+        <cpf-cnpj></cpf-cnpj>
+        <data-nascimento-constituicao></data-nascimento-constituicao>
+        <endereco></endereco>
+        <cep></cep>
+        <cidade></cidade>
+        <uf></uf>
+        <tipo-meio-contato></tipo-meio-contato>
+        <meio-contato></meio-contato>
+        <codigo-distribuidor></codigo-distribuidor>
+        <codigo-pco></codigo-pco>
+        <banco></banco>
+        <agencia></agencia>
+        <agencia-dv></agencia-dv>
+        <contacorrente></contacorrente>
+        <contacorrente-dv></contacorrente-dv>
+        <isento-ir-94></isento-ir-94>
+        <isento-ir-rv></isento-ir-rv>
+        <isento-ir-rf></isento-ir-rf>
+        <isento-ir></isento-ir>
+        <isento-liminar-mp-2222></isento-liminar-mp-2222>
+        <isento-antecipacao-ir></isento-antecipacao-ir>
+        <isento-iof></isento-iof>
+        <isento-iof-aplicacao></isento-iof-aplicacao>
+        <compensa-prejuizo></compensa-prejuizo>
+        <agrega-prejuizo></agrega-prejuizo>
+        <cliente-nao-residente></cliente-nao-residente>
+        <aliquota-ir-investidor-estrangeiro></aliquota-ir-investidor-estrangeiro>
+    </cliente>
+  <!-- Fim dos dados da exporta??o de cliente -->
+
+  <!-- Totalizador de registros exportados -->
+    <total-registros></total-registros>
+  <!-- Fim do totalizador de registros exportados -->
+
+</exportador-cadastro-clientes>
+<!-- Fim exportador -->
+

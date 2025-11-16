@@ -1,0 +1,105 @@
+<html>
+ <head> 
+  <title>Cadastro de Clientes - Ajuda</title> 
+  <meta name="hiddenDU" content="0;3;4" /> 
+  <meta name="processo" content="986" />
+ </head> 
+ <body> 
+  <h2><font face="Arial" color="blue">Cadastro de Clientes</font></h2> 
+  <blockquote> 
+   <span style="font-size:10.0pt;font-family:Arial;color:blue"> <b>Itens do Cadastro:</b> </span> 
+   <blockquote> 
+    <span style="font-size:10.0pt;font-family:Arial">
+     <li>Código do Cliente </li>
+     <li>Nome do Cliente </li>
+     <li>Código Corporativo </li>
+     <li>Assessor </li>
+     <li>Assessor 2 </li>
+     <li>Tipo Pessoa - selecione se for Pessoa Jurídica 
+      <blockquote>
+        Se Pessoa Jurídica: 
+       <li>CNPJ </li> 
+       <li>Mês de Encerramento de Balanço <p> Se Pessoa Física: </p></li> 
+       <li>CPF </li> 
+       <li>Identidade </li> 
+      </blockquote> </li>
+      <li>Status - Ativo, Inativo ou Encerrado</li>
+      <li>Consentimento Cadastral - Indefinido, Consentido ou Não Consentido.</li>
+      <li>Isenção em IR - vale para qualquer uma das flags de isenção de IR abaixo: 
+      <blockquote> 
+       <li>Isento de IR até 31/12/1994 </li> 
+       <li>Isento de IR RV até 31/12/1997 </li> 
+       <li>Isento de IR RF até 31/12/1997 </li> 
+       <li>Isento de IR </li> 
+       <li>Isento por Liminar ou Optante MP2222 </li> 
+       <li>Isento de Antecipação de IR </li> 
+      </blockquote> </li><li>Isenção em IOF - vale para qualquer uma das flags de isenção de IOF abaixo:
+      <blockquote>
+       <li>Isento de IOF </li>
+       <li>Isento de IOF sobre Aplicação </li>
+      </blockquote> </li><li>Compensa Prejuízo </li><li>Cliente Bovespa </li><li>Bloqueio de Correspondência </li><li>E-mail - Campo para pesquisa do endereço </li><li>Sem movimento - Clientes que não possuem movimentos <p><a href="P0986_Prmts_p.html">Aba Parâmetros</a> </p><p><a href="P0986_Prmts2_p.html">Aba Parâmetros (2)</a> </p><p><a href="P0986_Prmts3_p.html">Aba Parâmetros (3)</a> </p><p><a href="P0986_End_p.html">Aba Endereço</a> </p><p><a href="P0986_InfBanc_p.html">Aba Informações Bancárias</a> </p><p><a href="P0986_InfBancB_p.html">Aba Informações Bancárias B</a> </p><p><a href="P0986_Func_p.html">Aba Funcionário</a> </p><p><a href="P0986_Func2_p.html">Aba Funcionário (2)</a> </p><p><a href="P0986_EFin_p.html">Aba e-Financeira</a> </p>  <p><a href="P0986_VigSuitability_p.html">Aba Suitability</a></p> <p><a href="P0986_SisCorp_p.html">Aba Sistema Corporativo</a></p> </li></span>
+   </blockquote>
+   <span style="font-size:10.0pt;font-family:Arial;color:blue"> <b>Descrição:</b> </span>
+   <blockquote>
+    <span style="font-size:10.0pt;font-family:Arial"> Este processo permite o cadastramento de clientes, ou seja, dos cotistas que irão investir
+    nos fundos gerenciados pelo Sistema.<br /> <br /> Na inclusão de um novo Cliente, caso o Parâmetro do Sistema
+    <b>Numeração Automática do Código do Cliente</b> esteja habilitado, sugere o código seguinte ao do maior código de cliente cadastrado.
+
+    <p>Caso a Conferência de Pendências esteja ativada para a Funcionalidade, o registro manipulado ficará pendente de conferência.<BR>
+    Essa opção<B>(Usa Conf. de Pendências por Func.(Cadastro de Cliente))</B> pode ser marcada no
+    <a href="P0297p.html"> Cadastro de Parâmetros do Sistema / Aba Cotistas</a>.</p>
+
+    <p>Os registros alterados ou excluídos serão identificados como pendentes de conferência por um asterisco(*),
+    exibido na primeira coluna da listagem de clientes.</p> <p>Os registros incluídos ou clonados somente serão apresentados na
+    listagem de clientes após validação da pendência, que deverá ser realizada a partir da Funcionalidade
+    <a href="P0935p.html"> Conferência de Pendências</a>.</p>
+
+    <p>Além da opção normal para excluir um cliente, está disponível a opção <b>Exclusão Por Faixa</b>.
+    Ela possibilita a definição de um intervalo de clientes para exclusão. Aqueles que por algum motivo não puderem ser excluídos
+    serão informados ao final do processo.</p>
+
+    <p>
+       <b>Possíveis causas que impedem a exclusão do Cliente:</b><BR>
+          . Cliente com movimento em alguma Carteira.<BR>
+          . Cliente possuir relacionamento com Instituição Financeira em alguma Carteira, dentro do Sistema Financeiro Nacional.<BR>
+            <b>Obs.:</b> Esse relacionamento é feito/desfeito através da funcionalidade Implantação de Relacionamento de Clientes.<BR>
+    </p>
+
+	<p>A opção de menu Anonimizar, ao ser executada irá tornar anônimo todos os dados sensíveis do Cliente. Vale resaltar que esse procedimento é irreversível.</p>
+
+   <p>
+    <b>Aba Informações Bancárias: Cliente Sincronizado com o Sistema de Conta Corrente</b><BR>
+       Caso o usuário não possua conta corrente cadastrada ou só possua contas correntes externas(clientes não correntistas),
+       <U>será permitida</U> a manutenção(inclusão/alteração/exclusão) no cadastro de conta corrente do cliente.<BR><BR>
+
+       Caso o usuário possua conta corrente internas cadastrada(cliente correntista),
+       <U>não será permitida</U> a manutenção(inclusão/alteração/exclusão) no cadastro de conta corrente do cliente,
+       sendo atualizado apenas pela Sincronização com o Sistema de Conta Corrente.<BR><BR>
+
+             
+       Caso o Cliente sincronizado, a qual não possuir conta 707 (Banco Daycoval ou Banco do Player Liquidante do Passivo) 
+       <U>será permitida</U> a alteração da Conta Corrente e do Campo Status do Registro. <BR><BR>
+       
+       
+       <b>Obs.1:</b> Mesmo que o Cliente tenha várias contas externas cadastradas, o simples fato de ter 1 delas como conta interna do banco
+       faz com que o cadastro não permita mais alterar as contas correntes desse cliente.<BR><BR>
+
+       <b>Obs.2:</b> Para o Cliente ser considerado correntista o Banco deverá ser 707(Banco Daycoval ou Banco do Player Liquidante do Passivo).<BR><BR>
+       
+       <b>Obs.3:</b> Não é possívél atrelar o Cliente ao Banco 707 nas informações bancárias manualmente, isto ocorre exclusivamente via sincronização com Infobanc.<BR><BR>
+       
+   </p>
+   
+   <p>Cenários possíveis com relação ao <a href="P1727_LiqFinCot_p.html"> Cadastro das Contas Internas e Externas</a> de um Cliente e sua Liquidação Financeira (<a href="P1727_Daycoval_p.html">Painel de Liquidação Financeira de Cotista(1727)</a>).     	
+     </p>
+
+   </span>
+   </blockquote>
+   <p><span style="font-size:10.0pt;font-family:Arial;color:red"> <b>*Atenção:</b> Informação apenas cadastral, aguardando liberação de suporte no processamento das Amortizações, Resgates e Distribuição de Resultados.<br /> De acordo com a legislação vigente a tributação ocorrerá de forma linear considerando a alíquota vigente na data do processamento (<i>Sem Corte</i>).</span></p>
+   <span style="font-size:10.0pt;font-family:Arial;color:blue"> <b>Ver também:</b> </span>
+   <blockquote>
+    <span style="font-size:10.0pt;font-family:Arial"> <a href="Geral_Cadastro_p.html"> Ajuda do Cadastro</a> </span>
+   </blockquote>
+  </blockquote>
+ </body>
+</html>

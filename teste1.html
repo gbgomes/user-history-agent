@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>História de Usuário</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3, h4, h5, h6 { color: #333; }
+        h1 { border-bottom: 2px solid #ccc; padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        ol { list-style-type: decimal; margin-left: 20px; }
+        strong { font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        code { font-family: "Courier New", Courier, monospace; }
+        blockquote { border-left: 5px solid #ccc; margin: 1.5em 10px; padding: 0.5em 10px; background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>1. Objetivos do Projeto</h1>
+    <p>Criar o campo 'código 175' no cadastro de clientes e dar suporte nos processos de exportação e importação de cadastro de clientes.</p>
+
+    <h2>2. Declaração de Escopo da Necessidade do Cliente</h2>
+
+    <h3>2.1. Resumo Gerencial</h3>
+    <p>Este projeto tem como objetivo principal aprimorar a gestão do cadastro de clientes no Sistema XPTO, um produto de gestão e controladoria de fundos de investimento. A demanda visa à <strong>criação de um novo campo, "Código 175", no cadastro de clientes</strong>, e a <strong>adequação dos processos de exportação e importação</strong> para suportar essa nova informação. As funcionalidades alteradas incluem:</p>
+    <ul>
+        <li><strong>Cadastro de Cliente (P0986):</strong> Inclusão de um novo campo "Código 175" com validações de formato, tamanho e unicidade.</li>
+        <li><strong>Exportação de Cadastro de Clientes (XML) (P1220):</strong> Adição do campo "Código 175" em todos os layouts de exportação (CSVBR, XML v1.00 e XML v2.00).</li>
+        <li><strong>Cadastro do Proc.Import. de Cadastro de Cliente (P0200):</strong> Adição de configuração para o campo "Código 175" na "Parte 4" para mapeamento de importação, incluindo tipo e tamanho esperado.</li>
+        <li><strong>Importação do Cadastro de Clientes (P0203):</strong> Adaptação do processo de importação para reconhecer e processar o "Código 175" com validações de formato, tamanho e duplicidade, gerando logs detalhados para erros.</li>
+    </ul>
+    <p>O projeto deve ser entregue em março de 2026 e será entregue apenas na versão modernizada do sistema.</p>
+
+    <h3>2.2 Restrições do projeto</h3>
+    <ul>
+        <li>Deve ser entregue em março de 2026</li>
+    </ul>
+
+    <h3>2.3 Premissas do projeto</h3>
+    <ul>
+        <li>O projeto será entregue apenas na versão modernizada do sistema</li>
+    </ul>
+
+    <h2>3. Funcionalidades Novas</h2>
+
+    <h2>4. Funcionalidades alteradas</h2>
+
+    <h3>4.1 FA0010 - Cadastro de Cliente</h3>
+    <ul>
+        <li><strong>Adicionar campo 'Código 175' na aba principal:</strong>
+            <ul>
+                <li>O campo deve ser numérico, com 6 dígitos.</li>
+                <li>O preenchimento do campo será opcional.</li>
+                <li>Validações:
+                    <ul>
+                        <li>O campo deve aceitar apenas números.</li>
+                        <li>Se preenchido, deve conter exatamente 6 dígitos.</li>
+                        <li><strong>Não deve permitir duplicidade.</strong> Caso o usuário tente gravar um registro com um 'Código 175' já existente, o sistema deve exibir uma mensagem de erro e impedir a gravação do registro.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>4.2 FA0020 - Exportação de Cadastro de Clientes (XML)</h3>
+    <p><strong>Detalhamento da Alteração:</strong></p>
+    <ul>
+        <li>O campo "Código 175" deverá ser incluído em todos os layouts de exportação desta funcionalidade.</li>
+    </ul>
+
+    <p><strong>Formato CSVBR - Campos Exportados (INCLUINDO "Código 175")</strong></p>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Campo</th>
+                <th>Tipo</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>AssessorID</td><td>Numérico</td><td>Código do assessor</td></tr>
+            <tr><td>2</td><td>NomeAss</td><td>Texto</td><td>Nome do assessor principal</td></tr>
+            <tr><td>3</td><td>NomeAss2</td><td>Texto</td><td>Nome do assessor secundário</td></tr>
+            <tr><td>4</td><td>Cliente</td><td>Numérico</td><td>Código único do cliente</td></tr>
+            <tr><td>5</td><td>Nome</td><td>Texto</td><td>Nome completo do cliente titular</td></tr>
+            <tr><td>6</td><td>TipoPessoa</td><td>Texto</td><td>Tipo de pessoa (Física/Jurídica)</td></tr>
+            <tr><td>7</td><td>Nome2</td><td>Texto</td><td>Nome do cotitular (se houver)</td></tr>
+            <tr><td>8</td><td>Assessor</td><td>Numérico</td><td>Código do assessor (duplicata)</td></tr>
+            <tr><td>9</td><td>Endereco</td><td>Texto</td><td>Endereço completo</td></tr>
+            <tr><td>10</td><td>CEP</td><td>Texto</td><td>CEP formatado (99999-999)</td></tr>
+            <tr><td>11</td><td>Cidade</td><td>Texto</td><td>Nome da cidade</td></tr>
+            <tr><td>12</td><td>Estado</td><td>Texto</td><td>Sigla do estado (UF)</td></tr>
+            <tr><td>13</td><td>CPFCGC</td><td>Texto</td><td>CPF/CNPJ formatado do titular</td></tr>
+            <tr><td>14</td><td>Banco</td><td>Numérico</td><td>Código do banco</td></tr>
+            <tr><td>15</td><td>Agencia</td><td>Texto</td><td>Código da agência</td></tr>
+            <tr><td>16</td><td>Conta</td><td>Texto</td><td>Número da conta</td></tr>
+            <tr><td>17</td><td>Assessor2</td><td>Numérico</td><td>Código do assessor secundário</td></tr>
+            <tr><td>18</td><td>DataNascTit</td><td>Data</td><td>Data de nascimento do titular</td></tr>
+            <tr><td>19</td><td>DataNascCoTit</td><td>Data</td><td>Data de nascimento do cotitular</td></tr>
+            <tr><td>20</td><td>Telefone</td><td>Texto</td><td>Número de telefone</td></tr>
+            <tr><td>21</td><td>DigitoAlfa</td><td>Texto</td><td>Dígito alfanumérico</td></tr>
+            <tr><td>22</td><td>Digito</td><td>Numérico</td><td>Dígito verificador</td></tr>
+            <tr><td>23</td><td>TipoImunidade</td><td>Numérico</td><td>Código do tipo de imunidade</td></tr>
+            <tr><td>24</td><td>MesEncBal</td><td>Numérico</td><td>Mês de encerramento do balanço</td></tr>
+            <tr><td>25</td><td>AliqIe</td><td>Decimal</td><td>Alíquota de IE</td></tr>
+            <tr><td>26</td><td>bCliRatIR</td><td>Texto</td><td>Cliente sujeito a rateio de IR (SIM/NÃO)</td></tr>
+            <tr><td>27</td><td>bCliIseIOF</td><td>Texto</td><td>Cliente isento de IOF (SIM/NÃO)</td></tr>
+            <tr><td>28</td><td>bCliIseIRRV</td><td>Texto</td><td>Cliente isento de IRRV (SIM/NÃO)</td></tr>
+            <tr><td>29</td><td>bCliSupIseIRRF</td><td>Texto</td><td>Cliente superior isento de IRRF (SIM/NÃO)</td></tr>
+            <tr><td>30</td><td>bCliIseIRRF</td><td>Texto</td><td>Cliente isento de IRRF (SIM/NÃO)</td></tr>
+            <tr><td>31</td><td>bCliBlqRgt</td><td>Texto</td><td>Cliente bloqueado para resgate (SIM/NÃO)</td></tr>
+            <tr><td>32</td><td>bCliIseIR94</td><td>Texto</td><td>Cliente isento de IR 94 (SIM/NÃO)</td></tr>
+            <tr><td>33</td><td>bCliFAC</td><td>Texto</td><td>Cliente FAC (SIM/NÃO)</td></tr>
+            <tr><td>34</td><td>bCliDepDIRF</td><td>Texto</td><td>Cliente depende DIRF (SIM/NÃO)</td></tr>
+            <tr><td>35</td><td>bCliImuneDIRF</td><td>Texto</td><td>Cliente imune DIRF (SIM/NÃO)</td></tr>
+            <tr><td>36</td><td>bCliIse98</td><td>Texto</td><td>Cliente isento 98 (SIM/NÃO)</td></tr>
+            <tr><td>37</td><td>bCliIseLiminar</td><td>Texto</td><td>Cliente isento liminar (SIM/NÃO)</td></tr>
+            <tr><td>38</td><td>bCliIseAIR</td><td>Texto</td><td>Cliente isento AIR (SIM/NÃO)</td></tr>
+            <tr><td>39</td><td>bCorrespBloq</td><td>Texto</td><td>Correspondente bloqueado (SIM/NÃO)</td></tr>
+            <tr><td>40</td><td>CodBanco</td><td>Numérico</td><td>Código do banco</td></tr>
+            <tr><td>41</td><td>AgenciaID</td><td>Numérico</td><td>ID da agência</td></tr>
+            <tr><td>42</td><td>DataHoraCorp</td><td>Data/Hora</td><td>Data e hora corporativa</td></tr>
+            <tr><td>43</td><td>bCliFCE</td><td>Texto</td><td>Cliente FCE (SIM/NÃO)</td></tr>
+            <tr><td>44</td><td>bFlagUsuario</td><td>Texto</td><td>Flag usuário (SIM/NÃO)</td></tr>
+            <tr><td>45</td><td>BancoDepJud</td><td>Numérico</td><td>Banco depósito judicial</td></tr>
+            <tr><td>46</td><td>AgenciaDepJud</td><td>Texto</td><td>Agência depósito judicial</td></tr>
+            <tr><td>47</td><td>ContaDepJud</td><td>Texto</td><td>Conta depósito judicial</td></tr>
+            <tr><td>48</td><td>CodCliCorp</td><td>Texto</td><td>Código cliente corporativo</td></tr>
+            <tr><td>49</td><td>Distribuidor</td><td>Texto</td><td>Nome do distribuidor</td></tr>
+            <tr><td>50</td><td>status</td><td>Texto</td><td>Status do cliente (Ativo/Inativo/Encerrado)</td></tr>
+            <tr><td>51</td><td>blqApl</td><td>Texto</td><td>Bloqueio aplicação (SIM/NÃO)</td></tr>
+            <tr><td>52</td><td>ClasseInvANBID</td><td>Texto</td><td>Classe de investidor ANBID</td></tr>
+            <tr><td>53</td><td>CdGalgo</td><td>Numérico</td><td>Código Galgo</td></tr>
+            <tr><td>54</td><td>PrfCVM</td><td>Texto</td><td>Perfil CVM</td></tr>
+            <tr><td>55</td><td>TpPesCotitular</td><td>Texto</td><td>Tipo pessoa cotitular (Física/Jurídica)</td></tr>
+            <tr><td>56</td><td>bCmpsPrej</td><td>Texto</td><td>Campos prejudicados (SIM/NÃO)</td></tr>
+            <tr><td>57</td><td>bExigInctvOpRDIP</td><td>Texto</td><td>Exige incentivo op RDIP (SIM/NÃO)</td></tr>
+            <tr><td>58</td><td>CdPais</td><td>Numérico</td><td>Código do país</td></tr>
+            <tr><td>59</td><td>Pais</td><td>Texto</td><td>Nome do país</td></tr>
+            <tr><td>60</td><td>CPFCGC2</td><td>Texto</td><td>CPF/CNPJ formatado do cotitular</td></tr>
+            <tr><td>61</td><td>bCliBvsp</td><td>Texto</td><td>Cliente BVSP (SIM/NÃO)</td></tr>
+            <tr><td>62</td><td>bCliParFisc</td><td>Texto</td><td>Cliente paraíso fiscal (SIM/NÃO)</td></tr>
+            <tr><td>63</td><td>bDomicilioExt</td><td>Texto</td><td>Domicílio exterior (SIM/NÃO)</td></tr>
+            <tr><td>64</td><td><strong>Codigo175</strong></td><td><strong>Numérico</strong></td><td><strong>Código 175 do Cliente</strong></td></tr>
+        </tbody>
+    </table>
+
+    <p><strong>Características Específicas do Novo Campo "Codigo175" no Formato CSVBR:</strong></p>
+    <ul>
+        <li><strong>Tipo:</strong> Numérico</li>
+        <li><strong>Descrição:</strong> Código 175 do Cliente</li>
+        <li><strong>Preenchimento:</strong> Opcional.</li>
+        <li><strong>Valores Nulos:</strong> Será exportado como "0" se o campo não estiver preenchido no cadastro do cliente.</li>
+    </ul>
+
+    <p><strong>Formato XML - Versão 1.00 - DEPOIS da inclusão do "Código 175"</strong></p>
+    <pre><code>&lt;?xml version="1.0" encoding="ISO-8859-1" ?&gt;
+&lt;exportador-cadastro-clientes&gt;
+  &lt;versao&gt;1.00&lt;/versao&gt;
+  &lt;sistema-origem&gt;&lt;/sistema-origem&gt;
+  &lt;sistema-destino&gt;&lt;/sistema-destino&gt;
+  &lt;tipo-geracao-arquivo&gt;&lt;/tipo-geracao-arquivo&gt;
+  &lt;data-hora-exportacao&gt;&lt;/data-hora-exportacao&gt;
+  &lt;cliente&gt;
+    &lt;codigo-sistema-cliente&gt;&lt;/codigo-sistema-cliente&gt;
+    &lt;codigo-sistema-origem&gt;&lt;/codigo-sistema-origem&gt;
+    &lt;nome-completo&gt;&lt;/nome-completo&gt;
+    &lt;tipo-pessoa&gt;&lt;/tipo-pessoa&gt;
+    &lt;cpf-cnpj&gt;&lt;/cpf-cnpj&gt;
+    &lt;data-nascimento-constituicao&gt;&lt;/data-nascimento-constituicao&gt;
+    &lt;endereco&gt;&lt;/endereco&gt;
+    &lt;cep&gt;&lt;/cep&gt;
+    &lt;cidade&gt;&lt;/cidade&gt;
+    &lt;uf&gt;&lt;/uf&gt;
+    &lt;tipo-meio-contato&gt;&lt;/tipo-meio-contato&gt;
+    &lt;meio-contato&gt;&lt;/meio-contato&gt;
+    &lt;codigo-175&gt;&lt;/codigo-175&gt;  &lt;!-- NOVO CAMPO --&gt;
+  &lt;/cliente&gt;
+  &lt;total-registros&gt;&lt;/total-registros&gt;
+&lt;/exportador-cadastro-clientes&gt;</code></pre>
+    <p><strong>Características Específicas do Novo Campo "codigo-175" no Formato XML v1.00:</strong></p>
+    <ul>
+        <li><strong>Tag:</strong> <code>&lt;codigo-175&gt;</code></li>
+        <li><strong>Conteúdo:</strong> Valor do Código 175 do cliente.</li>
+        <li><strong>Preenchimento:</strong> Opcional.</li>
+        <li><strong>Vazio:</strong> A tag deve ser exportada mesmo que o campo esteja vazio no cadastro.</li>
+    </ul>
+
+    <p><strong>Formato XML - Versão 2.00 - DEPOIS da inclusão do "Código 175"</strong></p>
+    <pre><code>&lt;?xml version="1.0" encoding="ISO-8859-1" ?&gt;
+&lt;exportador-cadastro-clientes&gt;
+  &lt;versao&gt;2.00&lt;/versao&gt;
+  &lt;sistema-origem&gt;&lt;/sistema-origem&gt;
+  &lt;sistema-destino&gt;&lt;/sistema-destino&gt;
+  &lt;tipo-geracao-arquivo&gt;&lt;/tipo-geracao-arquivo&gt;
+  &lt;data-hora-exportacao&gt;&lt;/data-hora-exportacao&gt;
+  &lt;cliente&gt;
+    &lt;codigo-sistema-cliente&gt;&lt;/codigo-sistema-cliente&gt;
+    &lt;codigo-sistema-origem&gt;&lt;/codigo-sistema-origem&gt;
+    &lt;nome-completo&gt;&lt;/nome-completo&gt;
+    &lt;tipo-pessoa&gt;&lt;/tipo-pessoa&gt;
+    &lt;cpf-cnpj&gt;&lt;/cpf-cnpj&gt;
+    &lt;data-nascimento-constituicao&gt;&lt;/data-nascimento-constituicao&gt;
+    &lt;endereco&gt;&lt;/endereco&gt;
+    &lt;cep&gt;&lt;/cep&gt;
+    &lt;cidade&gt;&lt;/cidade&gt;
+    &lt;uf&gt;&lt;/uf&gt;
+    &lt;tipo-meio-contato&gt;&lt;/tipo-meio-contato&gt;
+    &lt;meio-contato&gt;&lt;/meio-contato&gt;
+    &lt;codigo-distribuidor&gt;&lt;/codigo-distribuidor&gt;
+    &lt;codigo-pco&gt;&lt;/codigo-pco&gt;
+    &lt;banco&gt;&lt;/banco&gt;
+    &lt;agencia&gt;&lt;/agencia&gt;
+    &lt;agencia-dv&gt;&lt;/agencia-dv&gt;
+    &lt;contacorrente&gt;&lt;/contacorrente&gt;
+    &lt;contacorrente-dv&gt;&lt;/contacorrente-dv&gt;
+    &lt;isento-ir-94&gt;&lt;/isento-ir-94&gt;
+    &lt;isento-ir-rv&gt;&lt;/isento-ir-rv&gt;
+    &lt;isento-ir-rf&gt;&lt;/isento-ir-rf&gt;
+    &lt;isento-ir&gt;&lt;/isento-ir&gt;
+    &lt;isento-liminar-mp-2222&gt;&lt;/isento-liminar-mp-2222&gt;
+    &lt;isento-antecipacao-ir&gt;&lt;/isento-antecipacao-ir&gt;
+    &lt;isento-iof&gt;&lt;/isento-iof&gt;
+    &lt;isento-iof-aplicacao&gt;&lt;/isento-iof-aplicacao&gt;
+    &lt;compensa-prejuizo&gt;&lt;/compensa-prejuizo&gt;
+    &lt;agrega-prejuizo&gt;&lt;/agrega-prejuizo&gt;
+    &lt;cliente-nao-residente&gt;&lt;/cliente-nao-residente&gt;
+    &lt;aliquota-ir-investidor-estrangeiro&gt;&lt;/aliquota-ir-investidor-estrangeiro&gt;
+    &lt;codigo-175&gt;&lt;/codigo-175&gt;  &lt;!-- NOVO CAMPO --&gt;
+  &lt;/cliente&gt;
+  &lt;total-registros&gt;&lt;/total-registros&gt;
+&lt;/exportador-cadastro-clientes&gt;</code></pre>
+
+    <p><strong>Características Específicas do Novo Campo "codigo-175" no Formato XML v2.00:</strong></p>
+    <ul>
+        <li><strong>Tag:</strong> <code>&lt;codigo-175&gt;</code></li>
+        <li><strong>Conteúdo:</strong> Valor do Código 175 do cliente.</li>
+        <li><strong>Preenchimento:</strong> Opcional.</li>
+        <li><strong>Vazio:</strong> A tag deve ser exportada mesmo que o campo esteja vazio no cadastro.</li>
+    </ul>
+
+    <h3>4.3 FA0030 - Cadastro do Proc.Import. de Cadastro de Cliente</h3>
+    <ul>
+        <li><strong>Adicionar configuração para o campo 'Código 175' na "Parte 4":</strong>
+            <ul>
+                <li>O campo 'Código 175' será adicionado como uma opção de mapeamento na "Parte 4".</li>
+                <li><strong>Nome do Campo para Mapeamento:</strong> Código 175</li>
+                <li><strong>Tipo:</strong> Numérico</li>
+                <li><strong>Tamanho Esperado:</strong> 6 dígitos</li>
+                <li><strong>Preenchimento:</strong> Opcional (se não preenchido no arquivo de importação, o campo permanecerá vazio no cadastro do cliente, a menos que haja uma regra de preenchimento padrão a ser definida posteriormente).</li>
+                <li><strong>Validação na Importação (detalhada na P0203 - Importação do Cadastro de Clientes):</strong>
+                    <ul>
+                        <li>Se o campo 'Código 175' estiver presente no arquivo de importação e preenchido, ele deverá conter exatamente 6 dígitos numéricos. Se não, o registro de importação deverá ser sinalizado com erro.</li>
+                        <li>Durante o processo de importação, será realizada a validação de duplicidade. Se um 'Código 175' no arquivo de importação já existir no sistema para outro cliente, a importação desse registro específico deverá falhar, e uma mensagem de erro clara deve ser gerada no log de importação.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <p><strong>Como a "Parte 4" ficaria na documentação para o cadastro do processo de importação:</strong></p>
+    <ul>
+        <li><strong>Parte 4</strong>
+            <ul>
+                <li>DV Conta</li>
+                <li>Cliente Corporativo</li>
+                <li>Código do Município IBGE</li>
+                <li>Tipo de Pessoa Jurídica</li>
+                <li><strong>Código 175</strong> (Numérico, 6 dígitos, Opcional)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>4.4 FA0040 - Importação do Cadastro de Clientes</h3>
+    <ul>
+        <li><strong>Detalhamento da Alteração:</strong>
+            <ul>
+                <li>O processo de Importação do Cadastro de Clientes (P0203) utilizará as configurações de mapeamento e validação do campo "Código 175" definidas no "Cadastro do Processo de Importação de Cadastro de Clientes" (P0200).</li>
+            </ul>
+        </li>
+        <li><strong>Comportamento do Campo 'Código 175' durante a Importação:</strong>
+            <ul>
+                <li><strong>Mapeamento:</strong> O valor do campo "Código 175" presente no arquivo de importação (conforme layout configurado no P0200) será mapeado para o novo campo "Código 175" na aba principal do cadastro de clientes (P0986).</li>
+                <li><strong>Validações de Formato e Tamanho:</strong>
+                    <ul>
+                        <li>Para cada registro no arquivo de importação, se o campo "Código 175" estiver preenchido, o sistema deve validar se ele contém exatamente 6 dígitos numéricos.</li>
+                        <li>Se esta validação falhar (ex: menos de 6 dígitos, caracteres não numéricos), o registro de importação será <strong>rejeitado</strong>, e uma mensagem de erro específica ("Formato ou tamanho inválido para o Código 175") será registrada no log de importação.</li>
+                    </ul>
+                </li>
+                <li><strong>Validação de Duplicidade:</strong>
+                    <ul>
+                        <li>Para cada "Código 175" presente em um registro do arquivo de importação (ou seja, não vazio), o sistema deverá verificar se esse valor já existe no campo "Código 175" de <em>qualquer outro cliente</em> já cadastrado no Sistema XPTO.</li>
+                        <li>Se uma duplicidade for encontrada (o "Código 175" do registro a ser importado já pertence a outro cliente existente com um "Código 175" preenchido), o registro de importação será <strong>rejeitado</strong>, e uma mensagem de erro clara indicando "Código 175 duplicado" será registrada no log de importação.</li>
+                        <li>Esta validação de duplicidade se aplica tanto para a inclusão de novos clientes quanto para a atualização de clientes existentes, garantindo a unicidade do "Código 175" em todo o sistema.</li>
+                    </ul>
+                </li>
+                <li><strong>Comportamento com Campo Vazio:</strong> Se o campo "Código 175" no arquivo de importação estiver vazio, o campo correspondente no cadastro do cliente (seja um novo cadastro ou uma atualização de um campo previamente vazio) permanecerá vazio, sem disparar erros de validação de formato ou duplicidade para este campo específico.</li>
+                <li><strong>Log de Importação:</strong> Todos os erros de validação relacionados ao "Código 175", incluindo formato/tamanho e duplicidade, deverão ser claramente detalhados no arquivo de LOG gerado pelo processo de importação.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>5. Critérios de aceite</h2>
+
+    <h3>5.1 Para a funcionalidade 4.1 FA0010 - Cadastro de Cliente:</h3>
+    <ul>
+        <li><strong>CA1:</strong> O sistema deve apresentar o campo "Código 175" na aba principal do cadastro de clientes.</li>
+        <li><strong>CA2:</strong> O campo "Código 175" deve permitir a inserção apenas de caracteres numéricos.</li>
+        <li><strong>CA3:</strong> Quando preenchido, o campo "Código 175" deve aceitar exatamente 6 (seis) dígitos. Se o número de dígitos for diferente de 6, o sistema deve exibir uma mensagem de erro e impedir a gravação.</li>
+        <li><strong>CA4:</strong> O preenchimento do campo "Código 175" é opcional.</li>
+        <li><strong>CA5:</strong> Se o campo "Código 175" for preenchido com um valor que já existe para outro cliente, o sistema deve exibir uma mensagem de erro ("Código 175 já existe no sistema") e impedir a gravação do registro.</li>
+    </ul>
+
+    <h3>5.2 Para a funcionalidade 4.2 FA0020 - Exportação de Cadastro de Clientes (XML):</h3>
+    <ul>
+        <li><strong>CA1:</strong> No formato CSVBR, o arquivo de exportação deve incluir o campo "Codigo175" como o 64º campo, com tipo Numérico.</li>
+        <li><strong>CA2:</strong> No formato CSVBR, se o campo "Código 175" não estiver preenchido no cadastro do cliente, o campo "Codigo175" no arquivo CSVBR deve ser exportado como "0".</li>
+        <li><strong>CA3:</strong> No formato XML - Versão 1.00, o arquivo de exportação deve incluir a tag <code>&lt;codigo-175&gt;</code> dentro da tag <code>&lt;cliente&gt;</code>.</li>
+        <li><strong>CA4:</strong> No formato XML - Versão 1.00, se o campo "Código 175" não estiver preenchido no cadastro do cliente, a tag <code>&lt;codigo-175&gt;</code> no XML deve ser exportada como uma tag vazia.</li>
+        <li><strong>CA5:</strong> No formato XML - Versão 2.00, o arquivo de exportação deve incluir a tag <code>&lt;codigo-175&gt;</code> dentro da tag <code>&lt;cliente&gt;</code>.</li>
+        <li><strong>CA6:</strong> No formato XML - Versão 2.00, se o campo "Código 175" não estiver preenchido no cadastro do cliente, a tag <code>&lt;codigo-175&gt;</code> no XML deve ser exportada como uma tag vazia.</li>
+        <li><strong>CA7:</strong> Para todos os layouts de exportação, o valor exportado para o "Código 175" deve corresponder exatamente ao valor cadastrado para o cliente no sistema.</li>
+    </ul>
+
+    <h3>5.3 Para a funcionalidade 4.3 FA0030 - Cadastro do Proc.Import. de Cadastro de Cliente:</h3>
+    <ul>
+        <li><strong>CA1:</strong> O campo "Código 175" deve estar disponível para configuração e mapeamento na "Parte 4" do "Cadastro de Processo de Importação de Cadastro de Clientes".</li>
+        <li><strong>CA2:</strong> Ao configurar o mapeamento para o "Código 175", o sistema deve permitir a definição de seu tipo como Numérico e tamanho esperado como 6 dígitos.</li>
+    </ul>
+
+    <h3>5.4 Para a funcionalidade 4.4 FA0040 - Importação do Cadastro de Clientes:</h3>
+    <ul>
+        <li><strong>CA1:</strong> O processo de importação deve mapear corretamente o valor do campo "Código 175" do arquivo de entrada para o campo "Código 175" no cadastro do cliente (P0986), de acordo com a configuração feita no P0200.</li>
+        <li><strong>CA2:</strong> Se um registro no arquivo de importação contiver um "Código 175" preenchido que não seja numérico ou não tenha exatamente 6 dígitos, o registro deve ser rejeitado e uma mensagem de erro ("Formato ou tamanho inválido para o Código 175") deve ser registrada no log de importação.</li>
+        <li><strong>CA3:</strong> Se um registro no arquivo de importação contiver um "Código 175" preenchido que já exista para outro cliente no sistema, o registro deve ser rejeitado e uma mensagem de erro ("Código 175 duplicado") deve ser registrada no log de importação.</li>
+        <li><strong>CA4:</strong> Se o campo "Código 175" no arquivo de importação estiver vazio, o campo correspondente no cadastro do cliente (seja um novo cadastro ou uma atualização de um campo previamente vazio) permanecerá vazio, sem disparar erros de validação de formato ou duplicidade para este campo específico.</li>
+        <li><strong>CA5:</strong> O log de importação deve detalhar claramente todos os registros rejeitados e os motivos específicos (formato/tamanho inválido, duplicidade, etc.) para o campo "Código 175".</li>
+    </ul>
+</body>
+</html>

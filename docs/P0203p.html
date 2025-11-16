@@ -1,0 +1,928 @@
+<html>
+ <head> 
+  <title>
+Importação do Cadastro de Clientes - Ajuda
+</title> 
+  <meta name="processo" content="203" />
+ </head> 
+ <body> 
+  <font face="arial" size="2"><font color="blue"><h2>Importação do Cadastro de Clientes</h2></font><br /> <font color="blue"><b>Parâmetros:</b></font><br /> 
+   <blockquote> 
+    <ul> 
+     <li>Processo de Importação </li> 
+     <li>Sobrescreve no Cadastro </li>
+     <li>Grava Informações Bancárias</li> 
+     <li>Importar INR sem CPF/CNPJ informado</li> 
+     <li>Identifica cliente por: 
+      <ul> 
+       <li>Código </li> 
+       <li>CNPJ/CPF(Código CVM) </li> 
+      </ul> </li> 
+     <li>Nome do Arquivo </li> 
+     <li>Conferência de Pendências por Lote<br /> Flag que permite a conferência de várias pendências de uma só vez. Ao marca-la será permitido justificar a aprovação por lote no campo texto abaixo.<br /><br /> </li> 
+     <li>Justificativa para Aprovação por Lote<br /> Só será habilitado para digitação caso a flag de conferência de pendência por lote estiver marcada. </li> 
+    </ul> 
+   </blockquote> <font color="blue"><b> Descrição:</b></font><br /> 
+   <blockquote>
+     Este processo permite a importação de um arquivo texto contendo o cadastro de clientes. Durante o processo de importação o cliente pode ser identificado de duas formas: Código ou CPF/CNPJ (Código CVM).
+     Caso a opção de identificação seja CPF/CNPJ( Código CVM) e a flag "Importar INR sem CPF/CNPJ informado" esteja marcada, clientes que possuirem CPF/CNPJ inválido e o perfil CVM seja
+     "investidor não residente", a importação irá cadastrar o código CVM no lugar do CPF/CNPJ, cujo o valor virá no mesmo campo de importação.
+    <p> O layout do arquivo a ser importado é definido no Cadastro de Processos de Importação de Cadastro de Clientes. </p> 
+    <p> Este processo consiste na importação de registros de clientes armazenados na forma de um arquivo texto, onde cada linha contém os dados de um cliente, como segue: </p> 
+    <ul> 
+     <li>Literal PF </li> 
+     <li>Literal PJ </li> 
+     <li>Código do Cliente (obrigatório) </li> 
+     <li>Dígito Verificador </li> 
+     <li>Nome do Cliente </li> 
+     <li>Nome do Co-Titular </li> 
+     <li>Assessor </li> 
+     <li>Assessor 2 </li> 
+     <li>Endereço </li> 
+     <li>Bairro </li> 
+     <li>Cidade </li> 
+     <li>Estado </li> 
+     <li>CEP </li> 
+     <li>Telefone </li> 
+     <li>Tipo de Pessoa</li> 
+     <li>CPF ou CGC ou Código CVM </li> 
+     <li>Banco </li> 
+     <li>Agência </li> 
+     <li>Conta Corrente </li> 
+     <li>Conta Corrente DV *</li> 
+     <li>Código de Tributação </li> 
+     <li>Data de Nascimento do Titular </li> 
+     <li>Data de Nascimento do Co-Titular </li> 
+     <li>Tipo de Imunidade </li> 
+     <li>Mês do Encerramento de Balanço </li> 
+     <li>Código Razão do Cliente no Movimento Totalizado B </li> 
+     <li>Isenção de IR Até 94 (S/N) </li> 
+     <li>Sempre Isento de IRRF (S/N) </li> 
+     <li>Isenção de IRRF (S/N) </li> 
+     <li>Isenção de IRRV (S/N) </li> 
+     <li>Isenção de IOF (S/N) </li> 
+     <li>Bloqueio de Resgates (S/N) </li> 
+     <li>Cliente que é Fundo de Aplicações em Cotas de FIF (S/N) </li> 
+     <li>Cliente é Fundo de RF Capital Estrangeiro (S/N) </li> 
+     <li>Cliente que é Entidade Imune de IR (S/N) </li> 
+     <li>Isenção de Antecipação de IR (S/N) </li> 
+     <li>Cliente Isento IOF sobre Aplicação (S/N) </li> 
+     <li>Flag de Usuário (S/N) </li> 
+     <li>Isenção de IR a Partir Jan/98 (S/N) </li> 
+     <li>Isenção de IR Por Liminar (S/N) </li> 
+     <li>Identidade do Cliente </li> 
+     <li>E-Mail </li> 
+     <li>CPF/CNPJ do co-titular </li> 
+     <li>Bloqueia Correspondência</li>
+     <li>Bloqueia Aplicação</li>
+     <li>Status</li>
+     <li>Cliente Bovespa</li> 
+     <li>Cliente não residente</li> 
+     <li>Paraíso Fiscal</li> 
+     <li>Usa Alíquota IR do Sistema</li> 
+     <li>Data Início Vig. Alíq. IR Inv. Estrangeiro em Fundo Imobiliário</li> 
+     <li>Alíq IR Investidor Estrangeiro Amrtz/Rsg</li> 
+     <li>Alíq IR Investidor Estrangeiro Dist. Resultados</li> 
+     <li>Cotista Incorporador, Construtor ou Sócio de Empreendimento Imobiliário</li> 
+     <li>Co-Titular Pessoa Jurídica</li>
+     <li>Perfil CVM</li>
+     <li>Classe de Investidor</li>
+     <li>Distribuidor</li>
+     <li>Código Galgo</li>
+     <li>Compensa Prejuízo</li>
+     <li>Exige Iniciativa da Operação (RDIP)</li>
+     <li>País</li>
+     <li>Código do País</li>
+     <li>Tipo do Número de Conta</li>
+     <li>Tipo do Número de Conta</li>
+     <li>Número de Conta</li>
+     <li>Cliente Corporativo</li>
+     <li>Alíquota de IR p/Investidor Estrangeiro </li>
+     <li>Código do Município IBGE</li>
+    </ul> O Sistema permite múltiplos Processos de Importação (PI) totalmente configuráveis quanto ao nome do arquivo, lay-out dos registros, etc. 
+    <p> Os tamanhos máximos de cada campo a ser considerado na importação segue abaixo: </p> 
+    <p> </p> 
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>Campo</th> 
+       <th>Tamanho Máximo</th> 
+      </tr> 
+      <tr> 
+       <td>Código do Cliente</td> 
+       <td>Nº de Dígitos da Máscara</td> 
+      </tr> 
+      <tr> 
+       <td>Nome Cliente</td> 
+       <td>36 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>Nome Co-Titular</td> 
+       <td>36 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>Assessor</td> 
+       <td>4 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Endereço</td> 
+       <td>50 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>Bairro</td> 
+       <td>20 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>CEP</td> 
+       <td>8 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Cidade</td> 
+       <td>20 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>Estado</td> 
+       <td>2 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>Telefone</td> 
+       <td>12 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>CGC/CPF(Código CVM)</td> 
+       <td>16 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Banco</td> 
+       <td>4 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Agência</td> 
+       <td>20 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>C/C</td> 
+       <td>22 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Assessor 2</td> 
+       <td>4 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Alíq IR Inv Est</td> 
+       <td>5 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Cód. Razão do Cliente no Mov. Totalizado B</td> 
+       <td>5 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>E-Mail</td> 
+       <td>40 caracteres</td> 
+      </tr> 
+      <tr> 
+       <td>Data Início Vig. Alíq. IR Inv. Estrangeiro em Fundo Imobiliário</td> 
+       <td>Segue tamanho definido no cadastro de processo de importação</td> 
+      </tr> 
+      <tr> 
+       <td>Alíq IR Investidor Estrangeiro Amrtz/Rsg</td> 
+       <td>Segue tamanho definido no cadastro de processo de importação</td> 
+      </tr> 
+      <tr> 
+       <td>Alíq IR Investidor Estrangeiro Dist. Resultados</td> 
+       <td>Segue tamanho definido no cadastro de processo de importação</td> 
+      </tr> 
+      <tr> 
+       <td>Perfil CVM</td> 
+       <td>5 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Classe de Investidor</td> 
+       <td>5 dígitos</td> 
+      </tr> 
+      <tr> 
+       <td>Distribuidor</td> 
+       <td>20 caracteres</td> 
+      </tr>
+      <tr> 
+       <td>Código Galgo</td> 
+       <td>4 dígitos</td> 
+      </tr>
+      <tr> 
+       <td>País</td> 
+       <td>20 caracteres</td> 
+      </tr>
+      <tr> 
+       <td>Código do País</td> 
+       <td>4 dígitos</td> 
+      </tr>
+     </tbody> 
+    </table> 
+    <p> Os campos não indicados possuem tamanho fixo de 1 caracter.<br /> Os campos que contêm caracteres quando ultrapassarem o tamanho máximo serão truncados à direita.<br /> Quando o tamanho for inferior, serão acrescidos espaços, também a direita.<br /> Os campos que contém dígitos quando ultrapassarem o tamanho máximo serão zerados, podendo, portanto, invalidar o registro do cliente que estiver sendo importado, ficando registrado, se for o caso, no LOG do processo.<br /> O número máximo de dígitos na máscara do Código do Cliente é 15.<br /> Se no Processos de Importação (PI) o flag &quot;Descarta Header e Footer&quot; estiver marcado, a primeira e última linha do arquivo serão descartadas. </p> 
+    <p> O campo Tipo de Imunidade só será importado se o cliente for pessoa jurídica e imune. O campo código de Tributação, caso seja preenchido deve respeitar a seguinte tabela: </p> 
+    <p> </p> 
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>Código</th> 
+       <th>Descrição</th> 
+      </tr> 
+      <tr> 
+       <td>00</td> 
+       <td>Consórcios</td> 
+      </tr> 
+      <tr> 
+       <td>01</td> 
+       <td>Pessoa Física</td> 
+      </tr> 
+      <tr> 
+       <td>02</td> 
+       <td>Pessoa Jurídica</td> 
+      </tr> 
+      <tr> 
+       <td>03 e 04</td> 
+       <td>Estrangeiro com Acordo Bilateral</td> 
+      </tr> 
+      <tr> 
+       <td>05</td> 
+       <td>Estrangeiro sem Acordo Bilateral</td> 
+      </tr> 
+      <tr> 
+       <td>06 e 07</td> 
+       <td>Pessoa Isenta de IOF, IRRF e IAE</td> 
+      </tr> 
+      <tr> 
+       <td>08</td> 
+       <td>Pessoa Tributada pelo Lucro Real</td> 
+      </tr> 
+      <tr> 
+       <td>09</td> 
+       <td>Pessoa Imune (Isento IRRF e IAE)</td> 
+      </tr> 
+      <tr> 
+       <td>14</td> 
+       <td>Clientes Não Cobrar IOF</td> 
+      </tr> 
+      <tr> 
+       <td>19</td> 
+       <td>Imune IRRF - I.N. 43 de 21/09/95</td> 
+      </tr> 
+      <tr> 
+       <td>29</td> 
+       <td>Imune IRRF - Demais</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p> Segundo a Legislação em vigor estão isentos os códigos 06, 07, 09, 19 e 29.<br /> Inicialmente o Sistema solicita a seleção de um dos PI's previamente cadastrados.<br /> Solicita, também, autorização para sobrescrever o cadastro a partir das informações do arquivo texto a ser importado. Em caso afirmativo, o Sistema atualizará as informações dos clientes que já existam no Cadastro e incluirá os clientes novos. Caso Contrário, o Sistema só realizará a última tarefa.<br /> Segue-se a importação propriamente dita do arquivo. Serão importados somente os registros válidos, ou seja, os registros cujos campos obrigatórios estejam preenchidos. Caso haja algum problema ou aviso, estes serão coletados em um arquivo LOG de importação que poderá ser consultado ou impresso. </p> 
+    <p> O campo código de Tipo de Categoria de Tributação de IR, caso seja preenchido deve respeitar a seguinte tabela: </p> 
+    <p> </p> 
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>Código</th> 
+       <th>Descrição</th> 
+      </tr> 
+      <tr> 
+       <td>06</td> 
+       <td>Fundo Imobiliário</td> 
+      </tr> 
+      <tr> 
+       <td>07</td> 
+       <td>FIP Padrão</td> 
+      </tr> 
+      <tr> 
+       <td>08</td> 
+       <td>FIP Especial</td> 
+      </tr> 
+      <tr> 
+       <td>09</td> 
+       <td>FIDC Especial</td> 
+      </tr> 
+      <tr> 
+       <td>10</td> 
+       <td>FI Debêntures</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p> O processo de conversão dos diversos campos é efetuado como segue: </p> 
+    <ul> 
+     <li>Nos campos CEP, CPF/CGC e Banco, não são considerados caracteres não numéricos tais como espaços, vírgula e pontos. </li> 
+     <li>Nos campos de flag são considerados apenas os seguintes caracteres: 'S', 'Y' e '1', em caso afirmativo, e qualquer outro caracter em caso negativo. </li> 
+     <li>Quando os campos Literal PF e Literal PJ não estiverem configurados, o campo de Pessoa Jurídica deverá conter o caracter ‘1’ para Pessoa Física e ‘2’ para Pessoa Jurídica, caso contrário deverá estar preenchido conforme o caracter informado em um dos campos. </li>
+     <li>Quando a opção &quot;Identifica cliente por CPF/CNPJ&quot; estiver selecionada, o código do cliente será gerado pelo sistema. </li>
+     <li>O novo parâmetro Status não é obrigatório. Caso não esteja configurado no <a href="P0200p.html">Cadastro de 
+     Processo de Importação de Cadastro de Clientes</a>, os clientes são importados com o status <b>Ativo</b>.</li>
+     <li>Se o campo "Posição" correspondente ao Status estiver configurado no <a href="P0200p.html">Cadastro de Processo
+     de Importação de Cadastro de Clientes</a>, a importação exige um dos literais cadastrados (Literal Ativo, Literal
+     Inativo e Literal Encerrado). Caso identifique caracteres diferentes dos literais cadastrados, é apresentada uma
+     mensagem de erro e a importação do cadastro do cliente em questão é abortada.</li>
+    </ul>
+    <p> Caso o parâmetro &quot;Arquivo CBLC&quot; esteja marcado no <a href="P0200p.html">Cadastro de Processo de Importação de Cadastro de Clientes</a>, a importação realizará os seguintes procedimentos: </p>
+    <ul>
+     <li>Os clientes importados serão associados ao Assessor Bolsa e ao Assessor 2 Bolsa definidos no Processo de Importação. Portanto, os clientes informados no arquivo de importação não necessitarão da informação do Assessor e do Assessor 2.</li>
+     <li>Na importação de inclusão (com o parâmetro Sobrescreve no Cadastro desmarcado), caso já exista um cliente cadastrado com o CPF/CNPJ igual ao informado no arquivo e que não seja um Cliente Bovespa, um novo cliente será incluído com o mesmo CPF/CNPJ, cadastrando-o como um &quot;Cliente Bovespa&quot;.</li>
+     <li>Caso o cliente já cadastrado seja um Cliente Bovespa, será emitida uma mensagem no LOG de importação e o cliente não será importado.</li>
+     <li>Se não houver nenhum cliente cadastrado com o CPF/CNPJ informado no arquivo, o sistema cadastrará um novo cliente com o campo &quot;Cliente Bovespa&quot; igual a &quot;Sim&quot;.</li>
+     <li>A importação de alteração (com o parâmetro Sobrescreve no Cadastro marcado), para o cliente com CPF/CNPJ igual ao informado no arquivo, irá alterar somente o cliente com este CPF/CNPJ e com o campo &quot;Cliente Bovespa&quot; igual “Sim”.</li>
+    </ul>
+    <p></p>
+    <p> Os arquivos da CBLC são identificados pelo Header, onde, na posição 11 encontra-se o nome &quot;CBLC&quot;. </p> 
+    <p></p>
+    <p>O campo Distribuidor, caso seja preenchido, deve respeitar os valores previamente cadastrados no campo Código Externo do seguinte Processo:</p>
+    <ul><li>Carteira / Cadastros / Gerência de Fundos / Player (452)</li></ul>
+    <p>Caso o parâmetro <b>Grava Informações Bancárias</b> estiver marcado, as informações Bancárias serão gravadas na aba <b>Informações Bancárias</b> ao invés da Aba <b>Informações Bancárias B</b>, conforme tabela abaixo:</p>
+    <table border="1" cellpadding="3">
+	<tbody>
+	<tr>
+	<td>
+	<p><strong>Dados Bancários - Leitura x Gravação: </strong><strong>Leitura </strong></p>
+	</td>
+	<td>
+	<p><strong>Gravação </strong></p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p><strong>Cadastro de Processo de Importação<br>de Cadastro de Clientes (200) </strong></p>
+	</td>
+	<td>
+	<p><strong>Cadastro de Clientes (986) </strong></p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Banco</p>
+	</td>
+	<td>
+	<p>Banco</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Agência</p>
+	</td>
+	<td>
+	<p>Agência</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Conta</p>
+	</td>
+	<td>
+	<p>Conta</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Nome</p>
+	</td>
+	<td>
+	<p>Favorecido</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Tipo de Pessoa</p>
+	</td>
+	<td>
+	<p>Favorecido - Pessoa Jurídica</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>CPF/CNPJ</p>
+	</td>
+	<td>
+	<p>Favorecido - CPF</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Co-Titular</p>
+	</td>
+	<td>
+	<p>Favorecido 2</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>Co-Titular Pessoa Jurídica</p>
+	</td>
+	<td>
+	<p>Favorecido 2 - Pessoa Jurídica</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<p>CPF/CNPJ Co</p>
+	</td>
+	<td>
+	<p>Favorecido 2 - CPF</p>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	</td>
+	<td>
+	<p>Tipo de Conta = Fixo em "1" (Principal)</p>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+    <p><b>Observações:</b></p>
+    <ol>
+    <li>O Distribuidor preenchido, não pode possuir valores duplicados de Código Externo, no Processo acima citado.</li>
+    <li>Caso o Distribuidor seja preenchido com mais de 20 caracteres, haverá o truncamento pela direita do seu conteúdo.</li>
+    </ol>
+    <p></p>
+    <p>O campo "Perfil CVM" deverá possuir um valor numérico, correspondente a um dos códigos relacionados nas duas tabelas a baixo.
+    Para cadastrar nenhum valor, basta deixar o campo em branco, além do código "0" apresentado na tabela. 
+    Caso o código informado não esteja listado em uma das duas tabelas a baixo, é apresentada uma mensagem de erro.</p>
+	<li>Perfil CVM</li>
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>Código</th> 
+       <th>Descrição</th> 
+      </tr> 
+      <tr> 
+       <td>0</td> 
+       <td>Nenhum</td> 
+      </tr> 
+      <tr> 
+       <td>1</td> 
+       <td>Pessoa física private banking</td> 
+      </tr> 
+      <tr> 
+       <td>2</td> 
+       <td>Pessoa física varejo</td> 
+      </tr> 
+      <tr> 
+       <td>3</td> 
+       <td>Pessoa jurídica não-financeira private banking</td> 
+      </tr> 
+      <tr> 
+       <td>4</td> 
+       <td>Pessoa jurídica não-financeira varejo</td> 
+      </tr> 
+      <tr> 
+       <td>5</td> 
+       <td>Banco comercial</td> 
+      </tr> 
+      <tr> 
+       <td>6</td> 
+       <td>Corretora ou distribuidora</td> 
+      </tr> 
+      <tr> 
+       <td>7</td> 
+       <td>Outras pessoas jurídicas financeiras</td> 
+      </tr> 
+      <tr> 
+       <td>8</td> 
+       <td>Investidores não residentes</td> 
+      </tr> 
+      <tr> 
+       <td>9</td> 
+       <td>Entidade aberta de previdência complementar</td> 
+      </tr> 
+      <tr> 
+       <td>10</td> 
+       <td>Sociedade seguradora ou resseguradora</td> 
+      </tr> 
+      <tr> 
+       <td>11</td> 
+       <td>Sociedade de capitalização e de arrendamento mercantil</td> 
+      </tr> 
+      <tr> 
+       <td>12</td> 
+       <td>Fundos e clubes de investimento</td> 
+      </tr> 
+      <tr> 
+       <td>13</td> 
+       <td>Cotistas de distribuidores do fundo</td> 
+      </tr> 
+      <tr> 
+       <td>14</td> 
+       <td>Outros tipos de cotistas não relacionados</td> 
+      </tr> 
+      <tr> 
+       <td>15</td> 
+       <td>Entidade fechada de previdência complementar</td> 
+      </tr> 
+      <tr> 
+       <td>16</td> 
+       <td>Regime próprio de previdência dos servidores públicos</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p></p>
+    <p>O campo Código do País, caso seja preenchido, deve respeitar os valores definidos pela Receita Federal Brasileira.</p>
+    <p></p>
+	<li>Perfil CVM para identificação (B3)</li>
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>Código</th> 
+       <th>Descrição</th> 
+      </tr> 
+	  <tr> 
+       <td>0</td> 
+       <td>Nenhum</td> 
+      </tr> 
+	  <tr> 
+       <td>101</td> 
+       <td>PESSOA FISICA</td> 
+      </tr>
+	  <tr> 
+       <td>201</td> 
+       <td>EMPRESA PUBLICA</td> 
+      </tr>
+	  <tr> 
+       <td>202</td> 
+       <td>SOCIEDADES DE ECONOMIA MISTA, ANONIMA (S/A), LTDA, E OUTRAS</td> 
+      </tr>
+	  <tr> 
+       <td>203</td> 
+       <td>FUNDO DE INVESTIMENTO IMOBILIARIO</td> 
+      </tr>
+	  <tr> 
+       <td>204</td> 
+       <td>BOLSA DE VALORES E MERCADORIAS</td> 
+      </tr> 
+	  <tr> 
+       <td>205</td> 
+       <td>CONDOMINIO</td> 
+      </tr> 
+	  <tr> 
+       <td>206</td> 
+       <td>COOPERATIVA</td> 
+      </tr> 
+	  <tr> 
+       <td>207</td> 
+       <td>CONSORCIO</td> 
+      </tr> 
+	  <tr> 
+       <td>301</td> 
+       <td>INSTITUICAO FILANTROPICO, CIENTIFICO, SEM FINS LUCRATIVOS</td> 
+      </tr> 
+	  <tr> 
+       <td>401</td> 
+       <td>BANCO COMERCIAL / MULTIPLO</td> 
+      </tr> 
+	  <tr> 
+       <td>402</td> 
+       <td>BANCO DE INVESTIMENTO</td> 
+      </tr> 
+	  <tr> 
+       <td>403</td> 
+       <td>SOCIEDADE DE SEGURO, PREVIDENCIA E CAPITALIZAÇAO</td> 
+      </tr> 
+	  <tr> 
+       <td>404</td> 
+       <td>SOCIEDADE DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS</td> 
+      </tr> 
+	  <tr> 
+       <td>405</td> 
+       <td>SOCIEDADE CORRETORA DE TITULOS,VALORES MOBILIARIOS E CAMBIO</td> 
+      </tr> 
+	  <tr> 
+       <td>406</td> 
+       <td>SOCIEDADE FINANCEIRA E DE CREDITO IMOBILIARIO</td> 
+      </tr> 
+	  <tr> 
+       <td>407</td> 
+       <td>SOCIEDADE DE ARRENDAMENTO MERCANTIL (LEASING)</td> 
+      </tr> 
+	  <tr> 
+       <td>501</td> 
+       <td>FUNDO DE INVESTIMENTO (EXCETO FUNDO IMOBILIARIO)</td> 
+      </tr> 
+	  <tr> 
+       <td>601</td> 
+       <td>FUNDO DE PREVIDENCIA PRIVADA (INCLUSIVE FAPI) - ABERTO</td> 
+      </tr> 
+	  <tr> 
+       <td>602</td> 
+       <td>FUNDO DE PREVIDENCIA PRIVADA (INCLUSIVE FAPI) - FECHADO</td> 
+      </tr> 
+	  <tr> 
+       <td>603</td> 
+       <td>FUN.DE BENEFICIO DE SOC. SEGU. (INCLUSIVE SEGURO DE VIDA)</td> 
+      </tr> 
+	  <tr> 
+       <td>701</td> 
+       <td>CLUBE DE INVESTIMENTO</td> 
+      </tr> 
+	  <tr> 
+       <td>801</td> 
+       <td>UNIAO, ESTADO, MUNICIPIO OU INST. MANTIDA P.PODER PUBLICO</td> 
+      </tr> 
+	  <tr> 
+       <td>901</td> 
+       <td>TEMPLO DE QUALQUER CULTO</td> 
+      </tr> 
+	  <tr> 
+       <td>902</td> 
+       <td>PARTIDO POLITICO E SUAS FUNDAÇOES</td> 
+      </tr> 
+	  <tr> 
+       <td>903</td> 
+       <td>ENTIDADE SINDICAL DOS TRABALHADORES</td> 
+      </tr> 
+	  <tr> 
+       <td>904</td> 
+       <td>INSTI. DE EDU. E ASSIS. SOCIAL, SEM FINS LUCRATIVOS</td> 
+      </tr> 
+	  <tr> 
+       <td>1001</td> 
+       <td>INVESTIDOR NAO-RESIDENTE RESOLUÇAO Nº 2.689 - PESSOA FISICA</td> 
+      </tr> 
+	  <tr> 
+       <td>1002</td> 
+       <td>INVESTIDOR NAO-RESIDENTE RESOLUÇAO Nº 2.689 - PJ</td> 
+      </tr> 
+	  <tr> 
+       <td>1301</td> 
+       <td>INVESTIDOR NAO-RESIDENTE OUTROS - PESSOA FISICA</td> 
+      </tr> 
+	  <tr> 
+       <td>1302</td> 
+       <td>INVESTIDOR NAO-RESIDENTE OUTROS - PESSOA JURIDICA</td> 
+      </tr> 
+	  <tr> 
+       <td>1601</td> 
+       <td>DEPOSITARIO DE ADR</td> 
+      </tr>
+	  </tbody> 
+    </table>
+    <p></p>
+    <p>O campo "Classe de Investidor" deverá possuir um valor alfanumérico, correspondente a um dos códigos abaixo relacionados.
+     Para cadastrar nenhum valor, basta deixar o campo em branco. Caso o código informado não esteja entre aqueles listados, é 
+     apresentada uma mensagem de erro.</p>
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>Código</th> 
+       <th>Descrição</th> 
+      </tr> 
+      <tr> 
+       <td>PJU</td> 
+       <td>Pessoa Jurídica</td> 
+      </tr> 
+      <tr> 
+       <td>PRI</td> 
+       <td>Private</td> 
+      </tr> 
+      <tr> 
+       <td>VAR</td> 
+       <td>Varejo</td> 
+      </tr> 
+      <tr> 
+       <td>FAC</td> 
+       <td>Fundos em Cotas</td> 
+      </tr> 
+      <tr> 
+       <td>PCO</td> 
+       <td>Por Conta e Ordem</td> 
+      </tr> 
+      <tr> 
+       <td>INS</td> 
+       <td>Institucional</td> 
+      </tr> 
+      <tr> 
+       <td>EPU</td> 
+       <td>Fundos de Pensão - Empresas Públicas</td> 
+      </tr> 
+      <tr> 
+       <td>EPR</td> 
+       <td>Fundos de Pensão - Empresas Privadas</td> 
+      </tr> 
+      <tr> 
+       <td>SGR</td> 
+       <td>Seguradoras</td> 
+      </tr> 
+      <tr> 
+       <td>PPA</td> 
+       <td>Previdência Privada Aberta</td> 
+      </tr> 
+      <tr> 
+       <td>ECP</td> 
+       <td>Capitalização</td> 
+      </tr> 
+      <tr> 
+       <td>CRP</td> 
+       <td>Corporate</td> 
+      </tr> 
+      <tr> 
+       <td>MMK</td> 
+       <td>Middle Market</td> 
+      </tr> 
+      <tr> 
+       <td>FIN</td> 
+       <td>Fundos de Investimentos</td> 
+      </tr> 
+      <tr> 
+       <td>IES</td> 
+       <td>Estrangeiros</td> 
+      </tr> 
+      <tr> 
+       <td>OTR</td> 
+       <td>Outros Domésticos</td> 
+      </tr>
+      <tr> 
+       <td>VAA</td> 
+       <td>Varejo Alta Renda</td> 
+      </tr> 
+      <tr> 
+       <td>PPU</td> 
+       <td>Poder Público</td> 
+      </tr> 
+      <tr> 
+       <td>CIN</td> 
+       <td>Clubes de Investimento</td> 
+      </tr> 
+      <tr> 
+       <td>FCC</td> 
+       <td>Fundos e Clubes de Investimento e Fundos em Cotas</td> 
+      </tr> 
+      <tr> 
+       <td>RPS</td> 
+       <td>RPPS</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p></p>
+    <p>Tabela que mostra a relação entre Tipo de CVM (B3), Classe de Investidor e ANBIMA.</p>
+    <table border="1" cellpadding="3"> 
+     <tbody> 
+      <tr> 
+       <th>CVM (B3)</th> 
+       <th>Classe de Investidor</th> 
+       <th>ANBIMA</th> 
+      </tr> 
+      <tr> 
+       <td>PESSOA FISICA (101)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>EMPRESA PUBLICA (201)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>SOCIEDADES DE ECONOMIA MISTA, ANONIMA (S/A), LTDA, E OUTRAS (202)</td> 
+       <td>OTR - Outros Domésticos</td>
+       <td>Outros</td>  
+      </tr> 
+      <tr> 
+       <td>FUNDO DE INVESTIMENTO IMOBILIARIO (203)</td> 
+       <td>FIN - Fundos de Investimentos</td>
+       <td>Fundo de Investimento</td>  
+      </tr> 
+      <tr> 
+       <td>BOLSA DE VALORES E MERCADORIAS (204)</td> 
+       <td>OTR - Outros Domésticos</td>
+       <td>Outros</td>  
+      </tr> 
+      <tr> 
+       <td>CONDOMINIO (205)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>COOPERATIVA (206)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>CONSORCIO (207)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>INSTITUICAO FILANTROPICO, CIENTIFICO, SEM FINS LUCRATIVOS (301)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>BANCO COMERCIAL / MULTIPLO (401)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>BANCO DE INVESTIMENTO (402)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>SOCIEDADE DE SEGURO, PREVIDENCIA E CAPITALIZAÇAO (403)</td> 
+       <td>SGR - Seguradoras</td> 
+       <td>Seguradora</td> 
+      </tr> 
+      <tr> 
+       <td>SOCIEDADE DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS (404)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>SOCIEDADE CORRETORA DE TITULOS,VALORES MOBILIARIOS E CAMBIO (405)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>SOCIEDADE FINANCEIRA E DE CREDITO IMOBILIARIO (406)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>SOCIEDADE DE ARRENDAMENTO MERCANTIL (LEASING) (407)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr>
+      <tr> 
+       <td>FUNDO DE INVESTIMENTO (EXCETO FUNDO IMOBILIARIO) (501)</td> 
+       <td>FIN - Fundos de Investimentos</td>
+       <td>Fundo de Investimento</td>  
+      </tr> 
+      <tr> 
+       <td>FUNDO DE PREVIDENCIA PRIVADA (INCLUSIVE FAPI) - ABERTO (601)</td> 
+       <td>PPA - Previdência Privada Aberta</td> 
+       <td>EAPC</td> 
+      </tr> 
+      <tr> 
+       <td>FUNDO DE PREVIDENCIA PRIVADA (INCLUSIVE FAPI) - FECHADO (602)</td> 
+       <td>EPR - Fundos de Pensão - Empresas Privadas</td> 
+       <td>EFPC Emp. Privadas</td> 
+      </tr> 
+      <tr> 
+       <td>FUN.DE BENEFICIO DE SOC. SEGU. (INCLUSIVE SEGURO DE VIDA) (603)</td> 
+       <td>EPR - Fundos de Pensão - Empresas Privadas</td> 
+       <td>EFPC Emp. Privadas</td> 
+      </tr> 
+      <tr> 
+       <td>CLUBE DE INVESTIMENTO (701)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr>
+      <tr> 
+       <td>UNIAO, ESTADO, MUNICIPIO OU INST. MANTIDA P.PODER PUBLICO (801)</td> 
+       <td>PPU - Poder Público</td> 
+       <td>Poder Público</td> 
+      </tr> 
+      <tr> 
+       <td>TEMPLO DE QUALQUER CULTO (901)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr>
+      <tr> 
+       <td>PARTIDO POLITICO E SUAS FUNDAÇOES (902)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>ENTIDADE SINDICAL DOS TRABALHADORES (903)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr> 
+      <tr> 
+       <td>INSTI. DE EDU. E ASSIS. SOCIAL, SEM FINS LUCRATIVOS (904)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr>
+      <tr> 
+       <td>INVESTIDOR NAO-RESIDENTE RESOLUÇAO Nº 2.689 - PESSOA FISICA (1001)</td> 
+       <td>IES - Estrangeiros</td> 
+       <td>Estrangeiros</td> 
+      </tr>
+      <tr> 
+       <td>INVESTIDOR NAO-RESIDENTE RESOLUÇAO Nº 2.689 - PJ (1002)</td> 
+       <td>IES - Estrangeiros</td> 
+       <td>Estrangeiros</td> 
+      </tr>
+      <tr> 
+       <td>INVESTIDOR NAO-RESIDENTE OUTROS - PESSOA FISICA (1301)</td> 
+       <td>IES - Estrangeiros</td> 
+       <td>Estrangeiros</td> 
+      </tr>
+      <tr> 
+       <td>INVESTIDOR NAO-RESIDENTE OUTROS - PESSOA JURIDICA (1302)</td> 
+       <td>IES - Estrangeiros</td> 
+       <td>Estrangeiros</td> 
+      </tr>
+      <tr> 
+       <td>DEPOSITARIO DE ADR (1601)</td> 
+       <td>OTR - Outros Domésticos</td> 
+       <td>Outros</td> 
+      </tr>
+     </tbody> 
+    </table> 
+   </blockquote> <p> <b>Observações: </b> </p> 
+   <ol> 
+    <li>Caso a Conferência de Pendência esteja ativada, os dados cadastrais dos clientes informados na importação ficarão pendentes de conferência. Desta forma, somente será possível atualizar qualquer informação cadastral destes clientes após realizar a conferência. </li> 
+    <li>Os campos &quot;Conferência de Pendência por lote&quot; e &quot;Justificativa para Aprovação por lote&quot;, só serão exibidos caso a Conferência de Pendência esteja ativada nos parâmetros do sistema.</li> 
+    <li>Caso o cliente informado no arquivo esteja pendente de conferência, somente será possível visualizar ou atualizar qualquer informação cadastral deste após realização da conferência. </li> 
+   </ol> <p> </p><p><span style="font-size:10.0pt;font-family:Arial;color:red"> <b>*Atenção:</b> Informação apenas cadastral, aguardando liberação de suporte no processamento das Amortizações, Resgates e Distribuição de Resultados.<br /> De acordo com a legislação vigente a tributação ocorrerá de forma linear considerando a alíquota vigente na data do processamento (<i>Sem Corte</i>).</span></p> </font>  
+ </body>
+</html>
